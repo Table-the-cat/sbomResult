@@ -1,0 +1,644 @@
+{
+  "name": "mvn-build",
+  "number": "1",
+  "agent": {},
+  "buildAgent": {
+    "name": "GENERIC"
+  },
+  "modules": [
+    {
+      "type": "maven",
+      "properties": {
+        "asm.version": "9.6",
+        "assembly.tarLongFileMode": "posix",
+        "aws.version": "1.12.566",
+        "boilerpipe.version": "1.1.0",
+        "bouncycastle.version": "1.76",
+        "brotli.version": "0.1.2",
+        "checkstyle.plugin.version": "3.3.0",
+        "commons.net.version": "3.10.0",
+        "ctakes.version": "4.0.0.1",
+        "ddplist.version": "1.27",
+        "distMgmtReleasesName": "Apache Release Distribution Repository",
+        "distMgmtReleasesUrl": "https://repository.apache.org/service/local/staging/deploy/maven2",
+        "distMgmtSnapshotsName": "Apache Development Snapshot Repository",
+        "distMgmtSnapshotsUrl": "https://repository.apache.org/content/repositories/snapshots",
+        "dl4j.version": "1.0.0-M2.1",
+        "fakeload.version": "0.7.0",
+        "forbiddenapis.version": "3.6",
+        "google.cloud.version": "2.28.0",
+        "gpg.useagent": "true",
+        "groovy.maven.version": "2.1.1",
+        "h2.version": "2.2.224",
+        "httpcomponents.version": "4.5.14",
+        "imageio.version": "1.4.0",
+        "jackrabbit.version": "2.21.19",
+        "jackson.version": "2.15.3",
+        "javax.annotation.version": "1.3.2",
+        "javax.jcr.version": "2.0",
+        "jbig2.version": "3.0.4",
+        "jempbox.version": "1.8.17",
+        "jhighlight.version": "1.1.0",
+        "junit5.version": "5.10.0",
+        "junrar.version": "7.5.5",
+        "kafka.version": "3.5.1",
+        "libpst.version": "0.9.3",
+        "lucene.version": "9.8.0",
+        "maven.antrun.version": "3.1.0",
+        "maven.assembly.version": "3.6.0",
+        "maven.bundle.version": "5.1.9",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.plugin.version": "3.11.0",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "maven.failsafe.version": "3.1.2",
+        "maven.jar.version": "3.3.0",
+        "maven.javadoc.version": "3.6.0",
+        "maven.plugin.tools.version": "3.9.0",
+        "maven.scr.version": "1.26.4",
+        "maven.shade.version": "3.5.1",
+        "maven.surefire.version": "3.1.2",
+        "microsoft.translator.version": "0.6.2",
+        "mime4j.version": "0.8.9",
+        "minimalJavaBuildVersion": "1.8",
+        "minimalMavenBuildVersion": "3.2.5",
+        "netcdf-java.version": "4.5.5",
+        "netty.version": "4.1.99.Final",
+        "openjson.version": "1.0.13",
+        "ops4j.version": "1.5.1",
+        "optimaize.version": "0.6",
+        "organization.logo": "https://www.apache.org/images/asf_logo_wide_2016.png",
+        "parso.version": "2.0.14",
+        "pax.exam.version": "4.13.5",
+        "pdfbox.version": "2.0.29",
+        "poi.version": "5.2.4",
+        "project.build.outputTimestamp": "1692799752",
+        "project.build.sourceEncoding": "UTF-8",
+        "project.reporting.outputEncoding": "UTF-8",
+        "puppycrawl.version": "10.12.4",
+        "quartz.version": "2.3.2",
+        "rat.version": "0.15",
+        "reactor.netty.version": "1.1.12",
+        "rome.version": "2.1.0",
+        "scm.version": "2.0.1",
+        "sis.version": "1.4",
+        "slf4j.version": "2.0.9",
+        "solrj.version": "8.11.2",
+        "sourceReleaseAssemblyDescriptor": "source-release",
+        "spring.version": "5.3.30",
+        "sqlite.version": "3.43.2.0",
+        "surefire.version": "3.1.2",
+        "tagsoup.version": "1.2.1",
+        "tukaani.version": "1.9",
+        "twelvemonkeys.version": "3.9.4",
+        "version.apache-rat-plugin": "0.15",
+        "version.apache-resource-bundles": "1.5",
+        "version.checksum-maven-plugin": "1.11",
+        "version.maven-antrun-plugin": "3.1.0",
+        "version.maven-assembly-plugin": "3.6.0",
+        "version.maven-clean-plugin": "3.2.0",
+        "version.maven-compiler-plugin": "3.11.0",
+        "version.maven-dependency-plugin": "3.6.0",
+        "version.maven-deploy-plugin": "3.1.1",
+        "version.maven-ear-plugin": "3.3.0",
+        "version.maven-enforcer-plugin": "3.3.0",
+        "version.maven-fluido-skin": "1.11.2",
+        "version.maven-gpg-plugin": "3.1.0",
+        "version.maven-help-plugin": "3.4.0",
+        "version.maven-install-plugin": "3.1.1",
+        "version.maven-invoker-plugin": "3.5.1",
+        "version.maven-jar-plugin": "3.3.0",
+        "version.maven-javadoc-plugin": "3.5.0",
+        "version.maven-plugin-tools": "3.9.0",
+        "version.maven-project-info-reports-plugin": "3.4.5",
+        "version.maven-release-plugin": "3.0.1",
+        "version.maven-remote-resources-plugin": "3.1.0",
+        "version.maven-resources-plugin": "3.3.1",
+        "version.maven-scm-plugin": "2.0.1",
+        "version.maven-scm-publish-plugin": "3.2.1",
+        "version.maven-shade-plugin": "3.4.1",
+        "version.maven-site-plugin": "3.12.1",
+        "version.maven-source-plugin": "3.3.0",
+        "version.maven-surefire": "3.1.2",
+        "version.maven-war-plugin": "3.3.2",
+        "vorbis.version": "0.8",
+        "xmpcore.version": "6.1.11",
+        "zookeeper.version": "3.8.3",
+        "zstd.version": "1.5.5-6"
+      },
+      "id": "org.apache.tika:tika-core:3.0.0-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "tika-core-3.0.0-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "org/apache/tika/tika-core/3.0.0-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "org.junit.jupiter:junit-jupiter-engine:5.10.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "90587932d718fc51a48112d33045a18476c542ad",
+          "md5": "9b559627f23413bf20f450211f6edcba",
+          "sha256": "57ea48e6f795200791065bbc86b70b84cd05367c5c9f2ac8f9268e27154c88a8"
+        },
+        {
+          "id": "com.google.code.findbugs:jsr305:3.0.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.2-jre",
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+          "md5": "dd83accb899363c32b07d7a1b2e4ce40",
+          "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+          "id": "org.osgi:org.osgi.resource:1.0.0",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "biz.aQute.bnd:biz.aQute.bndlib:6.4.1",
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "343c88949132984b3f2d4175a72c40b77dc65619",
+          "md5": "7d857a4203e2996fab0cf070133e43df",
+          "sha256": "81fc50f1f1d38a4af28e131907d4afe213249aab05060484edca0e60c4af9b4a"
+        },
+        {
+          "id": "org.osgi:org.osgi.framework:1.8.0",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "biz.aQute.bnd:biz.aQute.bndlib:6.4.1",
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b54d03f9621136b7d9d93b5017b0a4fa490e78b0",
+          "md5": "1a40fb57099ef5530d25bc9600d509b1",
+          "sha256": "ec194b7871af27681716ff05259319a5c3c9b9727e8000e9e832499b93484b4e"
+        },
+        {
+          "id": "com.google.guava:guava:32.1.2-jre",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318",
+          "md5": "5fe031b3b35ed56182478811a931d617",
+          "sha256": "bc65dea7cfd9e4dacf8419d8af0e741655857d27885bb35d943d7187fc3a8fce"
+        },
+        {
+          "id": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.2-jre",
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b421526c5f297295adef1c886e5246c39d4ac629",
+          "md5": "d094c22570d65e132c19cea5d352e381",
+          "sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+          "id": "org.apache.logging.log4j:log4j-slf4j2-impl:2.20.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "155c8b9bbdac91d8461d9a403a646e6bd0d365d8",
+          "md5": "52355bf9fbb12407e08be175c12dfc7c",
+          "sha256": "b8dd3e4ea9cffa18db5f301cd8c539158662e691efd4701aa87b4d09961bd8b0"
+        },
+        {
+          "id": "commons-io:commons-io:2.14.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a4c6e1f6c196339473cd2e1b037f0eb97c62755b",
+          "md5": "4259c0bc6078e53a09883b521c1d53af",
+          "sha256": "e35d1df7232568ed4b81d9a9ed94a0159b3ff6cf1915cc21eef5cb55d7b157a2"
+        },
+        {
+          "id": "org.slf4j:slf4j-api:2.0.9",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "7cf2726fdcfbc8610f9a71fb3ed639871f315340",
+          "md5": "45630e54b0f0ac2b3c80462515ad8fda",
+          "sha256": "0818930dc8d7debb403204611691da58e49d42c50b6ffcfdce02dadb7c3c2b6c"
+        },
+        {
+          "id": "org.junit.jupiter:junit-jupiter-api:5.10.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "2fe4ba3d31d5067878e468c96aa039005a9134d3",
+          "md5": "d976b1d3b22eded7c2e496ea881ed77f",
+          "sha256": "108088fd7ea46a8e65a0ce7f5d75ae3ff7865606770a078715f5a6e5709e17d8"
+        },
+        {
+          "id": "org.osgi:org.osgi.service.log:1.3.0",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "biz.aQute.bnd:biz.aQute.bndlib:6.4.1",
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ca330e0489eac540d7fc1917556081695ebc3428",
+          "md5": "29739566dfaa2776f52dd4daaca8334c",
+          "sha256": "ff6710c4856d32684cf3ebdc45248f41036ff734f2b03bbc08c4609a61fecfa0"
+        },
+        {
+          "id": "org.junit.platform:junit-platform-engine:1.10.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter-engine:5.10.0",
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "276c4edcf64fabb5a139fa7b4f99330d7a93b804",
+          "md5": "a383ac183081fe771888842534e77e62",
+          "sha256": "cd338efd02ee73966ea754e0c0c71e1a11f4af5db9c2003e4b6137e119155abe"
+        },
+        {
+          "id": "org.osgi:org.osgi.util.function:1.2.0",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "biz.aQute.bnd:biz.aQute.bndlib:6.4.1",
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "9fe65a02596b68e06aad340f41e33d53e3f7b8a7",
+          "md5": "60da2a7f440a142095e729639edf2025",
+          "sha256": "208819c7c71690c15a6bb8b187474e7f9d0147946b680182a62b9f222ae014ec"
+        },
+        {
+          "id": "org.osgi:org.osgi.service.repository:1.1.0",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "biz.aQute.bnd:biz.aQute.bndlib:6.4.1",
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "64ef667172ece1a39b0bd9471b8336c5f002370d",
+          "md5": "2e293b7d69dee0e4ca04594ba8c3ec76",
+          "sha256": "c5553e95b459529192433486d4c4cc22ff45a2eae4968484f9f717319264a532"
+        },
+        {
+          "id": "org.osgi:org.osgi.util.promise:1.2.0",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "biz.aQute.bnd:biz.aQute.bndlib:6.4.1",
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "26c17e1bbfc885ae9eae878de9a0afb73240f031",
+          "md5": "2b347548c17bcc89597695b7232da658",
+          "sha256": "fef86e64f584d012a16a0306160764f6179663b90988a226c4641b920f3a4b36"
+        },
+        {
+          "id": "org.osgi:org.osgi.dto:1.0.0",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "biz.aQute.bnd:biz.aQute.bndlib:6.4.1",
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1d01eb8c487477f929127d4a88fbfe97af0379a4",
+          "md5": "c2bce9030f4b5a2d3c489dfc11fee529",
+          "sha256": "cb75f3c7e48e5a31a31df22e26873346f5bf659e2dcab2369e031e4850d2ff43"
+        },
+        {
+          "id": "org.osgi:org.osgi.core:6.0.0",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "0c49acdc9ac62cf69ee49cb6f1905b4fdb79ea5c",
+          "md5": "cae291c61fe8b7a4476d713550c7ff49",
+          "sha256": "1c1bb435eb34cbf1f743653da38f604d45d53fbc95979053768cd3fc293cb931"
+        },
+        {
+          "id": "org.osgi:org.osgi.util.tracker:1.5.4",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "biz.aQute.bnd:biz.aQute.bndlib:6.4.1",
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "eec58ba28538cb05b7d78aff8c915d6d35b66db8",
+          "md5": "5f1d698bfb3b71fe215d1ca173ee4f82",
+          "sha256": "7d78c2cc9bcb6421c24f17aa097866ce8d9115c219a4f8d6cc753bc4dfb97efa"
+        },
+        {
+          "id": "com.google.j2objc:j2objc-annotations:2.8",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.2-jre",
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c85270e307e7b822f1086b93689124b89768e273",
+          "md5": "c50af69b704dc91050efb98e0dff66d1",
+          "sha256": "f02a95fa1a5e95edb3ed859fd0fb7df709d121a35290eff8b74dce2ab7f4d6ed"
+        },
+        {
+          "id": "com.google.guava:failureaccess:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.2-jre",
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9",
+          "md5": "091883993ef5bfa91da01dcc8fc52236",
+          "sha256": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+        },
+        {
+          "id": "biz.aQute.bnd:biz.aQute.bndlib:6.4.1",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "87d2de30b5d30dd9bdc6d47f522a4697d6ebfbd8",
+          "md5": "15a20fa57d31064dcd1272d010dd6727",
+          "sha256": "5b5be3f48fbec33bdc19593e9b76c1b17e16385c0025bf5d97c35bcc86f8cb1d"
+        },
+        {
+          "id": "org.apiguardian:apiguardian-api:1.1.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter-api:5.10.0",
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a231e0d844d2721b0fa1b238006d15c6ded6842a",
+          "md5": "8c7de3f82037fa4a2e8be2a2f13092af",
+          "sha256": "b509448ac506d607319f182537f0b35d71007582ec741832a1f111e5b5b70b38"
+        },
+        {
+          "id": "org.checkerframework:checker-qual:3.33.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.2-jre",
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "de2b60b62da487644fc11f734e73c8b0b431238f",
+          "md5": "fc9418b779d9d57dcd52197006cbdb9b",
+          "sha256": "e316255bbfcd9fe50d165314b85abb2b33cb2a66a93c491db648e498a82c2de1"
+        },
+        {
+          "id": "org.apache.logging.log4j:log4j-core:2.20.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "eb2a9a47b1396e00b5eee1264296729a70565cc0",
+          "md5": "20bd40d026d35a93fe710acb141e93da",
+          "sha256": "6137df848cdaed9f4d5076f75513c6c85da80b953f4e7acca38098b770763f55"
+        },
+        {
+          "id": "org.opentest4j:opentest4j:1.3.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter-api:5.10.0",
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "152ea56b3a72f655d4fd677fc0ef2596c3dd5e6e",
+          "md5": "03c404f727531f3fd3b4c73997899327",
+          "sha256": "48e2df636cab6563ced64dcdff8abb2355627cb236ef0bf37598682ddf742f1b"
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotations:2.18.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.2-jre",
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "89b684257096f548fa39a7df9fdaa409d4d4df91",
+          "md5": "64145d0e7fee5a69ed7b84cf402de998",
+          "sha256": "9e6814cb71816988a4fd1b07a993a8f21bb7058d522c162b1de849e19bea54ae"
+        },
+        {
+          "id": "org.junit.platform:junit-platform-commons:1.10.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter-api:5.10.0",
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "d533ff2c286eaf963566f92baf5f8a06628d2609",
+          "md5": "0cef49daddba2084397f34eca55502f9",
+          "sha256": "6083db08ca11fca1e16099d0dcfede0193d80b3762b276349d80d3da536791b2"
+        },
+        {
+          "id": "org.osgi:osgi.annotation:8.0.1",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "org.osgi:org.osgi.util.tracker:1.5.4",
+              "biz.aQute.bnd:biz.aQute.bndlib:6.4.1",
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "593d823753aa6e128129da357d7891758e66aa1d",
+          "md5": "4f15008cd76e0c6ba527d89148c56d08",
+          "sha256": "a0e8a4c362bd3600812f37b0ea45fba966c7bc049d01fed56a09ecc74082759e"
+        },
+        {
+          "id": "org.apache.logging.log4j:log4j-api:2.20.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.logging.log4j:log4j-core:2.20.0",
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1fe6082e660daf07c689a89c94dc0f49c26b44bb",
+          "md5": "f9446464667f0139b839b5e9da37f5b9",
+          "sha256": "2f43eea679ea66f14ca0f13fec2a8600ac124f5a5231dcb4df8393eddcb97550"
+        },
+        {
+          "id": "biz.aQute.bnd:biz.aQute.bnd.util:6.4.1",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "biz.aQute.bnd:biz.aQute.bndlib:6.4.1",
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a3e9f1d05025dad2ec29f2ee0840ca6c0f976a5f",
+          "md5": "6818ed6b63ed46f69fbbafe124a84242",
+          "sha256": "810e144c4ca70a16da0917b7571b90331e16ac60434c21f3770573542f31dc6d"
+        },
+        {
+          "id": "com.martensigwart:fakeload:0.7.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1da651110ad7f05b3c232872670c5663c0c5c219",
+          "md5": "b2e82116455918530b820addd3a843db",
+          "sha256": "853ac08fd89537206a0fdcfdb0653783f5344d7042576f91e88ce740889f26c1"
+        },
+        {
+          "id": "org.osgi:org.osgi.compendium:5.0.0",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.tika:tika-core:3.0.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "9d7a9c35591f6fa1c98ac85af32775c12361aee4",
+          "md5": "9536e0ce63ca8c06eacec820c88fccf7",
+          "sha256": "f1ef32cc1530f4e66aac606c24363b627ace4780a7737b045bfb3b908d801bcd"
+        }
+      ]
+    }
+  ],
+  "started": "2024-02-10T01:16:27.755+0800"
+}

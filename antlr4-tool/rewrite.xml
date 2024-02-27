@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:e1ccca85-42ca-4850-b23f-98648a0be890" version="1">
+    <metadata>
+        <timestamp>2023-11-16T12:30:20.693453500Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>OpenRewrite</vendor>
+                <name>OpenRewrite CycloneDX</name>
+                <version>7.18.0</version>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/org.antlr/antlr4@4.13.1-SNAPSHOT?type=jar" type="library">
+            <group>org.antlr</group>
+            <name>antlr4</name>
+            <version>4.13.1-SNAPSHOT</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.antlr/antlr4@4.13.1-SNAPSHOT?type=jar</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="pkg:maven/org.antlr/antlr4-runtime@4.13.1-SNAPSHOT?type=jar" type="library">
+            <group>org.antlr</group>
+            <name>antlr4-runtime</name>
+            <version>4.13.1-SNAPSHOT</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.antlr/antlr4-runtime@4.13.1-SNAPSHOT?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.antlr/antlr-runtime@3.5.3?type=jar" type="library">
+            <group>org.antlr</group>
+            <name>antlr-runtime</name>
+            <version>3.5.3</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.antlr/antlr-runtime@3.5.3?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.antlr/ST4@4.3.4?type=jar" type="library">
+            <group>org.antlr</group>
+            <name>ST4</name>
+            <version>4.3.4</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>The BSD License</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.antlr/ST4@4.3.4?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.abego.treelayout/org.abego.treelayout.core@1.0.3?type=jar" type="library">
+            <group>org.abego.treelayout</group>
+            <name>org.abego.treelayout.core</name>
+            <version>1.0.3</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>BSD 3-Clause "New" or "Revised" License (BSD-3-Clause)</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.abego.treelayout/org.abego.treelayout.core@1.0.3?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.ibm.icu/icu4j@72.1?type=jar" type="library">
+            <group>com.ibm.icu</group>
+            <name>icu4j</name>
+            <version>72.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>Unicode/ICU License</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.ibm.icu/icu4j@72.1?type=jar</purl>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/org.antlr/antlr4-runtime@4.13.1-SNAPSHOT?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.antlr/antlr-runtime@3.5.3?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.antlr/ST4@4.3.4?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.abego.treelayout/org.abego.treelayout.core@1.0.3?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.ibm.icu/icu4j@72.1?type=jar">
+        </dependency>
+    </dependencies>
+</bom>

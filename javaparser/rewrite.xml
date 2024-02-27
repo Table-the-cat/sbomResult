@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:2734e114-f00a-4a7c-89a3-4895d4f64a94" version="1">
+    <metadata>
+        <timestamp>2023-11-17T12:25:25.698777600Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>OpenRewrite</vendor>
+                <name>OpenRewrite CycloneDX</name>
+                <version>7.18.0</version>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/com.github.javaparser/javaparser-parent@3.25.6-SNAPSHOT?type=pom" type="library">
+            <group>com.github.javaparser</group>
+            <name>javaparser-parent</name>
+            <version>3.25.6-SNAPSHOT</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>GNU Lesser General Public License</name>
+                </license>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.github.javaparser/javaparser-parent@3.25.6-SNAPSHOT?type=pom</purl>
+        </component>
+    </metadata>
+</bom>

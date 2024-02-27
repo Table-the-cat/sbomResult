@@ -1,0 +1,3586 @@
+{
+  "dependencyGraphs": {
+    "D:\\Work\\SBOM\\TestProjects\\checkstyle\\pom.xml": {
+      "graph": {
+        "org.opentest4j opentest4j 1.2.0 - Maven": null,
+        "net.bytebuddy byte-buddy 1.14.8 - Maven": null,
+        "org.apache.maven.doxia doxia-core 1.12.0 - Maven": [
+          "org.apache.maven.doxia doxia-sink-api 1.12.0 - Maven",
+          "org.apache.maven.doxia doxia-logging-api 1.12.0 - Maven",
+          "org.codehaus.plexus plexus-utils 3.3.0 - Maven",
+          "org.codehaus.plexus plexus-container-default 2.1.0 - Maven",
+          "org.codehaus.plexus plexus-component-annotations 2.1.0 - Maven",
+          "org.apache.commons commons-lang3 3.8.1 - Maven",
+          "org.apache.commons commons-text 1.3 - Maven",
+          "org.apache.httpcomponents httpclient 4.5.13 - Maven",
+          "org.apache.httpcomponents httpcore 4.4.14 - Maven"
+        ],
+        "com.google.guava guava 32.0.1-jre - Maven": [
+          "com.google.guava failureaccess 1.0.1 - Maven",
+          "com.google.guava listenablefuture 9999.0-empty-to-avoid-conflict-with-guava - Maven",
+          "com.google.code.findbugs jsr305 3.0.2 - Maven",
+          "com.google.errorprone error_prone_annotations 2.18.0 - Maven",
+          "com.google.j2objc j2objc-annotations 2.8 - Maven"
+        ],
+        "com.google.code.findbugs jsr305 3.0.2 - Maven": null,
+        "commons-logging commons-logging 1.2 - Maven": null,
+        "org.apache.ant ant-launcher 1.10.14 - Maven": null,
+        "com.tngtech.archunit archunit-junit5-api 1.0.1 - Maven": [
+          "com.tngtech.archunit archunit 1.0.1 - Maven"
+        ],
+        "org.objenesis objenesis 3.3 - Maven": null,
+        "com.googlecode.javaewah JavaEWAH 1.2.3 - Maven": null,
+        "com.google.errorprone error_prone_annotations 2.18.0 - Maven": null,
+        "org.apache.maven.doxia doxia-module-xdoc 1.12.0 - Maven": null,
+        "org.mockito mockito-inline 5.2.0 - Maven": [
+          "org.mockito mockito-core 5.2.0 - Maven"
+        ],
+        "commons-beanutils commons-beanutils 1.9.4 - Maven": [
+          "commons-logging commons-logging 1.2 - Maven",
+          "commons-collections commons-collections 3.2.2 - Maven"
+        ],
+        "org.reflections reflections 0.10.2 - Maven": [
+          "org.javassist javassist 3.28.0-GA - Maven",
+          "org.slf4j slf4j-api 1.7.32 - Maven"
+        ],
+        "org.apache.httpcomponents.client5 httpclient5 5.1.3 - Maven": [
+          "org.apache.httpcomponents.core5 httpcore5-h2 5.1.3 - Maven"
+        ],
+        "org.itsallcode junit5-system-extensions 1.2.0 - Maven": null,
+        "org.apiguardian apiguardian-api 1.1.2 - Maven": null,
+        "org.xmlresolver xmlresolver 5.2.0 - Maven": [
+          "org.apache.httpcomponents.client5 httpclient5 5.1.3 - Maven",
+          "org.apache.httpcomponents.core5 httpcore5 5.1.3 - Maven"
+        ],
+        "org.apache.httpcomponents httpcore 4.4.14 - Maven": null,
+        "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven": [
+          "org.junit.platform junit-platform-engine 1.9.2 - Maven"
+        ],
+        "com.google.truth truth 1.1.3 - Maven": [
+          "junit junit 4.13.2 - Maven",
+          "com.google.auto.value auto-value-annotations 1.8.1 - Maven",
+          "org.ow2.asm asm 9.1 - Maven"
+        ],
+        "org.codehaus.plexus plexus-utils 3.3.0 - Maven": null,
+        "org.apache.httpcomponents.core5 httpcore5 5.1.3 - Maven": null,
+        "org.codehaus.plexus plexus-container-default 2.1.0 - Maven": [
+          "org.codehaus.plexus plexus-classworlds 2.6.0 - Maven",
+          "org.apache.xbean xbean-reflect 3.7 - Maven",
+          "com.google.collections google-collections 1.0 - Maven"
+        ],
+        "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven": [
+          "org.opentest4j opentest4j 1.2.0 - Maven",
+          "org.junit.platform junit-platform-commons 1.9.2 - Maven",
+          "org.apiguardian apiguardian-api 1.1.2 - Maven"
+        ],
+        "info.picocli picocli 4.7.5 - Maven": null,
+        "com.google.guava failureaccess 1.0.1 - Maven": null,
+        "org.ow2.asm asm 9.1 - Maven": null,
+        "net.bytebuddy byte-buddy-agent 1.14.1 - Maven": null,
+        "net.sf.saxon Saxon-HE 12.3 - Maven": [
+          "org.xmlresolver xmlresolver 5.2.0 - Maven"
+        ],
+        "org.junit.platform junit-platform-commons 1.9.2 - Maven": null,
+        "com.tngtech.archunit archunit-junit5 1.0.1 - Maven": [
+          "com.tngtech.archunit archunit-junit5-api 1.0.1 - Maven",
+          "com.tngtech.archunit archunit-junit5-engine 1.0.1 - Maven"
+        ],
+        "nl.jqno.equalsverifier equalsverifier 3.15.2 - Maven": [
+          "org.objenesis objenesis 3.3 - Maven",
+          "net.bytebuddy byte-buddy 1.14.8 - Maven"
+        ],
+        "de.thetaphi forbiddenapis 3.4 - Maven": null,
+        "org.jacoco org.jacoco.agent 0.8.8 - Maven": null,
+        "org.apache.commons commons-lang3 3.8.1 - Maven": null,
+        "com.google.auto.value auto-value-annotations 1.8.1 - Maven": null,
+        "com.github.caciocavallosilano cacio-shared 1.11 - Maven": null,
+        "org.apache.maven.doxia doxia-sink-api 1.12.0 - Maven": null,
+        "commons-codec commons-codec 1.16.0 - Maven": null,
+        "org.apache.httpcomponents httpclient 4.5.13 - Maven": null,
+        "org.junit.jupiter junit-jupiter-params 5.9.2 - Maven": null,
+        "org.codehaus.plexus plexus-component-annotations 2.1.0 - Maven": null,
+        "com.google.collections google-collections 1.0 - Maven": null,
+        "org.codehaus.plexus plexus-classworlds 2.6.0 - Maven": null,
+        "com.puppycrawl.tools checkstyle 10.12.5-SNAPSHOT - Maven": [
+          "info.picocli picocli 4.7.5 - Maven",
+          "org.antlr antlr4-runtime 4.13.1 - Maven",
+          "commons-beanutils commons-beanutils 1.9.4 - Maven",
+          "com.google.guava guava 32.0.1-jre - Maven",
+          "org.apache.ant ant 1.10.14 - Maven",
+          "org.reflections reflections 0.10.2 - Maven",
+          "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven",
+          "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+          "org.itsallcode junit5-system-extensions 1.2.0 - Maven",
+          "org.junit-pioneer junit-pioneer 2.0.1 - Maven",
+          "com.tngtech.archunit archunit-junit5 1.0.1 - Maven",
+          "com.github.caciocavallosilano cacio-tta 1.11 - Maven",
+          "com.google.truth truth 1.1.3 - Maven",
+          "nl.jqno.equalsverifier equalsverifier 3.15.2 - Maven",
+          "org.mockito mockito-inline 5.2.0 - Maven",
+          "commons-io commons-io 2.14.0 - Maven",
+          "org.eclipse.jgit org.eclipse.jgit 6.7.0.202309050840-r - Maven",
+          "org.slf4j slf4j-simple 2.0.9 - Maven",
+          "org.jacoco org.jacoco.agent 0.8.8 - Maven",
+          "de.thetaphi forbiddenapis 3.4 - Maven",
+          "net.sf.saxon Saxon-HE 12.3 - Maven",
+          "org.checkerframework checker-qual 3.27.0 - Maven",
+          "org.apache.maven.doxia doxia-core 1.12.0 - Maven",
+          "org.apache.maven.doxia doxia-module-xdoc 1.12.0 - Maven"
+        ],
+        "commons-collections commons-collections 3.2.2 - Maven": null,
+        "org.checkerframework checker-qual 3.27.0 - Maven": null,
+        "commons-io commons-io 2.14.0 - Maven": null,
+        "com.google.guava listenablefuture 9999.0-empty-to-avoid-conflict-with-guava - Maven": null,
+        "org.apache.maven.doxia doxia-logging-api 1.12.0 - Maven": null,
+        "org.junit-pioneer junit-pioneer 2.0.1 - Maven": [
+          "org.junit.jupiter junit-jupiter-params 5.9.2 - Maven",
+          "org.junit.platform junit-platform-launcher 1.9.2 - Maven"
+        ],
+        "org.apache.httpcomponents.core5 httpcore5-h2 5.1.3 - Maven": null,
+        "junit junit 4.13.2 - Maven": [
+          "org.hamcrest hamcrest-core 1.3 - Maven"
+        ],
+        "com.tngtech.archunit archunit-junit5-engine 1.0.1 - Maven": [
+          "com.tngtech.archunit archunit-junit5-engine-api 1.0.1 - Maven"
+        ],
+        "org.junit.platform junit-platform-launcher 1.9.2 - Maven": null,
+        "org.mockito mockito-core 5.2.0 - Maven": [
+          "net.bytebuddy byte-buddy-agent 1.14.1 - Maven"
+        ],
+        "com.google.j2objc j2objc-annotations 2.8 - Maven": null,
+        "com.github.caciocavallosilano cacio-tta 1.11 - Maven": [
+          "com.github.caciocavallosilano cacio-shared 1.11 - Maven"
+        ],
+        "org.slf4j slf4j-api 1.7.32 - Maven": null,
+        "org.junit.platform junit-platform-engine 1.9.2 - Maven": null,
+        "org.apache.xbean xbean-reflect 3.7 - Maven": null,
+        "org.javassist javassist 3.28.0-GA - Maven": null,
+        "org.apache.commons commons-text 1.3 - Maven": null,
+        "org.slf4j slf4j-simple 2.0.9 - Maven": null,
+        "org.apache.ant ant 1.10.14 - Maven": [
+          "org.apache.ant ant-launcher 1.10.14 - Maven"
+        ],
+        "org.antlr antlr4-runtime 4.13.1 - Maven": null,
+        "org.eclipse.jgit org.eclipse.jgit 6.7.0.202309050840-r - Maven": [
+          "com.googlecode.javaewah JavaEWAH 1.2.3 - Maven",
+          "commons-codec commons-codec 1.16.0 - Maven"
+        ],
+        "com.tngtech.archunit archunit-junit5-engine-api 1.0.1 - Maven": null,
+        "com.tngtech.archunit archunit 1.0.1 - Maven": null,
+        "org.hamcrest hamcrest-core 1.3 - Maven": null
+      },
+      "explicitlyReferencedComponentIds": [
+        "org.apache.maven.doxia doxia-core 1.12.0 - Maven",
+        "com.google.guava guava 32.0.1-jre - Maven",
+        "org.apache.maven.doxia doxia-module-xdoc 1.12.0 - Maven",
+        "org.mockito mockito-inline 5.2.0 - Maven",
+        "commons-beanutils commons-beanutils 1.9.4 - Maven",
+        "org.reflections reflections 0.10.2 - Maven",
+        "org.itsallcode junit5-system-extensions 1.2.0 - Maven",
+        "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+        "com.google.truth truth 1.1.3 - Maven",
+        "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven",
+        "info.picocli picocli 4.7.5 - Maven",
+        "net.sf.saxon Saxon-HE 12.3 - Maven",
+        "com.tngtech.archunit archunit-junit5 1.0.1 - Maven",
+        "nl.jqno.equalsverifier equalsverifier 3.15.2 - Maven",
+        "de.thetaphi forbiddenapis 3.4 - Maven",
+        "org.jacoco org.jacoco.agent 0.8.8 - Maven",
+        "org.checkerframework checker-qual 3.27.0 - Maven",
+        "commons-io commons-io 2.14.0 - Maven",
+        "org.junit-pioneer junit-pioneer 2.0.1 - Maven",
+        "com.github.caciocavallosilano cacio-tta 1.11 - Maven",
+        "org.slf4j slf4j-simple 2.0.9 - Maven",
+        "org.apache.ant ant 1.10.14 - Maven",
+        "org.antlr antlr4-runtime 4.13.1 - Maven",
+        "org.eclipse.jgit org.eclipse.jgit 6.7.0.202309050840-r - Maven"
+      ],
+      "developmentDependencies": [
+        "org.opentest4j opentest4j 1.2.0 - Maven",
+        "net.bytebuddy byte-buddy 1.14.8 - Maven",
+        "com.tngtech.archunit archunit-junit5-api 1.0.1 - Maven",
+        "org.objenesis objenesis 3.3 - Maven",
+        "com.googlecode.javaewah JavaEWAH 1.2.3 - Maven",
+        "org.mockito mockito-inline 5.2.0 - Maven",
+        "org.itsallcode junit5-system-extensions 1.2.0 - Maven",
+        "org.apiguardian apiguardian-api 1.1.2 - Maven",
+        "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+        "com.google.truth truth 1.1.3 - Maven",
+        "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven",
+        "org.ow2.asm asm 9.1 - Maven",
+        "net.bytebuddy byte-buddy-agent 1.14.1 - Maven",
+        "org.junit.platform junit-platform-commons 1.9.2 - Maven",
+        "com.tngtech.archunit archunit-junit5 1.0.1 - Maven",
+        "nl.jqno.equalsverifier equalsverifier 3.15.2 - Maven",
+        "de.thetaphi forbiddenapis 3.4 - Maven",
+        "org.jacoco org.jacoco.agent 0.8.8 - Maven",
+        "com.google.auto.value auto-value-annotations 1.8.1 - Maven",
+        "com.github.caciocavallosilano cacio-shared 1.11 - Maven",
+        "org.junit.jupiter junit-jupiter-params 5.9.2 - Maven",
+        "commons-io commons-io 2.14.0 - Maven",
+        "org.junit-pioneer junit-pioneer 2.0.1 - Maven",
+        "junit junit 4.13.2 - Maven",
+        "com.tngtech.archunit archunit-junit5-engine 1.0.1 - Maven",
+        "org.junit.platform junit-platform-launcher 1.9.2 - Maven",
+        "org.mockito mockito-core 5.2.0 - Maven",
+        "com.github.caciocavallosilano cacio-tta 1.11 - Maven",
+        "org.junit.platform junit-platform-engine 1.9.2 - Maven",
+        "org.slf4j slf4j-simple 2.0.9 - Maven",
+        "org.eclipse.jgit org.eclipse.jgit 6.7.0.202309050840-r - Maven",
+        "com.tngtech.archunit archunit-junit5-engine-api 1.0.1 - Maven",
+        "com.tngtech.archunit archunit 1.0.1 - Maven",
+        "org.hamcrest hamcrest-core 1.3 - Maven"
+      ],
+      "dependencies": [
+        "org.apache.maven.doxia doxia-core 1.12.0 - Maven",
+        "com.google.guava guava 32.0.1-jre - Maven",
+        "com.google.code.findbugs jsr305 3.0.2 - Maven",
+        "commons-logging commons-logging 1.2 - Maven",
+        "org.apache.ant ant-launcher 1.10.14 - Maven",
+        "com.google.errorprone error_prone_annotations 2.18.0 - Maven",
+        "org.apache.maven.doxia doxia-module-xdoc 1.12.0 - Maven",
+        "commons-beanutils commons-beanutils 1.9.4 - Maven",
+        "org.reflections reflections 0.10.2 - Maven",
+        "org.apache.httpcomponents.client5 httpclient5 5.1.3 - Maven",
+        "org.xmlresolver xmlresolver 5.2.0 - Maven",
+        "org.apache.httpcomponents httpcore 4.4.14 - Maven",
+        "org.codehaus.plexus plexus-utils 3.3.0 - Maven",
+        "org.apache.httpcomponents.core5 httpcore5 5.1.3 - Maven",
+        "org.codehaus.plexus plexus-container-default 2.1.0 - Maven",
+        "info.picocli picocli 4.7.5 - Maven",
+        "com.google.guava failureaccess 1.0.1 - Maven",
+        "net.sf.saxon Saxon-HE 12.3 - Maven",
+        "org.apache.commons commons-lang3 3.8.1 - Maven",
+        "org.apache.maven.doxia doxia-sink-api 1.12.0 - Maven",
+        "commons-codec commons-codec 1.16.0 - Maven",
+        "org.apache.httpcomponents httpclient 4.5.13 - Maven",
+        "org.codehaus.plexus plexus-component-annotations 2.1.0 - Maven",
+        "com.google.collections google-collections 1.0 - Maven",
+        "org.codehaus.plexus plexus-classworlds 2.6.0 - Maven",
+        "commons-collections commons-collections 3.2.2 - Maven",
+        "org.checkerframework checker-qual 3.27.0 - Maven",
+        "com.google.guava listenablefuture 9999.0-empty-to-avoid-conflict-with-guava - Maven",
+        "org.apache.maven.doxia doxia-logging-api 1.12.0 - Maven",
+        "org.apache.httpcomponents.core5 httpcore5-h2 5.1.3 - Maven",
+        "com.google.j2objc j2objc-annotations 2.8 - Maven",
+        "org.slf4j slf4j-api 1.7.32 - Maven",
+        "org.apache.xbean xbean-reflect 3.7 - Maven",
+        "org.javassist javassist 3.28.0-GA - Maven",
+        "org.apache.commons commons-text 1.3 - Maven",
+        "org.apache.ant ant 1.10.14 - Maven",
+        "org.antlr antlr4-runtime 4.13.1 - Maven"
+      ]
+    }
+  },
+  "componentsFound": [
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.opentest4j",
+        "artifactId": "opentest4j",
+        "version": "1.2.0",
+        "type": "Maven",
+        "id": "org.opentest4j opentest4j 1.2.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.opentest4j",
+          "Name": "opentest4j",
+          "Version": "1.2.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-api",
+          "version": "5.9.2",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-api",
+            "Version": "5.9.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "net.bytebuddy",
+        "artifactId": "byte-buddy",
+        "version": "1.14.8",
+        "type": "Maven",
+        "id": "net.bytebuddy byte-buddy 1.14.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "net.bytebuddy",
+          "Name": "byte-buddy",
+          "Version": "1.14.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "nl.jqno.equalsverifier",
+          "artifactId": "equalsverifier",
+          "version": "3.15.2",
+          "type": "Maven",
+          "id": "nl.jqno.equalsverifier equalsverifier 3.15.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "nl.jqno.equalsverifier",
+            "Name": "equalsverifier",
+            "Version": "3.15.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.maven.doxia",
+        "artifactId": "doxia-core",
+        "version": "1.12.0",
+        "type": "Maven",
+        "id": "org.apache.maven.doxia doxia-core 1.12.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.maven.doxia",
+          "Name": "doxia-core",
+          "Version": "1.12.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.maven.doxia",
+          "artifactId": "doxia-core",
+          "version": "1.12.0",
+          "type": "Maven",
+          "id": "org.apache.maven.doxia doxia-core 1.12.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.maven.doxia",
+            "Name": "doxia-core",
+            "Version": "1.12.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.guava",
+        "artifactId": "guava",
+        "version": "32.0.1-jre",
+        "type": "Maven",
+        "id": "com.google.guava guava 32.0.1-jre - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.guava",
+          "Name": "guava",
+          "Version": "32.0.1-jre",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "32.0.1-jre",
+          "type": "Maven",
+          "id": "com.google.guava guava 32.0.1-jre - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "guava",
+            "Version": "32.0.1-jre",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.code.findbugs",
+        "artifactId": "jsr305",
+        "version": "3.0.2",
+        "type": "Maven",
+        "id": "com.google.code.findbugs jsr305 3.0.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.code.findbugs",
+          "Name": "jsr305",
+          "Version": "3.0.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "32.0.1-jre",
+          "type": "Maven",
+          "id": "com.google.guava guava 32.0.1-jre - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "guava",
+            "Version": "32.0.1-jre",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "commons-logging",
+        "artifactId": "commons-logging",
+        "version": "1.2",
+        "type": "Maven",
+        "id": "commons-logging commons-logging 1.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "commons-logging",
+          "Name": "commons-logging",
+          "Version": "1.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "commons-beanutils",
+          "artifactId": "commons-beanutils",
+          "version": "1.9.4",
+          "type": "Maven",
+          "id": "commons-beanutils commons-beanutils 1.9.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "commons-beanutils",
+            "Name": "commons-beanutils",
+            "Version": "1.9.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.ant",
+        "artifactId": "ant-launcher",
+        "version": "1.10.14",
+        "type": "Maven",
+        "id": "org.apache.ant ant-launcher 1.10.14 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.ant",
+          "Name": "ant-launcher",
+          "Version": "1.10.14",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenProvided",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.ant",
+          "artifactId": "ant",
+          "version": "1.10.14",
+          "type": "Maven",
+          "id": "org.apache.ant ant 1.10.14 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.ant",
+            "Name": "ant",
+            "Version": "1.10.14",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.tngtech.archunit",
+        "artifactId": "archunit-junit5-api",
+        "version": "1.0.1",
+        "type": "Maven",
+        "id": "com.tngtech.archunit archunit-junit5-api 1.0.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.tngtech.archunit",
+          "Name": "archunit-junit5-api",
+          "Version": "1.0.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.tngtech.archunit",
+          "artifactId": "archunit-junit5",
+          "version": "1.0.1",
+          "type": "Maven",
+          "id": "com.tngtech.archunit archunit-junit5 1.0.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.tngtech.archunit",
+            "Name": "archunit-junit5",
+            "Version": "1.0.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.objenesis",
+        "artifactId": "objenesis",
+        "version": "3.3",
+        "type": "Maven",
+        "id": "org.objenesis objenesis 3.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.objenesis",
+          "Name": "objenesis",
+          "Version": "3.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "nl.jqno.equalsverifier",
+          "artifactId": "equalsverifier",
+          "version": "3.15.2",
+          "type": "Maven",
+          "id": "nl.jqno.equalsverifier equalsverifier 3.15.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "nl.jqno.equalsverifier",
+            "Name": "equalsverifier",
+            "Version": "3.15.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.googlecode.javaewah",
+        "artifactId": "JavaEWAH",
+        "version": "1.2.3",
+        "type": "Maven",
+        "id": "com.googlecode.javaewah JavaEWAH 1.2.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.googlecode.javaewah",
+          "Name": "javaewah",
+          "Version": "1.2.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.eclipse.jgit",
+          "artifactId": "org.eclipse.jgit",
+          "version": "6.7.0.202309050840-r",
+          "type": "Maven",
+          "id": "org.eclipse.jgit org.eclipse.jgit 6.7.0.202309050840-r - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.eclipse.jgit",
+            "Name": "org.eclipse.jgit",
+            "Version": "6.7.0.202309050840-r",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.errorprone",
+        "artifactId": "error_prone_annotations",
+        "version": "2.18.0",
+        "type": "Maven",
+        "id": "com.google.errorprone error_prone_annotations 2.18.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.errorprone",
+          "Name": "error_prone_annotations",
+          "Version": "2.18.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "32.0.1-jre",
+          "type": "Maven",
+          "id": "com.google.guava guava 32.0.1-jre - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "guava",
+            "Version": "32.0.1-jre",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.maven.doxia",
+        "artifactId": "doxia-module-xdoc",
+        "version": "1.12.0",
+        "type": "Maven",
+        "id": "org.apache.maven.doxia doxia-module-xdoc 1.12.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.maven.doxia",
+          "Name": "doxia-module-xdoc",
+          "Version": "1.12.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.maven.doxia",
+          "artifactId": "doxia-module-xdoc",
+          "version": "1.12.0",
+          "type": "Maven",
+          "id": "org.apache.maven.doxia doxia-module-xdoc 1.12.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.maven.doxia",
+            "Name": "doxia-module-xdoc",
+            "Version": "1.12.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.mockito",
+        "artifactId": "mockito-inline",
+        "version": "5.2.0",
+        "type": "Maven",
+        "id": "org.mockito mockito-inline 5.2.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.mockito",
+          "Name": "mockito-inline",
+          "Version": "5.2.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.mockito",
+          "artifactId": "mockito-inline",
+          "version": "5.2.0",
+          "type": "Maven",
+          "id": "org.mockito mockito-inline 5.2.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.mockito",
+            "Name": "mockito-inline",
+            "Version": "5.2.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "commons-beanutils",
+        "artifactId": "commons-beanutils",
+        "version": "1.9.4",
+        "type": "Maven",
+        "id": "commons-beanutils commons-beanutils 1.9.4 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "commons-beanutils",
+          "Name": "commons-beanutils",
+          "Version": "1.9.4",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "commons-beanutils",
+          "artifactId": "commons-beanutils",
+          "version": "1.9.4",
+          "type": "Maven",
+          "id": "commons-beanutils commons-beanutils 1.9.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "commons-beanutils",
+            "Name": "commons-beanutils",
+            "Version": "1.9.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.reflections",
+        "artifactId": "reflections",
+        "version": "0.10.2",
+        "type": "Maven",
+        "id": "org.reflections reflections 0.10.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.reflections",
+          "Name": "reflections",
+          "Version": "0.10.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.reflections",
+          "artifactId": "reflections",
+          "version": "0.10.2",
+          "type": "Maven",
+          "id": "org.reflections reflections 0.10.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.reflections",
+            "Name": "reflections",
+            "Version": "0.10.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.httpcomponents.client5",
+        "artifactId": "httpclient5",
+        "version": "5.1.3",
+        "type": "Maven",
+        "id": "org.apache.httpcomponents.client5 httpclient5 5.1.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.httpcomponents.client5",
+          "Name": "httpclient5",
+          "Version": "5.1.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenRuntime",
+      "topLevelReferrers": [
+        {
+          "groupId": "net.sf.saxon",
+          "artifactId": "Saxon-HE",
+          "version": "12.3",
+          "type": "Maven",
+          "id": "net.sf.saxon Saxon-HE 12.3 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "net.sf.saxon",
+            "Name": "saxon-he",
+            "Version": "12.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.itsallcode",
+        "artifactId": "junit5-system-extensions",
+        "version": "1.2.0",
+        "type": "Maven",
+        "id": "org.itsallcode junit5-system-extensions 1.2.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.itsallcode",
+          "Name": "junit5-system-extensions",
+          "Version": "1.2.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.itsallcode",
+          "artifactId": "junit5-system-extensions",
+          "version": "1.2.0",
+          "type": "Maven",
+          "id": "org.itsallcode junit5-system-extensions 1.2.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.itsallcode",
+            "Name": "junit5-system-extensions",
+            "Version": "1.2.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apiguardian",
+        "artifactId": "apiguardian-api",
+        "version": "1.1.2",
+        "type": "Maven",
+        "id": "org.apiguardian apiguardian-api 1.1.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apiguardian",
+          "Name": "apiguardian-api",
+          "Version": "1.1.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-api",
+          "version": "5.9.2",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-api",
+            "Version": "5.9.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.xmlresolver",
+        "artifactId": "xmlresolver",
+        "version": "5.2.0",
+        "type": "Maven",
+        "id": "org.xmlresolver xmlresolver 5.2.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.xmlresolver",
+          "Name": "xmlresolver",
+          "Version": "5.2.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "net.sf.saxon",
+          "artifactId": "Saxon-HE",
+          "version": "12.3",
+          "type": "Maven",
+          "id": "net.sf.saxon Saxon-HE 12.3 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "net.sf.saxon",
+            "Name": "saxon-he",
+            "Version": "12.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.httpcomponents",
+        "artifactId": "httpcore",
+        "version": "4.4.14",
+        "type": "Maven",
+        "id": "org.apache.httpcomponents httpcore 4.4.14 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.httpcomponents",
+          "Name": "httpcore",
+          "Version": "4.4.14",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.maven.doxia",
+          "artifactId": "doxia-core",
+          "version": "1.12.0",
+          "type": "Maven",
+          "id": "org.apache.maven.doxia doxia-core 1.12.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.maven.doxia",
+            "Name": "doxia-core",
+            "Version": "1.12.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.junit.jupiter",
+        "artifactId": "junit-jupiter-engine",
+        "version": "5.9.2",
+        "type": "Maven",
+        "id": "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.junit.jupiter",
+          "Name": "junit-jupiter-engine",
+          "Version": "5.9.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-engine",
+          "version": "5.9.2",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-engine",
+            "Version": "5.9.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.truth",
+        "artifactId": "truth",
+        "version": "1.1.3",
+        "type": "Maven",
+        "id": "com.google.truth truth 1.1.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.truth",
+          "Name": "truth",
+          "Version": "1.1.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.truth",
+          "artifactId": "truth",
+          "version": "1.1.3",
+          "type": "Maven",
+          "id": "com.google.truth truth 1.1.3 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.truth",
+            "Name": "truth",
+            "Version": "1.1.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.codehaus.plexus",
+        "artifactId": "plexus-utils",
+        "version": "3.3.0",
+        "type": "Maven",
+        "id": "org.codehaus.plexus plexus-utils 3.3.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.codehaus.plexus",
+          "Name": "plexus-utils",
+          "Version": "3.3.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.maven.doxia",
+          "artifactId": "doxia-core",
+          "version": "1.12.0",
+          "type": "Maven",
+          "id": "org.apache.maven.doxia doxia-core 1.12.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.maven.doxia",
+            "Name": "doxia-core",
+            "Version": "1.12.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.httpcomponents.core5",
+        "artifactId": "httpcore5",
+        "version": "5.1.3",
+        "type": "Maven",
+        "id": "org.apache.httpcomponents.core5 httpcore5 5.1.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.httpcomponents.core5",
+          "Name": "httpcore5",
+          "Version": "5.1.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenRuntime",
+      "topLevelReferrers": [
+        {
+          "groupId": "net.sf.saxon",
+          "artifactId": "Saxon-HE",
+          "version": "12.3",
+          "type": "Maven",
+          "id": "net.sf.saxon Saxon-HE 12.3 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "net.sf.saxon",
+            "Name": "saxon-he",
+            "Version": "12.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.codehaus.plexus",
+        "artifactId": "plexus-container-default",
+        "version": "2.1.0",
+        "type": "Maven",
+        "id": "org.codehaus.plexus plexus-container-default 2.1.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.codehaus.plexus",
+          "Name": "plexus-container-default",
+          "Version": "2.1.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.maven.doxia",
+          "artifactId": "doxia-core",
+          "version": "1.12.0",
+          "type": "Maven",
+          "id": "org.apache.maven.doxia doxia-core 1.12.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.maven.doxia",
+            "Name": "doxia-core",
+            "Version": "1.12.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.junit.jupiter",
+        "artifactId": "junit-jupiter-api",
+        "version": "5.9.2",
+        "type": "Maven",
+        "id": "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.junit.jupiter",
+          "Name": "junit-jupiter-api",
+          "Version": "5.9.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-api",
+          "version": "5.9.2",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-api",
+            "Version": "5.9.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "info.picocli",
+        "artifactId": "picocli",
+        "version": "4.7.5",
+        "type": "Maven",
+        "id": "info.picocli picocli 4.7.5 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "info.picocli",
+          "Name": "picocli",
+          "Version": "4.7.5",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "info.picocli",
+          "artifactId": "picocli",
+          "version": "4.7.5",
+          "type": "Maven",
+          "id": "info.picocli picocli 4.7.5 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "info.picocli",
+            "Name": "picocli",
+            "Version": "4.7.5",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.guava",
+        "artifactId": "failureaccess",
+        "version": "1.0.1",
+        "type": "Maven",
+        "id": "com.google.guava failureaccess 1.0.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.guava",
+          "Name": "failureaccess",
+          "Version": "1.0.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "32.0.1-jre",
+          "type": "Maven",
+          "id": "com.google.guava guava 32.0.1-jre - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "guava",
+            "Version": "32.0.1-jre",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.ow2.asm",
+        "artifactId": "asm",
+        "version": "9.1",
+        "type": "Maven",
+        "id": "org.ow2.asm asm 9.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.ow2.asm",
+          "Name": "asm",
+          "Version": "9.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.truth",
+          "artifactId": "truth",
+          "version": "1.1.3",
+          "type": "Maven",
+          "id": "com.google.truth truth 1.1.3 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.truth",
+            "Name": "truth",
+            "Version": "1.1.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "net.bytebuddy",
+        "artifactId": "byte-buddy-agent",
+        "version": "1.14.1",
+        "type": "Maven",
+        "id": "net.bytebuddy byte-buddy-agent 1.14.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "net.bytebuddy",
+          "Name": "byte-buddy-agent",
+          "Version": "1.14.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.mockito",
+          "artifactId": "mockito-inline",
+          "version": "5.2.0",
+          "type": "Maven",
+          "id": "org.mockito mockito-inline 5.2.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.mockito",
+            "Name": "mockito-inline",
+            "Version": "5.2.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "net.sf.saxon",
+        "artifactId": "Saxon-HE",
+        "version": "12.3",
+        "type": "Maven",
+        "id": "net.sf.saxon Saxon-HE 12.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "net.sf.saxon",
+          "Name": "saxon-he",
+          "Version": "12.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "net.sf.saxon",
+          "artifactId": "Saxon-HE",
+          "version": "12.3",
+          "type": "Maven",
+          "id": "net.sf.saxon Saxon-HE 12.3 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "net.sf.saxon",
+            "Name": "saxon-he",
+            "Version": "12.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.junit.platform",
+        "artifactId": "junit-platform-commons",
+        "version": "1.9.2",
+        "type": "Maven",
+        "id": "org.junit.platform junit-platform-commons 1.9.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.junit.platform",
+          "Name": "junit-platform-commons",
+          "Version": "1.9.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-api",
+          "version": "5.9.2",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-api",
+            "Version": "5.9.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.tngtech.archunit",
+        "artifactId": "archunit-junit5",
+        "version": "1.0.1",
+        "type": "Maven",
+        "id": "com.tngtech.archunit archunit-junit5 1.0.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.tngtech.archunit",
+          "Name": "archunit-junit5",
+          "Version": "1.0.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.tngtech.archunit",
+          "artifactId": "archunit-junit5",
+          "version": "1.0.1",
+          "type": "Maven",
+          "id": "com.tngtech.archunit archunit-junit5 1.0.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.tngtech.archunit",
+            "Name": "archunit-junit5",
+            "Version": "1.0.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "nl.jqno.equalsverifier",
+        "artifactId": "equalsverifier",
+        "version": "3.15.2",
+        "type": "Maven",
+        "id": "nl.jqno.equalsverifier equalsverifier 3.15.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "nl.jqno.equalsverifier",
+          "Name": "equalsverifier",
+          "Version": "3.15.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "nl.jqno.equalsverifier",
+          "artifactId": "equalsverifier",
+          "version": "3.15.2",
+          "type": "Maven",
+          "id": "nl.jqno.equalsverifier equalsverifier 3.15.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "nl.jqno.equalsverifier",
+            "Name": "equalsverifier",
+            "Version": "3.15.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "de.thetaphi",
+        "artifactId": "forbiddenapis",
+        "version": "3.4",
+        "type": "Maven",
+        "id": "de.thetaphi forbiddenapis 3.4 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "de.thetaphi",
+          "Name": "forbiddenapis",
+          "Version": "3.4",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "de.thetaphi",
+          "artifactId": "forbiddenapis",
+          "version": "3.4",
+          "type": "Maven",
+          "id": "de.thetaphi forbiddenapis 3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "de.thetaphi",
+            "Name": "forbiddenapis",
+            "Version": "3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.jacoco",
+        "artifactId": "org.jacoco.agent",
+        "version": "0.8.8",
+        "type": "Maven",
+        "id": "org.jacoco org.jacoco.agent 0.8.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.jacoco",
+          "Name": "org.jacoco.agent",
+          "Version": "0.8.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.jacoco",
+          "artifactId": "org.jacoco.agent",
+          "version": "0.8.8",
+          "type": "Maven",
+          "id": "org.jacoco org.jacoco.agent 0.8.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.jacoco",
+            "Name": "org.jacoco.agent",
+            "Version": "0.8.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.commons",
+        "artifactId": "commons-lang3",
+        "version": "3.8.1",
+        "type": "Maven",
+        "id": "org.apache.commons commons-lang3 3.8.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.commons",
+          "Name": "commons-lang3",
+          "Version": "3.8.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.maven.doxia",
+          "artifactId": "doxia-core",
+          "version": "1.12.0",
+          "type": "Maven",
+          "id": "org.apache.maven.doxia doxia-core 1.12.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.maven.doxia",
+            "Name": "doxia-core",
+            "Version": "1.12.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.auto.value",
+        "artifactId": "auto-value-annotations",
+        "version": "1.8.1",
+        "type": "Maven",
+        "id": "com.google.auto.value auto-value-annotations 1.8.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.auto.value",
+          "Name": "auto-value-annotations",
+          "Version": "1.8.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.truth",
+          "artifactId": "truth",
+          "version": "1.1.3",
+          "type": "Maven",
+          "id": "com.google.truth truth 1.1.3 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.truth",
+            "Name": "truth",
+            "Version": "1.1.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.github.caciocavallosilano",
+        "artifactId": "cacio-shared",
+        "version": "1.11",
+        "type": "Maven",
+        "id": "com.github.caciocavallosilano cacio-shared 1.11 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.github.caciocavallosilano",
+          "Name": "cacio-shared",
+          "Version": "1.11",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.github.caciocavallosilano",
+          "artifactId": "cacio-tta",
+          "version": "1.11",
+          "type": "Maven",
+          "id": "com.github.caciocavallosilano cacio-tta 1.11 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.github.caciocavallosilano",
+            "Name": "cacio-tta",
+            "Version": "1.11",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.maven.doxia",
+        "artifactId": "doxia-sink-api",
+        "version": "1.12.0",
+        "type": "Maven",
+        "id": "org.apache.maven.doxia doxia-sink-api 1.12.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.maven.doxia",
+          "Name": "doxia-sink-api",
+          "Version": "1.12.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.maven.doxia",
+          "artifactId": "doxia-core",
+          "version": "1.12.0",
+          "type": "Maven",
+          "id": "org.apache.maven.doxia doxia-core 1.12.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.maven.doxia",
+            "Name": "doxia-core",
+            "Version": "1.12.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "commons-codec",
+        "artifactId": "commons-codec",
+        "version": "1.16.0",
+        "type": "Maven",
+        "id": "commons-codec commons-codec 1.16.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "commons-codec",
+          "Name": "commons-codec",
+          "Version": "1.16.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenRuntime",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.eclipse.jgit",
+          "artifactId": "org.eclipse.jgit",
+          "version": "6.7.0.202309050840-r",
+          "type": "Maven",
+          "id": "org.eclipse.jgit org.eclipse.jgit 6.7.0.202309050840-r - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.eclipse.jgit",
+            "Name": "org.eclipse.jgit",
+            "Version": "6.7.0.202309050840-r",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.httpcomponents",
+        "artifactId": "httpclient",
+        "version": "4.5.13",
+        "type": "Maven",
+        "id": "org.apache.httpcomponents httpclient 4.5.13 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.httpcomponents",
+          "Name": "httpclient",
+          "Version": "4.5.13",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.maven.doxia",
+          "artifactId": "doxia-core",
+          "version": "1.12.0",
+          "type": "Maven",
+          "id": "org.apache.maven.doxia doxia-core 1.12.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.maven.doxia",
+            "Name": "doxia-core",
+            "Version": "1.12.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.junit.jupiter",
+        "artifactId": "junit-jupiter-params",
+        "version": "5.9.2",
+        "type": "Maven",
+        "id": "org.junit.jupiter junit-jupiter-params 5.9.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.junit.jupiter",
+          "Name": "junit-jupiter-params",
+          "Version": "5.9.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit-pioneer",
+          "artifactId": "junit-pioneer",
+          "version": "2.0.1",
+          "type": "Maven",
+          "id": "org.junit-pioneer junit-pioneer 2.0.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit-pioneer",
+            "Name": "junit-pioneer",
+            "Version": "2.0.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.codehaus.plexus",
+        "artifactId": "plexus-component-annotations",
+        "version": "2.1.0",
+        "type": "Maven",
+        "id": "org.codehaus.plexus plexus-component-annotations 2.1.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.codehaus.plexus",
+          "Name": "plexus-component-annotations",
+          "Version": "2.1.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.maven.doxia",
+          "artifactId": "doxia-core",
+          "version": "1.12.0",
+          "type": "Maven",
+          "id": "org.apache.maven.doxia doxia-core 1.12.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.maven.doxia",
+            "Name": "doxia-core",
+            "Version": "1.12.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.collections",
+        "artifactId": "google-collections",
+        "version": "1.0",
+        "type": "Maven",
+        "id": "com.google.collections google-collections 1.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.collections",
+          "Name": "google-collections",
+          "Version": "1.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.maven.doxia",
+          "artifactId": "doxia-core",
+          "version": "1.12.0",
+          "type": "Maven",
+          "id": "org.apache.maven.doxia doxia-core 1.12.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.maven.doxia",
+            "Name": "doxia-core",
+            "Version": "1.12.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.codehaus.plexus",
+        "artifactId": "plexus-classworlds",
+        "version": "2.6.0",
+        "type": "Maven",
+        "id": "org.codehaus.plexus plexus-classworlds 2.6.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.codehaus.plexus",
+          "Name": "plexus-classworlds",
+          "Version": "2.6.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.maven.doxia",
+          "artifactId": "doxia-core",
+          "version": "1.12.0",
+          "type": "Maven",
+          "id": "org.apache.maven.doxia doxia-core 1.12.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.maven.doxia",
+            "Name": "doxia-core",
+            "Version": "1.12.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.puppycrawl.tools",
+        "artifactId": "checkstyle",
+        "version": "10.12.5-SNAPSHOT",
+        "type": "Maven",
+        "id": "com.puppycrawl.tools checkstyle 10.12.5-SNAPSHOT - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.puppycrawl.tools",
+          "Name": "checkstyle",
+          "Version": "10.12.5-SNAPSHOT",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": null,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "commons-collections",
+        "artifactId": "commons-collections",
+        "version": "3.2.2",
+        "type": "Maven",
+        "id": "commons-collections commons-collections 3.2.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "commons-collections",
+          "Name": "commons-collections",
+          "Version": "3.2.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "commons-beanutils",
+          "artifactId": "commons-beanutils",
+          "version": "1.9.4",
+          "type": "Maven",
+          "id": "commons-beanutils commons-beanutils 1.9.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "commons-beanutils",
+            "Name": "commons-beanutils",
+            "Version": "1.9.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.checkerframework",
+        "artifactId": "checker-qual",
+        "version": "3.27.0",
+        "type": "Maven",
+        "id": "org.checkerframework checker-qual 3.27.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.checkerframework",
+          "Name": "checker-qual",
+          "Version": "3.27.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.checkerframework",
+          "artifactId": "checker-qual",
+          "version": "3.27.0",
+          "type": "Maven",
+          "id": "org.checkerframework checker-qual 3.27.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.checkerframework",
+            "Name": "checker-qual",
+            "Version": "3.27.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "commons-io",
+        "artifactId": "commons-io",
+        "version": "2.14.0",
+        "type": "Maven",
+        "id": "commons-io commons-io 2.14.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "commons-io",
+          "Name": "commons-io",
+          "Version": "2.14.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "commons-io",
+          "artifactId": "commons-io",
+          "version": "2.14.0",
+          "type": "Maven",
+          "id": "commons-io commons-io 2.14.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "commons-io",
+            "Name": "commons-io",
+            "Version": "2.14.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.guava",
+        "artifactId": "listenablefuture",
+        "version": "9999.0-empty-to-avoid-conflict-with-guava",
+        "type": "Maven",
+        "id": "com.google.guava listenablefuture 9999.0-empty-to-avoid-conflict-with-guava - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.guava",
+          "Name": "listenablefuture",
+          "Version": "9999.0-empty-to-avoid-conflict-with-guava",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "32.0.1-jre",
+          "type": "Maven",
+          "id": "com.google.guava guava 32.0.1-jre - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "guava",
+            "Version": "32.0.1-jre",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.maven.doxia",
+        "artifactId": "doxia-logging-api",
+        "version": "1.12.0",
+        "type": "Maven",
+        "id": "org.apache.maven.doxia doxia-logging-api 1.12.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.maven.doxia",
+          "Name": "doxia-logging-api",
+          "Version": "1.12.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.maven.doxia",
+          "artifactId": "doxia-core",
+          "version": "1.12.0",
+          "type": "Maven",
+          "id": "org.apache.maven.doxia doxia-core 1.12.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.maven.doxia",
+            "Name": "doxia-core",
+            "Version": "1.12.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.junit-pioneer",
+        "artifactId": "junit-pioneer",
+        "version": "2.0.1",
+        "type": "Maven",
+        "id": "org.junit-pioneer junit-pioneer 2.0.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.junit-pioneer",
+          "Name": "junit-pioneer",
+          "Version": "2.0.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit-pioneer",
+          "artifactId": "junit-pioneer",
+          "version": "2.0.1",
+          "type": "Maven",
+          "id": "org.junit-pioneer junit-pioneer 2.0.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit-pioneer",
+            "Name": "junit-pioneer",
+            "Version": "2.0.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.httpcomponents.core5",
+        "artifactId": "httpcore5-h2",
+        "version": "5.1.3",
+        "type": "Maven",
+        "id": "org.apache.httpcomponents.core5 httpcore5-h2 5.1.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.httpcomponents.core5",
+          "Name": "httpcore5-h2",
+          "Version": "5.1.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenRuntime",
+      "topLevelReferrers": [
+        {
+          "groupId": "net.sf.saxon",
+          "artifactId": "Saxon-HE",
+          "version": "12.3",
+          "type": "Maven",
+          "id": "net.sf.saxon Saxon-HE 12.3 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "net.sf.saxon",
+            "Name": "saxon-he",
+            "Version": "12.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "junit",
+        "artifactId": "junit",
+        "version": "4.13.2",
+        "type": "Maven",
+        "id": "junit junit 4.13.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "junit",
+          "Name": "junit",
+          "Version": "4.13.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.truth",
+          "artifactId": "truth",
+          "version": "1.1.3",
+          "type": "Maven",
+          "id": "com.google.truth truth 1.1.3 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.truth",
+            "Name": "truth",
+            "Version": "1.1.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.tngtech.archunit",
+        "artifactId": "archunit-junit5-engine",
+        "version": "1.0.1",
+        "type": "Maven",
+        "id": "com.tngtech.archunit archunit-junit5-engine 1.0.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.tngtech.archunit",
+          "Name": "archunit-junit5-engine",
+          "Version": "1.0.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.tngtech.archunit",
+          "artifactId": "archunit-junit5",
+          "version": "1.0.1",
+          "type": "Maven",
+          "id": "com.tngtech.archunit archunit-junit5 1.0.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.tngtech.archunit",
+            "Name": "archunit-junit5",
+            "Version": "1.0.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.junit.platform",
+        "artifactId": "junit-platform-launcher",
+        "version": "1.9.2",
+        "type": "Maven",
+        "id": "org.junit.platform junit-platform-launcher 1.9.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.junit.platform",
+          "Name": "junit-platform-launcher",
+          "Version": "1.9.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit-pioneer",
+          "artifactId": "junit-pioneer",
+          "version": "2.0.1",
+          "type": "Maven",
+          "id": "org.junit-pioneer junit-pioneer 2.0.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit-pioneer",
+            "Name": "junit-pioneer",
+            "Version": "2.0.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.mockito",
+        "artifactId": "mockito-core",
+        "version": "5.2.0",
+        "type": "Maven",
+        "id": "org.mockito mockito-core 5.2.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.mockito",
+          "Name": "mockito-core",
+          "Version": "5.2.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.mockito",
+          "artifactId": "mockito-inline",
+          "version": "5.2.0",
+          "type": "Maven",
+          "id": "org.mockito mockito-inline 5.2.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.mockito",
+            "Name": "mockito-inline",
+            "Version": "5.2.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.j2objc",
+        "artifactId": "j2objc-annotations",
+        "version": "2.8",
+        "type": "Maven",
+        "id": "com.google.j2objc j2objc-annotations 2.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.j2objc",
+          "Name": "j2objc-annotations",
+          "Version": "2.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "32.0.1-jre",
+          "type": "Maven",
+          "id": "com.google.guava guava 32.0.1-jre - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "guava",
+            "Version": "32.0.1-jre",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.github.caciocavallosilano",
+        "artifactId": "cacio-tta",
+        "version": "1.11",
+        "type": "Maven",
+        "id": "com.github.caciocavallosilano cacio-tta 1.11 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.github.caciocavallosilano",
+          "Name": "cacio-tta",
+          "Version": "1.11",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.github.caciocavallosilano",
+          "artifactId": "cacio-tta",
+          "version": "1.11",
+          "type": "Maven",
+          "id": "com.github.caciocavallosilano cacio-tta 1.11 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.github.caciocavallosilano",
+            "Name": "cacio-tta",
+            "Version": "1.11",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.slf4j",
+        "artifactId": "slf4j-api",
+        "version": "1.7.32",
+        "type": "Maven",
+        "id": "org.slf4j slf4j-api 1.7.32 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.slf4j",
+          "Name": "slf4j-api",
+          "Version": "1.7.32",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.reflections",
+          "artifactId": "reflections",
+          "version": "0.10.2",
+          "type": "Maven",
+          "id": "org.reflections reflections 0.10.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.reflections",
+            "Name": "reflections",
+            "Version": "0.10.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.junit.platform",
+        "artifactId": "junit-platform-engine",
+        "version": "1.9.2",
+        "type": "Maven",
+        "id": "org.junit.platform junit-platform-engine 1.9.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.junit.platform",
+          "Name": "junit-platform-engine",
+          "Version": "1.9.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-engine",
+          "version": "5.9.2",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-engine",
+            "Version": "5.9.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.xbean",
+        "artifactId": "xbean-reflect",
+        "version": "3.7",
+        "type": "Maven",
+        "id": "org.apache.xbean xbean-reflect 3.7 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.xbean",
+          "Name": "xbean-reflect",
+          "Version": "3.7",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.maven.doxia",
+          "artifactId": "doxia-core",
+          "version": "1.12.0",
+          "type": "Maven",
+          "id": "org.apache.maven.doxia doxia-core 1.12.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.maven.doxia",
+            "Name": "doxia-core",
+            "Version": "1.12.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.javassist",
+        "artifactId": "javassist",
+        "version": "3.28.0-GA",
+        "type": "Maven",
+        "id": "org.javassist javassist 3.28.0-GA - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.javassist",
+          "Name": "javassist",
+          "Version": "3.28.0-GA",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.reflections",
+          "artifactId": "reflections",
+          "version": "0.10.2",
+          "type": "Maven",
+          "id": "org.reflections reflections 0.10.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.reflections",
+            "Name": "reflections",
+            "Version": "0.10.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.commons",
+        "artifactId": "commons-text",
+        "version": "1.3",
+        "type": "Maven",
+        "id": "org.apache.commons commons-text 1.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.commons",
+          "Name": "commons-text",
+          "Version": "1.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.maven.doxia",
+          "artifactId": "doxia-core",
+          "version": "1.12.0",
+          "type": "Maven",
+          "id": "org.apache.maven.doxia doxia-core 1.12.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.maven.doxia",
+            "Name": "doxia-core",
+            "Version": "1.12.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.slf4j",
+        "artifactId": "slf4j-simple",
+        "version": "2.0.9",
+        "type": "Maven",
+        "id": "org.slf4j slf4j-simple 2.0.9 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.slf4j",
+          "Name": "slf4j-simple",
+          "Version": "2.0.9",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-simple",
+          "version": "2.0.9",
+          "type": "Maven",
+          "id": "org.slf4j slf4j-simple 2.0.9 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.slf4j",
+            "Name": "slf4j-simple",
+            "Version": "2.0.9",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.ant",
+        "artifactId": "ant",
+        "version": "1.10.14",
+        "type": "Maven",
+        "id": "org.apache.ant ant 1.10.14 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.ant",
+          "Name": "ant",
+          "Version": "1.10.14",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenProvided",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.ant",
+          "artifactId": "ant",
+          "version": "1.10.14",
+          "type": "Maven",
+          "id": "org.apache.ant ant 1.10.14 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.ant",
+            "Name": "ant",
+            "Version": "1.10.14",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.antlr",
+        "artifactId": "antlr4-runtime",
+        "version": "4.13.1",
+        "type": "Maven",
+        "id": "org.antlr antlr4-runtime 4.13.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.antlr",
+          "Name": "antlr4-runtime",
+          "Version": "4.13.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.antlr",
+          "artifactId": "antlr4-runtime",
+          "version": "4.13.1",
+          "type": "Maven",
+          "id": "org.antlr antlr4-runtime 4.13.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.antlr",
+            "Name": "antlr4-runtime",
+            "Version": "4.13.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.eclipse.jgit",
+        "artifactId": "org.eclipse.jgit",
+        "version": "6.7.0.202309050840-r",
+        "type": "Maven",
+        "id": "org.eclipse.jgit org.eclipse.jgit 6.7.0.202309050840-r - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.eclipse.jgit",
+          "Name": "org.eclipse.jgit",
+          "Version": "6.7.0.202309050840-r",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.eclipse.jgit",
+          "artifactId": "org.eclipse.jgit",
+          "version": "6.7.0.202309050840-r",
+          "type": "Maven",
+          "id": "org.eclipse.jgit org.eclipse.jgit 6.7.0.202309050840-r - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.eclipse.jgit",
+            "Name": "org.eclipse.jgit",
+            "Version": "6.7.0.202309050840-r",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.tngtech.archunit",
+        "artifactId": "archunit-junit5-engine-api",
+        "version": "1.0.1",
+        "type": "Maven",
+        "id": "com.tngtech.archunit archunit-junit5-engine-api 1.0.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.tngtech.archunit",
+          "Name": "archunit-junit5-engine-api",
+          "Version": "1.0.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.tngtech.archunit",
+          "artifactId": "archunit-junit5",
+          "version": "1.0.1",
+          "type": "Maven",
+          "id": "com.tngtech.archunit archunit-junit5 1.0.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.tngtech.archunit",
+            "Name": "archunit-junit5",
+            "Version": "1.0.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.tngtech.archunit",
+        "artifactId": "archunit",
+        "version": "1.0.1",
+        "type": "Maven",
+        "id": "com.tngtech.archunit archunit 1.0.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.tngtech.archunit",
+          "Name": "archunit",
+          "Version": "1.0.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.tngtech.archunit",
+          "artifactId": "archunit-junit5",
+          "version": "1.0.1",
+          "type": "Maven",
+          "id": "com.tngtech.archunit archunit-junit5 1.0.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.tngtech.archunit",
+            "Name": "archunit-junit5",
+            "Version": "1.0.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.hamcrest",
+        "artifactId": "hamcrest-core",
+        "version": "1.3",
+        "type": "Maven",
+        "id": "org.hamcrest hamcrest-core 1.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.hamcrest",
+          "Name": "hamcrest-core",
+          "Version": "1.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.truth",
+          "artifactId": "truth",
+          "version": "1.1.3",
+          "type": "Maven",
+          "id": "com.google.truth truth 1.1.3 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.truth",
+            "Name": "truth",
+            "Version": "1.1.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    }
+  ],
+  "detectorsInScan": [
+    {
+      "detectorId": "Yarn",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Vcpkg",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Vcpkg"
+      ]
+    },
+    {
+      "detectorId": "RustCrateDetector",
+      "isExperimental": false,
+      "version": 8,
+      "supportedComponentTypes": [
+        "Cargo"
+      ]
+    },
+    {
+      "detectorId": "Ruby",
+      "isExperimental": false,
+      "version": 3,
+      "supportedComponentTypes": [
+        "RubyGems"
+      ]
+    },
+    {
+      "detectorId": "Poetry",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "Pnpm",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Pip",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "NuGet",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetPackagesConfig",
+      "isExperimental": true,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetProjectCentric",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "Npm",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "NpmWithRoots",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "MvnCli",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Linux",
+      "isExperimental": false,
+      "version": 4,
+      "supportedComponentTypes": [
+        "Linux"
+      ]
+    },
+    {
+      "detectorId": "Ivy",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Gradle",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Go",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Go"
+      ]
+    },
+    {
+      "detectorId": "CocoaPods",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pod",
+        "Git"
+      ]
+    },
+    {
+      "detectorId": "SPDX22SBOM",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "Spdx"
+      ]
+    }
+  ],
+  "containerDetailsMap": {},
+  "resultCode": "Success",
+  "sourceDirectory": "D:\\Work\\SBOM\\TestProjects\\checkstyle"
+}

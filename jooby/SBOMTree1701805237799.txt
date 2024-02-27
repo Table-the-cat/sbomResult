@@ -1,0 +1,12 @@
+com(0).google(0).common(0).collect(2)
+com(0).typesafe(0).config(26)
+edu(0).umd(0).cs(0).findbugs(0).annotations(178)
+io(0).github(0).bucket4j(2)
+jakarta(0).inject(13)
+org(0).jetbrains(0).annotations(1)
+org(0).junit(0).jupiter(0).api(61)
+org(0).junit(0).jupiter(0).api(61).function(1)
+org(0).mockito(10)
+org(0).mockito(10).stubbing(1)
+org(0).slf4j(17)
+sum: 312

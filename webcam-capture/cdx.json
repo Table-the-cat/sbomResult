@@ -1,0 +1,776 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:e4730d06-84cb-48b3-a2aa-b49a1d5ad8a0",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-25T15:15:18.119Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.8.8",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.8.8",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.8.8"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "Prabhu Subramanian",
+        "email": "prabhu@appthreat.com"
+      }
+    ],
+    "component": {
+      "publisher": "Bartosz Firyn (SarXos)",
+      "group": "com.github.sarxos",
+      "name": "webcam-capture",
+      "version": "0.3.13-SNAPSHOT",
+      "description": "This library allows you to use your PC webcam, IP or network cameras directly from Java. It's compatible with most operating systems (Windows, Linux, MacOS).",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.github.sarxos/webcam-capture@0.3.13-SNAPSHOT?type=bundle",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/sarxos/webcam-capture/webcam-capture"
+        },
+        {
+          "type": "build-system",
+          "url": "http://travis-ci.org/#!/sarxos/webcam-capture"
+        },
+        {
+          "type": "distribution",
+          "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/sarxos/webcam-capture/issues"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/com.github.sarxos/webcam-capture@0.3.13-SNAPSHOT?type=bundle"
+    }
+  },
+  "components": [
+    {
+      "group": "com.nativelibs4java",
+      "name": "bridj",
+      "version": "0.7.0",
+      "description": "NativeLibs4Java is an umbrella project that gathers ready-to-use Java libraries that wrap various native libraries. Most of these wrappers are created automatically by JNAerator.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f60dbb042f60c9f545d08b0d144e120e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "461c40ed578c92106579e370838ed4e224d0289e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "101bcd9b6637e6bc16e56deb3daefba62b1f5e8e9e37e1b3e56e3b5860d659cf"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "916cf6a23051ff6d2eeead81d14759bc08ac40970b582dfb2d496feaf2920618e0edda67d2694e578db1fb8f39cc26bc79c805e7e9850479a35c6ce9ab8dff62"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "c7919e2775a769195f5f1e045fbac5a3ad279c1468920c1346c4a7a2845555cc0f8fa58b461504cc4830c9c6bbed5170"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "688c266482846d32e93f9bedd9475b3d6d8a92f4b7b6858ab51c251a2e7489d08b7c5587bb899c82019d1b7dc6a93a74"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1460f5b65e1cece6698792368c4f1c341392484af9980d3ea0aba29791747c4a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "671fa63869aac5dcd1cf3396ebd7f9003b924d7f0fbc0180a2c9667cce19f236b677ebd98989aa73248c835eca8830eb76c6afe0ce8966c6147dc2349177c812"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "New BSD License (GPL-compatible)",
+            "url": "http://code.google.com/p/bridj/wiki/CreditsAndLicense"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.nativelibs4java/bridj@0.7.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.nativelibs4java/bridj@0.7.0?type=jar"
+    },
+    {
+      "publisher": "QOS.ch",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.2",
+      "description": "The slf4j API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "21216c2ee1bf4f097a51e49418527100"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0081d61b7f33ebeab314e07de0cc596f8e858d97"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3bae789b401333b2a1d1603b7fa573e19908628191707203f6eb708cdee2c052"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bfe12c722ed57faa3e26fef214d95b9bdd2192742901920954979926d51e7b1bf0f61ea538f858328f4d6a306affecdcef9d52452530cd2fe5c03552350c0ea0"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "71781e6afb1b0b3de37efa280c4d06cd53c1a9ef8d4dac24c77f591f9316fd93dec2606409e7762cdb9f4440f525c218"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "8a4975d4d3ad1a850d18a61de00c1146a426571fa6f6b1341c5ed2f36763f442ced826417fb6f9ef718448b8fba171d8"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b16b52c7e7922225546047213ae79173211d0d949671588cd013e426b845702f"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "fa3fe0802b7724d8afc7d312b631090d8c94991f0fc17044433cb374dcc1e83a2968ff6ebb245094f97a71ef63edac3b1751ff1bcd4442d8eeed1b3fd92c410c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.2?type=jar"
+    },
+    {
+      "publisher": "QOS.ch",
+      "group": "ch.qos.logback",
+      "name": "logback-classic",
+      "version": "1.0.9",
+      "description": "logback-classic module",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "502897046f7fdd5c32526bd5eaa24288"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "258c3d8f956e7c8723f13fdea6b81e3d74201f68"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ffacdd9f4ca9a2be928d753b394429b49b3de32a8238d584e4eb46af458f26ce"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ae524cd680218baeab0279f1015a97feee4fba720c98f2ebbebc4ce6ecf043230c9b2af2cd53544c35cc2eb0afe16116f58b53d3c1aae90104d7693c8129079b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "241ace77ae86dca3b8137607d83ac315b14109e7d8534ea70aea230fa294b67e38b78b2888528eb6fd513dd012ade510"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "3bb879cff317e203a86b52bc39300a11be3ec1ed87c7d1f8a7ba10192417b3fedf3751baa5e3e3771e6cd9fa6c775b07"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "8a6842b2804412ecdc033ab67777b4d9b5441020bb4730f63b21d34505c89571"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "a92ac3e84b49673fe17237d7682d472a01e2538bb58eaa9f498abb25f5b3bb41f331b6068b5e5b966e299afbc64ce8da518d1758d8f45b78f19555b5d4b07351"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "name": "GNU Lesser General Public License",
+            "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/ch.qos.logback/logback-classic@1.0.9?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/ch.qos.logback/logback-classic@1.0.9?type=jar"
+    },
+    {
+      "publisher": "QOS.ch",
+      "group": "ch.qos.logback",
+      "name": "logback-core",
+      "version": "1.0.9",
+      "description": "logback-core module",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "849536a25c3793b98c33691a7a3b1573"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "41916886a1df068ad1dfea9bcc649a7b8ea4553e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "010642c88ba124be04b0dd2a8516ca38cccc7c88715d385a39df99a7897b239a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "56af1a896cbf186aedd2f666b9b192fd68b4676af42f41e0525898817dbe49219acc370bc4bd56ace4187083f5be94adf3b0fc67d046f459d5d65d48e0fee5c6"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "03a7f8632aca7febb832ea796ca33c922410941b7205b425c92f9068a1584c5f25b6a20297386ef02733ff50e7c77514"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ed6cd68a1c5ff341181de4e33c6f9218fe32840dda57a0880269a4ba44cfb151b5026d32ef9c1a9719ed2dd9fb3c3f82"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "752a57a2760390f0984aeaf5bd4a8611142f530d3194a755eac92151852dd4a4"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "0bdf65d78a06d445dafd4ff626bb4f0fe0a0c27647428f05892ba85e1f7dc66908200b77cc37e204fea9132d60658948ef1ecd3891379c4b5c25fee2f321b476"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "name": "GNU Lesser General Public License",
+            "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/ch.qos.logback/logback-core@1.0.9?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/ch.qos.logback/logback-core@1.0.9?type=jar"
+    },
+    {
+      "group": "com.jayway.awaitility",
+      "name": "awaitility",
+      "version": "1.6.2",
+      "description": "A Java DSL for synchronizing asynchronous operations",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3a0bc68ee618aae24501e12209f3a42e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "175a16f730f6b840622b5c1169a6a88b3823b5f8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "456dac7ddfe2736f031d04761db29308641dcbda02814efb97391b2a1dbc1469"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "65fa229e6f1f6bbf2fd71ba5f6fe81fc8af353be2643e4933fab4f65c5db6e31c82a26b06f7b5754408295459d3185273bf5171868aa543ff2ff0a6c06e17baf"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f709128ba6760af94f81624bb86ed31b8b855e5d4a5b11095e8a73211a67cd419748b44a61dcc80b0b1f4d13649c404d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "13d1a38b2125290e7c044f4b87dea0e30044939b2c270742dba0c02409b2c8ceafcd94953d94ccbf8075a870d30f494b"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "e823d31ea34f170ce28d7862ba750d75be294ae1772d683b0a69a822861bb75d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "f0ae85ec704eb193c349186386c1f0aa309eaed91de71abbf60888dec1b5d7cf4970db0f7853e0d0c56d5085f7baee077e07d9b6d6a58bf0dee61df439f3f640"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.jayway.awaitility/awaitility@1.6.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.jayway.awaitility/awaitility@1.6.2?type=jar"
+    },
+    {
+      "group": "org.hamcrest",
+      "name": "hamcrest-library",
+      "version": "1.3",
+      "description": "Hamcrest library of matcher implementations.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "110ad2ea84f7031a1798648b6b318e79"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4785a3c21320980282f9f33d0d1264a69040538f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "711d64522f9ec410983bd310934296da134be4254a125080a0416ec178dfad1c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6d70f03c36c682812a4b499f911f4fa12bac2461c4e391e7dd956e11f76ca0ac960c39e473ad45341e1f1e7113aac231a9faa1e921d50ff4d770e0f0bca75a4c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "a9f2da31035c0efbeccc5577c75a6bbd985d43dbe7112ca29543d9f29d68337170f585a08fb2a6d55c077abcf1c8dee0"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "c19a39310b371acc07563915b2c472c0687be09c16e87dcc983cad3921163d510503ee94cf352e061cca301910c1bf4e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "859e3796a64506c8f97d459db1631a7da575eef3d4fd288e591c7634c8160e41"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "2b01ba83734251bf1b2c8dd2e1982af2f6a3ee9d6c51d8830d781b5424cc2897a598768660fa56aeba04d1c9aa2292d1d3cbcf3537f207d33d4a277a3e86cf63"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hamcrest/hamcrest-library@1.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-library@1.3?type=jar"
+    },
+    {
+      "group": "org.hamcrest",
+      "name": "hamcrest-core",
+      "version": "1.3",
+      "description": "This is the core API of hamcrest matcher framework to be used by third-party framework providers. This includes the a foundation set of matcher implementations for common operations.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6393363b47ddcbba82321110c3e07519"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "42a25dc3219429f0e5d060061f71acb49bf010a0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e237ae735aac4fa5a7253ec693191f42ef7ddce384c11d29fbf605981c0be077d086757409acad53cb5b9e53d86a07cc428d459ff0f5b00d32a8cbbca390be49"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4b5297d2a12cc32b824153afc83f1ba9f1869ca288330f0a2f759659d09e4c420eb6ba4a1efbfa0657b625edd41293d5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b14d34985c0a78cf0ba19b5a18bffd403e08adcb2afde228ddef6e16121c7046dbebf58c04d3419311c4496c48aa93be"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f679af77deedf69b3c3066f7916583848c6fd32a950f9c0b0e2ef1da121717ba"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "bca821931e438a1977b7b4356b5f8cebf485634f82159d505c48267c34e6a0f4fde9c2917331365f66dc0e52e2ca3a2db5256863584110c27ecebefc28741f63"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+    },
+    {
+      "group": "cglib",
+      "name": "cglib-nodep",
+      "version": "3.1",
+      "description": "Code generation library with shaded ASM dependecies",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "92498b62ac5d9cbdf18b147f52cf6ecb"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "aa83efbd1aedc4f26bdf00e7ea78191483f2c9b3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3a9ab1f5de15b49dedc7e96d35363c4c43a2b2cd42275f5d4731846042f3fcf2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8519d879fe7cbf0b0ceaf6270b7d4afaba467e40a5fb32c23b66ba0c2cb4e63f64ce930b80e4eac3466897f32d9fb86cb6d121c04f3342d8e381c781cc16f5c9"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "62a3b91d61650da69ec93d577cba6777754e0f23435e00aed37fc4d2ed9d88485afac28b08d26556fdef02aba45261c7"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "32a8b29a14306371705e6db48c01e1b912c7eeb8df45626c60269a0dd6c0762a41760ca783c006afd4d6a59cde1e1b6d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "946d8e894d30447ddc3c14c20cccd6207966a4a598ab4998cdfd10037458439a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d32f133698cb4ad9083f8083f196560cb0967301eebe350ca48b219bb6af2cb60159bca155ed76cf351e1b5190a0d82dcbe8a1631854ff46dc38a761aaad500f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/cglib/cglib-nodep@3.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/cglib/cglib-nodep@3.1?type=jar"
+    },
+    {
+      "publisher": "Joe Walnes, Henri Tremblay, Leonardo Mesquita",
+      "group": "org.objenesis",
+      "name": "objenesis",
+      "version": "2.1",
+      "description": "A library for instantiating Java objects",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "32ccb1d20a42b5aaaceb90c9082a2efa"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "87c0ea803b69252868d09308b4618f766f135a96"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c74330cc6b806c804fd37e74487b4fe5d7c2750c5e15fbc6efa13bdee1bdef80"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1dec9ee30812b8006e536a2749c5781ccdc4b446539efb6fa534f22e70562033876bf2eb22c6946d617695729bd65f0f65b984f15f05ac63db5bed215e74427c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "657b8a3b80a5475f198425396f7264301f9e0f3ad5dc336ef0c7b46874f5544861a8a2fd48cdb5f672e199a6935c19d1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e526937d722aad1857869b2d2a0ba5c88815609308c00b776b51614e501de5d93d54978f5bb9cf496bdcc28b1dbd5775"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "436cfbb9c208dd03c951708fa4ba6525e2a0b26a873d594a6fbe93ab49082c97"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "1e7ee9411df7cfbf0669c38e4ef029155dd718b91db1d182841c740caf8c1057ed273a77f8e32d724c48aaf96815a26ab099c776511ffc5ef351d70ebfa70344"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.objenesis/objenesis@2.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.objenesis/objenesis@2.1?type=jar"
+    },
+    {
+      "publisher": "JUnit",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.13.1",
+      "description": "JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "83d91f209ddcb104776fa41c448c7ee2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cdd00374f1fee76b11e2a9d127405aa3f6be5b6a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c30719db974d6452793fe191b3638a5777005485bae145924044530ffa5f6122"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "29769fb462c7db2fcca6de3a24b445ae252a7570950f9a2163e14c478f854e47056444d90b2d40f4cf4e3f37c03faacf694c2db12763e173c44362af50176b1f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f98da9852bdc5fc022399a85c1fa234ba80d3bf8f492034971175f70464cd9f2d08d65954f92f33ae250050d9f5ae160"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "79a11e53c134bf2a6fcffd64b1371bacdcbda3eff96094970a5123fb9eaca195044313a647ed7bfa21c0ef9f36994bd2"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2c44fd3ad2e0e1f2f5ce27f9efd357cecdeb38d074ac8bb23fbd7be683c53e99"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c34310659381936cf3f16a58f90372a2a3829e020889a7cab118127e6c96e5dc120f350a89d56abfffbfe1862aca51e8e419f48429fb8e5ea3a54f0b3ef809c2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0",
+            "url": "http://www.eclipse.org/legal/epl-v10.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/junit/junit@4.13.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/junit/junit@4.13.1?type=jar"
+    },
+    {
+      "publisher": "AssertJ",
+      "group": "org.assertj",
+      "name": "assertj-core",
+      "version": "1.6.1",
+      "description": "Rich and fluent assertions for testing",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "94676f51cd2bad86bda8e5067f67553e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5db13d0ae30dca5157f0dea60f78640cf039cafe"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "969914dcc6771f0f5ebc5607c2245d88cabc9699e82bba10723ad196d04410b3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "04f6e55f4d40353bac065bc456ecb9a6c83a143efba0a29f9eff23bd8054bbc2a1cd3936b4d74ccfc4d11a4d9acb3b5c3d43702692032b45e4f853e56fc24ae2"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "186b87dbc3734d9db1ec3f9064f8e9034ba2ece3f1f5d9e0d01967315ebc7569008a4992bde60cd1bb1903c2be9ba642"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "43c38a528b3a3247a58ae0646825746d8bdac5b01d64cc98ce85c6bc305d4fdf0bc886d660705b5c2c4bbcb4bdfdb62a"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "02b0924f78bbc754ed37b948aac330a3c73a21ad92eaa53cb6ee6d1dfae013b2"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "ffcdb01c5c6f81282fc369fecacb01760f66441d2f982d4df8981620c4b1f89b79b59a3e7594ffa3918feff0ef388ea87e49841fe812302ff7f5af7d437b67b7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.assertj/assertj-core@1.6.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.assertj/assertj-core@1.6.1?type=jar"
+    },
+    {
+      "publisher": "OFFIS, Tammo Freese, Henri Tremblay",
+      "group": "org.easymock",
+      "name": "easymock",
+      "version": "3.2",
+      "description": "EasyMock provides an easy way to create Mock Objects for interfaces and classes generating them on the fly",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0da4291328e18798621c36fdf8bc4c3a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "00c82f7fa3ef377d8954b1db25123944b5af2ba4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b3dd1cf5019f942d8cc2afad0aa6aef4b21532446fe90a6b68d567e3389763dd"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "15464388a9f66aa55a046f27bc4e35b1dae65639532f72ce988e7790a0698f69af69de7fed5b2be9286b65e1e3d48c37b9f6982f9ebb7b26b98a717daeec276a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f6597f8e57b6ddb9f7ddd945624a506c82cd01fd2293b0d45020ff2cc0287a77e2bbc8773b977ba90a98239aa436c945"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ab4e58f40bf62b96317531054f0f9f8d9ede7d29094556ac035785b08e16fc95409b28de7355a16b7444bf9649c9e5d4"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c4f05a4ae9488c31221e638f8d7a9cff4d7d836b3e5c77edba322bae2a21f097"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "442543c4b4e9e7dd94da788c9e2caff6d246ddb609f38616985776e594fa7dcd061057a3c9cd0d24ae83876f597653d97230e48869894139b64ae814234c6f56"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.easymock/easymock@3.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.easymock/easymock@3.2?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/com.github.sarxos/webcam-capture@0.3.13-SNAPSHOT?type=bundle",
+      "dependsOn": [
+        "pkg:maven/ch.qos.logback/logback-classic@1.0.9?type=jar",
+        "pkg:maven/com.jayway.awaitility/awaitility@1.6.2?type=jar",
+        "pkg:maven/com.nativelibs4java/bridj@0.7.0?type=jar",
+        "pkg:maven/junit/junit@4.13.1?type=jar",
+        "pkg:maven/org.assertj/assertj-core@1.6.1?type=jar",
+        "pkg:maven/org.easymock/easymock@3.2?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.nativelibs4java/bridj@0.7.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/ch.qos.logback/logback-classic@1.0.9?type=jar",
+      "dependsOn": [
+        "pkg:maven/ch.qos.logback/logback-core@1.0.9?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/ch.qos.logback/logback-core@1.0.9?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.jayway.awaitility/awaitility@1.6.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/cglib/cglib-nodep@3.1?type=jar",
+        "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+        "pkg:maven/org.hamcrest/hamcrest-library@1.3?type=jar",
+        "pkg:maven/org.objenesis/objenesis@2.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.hamcrest/hamcrest-library@1.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/cglib/cglib-nodep@3.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.objenesis/objenesis@2.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/junit/junit@4.13.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.assertj/assertj-core@1.6.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.easymock/easymock@3.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/cglib/cglib-nodep@3.1?type=jar",
+        "pkg:maven/org.objenesis/objenesis@2.1?type=jar"
+      ]
+    }
+  ]
+}

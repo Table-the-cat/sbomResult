@@ -1,0 +1,47 @@
+{
+  "name": "mvn-build",
+  "number": "1",
+  "agent": {},
+  "buildAgent": {
+    "name": "GENERIC"
+  },
+  "modules": [
+    {
+      "type": "maven",
+      "properties": {
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "project.build.sourceEncoding": "UTF-8",
+        "version.file": "src/main/java/org/jhiccup/Version.java",
+        "version.template.file": "src/main/java/org/jhiccup/Version.java.template"
+      },
+      "id": "org.jhiccup:jHiccup:2.0.11-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "jHiccup-2.0.11-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "org/jhiccup/jHiccup/2.0.11-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "org.hdrhistogram:HdrHistogram:2.1.12",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.jhiccup:jHiccup:2.0.11-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6eb7552156e0d517ae80cc2247be1427c8d90452",
+          "md5": "4b1acf3448b750cb485da7e37384fcd8",
+          "sha256": "9b47fbae444feaac4b7e04f0ea294569e4bc282bc69d8c2ce2ac3f23577281e2"
+        }
+      ]
+    }
+  ],
+  "started": "2024-02-12T15:59:46.087+0800"
+}

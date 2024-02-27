@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:557978b7-b629-4c2a-905f-80bfa883cadb" version="1">
+    <metadata>
+        <timestamp>2024-02-22T10:42:10.004003700Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>OpenRewrite</vendor>
+                <name>OpenRewrite CycloneDX</name>
+                <version>7.18.0</version>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/org.apache.tika/tika-core@3.0.0-SNAPSHOT?type=bundle" type="library">
+            <group>org.apache.tika</group>
+            <name>tika-core</name>
+            <version>3.0.0-SNAPSHOT</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.tika/tika-core@3.0.0-SNAPSHOT?type=bundle</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar" type="library">
+            <group>org.slf4j</group>
+            <name>slf4j-api</name>
+            <version>2.0.9</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/commons-io/commons-io@2.14.0?type=jar" type="library">
+            <group>commons-io</group>
+            <name>commons-io</name>
+            <version>2.14.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/commons-io/commons-io@2.14.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.osgi/org.osgi.core@6.0.0?type=jar" type="library">
+            <group>org.osgi</group>
+            <name>org.osgi.core</name>
+            <version>6.0.0</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.osgi/org.osgi.core@6.0.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.osgi/org.osgi.compendium@5.0.0?type=jar" type="library">
+            <group>org.osgi</group>
+            <name>org.osgi.compendium</name>
+            <version>5.0.0</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.osgi/org.osgi.compendium@5.0.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/biz.aQute.bnd/biz.aQute.bndlib@6.4.1?type=jar" type="library">
+            <group>biz.aQute.bnd</group>
+            <name>biz.aQute.bndlib</name>
+            <version>6.4.1</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <name>(Apache-2.0 OR EPL-2.0)</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/biz.aQute.bnd/biz.aQute.bndlib@6.4.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.osgi/org.osgi.dto@1.0.0?type=jar" type="library">
+            <group>org.osgi</group>
+            <name>org.osgi.dto</name>
+            <version>1.0.0</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.osgi/org.osgi.dto@1.0.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.osgi/org.osgi.resource@1.0.0?type=jar" type="library">
+            <group>org.osgi</group>
+            <name>org.osgi.resource</name>
+            <version>1.0.0</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.osgi/org.osgi.resource@1.0.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.osgi/org.osgi.framework@1.8.0?type=jar" type="library">
+            <group>org.osgi</group>
+            <name>org.osgi.framework</name>
+            <version>1.8.0</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.osgi/org.osgi.framework@1.8.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.osgi/org.osgi.util.tracker@1.5.4?type=jar" type="library">
+            <group>org.osgi</group>
+            <name>org.osgi.util.tracker</name>
+            <version>1.5.4</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache-2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.osgi/org.osgi.util.tracker@1.5.4?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.osgi/org.osgi.service.log@1.3.0?type=jar" type="library">
+            <group>org.osgi</group>
+            <name>org.osgi.service.log</name>
+            <version>1.3.0</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.osgi/org.osgi.service.log@1.3.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.osgi/org.osgi.service.repository@1.1.0?type=jar" type="library">
+            <group>org.osgi</group>
+            <name>org.osgi.service.repository</name>
+            <version>1.1.0</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.osgi/org.osgi.service.repository@1.1.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.osgi/org.osgi.util.function@1.2.0?type=jar" type="library">
+            <group>org.osgi</group>
+            <name>org.osgi.util.function</name>
+            <version>1.2.0</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache-2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.osgi/org.osgi.util.function@1.2.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.osgi/org.osgi.util.promise@1.2.0?type=jar" type="library">
+            <group>org.osgi</group>
+            <name>org.osgi.util.promise</name>
+            <version>1.2.0</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache-2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.osgi/org.osgi.util.promise@1.2.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/biz.aQute.bnd/biz.aQute.bnd.util@6.4.1?type=jar" type="library">
+            <group>biz.aQute.bnd</group>
+            <name>biz.aQute.bnd.util</name>
+            <version>6.4.1</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <name>(Apache-2.0 OR EPL-2.0)</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/biz.aQute.bnd/biz.aQute.bnd.util@6.4.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.osgi/osgi.annotation@8.0.1?type=jar" type="library">
+            <group>org.osgi</group>
+            <name>osgi.annotation</name>
+            <version>8.0.1</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache-2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.osgi/osgi.annotation@8.0.1?type=jar</purl>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/commons-io/commons-io@2.14.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.osgi/org.osgi.core@6.0.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.osgi/org.osgi.compendium@5.0.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/biz.aQute.bnd/biz.aQute.bndlib@6.4.1?type=jar">
+            <dependency ref="pkg:maven/org.osgi/org.osgi.dto@1.0.0?type=jar"/>
+            <dependency ref="pkg:maven/org.osgi/org.osgi.resource@1.0.0?type=jar"/>
+            <dependency ref="pkg:maven/org.osgi/org.osgi.framework@1.8.0?type=jar"/>
+            <dependency ref="pkg:maven/org.osgi/org.osgi.util.tracker@1.5.4?type=jar"/>
+            <dependency ref="pkg:maven/org.osgi/org.osgi.service.log@1.3.0?type=jar"/>
+            <dependency ref="pkg:maven/org.osgi/org.osgi.service.repository@1.1.0?type=jar"/>
+            <dependency ref="pkg:maven/org.osgi/org.osgi.util.function@1.2.0?type=jar"/>
+            <dependency ref="pkg:maven/org.osgi/org.osgi.util.promise@1.2.0?type=jar"/>
+            <dependency ref="pkg:maven/biz.aQute.bnd/biz.aQute.bnd.util@6.4.1?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.osgi/org.osgi.dto@1.0.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.osgi/org.osgi.resource@1.0.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.osgi/org.osgi.framework@1.8.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.osgi/org.osgi.util.tracker@1.5.4?type=jar">
+            <dependency ref="pkg:maven/org.osgi/osgi.annotation@8.0.1?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.osgi/org.osgi.service.log@1.3.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.osgi/org.osgi.service.repository@1.1.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.osgi/org.osgi.util.function@1.2.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.osgi/org.osgi.util.promise@1.2.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/biz.aQute.bnd/biz.aQute.bnd.util@6.4.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.osgi/osgi.annotation@8.0.1?type=jar">
+        </dependency>
+    </dependencies>
+</bom>

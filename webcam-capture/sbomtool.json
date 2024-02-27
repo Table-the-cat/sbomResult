@@ -1,0 +1,776 @@
+{
+  "dependencyGraphs": {
+    "D:\\Work\\SBOM\\TestProjects\\webcam-capture\\webcam-capture\\pom.xml": {
+      "graph": {
+        "org.hamcrest hamcrest-library 1.3 - Maven": null,
+        "org.objenesis objenesis 2.1 - Maven": null,
+        "junit junit 4.13.1 - Maven": null,
+        "com.nativelibs4java bridj 0.7.0 - Maven": null,
+        "org.easymock easymock 3.2 - Maven": null,
+        "org.hamcrest hamcrest-core 1.3 - Maven": null,
+        "ch.qos.logback logback-classic 1.0.9 - Maven": [
+          "ch.qos.logback logback-core 1.0.9 - Maven"
+        ],
+        "ch.qos.logback logback-core 1.0.9 - Maven": null,
+        "org.assertj assertj-core 1.6.1 - Maven": null,
+        "com.jayway.awaitility awaitility 1.6.2 - Maven": [
+          "org.hamcrest hamcrest-library 1.3 - Maven",
+          "org.hamcrest hamcrest-core 1.3 - Maven",
+          "cglib cglib-nodep 3.1 - Maven",
+          "org.objenesis objenesis 2.1 - Maven"
+        ],
+        "cglib cglib-nodep 3.1 - Maven": null,
+        "org.slf4j slf4j-api 1.7.2 - Maven": null,
+        "com.github.sarxos webcam-capture 0.3.13-SNAPSHOT - Maven": [
+          "com.nativelibs4java bridj 0.7.0 - Maven",
+          "org.slf4j slf4j-api 1.7.2 - Maven",
+          "ch.qos.logback logback-classic 1.0.9 - Maven",
+          "com.jayway.awaitility awaitility 1.6.2 - Maven",
+          "junit junit 4.13.1 - Maven",
+          "org.assertj assertj-core 1.6.1 - Maven",
+          "org.easymock easymock 3.2 - Maven"
+        ]
+      },
+      "explicitlyReferencedComponentIds": [
+        "junit junit 4.13.1 - Maven",
+        "com.nativelibs4java bridj 0.7.0 - Maven",
+        "org.easymock easymock 3.2 - Maven",
+        "ch.qos.logback logback-classic 1.0.9 - Maven",
+        "org.assertj assertj-core 1.6.1 - Maven",
+        "com.jayway.awaitility awaitility 1.6.2 - Maven",
+        "org.slf4j slf4j-api 1.7.2 - Maven"
+      ],
+      "developmentDependencies": [
+        "org.hamcrest hamcrest-library 1.3 - Maven",
+        "org.objenesis objenesis 2.1 - Maven",
+        "junit junit 4.13.1 - Maven",
+        "org.easymock easymock 3.2 - Maven",
+        "org.hamcrest hamcrest-core 1.3 - Maven",
+        "org.assertj assertj-core 1.6.1 - Maven",
+        "com.jayway.awaitility awaitility 1.6.2 - Maven",
+        "cglib cglib-nodep 3.1 - Maven"
+      ],
+      "dependencies": [
+        "com.nativelibs4java bridj 0.7.0 - Maven",
+        "ch.qos.logback logback-classic 1.0.9 - Maven",
+        "ch.qos.logback logback-core 1.0.9 - Maven",
+        "org.slf4j slf4j-api 1.7.2 - Maven"
+      ]
+    }
+  },
+  "componentsFound": [
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.hamcrest",
+        "artifactId": "hamcrest-library",
+        "version": "1.3",
+        "type": "Maven",
+        "id": "org.hamcrest hamcrest-library 1.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.hamcrest",
+          "Name": "hamcrest-library",
+          "Version": "1.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.jayway.awaitility",
+          "artifactId": "awaitility",
+          "version": "1.6.2",
+          "type": "Maven",
+          "id": "com.jayway.awaitility awaitility 1.6.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.jayway.awaitility",
+            "Name": "awaitility",
+            "Version": "1.6.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.objenesis",
+        "artifactId": "objenesis",
+        "version": "2.1",
+        "type": "Maven",
+        "id": "org.objenesis objenesis 2.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.objenesis",
+          "Name": "objenesis",
+          "Version": "2.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.jayway.awaitility",
+          "artifactId": "awaitility",
+          "version": "1.6.2",
+          "type": "Maven",
+          "id": "com.jayway.awaitility awaitility 1.6.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.jayway.awaitility",
+            "Name": "awaitility",
+            "Version": "1.6.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "junit",
+        "artifactId": "junit",
+        "version": "4.13.1",
+        "type": "Maven",
+        "id": "junit junit 4.13.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "junit",
+          "Name": "junit",
+          "Version": "4.13.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "junit",
+          "artifactId": "junit",
+          "version": "4.13.1",
+          "type": "Maven",
+          "id": "junit junit 4.13.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "junit",
+            "Name": "junit",
+            "Version": "4.13.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.nativelibs4java",
+        "artifactId": "bridj",
+        "version": "0.7.0",
+        "type": "Maven",
+        "id": "com.nativelibs4java bridj 0.7.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.nativelibs4java",
+          "Name": "bridj",
+          "Version": "0.7.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.nativelibs4java",
+          "artifactId": "bridj",
+          "version": "0.7.0",
+          "type": "Maven",
+          "id": "com.nativelibs4java bridj 0.7.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.nativelibs4java",
+            "Name": "bridj",
+            "Version": "0.7.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.easymock",
+        "artifactId": "easymock",
+        "version": "3.2",
+        "type": "Maven",
+        "id": "org.easymock easymock 3.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.easymock",
+          "Name": "easymock",
+          "Version": "3.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.easymock",
+          "artifactId": "easymock",
+          "version": "3.2",
+          "type": "Maven",
+          "id": "org.easymock easymock 3.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.easymock",
+            "Name": "easymock",
+            "Version": "3.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.hamcrest",
+        "artifactId": "hamcrest-core",
+        "version": "1.3",
+        "type": "Maven",
+        "id": "org.hamcrest hamcrest-core 1.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.hamcrest",
+          "Name": "hamcrest-core",
+          "Version": "1.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.jayway.awaitility",
+          "artifactId": "awaitility",
+          "version": "1.6.2",
+          "type": "Maven",
+          "id": "com.jayway.awaitility awaitility 1.6.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.jayway.awaitility",
+            "Name": "awaitility",
+            "Version": "1.6.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "ch.qos.logback",
+        "artifactId": "logback-classic",
+        "version": "1.0.9",
+        "type": "Maven",
+        "id": "ch.qos.logback logback-classic 1.0.9 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "ch.qos.logback",
+          "Name": "logback-classic",
+          "Version": "1.0.9",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenProvided",
+      "topLevelReferrers": [
+        {
+          "groupId": "ch.qos.logback",
+          "artifactId": "logback-classic",
+          "version": "1.0.9",
+          "type": "Maven",
+          "id": "ch.qos.logback logback-classic 1.0.9 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "ch.qos.logback",
+            "Name": "logback-classic",
+            "Version": "1.0.9",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "ch.qos.logback",
+        "artifactId": "logback-core",
+        "version": "1.0.9",
+        "type": "Maven",
+        "id": "ch.qos.logback logback-core 1.0.9 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "ch.qos.logback",
+          "Name": "logback-core",
+          "Version": "1.0.9",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenProvided",
+      "topLevelReferrers": [
+        {
+          "groupId": "ch.qos.logback",
+          "artifactId": "logback-classic",
+          "version": "1.0.9",
+          "type": "Maven",
+          "id": "ch.qos.logback logback-classic 1.0.9 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "ch.qos.logback",
+            "Name": "logback-classic",
+            "Version": "1.0.9",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.assertj",
+        "artifactId": "assertj-core",
+        "version": "1.6.1",
+        "type": "Maven",
+        "id": "org.assertj assertj-core 1.6.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.assertj",
+          "Name": "assertj-core",
+          "Version": "1.6.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.assertj",
+          "artifactId": "assertj-core",
+          "version": "1.6.1",
+          "type": "Maven",
+          "id": "org.assertj assertj-core 1.6.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.assertj",
+            "Name": "assertj-core",
+            "Version": "1.6.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.jayway.awaitility",
+        "artifactId": "awaitility",
+        "version": "1.6.2",
+        "type": "Maven",
+        "id": "com.jayway.awaitility awaitility 1.6.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.jayway.awaitility",
+          "Name": "awaitility",
+          "Version": "1.6.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.jayway.awaitility",
+          "artifactId": "awaitility",
+          "version": "1.6.2",
+          "type": "Maven",
+          "id": "com.jayway.awaitility awaitility 1.6.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.jayway.awaitility",
+            "Name": "awaitility",
+            "Version": "1.6.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "cglib",
+        "artifactId": "cglib-nodep",
+        "version": "3.1",
+        "type": "Maven",
+        "id": "cglib cglib-nodep 3.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "cglib",
+          "Name": "cglib-nodep",
+          "Version": "3.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.jayway.awaitility",
+          "artifactId": "awaitility",
+          "version": "1.6.2",
+          "type": "Maven",
+          "id": "com.jayway.awaitility awaitility 1.6.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.jayway.awaitility",
+            "Name": "awaitility",
+            "Version": "1.6.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.slf4j",
+        "artifactId": "slf4j-api",
+        "version": "1.7.2",
+        "type": "Maven",
+        "id": "org.slf4j slf4j-api 1.7.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.slf4j",
+          "Name": "slf4j-api",
+          "Version": "1.7.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-api",
+          "version": "1.7.2",
+          "type": "Maven",
+          "id": "org.slf4j slf4j-api 1.7.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.slf4j",
+            "Name": "slf4j-api",
+            "Version": "1.7.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.github.sarxos",
+        "artifactId": "webcam-capture",
+        "version": "0.3.13-SNAPSHOT",
+        "type": "Maven",
+        "id": "com.github.sarxos webcam-capture 0.3.13-SNAPSHOT - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.github.sarxos",
+          "Name": "webcam-capture",
+          "Version": "0.3.13-SNAPSHOT",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": null,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    }
+  ],
+  "detectorsInScan": [
+    {
+      "detectorId": "Yarn",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Vcpkg",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Vcpkg"
+      ]
+    },
+    {
+      "detectorId": "RustCrateDetector",
+      "isExperimental": false,
+      "version": 8,
+      "supportedComponentTypes": [
+        "Cargo"
+      ]
+    },
+    {
+      "detectorId": "Ruby",
+      "isExperimental": false,
+      "version": 3,
+      "supportedComponentTypes": [
+        "RubyGems"
+      ]
+    },
+    {
+      "detectorId": "Poetry",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "Pnpm",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Pip",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "NuGet",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetPackagesConfig",
+      "isExperimental": true,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetProjectCentric",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "Npm",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "NpmWithRoots",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "MvnCli",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Linux",
+      "isExperimental": false,
+      "version": 4,
+      "supportedComponentTypes": [
+        "Linux"
+      ]
+    },
+    {
+      "detectorId": "Ivy",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Gradle",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Go",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Go"
+      ]
+    },
+    {
+      "detectorId": "CocoaPods",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pod",
+        "Git"
+      ]
+    },
+    {
+      "detectorId": "SPDX22SBOM",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "Spdx"
+      ]
+    }
+  ],
+  "containerDetailsMap": {},
+  "resultCode": "Success",
+  "sourceDirectory": "D:\\Work\\SBOM\\TestProjects\\webcam-capture\\webcam-capture"
+}

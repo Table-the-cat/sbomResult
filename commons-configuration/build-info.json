@@ -1,0 +1,1198 @@
+{
+  "name": "mvn-build",
+  "number": "1",
+  "agent": {},
+  "buildAgent": {
+    "name": "GENERIC"
+  },
+  "modules": [
+    {
+      "type": "maven",
+      "properties": {
+        "assembly.tarLongFileMode": "posix",
+        "changes.announcementDirectory": ".",
+        "changes.announcementFile": "RELEASE-NOTES.txt",
+        "commons.animal-sniffer.signature.version": "1.0",
+        "commons.animal-sniffer.version": "1.20",
+        "commons.assembly-plugin.version": "3.6.0",
+        "commons.bc.version": "2.8.0",
+        "commons.binary.suffix": "-bin",
+        "commons.biz.aQute.bndlib.version": "6.4.1",
+        "commons.build-helper.version": "3.4.0",
+        "commons.build-plugin.version": "1.13",
+        "commons.buildnumber-plugin.version": "3.2.0",
+        "commons.changes.maxEntries": "100",
+        "commons.changes.onlyCurrentVersion": "false",
+        "commons.changes.runOnlyAtExecutionRoot": "false",
+        "commons.changes.version": "2.12.1",
+        "commons.checkstyle-plugin.version": "3.3.0",
+        "commons.checkstyle.version": "10.12.4",
+        "commons.cobertura.version": "2.7",
+        "commons.compiler.compilerVersion": "",
+        "commons.compiler.fork": "false",
+        "commons.compiler.javac": "",
+        "commons.compiler.javadoc": "",
+        "commons.compiler.release": "8",
+        "commons.compiler.version": "3.11.0",
+        "commons.componentid": "configuration",
+        "commons.conf.dir": "src/conf",
+        "commons.cyclonedx.version": "2.7.9",
+        "commons.deployment.protocol": "scp",
+        "commons.distSvnStagingUrl": "scm:svn:https://dist.apache.org/repos/dist/dev/commons/configuration",
+        "commons.docEncoding": "iso-8859-1",
+        "commons.encoding": "iso-8859-1",
+        "commons.failsafe.version": "3.1.2",
+        "commons.felix.version": "5.1.9",
+        "commons.jacoco.branchRatio": "0.85",
+        "commons.jacoco.classRatio": "1.00",
+        "commons.jacoco.complexityRatio": "0.85",
+        "commons.jacoco.haltOnFailure": "false",
+        "commons.jacoco.instructionRatio": "0.90",
+        "commons.jacoco.lineRatio": "0.90",
+        "commons.jacoco.methodRatio": "0.95",
+        "commons.jacoco.version": "0.8.10",
+        "commons.japicmp.breakBuildOnBinaryIncompatibleModifications": "true",
+        "commons.japicmp.breakBuildOnSourceIncompatibleModifications": "false",
+        "commons.japicmp.ignoreMissingClasses": "false",
+        "commons.japicmp.version": "0.18.1",
+        "commons.jar-plugin.version": "3.3.0",
+        "commons.javadoc.java.link": "https://docs.oracle.com/javase/8/docs/api/",
+        "commons.javadoc.javaee.link": "https://docs.oracle.com/javaee/6/api/",
+        "commons.javadoc.javaee10.link": "https://jakarta.ee/specifications/platform/10/apidocs/",
+        "commons.javadoc.javaee5.link": "https://docs.oracle.com/javaee/5/api/",
+        "commons.javadoc.javaee6.link": "https://docs.oracle.com/javaee/6/api/",
+        "commons.javadoc.javaee7.link": "https://docs.oracle.com/javaee/7/api/",
+        "commons.javadoc.javaee8.link": "https://jakarta.ee/specifications/platform/8/apidocs/",
+        "commons.javadoc.javaee9.1.link": "https://jakarta.ee/specifications/platform/9.1/apidocs/",
+        "commons.javadoc.javaee9.link": "https://jakarta.ee/specifications/platform/9/apidocs/",
+        "commons.javadoc.version": "3.6.0",
+        "commons.javadoc10.java.link": "https://docs.oracle.com/javase/10/docs/api/",
+        "commons.javadoc11.java.link": "https://docs.oracle.com/en/java/javase/11/docs/api/",
+        "commons.javadoc12.java.link": "https://docs.oracle.com/en/java/javase/12/docs/api/",
+        "commons.javadoc13.java.link": "https://docs.oracle.com/en/java/javase/13/docs/api/",
+        "commons.javadoc14.java.link": "https://docs.oracle.com/en/java/javase/14/docs/api/",
+        "commons.javadoc15.java.link": "https://docs.oracle.com/en/java/javase/15/docs/api/",
+        "commons.javadoc16.java.link": "https://docs.oracle.com/en/java/javase/16/docs/api/",
+        "commons.javadoc17.java.link": "https://docs.oracle.com/en/java/javase/17/docs/api/",
+        "commons.javadoc18.java.link": "https://docs.oracle.com/en/java/javase/18/docs/api/",
+        "commons.javadoc19.java.link": "https://docs.oracle.com/en/java/javase/19/docs/api/",
+        "commons.javadoc20.java.link": "https://docs.oracle.com/en/java/javase/20/docs/api/",
+        "commons.javadoc6.java.link": "https://docs.oracle.com/javase/6/docs/api/",
+        "commons.javadoc7.java.link": "https://docs.oracle.com/javase/7/docs/api/",
+        "commons.javadoc8.java.link": "https://docs.oracle.com/javase/8/docs/api/",
+        "commons.javadoc9.java.link": "https://docs.oracle.com/javase/9/docs/api/",
+        "commons.jira.id": "CONFIGURATION",
+        "commons.jira.pid": "12310467",
+        "commons.junit.version": "5.10.0",
+        "commons.jxr.version": "3.3.0",
+        "commons.manifestfile": "D:\\Work\\SBOM\\TestProjects\\commons-configuration\\target/osgi/MANIFEST.MF",
+        "commons.moditect-maven-plugin.addServiceUses": "true",
+        "commons.moditect-maven-plugin.version": "1.0.0.Final",
+        "commons.module.name": "org.apache.commons.configuration2",
+        "commons.osgi.dynamicImport": "",
+        "commons.osgi.excludeDependencies": "true",
+        "commons.osgi.export": "org.apache.commons.*;version=2.9.1-SNAPSHOT;-noimport:=true",
+        "commons.osgi.import": "org.apache.commons.beanutils.*;resolution:=optional,\n      org.apache.commons.codec.*;resolution:=optional,\n      org.apache.commons.jxpath.*;resolution:=optional,\n      org.apache.xml.resolver.*;resolution:=optional,\n      javax.servlet.*;resolution:=optional,\n      org.apache.commons.jexl2.*;resolution:=optional,\n      org.apache.commons.vfs2.*;resolution:=optional,\n      org.springframework.*;resolution:=optional,\n      com.fasterxml.jackson.*;resolution:=optional,\n      org.yaml.snakeyaml.*;resolution:=optional,\n      *",
+        "commons.osgi.private": "",
+        "commons.osgi.symbolicName": "org.apache.commons.commons-configuration2",
+        "commons.packageId": "commons-configuration2",
+        "commons.pmd-impl.version": "6.55.0",
+        "commons.pmd.version": "3.21.0",
+        "commons.project-info.version": "3.4.5",
+        "commons.rat.version": "0.15",
+        "commons.rc.version": "RC1",
+        "commons.release-plugin.version": "1.8.1",
+        "commons.release.2.binary.suffix": "-bin",
+        "commons.release.2.desc": "(old 1.x version)",
+        "commons.release.2.name": "commons-configuration-1.10",
+        "commons.release.2.version": "1.10",
+        "commons.release.3.binary.suffix": "-bin",
+        "commons.release.3.desc": "",
+        "commons.release.3.name": "commons-configuration2-${commons.release.3.version}",
+        "commons.release.4.binary.suffix": "-bin",
+        "commons.release.4.desc": "",
+        "commons.release.desc": "(Java 8)",
+        "commons.release.isDistModule": "true",
+        "commons.release.name": "commons-configuration2-2.9.0",
+        "commons.release.next": "65",
+        "commons.release.version": "2.9.0",
+        "commons.scm-publish.version": "1.1",
+        "commons.scmPubCheckoutDirectory": "C:\\Users\\29798/commons-sites/configuration",
+        "commons.scmPubServer": "commons.site",
+        "commons.scmPubUrl": "https://svn.apache.org/repos/infra/websites/production/commons/content/proper/commons-configuration",
+        "commons.site-plugin.version": "3.10.0",
+        "commons.site.cache": "C:\\Users\\29798/commons-sites",
+        "commons.site.path": "configuration",
+        "commons.spdx.version": "0.7.0",
+        "commons.spotbugs.impl.version": "4.7.3",
+        "commons.spotbugs.plugin.version": "4.7.3.6",
+        "commons.surefire-report.aggregate": "false",
+        "commons.surefire-report.version": "3.1.2",
+        "commons.surefire.version": "3.1.2",
+        "commons.wagon-ssh.version": "3.5.3",
+        "distMgmtReleasesName": "Apache Release Distribution Repository",
+        "distMgmtReleasesUrl": "https://repository.apache.org/service/local/staging/deploy/maven2",
+        "distMgmtSnapshotsName": "Apache Development Snapshot Repository",
+        "distMgmtSnapshotsUrl": "https://repository.apache.org/content/repositories/snapshots",
+        "formattedVersion.buildNumber": "00",
+        "formattedVersion.incrementalVersion": "00",
+        "formattedVersion.majorVersion": "01",
+        "formattedVersion.minorVersion": "08",
+        "formattedVersion.nextBuildNumber": "01",
+        "formattedVersion.nextIncrementalVersion": "01",
+        "formattedVersion.nextMajorVersion": "02",
+        "formattedVersion.nextMinorVersion": "09",
+        "gpg.useagent": "true",
+        "japicmp.skip": "false",
+        "javaTarget.buildNumber": "0",
+        "javaTarget.incrementalVersion": "0",
+        "javaTarget.majorVersion": "1",
+        "javaTarget.minorVersion": "8",
+        "javaTarget.nextBuildNumber": "1",
+        "javaTarget.nextIncrementalVersion": "1",
+        "javaTarget.nextMajorVersion": "2",
+        "javaTarget.nextMinorVersion": "9",
+        "javaTarget.osgiVersion": "1.8.0",
+        "javaTarget.qualifier": "",
+        "javaTarget.qualifier?": "",
+        "log4j.version": "2.20.0",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.release": "8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "maven.plugin.tools.version": "3.9.0",
+        "minSeverity": "info",
+        "minimalJavaBuildVersion": "8",
+        "minimalMavenBuildVersion": "3.6.3",
+        "moditect.java.version": "9",
+        "organization.logo": "https://www.apache.org/images/asf_logo_wide_2016.png",
+        "project.build.outputTimestamp": "2023-10-06T14:12:42Z",
+        "project.build.sourceEncoding": "iso-8859-1",
+        "project.reporting.outputEncoding": "iso-8859-1",
+        "scmBranch": "master",
+        "slf4j.version": "2.0.9",
+        "sonar.host.url": "https://analysis.apache.org/",
+        "sourceReleaseAssemblyDescriptor": "source-release",
+        "spring.version": "5.3.30",
+        "surefire.version": "3.1.2",
+        "timestamp": "1707498095047",
+        "version.apache-rat-plugin": "0.15",
+        "version.apache-resource-bundles": "1.5",
+        "version.checksum-maven-plugin": "1.11",
+        "version.maven-antrun-plugin": "3.1.0",
+        "version.maven-assembly-plugin": "3.6.0",
+        "version.maven-clean-plugin": "3.2.0",
+        "version.maven-compiler-plugin": "3.11.0",
+        "version.maven-dependency-plugin": "3.6.0",
+        "version.maven-deploy-plugin": "3.1.1",
+        "version.maven-ear-plugin": "3.3.0",
+        "version.maven-enforcer-plugin": "3.3.0",
+        "version.maven-fluido-skin": "1.11.2",
+        "version.maven-gpg-plugin": "3.1.0",
+        "version.maven-help-plugin": "3.4.0",
+        "version.maven-install-plugin": "3.1.1",
+        "version.maven-invoker-plugin": "3.5.1",
+        "version.maven-jar-plugin": "3.3.0",
+        "version.maven-javadoc-plugin": "3.5.0",
+        "version.maven-plugin-tools": "3.9.0",
+        "version.maven-project-info-reports-plugin": "3.4.5",
+        "version.maven-release-plugin": "3.0.1",
+        "version.maven-remote-resources-plugin": "3.1.0",
+        "version.maven-resources-plugin": "3.3.1",
+        "version.maven-scm-plugin": "2.0.1",
+        "version.maven-scm-publish-plugin": "3.2.1",
+        "version.maven-shade-plugin": "3.4.1",
+        "version.maven-site-plugin": "3.12.1",
+        "version.maven-source-plugin": "3.2.1",
+        "version.maven-surefire": "3.1.2",
+        "version.maven-war-plugin": "3.3.2"
+      },
+      "id": "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "commons-configuration2-2.9.1-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "org/apache/commons/commons-configuration2/2.9.1-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "com.oracle.database.ha:ons:19.3.0.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.oracle.database.jdbc:ojdbc8:19.3.0.0",
+              "org.dbunit:dbunit:2.7.3",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "cf3f3ef525c61a27fe9952652a156ddd738b1cd5",
+          "md5": "ac4a31065dcbf2286a46cb68e9f4d1fd",
+          "sha256": "6e3f243700716c4fa2e9ddfaa08c9394ad6fda3a640d3bef03941f7b573df9d7"
+        },
+        {
+          "id": "org.junit.jupiter:junit-jupiter-engine:5.10.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter:5.10.0",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "90587932d718fc51a48112d33045a18476c542ad",
+          "md5": "9b559627f23413bf20f450211f6edcba",
+          "sha256": "57ea48e6f795200791065bbc86b70b84cd05367c5c9f2ac8f9268e27154c88a8"
+        },
+        {
+          "id": "commons-io:commons-io:2.14.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a4c6e1f6c196339473cd2e1b037f0eb97c62755b",
+          "md5": "4259c0bc6078e53a09883b521c1d53af",
+          "sha256": "e35d1df7232568ed4b81d9a9ed94a0159b3ff6cf1915cc21eef5cb55d7b157a2"
+        },
+        {
+          "id": "org.slf4j:slf4j-reload4j:2.0.9",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "dcd3f851b93d7ddc5a5e409a8f3b1254599011fc",
+          "md5": "61e4af1b2ea9e41bfe85e09a82f5fd7c",
+          "sha256": "896b0639a5f0eb1fc42c453bee83ceaf8bbe6cb71b249df124c9645dfd15a0e5"
+        },
+        {
+          "id": "org.junit.jupiter:junit-jupiter-api:5.10.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter:5.10.0",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "2fe4ba3d31d5067878e468c96aa039005a9134d3",
+          "md5": "d976b1d3b22eded7c2e496ea881ed77f",
+          "sha256": "108088fd7ea46a8e65a0ce7f5d75ae3ff7865606770a078715f5a6e5709e17d8"
+        },
+        {
+          "id": "org.slf4j:slf4j-api:2.0.9",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "7cf2726fdcfbc8610f9a71fb3ed639871f315340",
+          "md5": "45630e54b0f0ac2b3c80462515ad8fda",
+          "sha256": "0818930dc8d7debb403204611691da58e49d42c50b6ffcfdce02dadb7c3c2b6c"
+        },
+        {
+          "id": "com.squareup.okio:okio:1.6.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.squareup.okhttp:okhttp:2.7.5",
+              "org.apache.hadoop:hadoop-hdfs-client:3.3.1",
+              "org.apache.commons:commons-vfs2:2.9.0",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "98476622f10715998eacf9240d6b479f12c66143",
+          "md5": "164d1c28c323cf6e2a917d60374c5718",
+          "sha256": "114bdc1f47338a68bcbc95abf2f5cdc72beeec91812f2fcd7b521c1937876266"
+        },
+        {
+          "id": "org.objenesis:objenesis:3.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mockito:mockito-core:4.11.0",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1049c09f1de4331e8193e579448d0916d75b7631",
+          "md5": "ab0e0b2ab81affdd7f38bcc60fd85571",
+          "sha256": "02dfd0b0439a5591e35b708ed2f5474eb0948f53abf74637e959b8e4ef69bfeb"
+        },
+        {
+          "id": "org.mockito:mockito-core:4.11.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ce5226440c2ee78915716d4ce3d10aed2dbf26fb",
+          "md5": "9fe6ed240769c4e568ee331e0d850f90",
+          "sha256": "4b909690cab288c761eb94c0bf0e814496cf3921d8affac84cd87774530351e5"
+        },
+        {
+          "id": "com.oracle.database.security:osdt_cert:19.3.0.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.oracle.database.jdbc:ojdbc8:19.3.0.0",
+              "org.dbunit:dbunit:2.7.3",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c134652fdcb17ff72963d386efd8ade902d2eaff",
+          "md5": "8bde9e2dabea91083a737ab02aed4b73",
+          "sha256": "faa0cca594d354d5bb1f5eac3dafa1568387a27576813a9bd723d6fd8744be8c"
+        },
+        {
+          "id": "org.apache.commons:commons-jexl:2.1.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6ecc181debade00230aa1e17666c4ea0371beaaa",
+          "md5": "4ad8f5c161dd3a50e190334555675db9",
+          "sha256": "03c9a9fae5da78ce52c0bf24467cc37355b7e23196dff4839e2c0ff018a01306"
+        },
+        {
+          "id": "org.apache.commons:commons-dbcp2:2.10.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "f48fe03b03c1bacda7f22d16ce328d7897bc5727",
+          "md5": "6dfe8c8e6b18095d1fa51d59e5276173",
+          "sha256": "d703dc8b5056a83a1d56fa0a9d777c47150c3405a081fa6249a1e7952a0645e2"
+        },
+        {
+          "id": "org.apache.commons:commons-vfs2:2.9.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "48115c2fb1c5f0a2498a4365162d6b69adec73f3",
+          "md5": "beba9c4909dd2799ee95c8e0c280dbf2",
+          "sha256": "266f96b77aa18773191f6992fc7910999bf8ee8a244ec67a3398b486eb726a7f"
+        },
+        {
+          "id": "org.springframework:spring-context:5.3.30",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "f57f929a5e4e3ccfc2efb8fc053245e82cc5c983",
+          "md5": "88b5734c35ee7531fc3f3be7ded96ea0",
+          "sha256": "034af59a0a0fd9de8a80b86f22c735bf53257b9928f9b2253cde0e23d3aa6532"
+        },
+        {
+          "id": "com.oracle.database.security:osdt_core:19.3.0.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.oracle.database.jdbc:ojdbc8:19.3.0.0",
+              "org.dbunit:dbunit:2.7.3",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "2e01c262879c97de876c238966eb1da48542f2e8",
+          "md5": "74366ecfe0555a7ee277d1ce11a4933e",
+          "sha256": "c7a90c07a12e73d03c1edd6a02e699001213e698fe0f5225a2771ccd46ab0b63"
+        },
+        {
+          "id": "org.apache.logging.log4j:log4j-core:2.20.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "eb2a9a47b1396e00b5eee1264296729a70565cc0",
+          "md5": "20bd40d026d35a93fe710acb141e93da",
+          "sha256": "6137df848cdaed9f4d5076f75513c6c85da80b953f4e7acca38098b770763f55"
+        },
+        {
+          "id": "commons-logging:commons-logging:1.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "4bfc12adfe4842bf07b657f0369c4cb522955686",
+          "md5": "040b4b4d8eac886f6b4a2a3bd2f31b00",
+          "sha256": "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636"
+        },
+        {
+          "id": "org.opentest4j:opentest4j:1.3.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter-api:5.10.0",
+              "org.junit.jupiter:junit-jupiter:5.10.0",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "152ea56b3a72f655d4fd677fc0ef2596c3dd5e6e",
+          "md5": "03c404f727531f3fd3b4c73997899327",
+          "sha256": "48e2df636cab6563ced64dcdff8abb2355627cb236ef0bf37598682ddf742f1b"
+        },
+        {
+          "id": "org.springframework:spring-expression:5.3.30",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.springframework:spring-context:5.3.30",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c9165dd27c851fd9b8e4b4547c22261ca83388c0",
+          "md5": "1190a539c0b51b2133998bf6458d9f78",
+          "sha256": "52e2addf68f8c883be78ff1651a6d1c110cba2f43b1834eb1ec180b739f3b4a8"
+        },
+        {
+          "id": "commons-jxpath:commons-jxpath:1.3",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c22d7d0f0f40eb7059a23cfa61773a416768b137",
+          "md5": "61a9aa8ff43ba10853571d57f724bf88",
+          "sha256": "fcbc0ad917d9d6a73c6df21fac322e00d213ef19cd94815a007c407a8a3ff449"
+        },
+        {
+          "id": "com.oracle.database.jdbc:ojdbc8:19.3.0.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.dbunit:dbunit:2.7.3",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "967c0b1a2d5b1435324de34a9b8018d294f8f47b",
+          "md5": "0b2a8e010df63e6feb396287d2ea7dbd",
+          "sha256": "a66d27a14f3adee484427cc4de008af85a5c3e78e2e3285a4dba1277332978a5"
+        },
+        {
+          "id": "org.apache.hadoop:hadoop-hdfs-client:3.3.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-vfs2:2.9.0",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "5ad71520a3632a9b5b2c65f9f53d1c9d80544ee0",
+          "md5": "df16b76d5b2b4c33561e94ae47827637",
+          "sha256": "23e86d658b016394c263f80b8e318f232167a8862a07a3d50e5369175f3e8a58"
+        },
+        {
+          "id": "ch.qos.reload4j:reload4j:1.2.22",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.slf4j:slf4j-reload4j:2.0.9",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "f9d9e55d1072d7a697d2bf06e1847e93635a7cf9",
+          "md5": "53e3301fc57f593f1683da8195364a14",
+          "sha256": "222f90d3e69541218ef6e70547749d693bd4c1846817e5bd7949b3e28950f99f"
+        },
+        {
+          "id": "org.apache.commons:commons-pool2:2.12.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "458563f69fbdaebf7daadfe10dc3a22e42a7de50",
+          "md5": "0516bf5ac1549e8ba78f6b7c49d09ed2",
+          "sha256": "6d3bd18df8410f3e31b031aca582cc109342358a62a2759ebd0c4cdf30d06f8b"
+        },
+        {
+          "id": "org.hsqldb:hsqldb:2.5.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "0d8ec10f8ed2d9ac8c400208f4f78a546b116afe",
+          "md5": "f94c91b0816ab38e387f3de5682ed435",
+          "sha256": "e4aa39c5afb318e8effdec80a0e6de7c9dacc453c1cf7666c515f29a16658dac"
+        },
+        {
+          "id": "jakarta.transaction:jakarta.transaction-api:1.3.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-dbcp2:2.10.0",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b293f31864ccef65cdd24043f3b69dc1ea1a7d98",
+          "md5": "8d73f117126db2439967e52978d22ae8",
+          "sha256": "5a72090b86e5a43fe5ebfaaf78545c7c86fe75afe854c026b7f729886c4930ab"
+        },
+        {
+          "id": "net.bytebuddy:byte-buddy:1.12.19",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mockito:mockito-core:4.11.0",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "178d26e6a95e50502ae16673e08269797f8b254a",
+          "md5": "cc20a18acdf6e02a5650cb2712da27fe",
+          "sha256": "030704139e46f32c38d27060edee9e0676b0a0fff8a8be53461515154ba8a7be"
+        },
+        {
+          "id": "org.apache.commons:commons-text:1.10.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3363381aef8cef2dbc1023b3e3a9433b08b64e01",
+          "md5": "4afc9bfa2d31dbf7330c98fcc954b892",
+          "sha256": "770cd903fa7b604d1f7ef7ba17f84108667294b2b478be8ed1af3bffb4ae0018"
+        },
+        {
+          "id": "org.junit.jupiter:junit-jupiter-params:5.10.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter:5.10.0",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "9041c7365495a897a64782ea5a6fdb99dab1814e",
+          "md5": "f005062186389c756ce58cb380190cc4",
+          "sha256": "f259a7322cce375430c2236a2dcb24d4a49d22045b723ad85af88e11704391c2"
+        },
+        {
+          "id": "org.springframework:spring-test:5.3.30",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c0ba379b5836d6b6217d387988af82eb28a56e50",
+          "md5": "e2a36068a72ff64d7c5433d15faafc05",
+          "sha256": "5fbe84cff44bf09ae2ae332799d0c7c3186ecc8019897fdd84ba8f2ad7f1e0b5"
+        },
+        {
+          "id": "org.yaml:snakeyaml:2.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3af797a25458550a16bf89acc8e4ab2b7f2bfce0",
+          "md5": "d78aacf5f2de5b52f1a327470efd1ad7",
+          "sha256": "1467931448a0817696ae2805b7b8b20bfb082652bf9c4efaed528930dc49389b"
+        },
+        {
+          "id": "org.springframework:spring-aop:5.3.30",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.springframework:spring-context:5.3.30",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1727f2f562fdbdf15c7ae3ed0ff506c20555edfb",
+          "md5": "4a71d70c0ff00dac5186937383fea654",
+          "sha256": "e0705633ef03f397fb99b842c710842bb927ed88343a060c18a3c28686db520c"
+        },
+        {
+          "id": "com.oracle.database.security:oraclepki:19.3.0.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.oracle.database.jdbc:ojdbc8:19.3.0.0",
+              "org.dbunit:dbunit:2.7.3",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "0e52a34f271c6c62ee1a73b71cc19da5459b709f",
+          "md5": "babe79be0b8106cd1090a7194994b300",
+          "sha256": "04bdcbaa8da2c5800403ad0f448bec2867c6e9a12665d3f2c2aba1539dec24dc"
+        },
+        {
+          "id": "org.apache.logging.log4j:log4j-1.2-api:2.20.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "689151374756cb809cb029f2501015bdc7733179",
+          "md5": "986cff74b065cdd1d6b860ac1e9a20fa",
+          "sha256": "89d761af83de7e08e3c1916bc757242cedbbc1f38fb76fd13f89ef36b2671a45"
+        },
+        {
+          "id": "com.fasterxml.jackson.core:jackson-annotations:2.15.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.fasterxml.jackson.core:jackson-databind:2.15.2",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "4724a65ac8e8d156a24898d50fd5dbd3642870b8",
+          "md5": "71dabcaac955a8bd17b5bba6580aac5b",
+          "sha256": "04e21f94dcfee4b078fa5a5f53047b785aaba69d19de392f616e7a7fe5d3882f"
+        },
+        {
+          "id": "net.bytebuddy:byte-buddy-agent:1.12.19",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mockito:mockito-core:4.11.0",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "450917cf3b358b691a824acf4c67aa89c826f67e",
+          "md5": "ad6a015319d8cfedbe3e69c9c4ba1c95",
+          "sha256": "3a70240de7cdcde04e7c504c2327d7035b9c25ae0206881e3bf4e6798a273ed8"
+        },
+        {
+          "id": "com.oracle.database.ha:simplefan:19.3.0.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.oracle.database.jdbc:ojdbc8:19.3.0.0",
+              "org.dbunit:dbunit:2.7.3",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "bcbfbb3cc529995f33c8694eb7cbc605c129e4e6",
+          "md5": "9a1f7448f4c1fb779b1d8816e51a2c2f",
+          "sha256": "5138d658edff0e0106f0559f68c72fb90f1cd34381492995b75d0012ea9e12f2"
+        },
+        {
+          "id": "org.junit.platform:junit-platform-engine:1.10.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter-engine:5.10.0",
+              "org.junit.jupiter:junit-jupiter:5.10.0",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "276c4edcf64fabb5a139fa7b4f99330d7a93b804",
+          "md5": "a383ac183081fe771888842534e77e62",
+          "sha256": "cd338efd02ee73966ea754e0c0c71e1a11f4af5db9c2003e4b6137e119155abe"
+        },
+        {
+          "id": "com.fasterxml.jackson.core:jackson-core:2.15.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.fasterxml.jackson.core:jackson-databind:2.15.2",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a6fe1836469a69b3ff66037c324d75fc66ef137c",
+          "md5": "e51fdee85b48e6637ad9e85ee76b58df",
+          "sha256": "303c99e82b1faa91a0bae5d8fbeb56f7e2adf9b526a900dd723bf140d62bd4b4"
+        },
+        {
+          "id": "org.slf4j:slf4j-ext:2.0.9",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "35ea0a18a61242fcb7f1d3c45cdd9527a469b5eb",
+          "md5": "3753dc49aafd710e2a0cc1da4e96f941",
+          "sha256": "ff25527a465277a7b63fed60ebca1e8744b7e202283a1b16771cde215d1c11ab"
+        },
+        {
+          "id": "org.checkerframework:checker-qual:3.5.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.postgresql:postgresql:42.3.1",
+              "org.dbunit:dbunit:2.7.3",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "2f50520c8abea66fbd8d26e481d3aef5c673b510",
+          "md5": "4464def1ed5c10f248ebfe1bccbedf1a",
+          "sha256": "729990b3f18a95606fc2573836b6958bcdb44cb52bfbd1b7aa9c339cff35a5a4"
+        },
+        {
+          "id": "org.dbunit:dbunit:2.7.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "55af244b2264040b3b982f005c92ed3c3ca55535",
+          "md5": "fd65279da6d9cf6602178a1ec117ae56",
+          "sha256": "12ef35241b33e358beb7fbbd42166cd527ee00dca960b64bd294db0781d1a3d8"
+        },
+        {
+          "id": "commons-beanutils:commons-beanutils:1.9.4",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "d52b9abcd97f38c81342bb7e7ae1eee9b73cba51",
+          "md5": "07dc532ee316fe1f2f0323e9bd2f8df4",
+          "sha256": "7d938c81789028045c08c065e94be75fc280527620d5bd62b519d5838532368a"
+        },
+        {
+          "id": "org.springframework:spring-core:5.3.30",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "cd2b09bf9bdb45c3cf2b771317b6dd0d6b2f6a25",
+          "md5": "e458aadcc0a5a26957eb552a48a3bb81",
+          "sha256": "b0f0cd351aa2f2af13c8de630544deccdda366f50fe90df5b5944743bf5b0be3"
+        },
+        {
+          "id": "org.junit.jupiter:junit-jupiter:5.10.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "8fea1d9c58b2156f1b998f2f18da04bc9e087f74",
+          "md5": "ba19f309e63d0c128c381a8d68432c34",
+          "sha256": "8e4bde23ee28fc443975654a7b28c410a3b78d6be96b78c99ab73695ec344f7c"
+        },
+        {
+          "id": "org.hamcrest:hamcrest:2.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1820c0968dba3a11a1b30669bb1f01978a91dedc",
+          "md5": "10b47e837f271d0662f28780e60388e8",
+          "sha256": "5e62846a89f05cd78cd9c1a553f340d002458380c320455dd1f8fc5497a8a1c1"
+        },
+        {
+          "id": "org.postgresql:postgresql:42.3.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.dbunit:dbunit:2.7.3",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "9ca7df660e875b91c78e3d1608d4d7469ad3470c",
+          "md5": "30299cd5ee3f86eb748b6cc1157df484",
+          "sha256": "8370570857da86eb4a76dd3d8505d34bac0c18186741fa83a6820a10fa441cb4"
+        },
+        {
+          "id": "commons-collections:commons-collections:3.2.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "commons-beanutils:commons-beanutils:1.9.4",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5",
+          "md5": "f54a8510f834a1a57166970bfc982e94",
+          "sha256": "eeeae917917144a68a741d4c0dff66aa5c5c5fd85593ff217bced3fc8ca783b8"
+        },
+        {
+          "id": "org.slf4j:slf4j-nop:2.0.9",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "fa0627049304bf501bf6a0e4d1416bcaec9a72a9",
+          "md5": "a7158530748d553953b7945cdab1c634",
+          "sha256": "5612367b12bac3eacf4e6ff4e06ce5ba1c83c4d8d6d5e2ea5f924635717a6d83"
+        },
+        {
+          "id": "org.apiguardian:apiguardian-api:1.1.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter-api:5.10.0",
+              "org.junit.jupiter:junit-jupiter:5.10.0",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a231e0d844d2721b0fa1b238006d15c6ded6842a",
+          "md5": "8c7de3f82037fa4a2e8be2a2f13092af",
+          "sha256": "b509448ac506d607319f182537f0b35d71007582ec741832a1f111e5b5b70b38"
+        },
+        {
+          "id": "com.fasterxml.jackson.core:jackson-databind:2.15.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "9353b021f10c307c00328f52090de2bdb4b6ff9c",
+          "md5": "20ac0d0526a456274409fa852eb74087",
+          "sha256": "0eb2fdad6e40ab8832a78c9b22f58196dd970594e8d3d5a26ead87847c4f3a96"
+        },
+        {
+          "id": "com.squareup.okhttp:okhttp:2.7.5",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.hadoop:hadoop-hdfs-client:3.3.1",
+              "org.apache.commons:commons-vfs2:2.9.0",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "7a15a7db50f86c4b64aa3367424a60e3a325b8f1",
+          "md5": "1943a0ecbb1c503874c8c483284377e4",
+          "sha256": "88ac9fd1bb51f82bcc664cc1eb9c225c90dc4389d660231b4cc737bebfe7d0aa"
+        },
+        {
+          "id": "com.sun.mail:mailapi:2.0.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "107cdfb3cd840051e425b26692bebfe8f2e6f00a",
+          "md5": "4431358f91f4c35fabf09ca338487a41",
+          "sha256": "91e56c2bfeaed6a0c2c1b8cd730583f9de8b961457f49dece03721b181d743eb"
+        },
+        {
+          "id": "javax.servlet:servlet-api:2.5",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "5959582d97d8b61f4d154ca9e495aafd16726e34",
+          "md5": "69ca51af4e9a67a1027a7f95b52c3e8f",
+          "sha256": "c658ea360a70faeeadb66fb3c90a702e4142a0ab7768f9ae9828678e0d9ad4dc"
+        },
+        {
+          "id": "org.junit.platform:junit-platform-commons:1.10.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter-api:5.10.0",
+              "org.junit.jupiter:junit-jupiter:5.10.0",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "d533ff2c286eaf963566f92baf5f8a06628d2609",
+          "md5": "0cef49daddba2084397f34eca55502f9",
+          "sha256": "6083db08ca11fca1e16099d0dcfede0193d80b3762b276349d80d3da536791b2"
+        },
+        {
+          "id": "com.sun.activation:jakarta.activation:2.0.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.sun.mail:mailapi:2.0.1",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "828b80e886a52bb09fe41ff410b10b342f533ce1",
+          "md5": "39228ac67f033514a0ccb3360ac461f3",
+          "sha256": "b9e24b7dd6e07495562ea96531be3130c96dba4d78e1dfd88adbbdebf4332871"
+        },
+        {
+          "id": "org.springframework:spring-beans:5.3.30",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "cb67c4d7a42fbbac5a0991fb3b774f0f0e5c9834",
+          "md5": "2d4620e95302a8c16152934e4d5c0e11",
+          "sha256": "732fdbbeb7218b7b711a97a843b2c671cfc8d3cc213a58e5fb051847019b8976"
+        },
+        {
+          "id": "org.apache.logging.log4j:log4j-api:2.20.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.logging.log4j:log4j-1.2-api:2.20.0",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1fe6082e660daf07c689a89c94dc0f49c26b44bb",
+          "md5": "f9446464667f0139b839b5e9da37f5b9",
+          "sha256": "2f43eea679ea66f14ca0f13fec2a8600ac124f5a5231dcb4df8393eddcb97550"
+        },
+        {
+          "id": "com.oracle.database.jdbc:ucp:19.3.0.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.oracle.database.jdbc:ojdbc8:19.3.0.0",
+              "org.dbunit:dbunit:2.7.3",
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "796b661b0bb1818b7c04171837356acddcea504c",
+          "md5": "9845d08450b16c7ae81da60689d27f3c",
+          "sha256": "23d8debe40a764df74d5eda7e8c1ce9b2c190a34f739ca4d751eaa94114d31cc"
+        },
+        {
+          "id": "xml-resolver:xml-resolver:1.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3d0f97750b3a03e0971831566067754ba4bfd68c",
+          "md5": "706c533146c1f4ee46b66659ea14583a",
+          "sha256": "47dcde8986019314ef78ae7280a94973a21d2ed95075a40a000b42da956429e1"
+        },
+        {
+          "id": "org.apache.commons:commons-lang3:3.13.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b7263237aa89c1f99b327197c41d0669707a462e",
+          "md5": "3435b913691a5c1b173485a49850b1a8",
+          "sha256": "82f528cf718c7a3c2f30fc5bc784e3c6a0a10b17605dadb9e16c82ede11e6064"
+        },
+        {
+          "id": "commons-codec:commons-codec:1.16.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "4e3eb3d79888d76b54e28b350915b5dc3919c9de",
+          "md5": "6e26920fa7228891980890cce06b718c",
+          "sha256": "56595fb20b0b85bc91d0d503dad50bb7f1b9afc0eed5dffa6cbb25929000484d"
+        }
+      ]
+    }
+  ],
+  "started": "2024-02-10T01:01:31.295+0800"
+}

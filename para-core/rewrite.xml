@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:677073db-693e-45a1-a07b-9e090bd04cd9" version="1">
+    <metadata>
+        <timestamp>2023-10-27T04:49:01.081170600Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>OpenRewrite</vendor>
+                <name>OpenRewrite CycloneDX</name>
+                <version>7.18.0</version>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/com.erudika/para-core@1.49.1-SNAPSHOT?type=jar" type="library">
+            <group>com.erudika</group>
+            <name>para-core</name>
+            <version>1.49.1-SNAPSHOT</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.erudika/para-core@1.49.1-SNAPSHOT?type=jar</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="pkg:maven/software.amazon.awssdk/auth@2.21.9?type=jar" type="library">
+            <group>software.amazon.awssdk</group>
+            <name>auth</name>
+            <version>2.21.9</version>
+            <scope>required</scope>
+            <purl>pkg:maven/software.amazon.awssdk/auth@2.21.9?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.github.classgraph/classgraph@4.8.158?type=jar" type="library">
+            <group>io.github.classgraph</group>
+            <name>classgraph</name>
+            <version>4.8.158</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>The MIT License (MIT)</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/io.github.classgraph/classgraph@4.8.158?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/javax.ws.rs/javax.ws.rs-api@2.1.1?type=jar" type="library">
+            <group>javax.ws.rs</group>
+            <name>javax.ws.rs-api</name>
+            <version>2.1.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>EPL 2.0</name>
+                </license>
+                <license>
+                    <name>GPL2 w/ CPE</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/javax.ws.rs/javax.ws.rs-api@2.1.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/jakarta.inject/jakarta.inject-api@1.0.5?type=jar" type="library">
+            <group>jakarta.inject</group>
+            <name>jakarta.inject-api</name>
+            <version>1.0.5</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/jakarta.inject/jakarta.inject-api@1.0.5?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.0?type=jar" type="library">
+            <group>com.fasterxml.jackson.core</group>
+            <name>jackson-core</name>
+            <version>2.15.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.0?type=jar" type="library">
+            <group>com.fasterxml.jackson.core</group>
+            <name>jackson-annotations</name>
+            <version>2.15.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base@2.15.0?type=jar" type="library">
+            <group>com.fasterxml.jackson.jaxrs</group>
+            <name>jackson-jaxrs-base</name>
+            <version>2.15.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base@2.15.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider@2.15.0?type=jar" type="library">
+            <group>com.fasterxml.jackson.jaxrs</group>
+            <name>jackson-jaxrs-json-provider</name>
+            <version>2.15.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider@2.15.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.0?type=jar" type="library">
+            <group>com.fasterxml.jackson.core</group>
+            <name>jackson-databind</name>
+            <version>2.15.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor@2.15.0?type=jar" type="library">
+            <group>com.fasterxml.jackson.dataformat</group>
+            <name>jackson-dataformat-cbor</name>
+            <version>2.15.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor@2.15.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-smile@2.15.0?type=jar" type="library">
+            <group>com.fasterxml.jackson.dataformat</group>
+            <name>jackson-dataformat-smile</name>
+            <version>2.15.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-smile@2.15.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.15.0?type=jar" type="library">
+            <group>com.fasterxml.jackson.dataformat</group>
+            <name>jackson-dataformat-yaml</name>
+            <version>2.15.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.15.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.15.0?type=jar" type="library">
+            <group>com.fasterxml.jackson.module</group>
+            <name>jackson-module-parameter-names</name>
+            <version>2.15.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.15.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.15.0?type=jar" type="library">
+            <group>com.fasterxml.jackson.datatype</group>
+            <name>jackson-datatype-jdk8</name>
+            <version>2.15.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.15.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.15.0?type=jar" type="library">
+            <group>com.fasterxml.jackson.datatype</group>
+            <name>jackson-datatype-jsr310</name>
+            <version>2.15.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.15.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar" type="library">
+            <group>org.slf4j</group>
+            <name>slf4j-api</name>
+            <version>1.7.36</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.slf4j/jul-to-slf4j@1.7.36?type=jar" type="library">
+            <group>org.slf4j</group>
+            <name>jul-to-slf4j</name>
+            <version>1.7.36</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.slf4j/jul-to-slf4j@1.7.36?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/ch.qos.logback/logback-core@1.2.11?type=jar" type="library">
+            <group>ch.qos.logback</group>
+            <name>logback-core</name>
+            <version>1.2.11</version>
+            <scope>required</scope>
+            <purl>pkg:maven/ch.qos.logback/logback-core@1.2.11?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/ch.qos.logback/logback-classic@1.2.11?type=jar" type="library">
+            <group>ch.qos.logback</group>
+            <name>logback-classic</name>
+            <version>1.2.11</version>
+            <scope>required</scope>
+            <purl>pkg:maven/ch.qos.logback/logback-classic@1.2.11?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/ch.qos.logback/logback-access@1.2.11?type=jar" type="library">
+            <group>ch.qos.logback</group>
+            <name>logback-access</name>
+            <version>1.2.11</version>
+            <scope>required</scope>
+            <purl>pkg:maven/ch.qos.logback/logback-access@1.2.11?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.dropwizard.metrics/metrics-core@4.2.19?type=jar" type="library">
+            <group>io.dropwizard.metrics</group>
+            <name>metrics-core</name>
+            <version>4.2.19</version>
+            <scope>required</scope>
+            <purl>pkg:maven/io.dropwizard.metrics/metrics-core@4.2.19?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar" type="library">
+            <group>commons-beanutils</group>
+            <name>commons-beanutils</name>
+            <version>1.9.4</version>
+            <scope>required</scope>
+            <purl>pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.typesafe/config@1.4.2?type=jar" type="library">
+            <group>com.typesafe</group>
+            <name>config</name>
+            <version>1.4.2</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache-2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.typesafe/config@1.4.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.hibernate.validator/hibernate-validator@6.2.5.Final?type=jar" type="library">
+            <group>org.hibernate.validator</group>
+            <name>hibernate-validator</name>
+            <version>6.2.5.Final</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.hibernate.validator/hibernate-validator@6.2.5.Final?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar" type="library">
+            <group>org.apache.commons</group>
+            <name>commons-lang3</name>
+            <version>3.12.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/commons-codec/commons-codec@1.16.0?type=jar" type="library">
+            <group>commons-codec</group>
+            <name>commons-codec</name>
+            <version>1.16.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/commons-codec/commons-codec@1.16.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/commons-io/commons-io@2.11.0?type=jar" type="library">
+            <group>commons-io</group>
+            <name>commons-io</name>
+            <version>2.11.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/commons-io/commons-io@2.11.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.jsoup/jsoup@1.15.4?type=jar" type="library">
+            <group>org.jsoup</group>
+            <name>jsoup</name>
+            <version>1.15.4</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>The MIT License</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.jsoup/jsoup@1.15.4?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.vladsch.flexmark/flexmark@0.64.8?type=jar" type="library">
+            <group>com.vladsch.flexmark</group>
+            <name>flexmark</name>
+            <version>0.64.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.vladsch.flexmark/flexmark@0.64.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.vladsch.flexmark/flexmark-ext-emoji@0.64.8?type=jar" type="library">
+            <group>com.vladsch.flexmark</group>
+            <name>flexmark-ext-emoji</name>
+            <version>0.64.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.vladsch.flexmark/flexmark-ext-emoji@0.64.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.vladsch.flexmark/flexmark-ext-gfm-strikethrough@0.64.8?type=jar" type="library">
+            <group>com.vladsch.flexmark</group>
+            <name>flexmark-ext-gfm-strikethrough</name>
+            <version>0.64.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.vladsch.flexmark/flexmark-ext-gfm-strikethrough@0.64.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.vladsch.flexmark/flexmark-ext-gfm-tasklist@0.64.8?type=jar" type="library">
+            <group>com.vladsch.flexmark</group>
+            <name>flexmark-ext-gfm-tasklist</name>
+            <version>0.64.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.vladsch.flexmark/flexmark-ext-gfm-tasklist@0.64.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.vladsch.flexmark/flexmark-ext-tables@0.64.8?type=jar" type="library">
+            <group>com.vladsch.flexmark</group>
+            <name>flexmark-ext-tables</name>
+            <version>0.64.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.vladsch.flexmark/flexmark-ext-tables@0.64.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.vladsch.flexmark/flexmark-ext-autolink@0.64.8?type=jar" type="library">
+            <group>com.vladsch.flexmark</group>
+            <name>flexmark-ext-autolink</name>
+            <version>0.64.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.vladsch.flexmark/flexmark-ext-autolink@0.64.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.vladsch.flexmark/flexmark-ext-media-tags@0.64.8?type=jar" type="library">
+            <group>com.vladsch.flexmark</group>
+            <name>flexmark-ext-media-tags</name>
+            <version>0.64.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.vladsch.flexmark/flexmark-ext-media-tags@0.64.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/de.svenkubiak/jBCrypt@0.4.3?type=jar" type="library">
+            <group>de.svenkubiak</group>
+            <name>jBCrypt</name>
+            <version>0.4.3</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>ISC/BSD licence</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/de.svenkubiak/jBCrypt@0.4.3?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.samskivert/jmustache@1.15?type=jar" type="library">
+            <group>com.samskivert</group>
+            <name>jmustache</name>
+            <version>1.15</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>The (New) BSD License</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.samskivert/jmustache@1.15?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/javax.validation/validation-api@2.0.1.Final?type=jar" type="library">
+            <group>javax.validation</group>
+            <name>validation-api</name>
+            <version>2.0.1.Final</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/javax.validation/validation-api@2.0.1.Final?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/javax.el/javax.el-api@3.0.1-b06?type=jar" type="library">
+            <group>javax.el</group>
+            <name>javax.el-api</name>
+            <version>3.0.1-b06</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>CDDL + GPLv2 with classpath exception</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/javax.el/javax.el-api@3.0.1-b06?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.glassfish.web/javax.el@2.2.6?type=jar" type="library">
+            <group>org.glassfish.web</group>
+            <name>javax.el</name>
+            <version>2.2.6</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>CDDL + GPLv2 with classpath exception</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.glassfish.web/javax.el@2.2.6?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.codehaus.woodstox/stax2-api@4.2.1?type=jar" type="library">
+            <group>org.codehaus.woodstox</group>
+            <name>stax2-api</name>
+            <version>4.2.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>The BSD License</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.codehaus.woodstox/stax2-api@4.2.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.github.hakky54/sslcontext-kickstart@7.4.11?type=jar" type="library">
+            <group>io.github.hakky54</group>
+            <name>sslcontext-kickstart</name>
+            <version>7.4.11</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/io.github.hakky54/sslcontext-kickstart@7.4.11?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/software.amazon.awssdk/annotations@2.21.9?type=jar" type="library">
+            <group>software.amazon.awssdk</group>
+            <name>annotations</name>
+            <version>2.21.9</version>
+            <scope>required</scope>
+            <purl>pkg:maven/software.amazon.awssdk/annotations@2.21.9?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/software.amazon.awssdk/utils@2.21.9?type=jar" type="library">
+            <group>software.amazon.awssdk</group>
+            <name>utils</name>
+            <version>2.21.9</version>
+            <scope>required</scope>
+            <purl>pkg:maven/software.amazon.awssdk/utils@2.21.9?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/software.amazon.awssdk/sdk-core@2.21.9?type=jar" type="library">
+            <group>software.amazon.awssdk</group>
+            <name>sdk-core</name>
+            <version>2.21.9</version>
+            <scope>required</scope>
+            <purl>pkg:maven/software.amazon.awssdk/sdk-core@2.21.9?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/software.amazon.awssdk/identity-spi@2.21.9?type=jar" type="library">
+            <group>software.amazon.awssdk</group>
+            <name>identity-spi</name>
+            <version>2.21.9</version>
+            <scope>required</scope>
+            <purl>pkg:maven/software.amazon.awssdk/identity-spi@2.21.9?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/software.amazon.awssdk/regions@2.21.9?type=jar" type="library">
+            <group>software.amazon.awssdk</group>
+            <name>regions</name>
+            <version>2.21.9</version>
+            <scope>required</scope>
+            <purl>pkg:maven/software.amazon.awssdk/regions@2.21.9?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/software.amazon.awssdk/profiles@2.21.9?type=jar" type="library">
+            <group>software.amazon.awssdk</group>
+            <name>profiles</name>
+            <version>2.21.9</version>
+            <scope>required</scope>
+            <purl>pkg:maven/software.amazon.awssdk/profiles@2.21.9?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/software.amazon.awssdk/http-client-spi@2.21.9?type=jar" type="library">
+            <group>software.amazon.awssdk</group>
+            <name>http-client-spi</name>
+            <version>2.21.9</version>
+            <scope>required</scope>
+            <purl>pkg:maven/software.amazon.awssdk/http-client-spi@2.21.9?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/software.amazon.awssdk/json-utils@2.21.9?type=jar" type="library">
+            <group>software.amazon.awssdk</group>
+            <name>json-utils</name>
+            <version>2.21.9</version>
+            <scope>required</scope>
+            <purl>pkg:maven/software.amazon.awssdk/json-utils@2.21.9?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/software.amazon.awssdk/http-auth-aws@2.21.9?type=jar" type="library">
+            <group>software.amazon.awssdk</group>
+            <name>http-auth-aws</name>
+            <version>2.21.9</version>
+            <scope>required</scope>
+            <purl>pkg:maven/software.amazon.awssdk/http-auth-aws@2.21.9?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/software.amazon.awssdk/http-auth@2.21.9?type=jar" type="library">
+            <group>software.amazon.awssdk</group>
+            <name>http-auth</name>
+            <version>2.21.9</version>
+            <scope>required</scope>
+            <purl>pkg:maven/software.amazon.awssdk/http-auth@2.21.9?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/software.amazon.awssdk/http-auth-spi@2.21.9?type=jar" type="library">
+            <group>software.amazon.awssdk</group>
+            <name>http-auth-spi</name>
+            <version>2.21.9</version>
+            <scope>required</scope>
+            <purl>pkg:maven/software.amazon.awssdk/http-auth-spi@2.21.9?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/software.amazon.eventstream/eventstream@1.0.1?type=jar" type="library">
+            <group>software.amazon.eventstream</group>
+            <name>eventstream</name>
+            <version>1.0.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/software.amazon.eventstream/eventstream@1.0.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.yaml/snakeyaml@2.0?type=jar" type="library">
+            <group>org.yaml</group>
+            <name>snakeyaml</name>
+            <version>2.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.yaml/snakeyaml@2.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/commons-collections/commons-collections@3.2.2?type=jar" type="library">
+            <group>commons-collections</group>
+            <name>commons-collections</name>
+            <version>3.2.2</version>
+            <scope>required</scope>
+            <purl>pkg:maven/commons-collections/commons-collections@3.2.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2?type=jar" type="library">
+            <group>jakarta.validation</group>
+            <name>jakarta.validation-api</name>
+            <version>2.0.2</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.jboss.logging/jboss-logging@3.4.1.Final?type=jar" type="library">
+            <group>org.jboss.logging</group>
+            <name>jboss-logging</name>
+            <version>3.4.1.Final</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.jboss.logging/jboss-logging@3.4.1.Final?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml/classmate@1.5.1?type=jar" type="library">
+            <group>com.fasterxml</group>
+            <name>classmate</name>
+            <version>1.5.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml/classmate@1.5.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.vladsch.flexmark/flexmark-util-ast@0.64.8?type=jar" type="library">
+            <group>com.vladsch.flexmark</group>
+            <name>flexmark-util-ast</name>
+            <version>0.64.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.vladsch.flexmark/flexmark-util-ast@0.64.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.vladsch.flexmark/flexmark-util-builder@0.64.8?type=jar" type="library">
+            <group>com.vladsch.flexmark</group>
+            <name>flexmark-util-builder</name>
+            <version>0.64.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.vladsch.flexmark/flexmark-util-builder@0.64.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.vladsch.flexmark/flexmark-util-collection@0.64.8?type=jar" type="library">
+            <group>com.vladsch.flexmark</group>
+            <name>flexmark-util-collection</name>
+            <version>0.64.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.vladsch.flexmark/flexmark-util-collection@0.64.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.vladsch.flexmark/flexmark-util-data@0.64.8?type=jar" type="library">
+            <group>com.vladsch.flexmark</group>
+            <name>flexmark-util-data</name>
+            <version>0.64.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.vladsch.flexmark/flexmark-util-data@0.64.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.vladsch.flexmark/flexmark-util-dependency@0.64.8?type=jar" type="library">
+            <group>com.vladsch.flexmark</group>
+            <name>flexmark-util-dependency</name>
+            <version>0.64.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.vladsch.flexmark/flexmark-util-dependency@0.64.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.vladsch.flexmark/flexmark-util-format@0.64.8?type=jar" type="library">
+            <group>com.vladsch.flexmark</group>
+            <name>flexmark-util-format</name>
+            <version>0.64.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.vladsch.flexmark/flexmark-util-format@0.64.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.vladsch.flexmark/flexmark-util-html@0.64.8?type=jar" type="library">
+            <group>com.vladsch.flexmark</group>
+            <name>flexmark-util-html</name>
+            <version>0.64.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.vladsch.flexmark/flexmark-util-html@0.64.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.vladsch.flexmark/flexmark-util-misc@0.64.8?type=jar" type="library">
+            <group>com.vladsch.flexmark</group>
+            <name>flexmark-util-misc</name>
+            <version>0.64.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.vladsch.flexmark/flexmark-util-misc@0.64.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.vladsch.flexmark/flexmark-util-sequence@0.64.8?type=jar" type="library">
+            <group>com.vladsch.flexmark</group>
+            <name>flexmark-util-sequence</name>
+            <version>0.64.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.vladsch.flexmark/flexmark-util-sequence@0.64.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.vladsch.flexmark/flexmark-util-visitor@0.64.8?type=jar" type="library">
+            <group>com.vladsch.flexmark</group>
+            <name>flexmark-util-visitor</name>
+            <version>0.64.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.vladsch.flexmark/flexmark-util-visitor@0.64.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.vladsch.flexmark/flexmark-util@0.64.8?type=jar" type="library">
+            <group>com.vladsch.flexmark</group>
+            <name>flexmark-util</name>
+            <version>0.64.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.vladsch.flexmark/flexmark-util@0.64.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.nibor.autolink/autolink@0.6.0?type=jar" type="library">
+            <group>org.nibor.autolink</group>
+            <name>autolink</name>
+            <version>0.6.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>MIT License</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.nibor.autolink/autolink@0.6.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.reactivestreams/reactive-streams@1.0.4?type=jar" type="library">
+            <group>org.reactivestreams</group>
+            <name>reactive-streams</name>
+            <version>1.0.4</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>MIT-0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.reactivestreams/reactive-streams@1.0.4?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/software.amazon.awssdk/metrics-spi@2.21.9?type=jar" type="library">
+            <group>software.amazon.awssdk</group>
+            <name>metrics-spi</name>
+            <version>2.21.9</version>
+            <scope>required</scope>
+            <purl>pkg:maven/software.amazon.awssdk/metrics-spi@2.21.9?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/software.amazon.awssdk/endpoints-spi@2.21.9?type=jar" type="library">
+            <group>software.amazon.awssdk</group>
+            <name>endpoints-spi</name>
+            <version>2.21.9</version>
+            <scope>required</scope>
+            <purl>pkg:maven/software.amazon.awssdk/endpoints-spi@2.21.9?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/software.amazon.awssdk/checksums-spi@2.21.9?type=jar" type="library">
+            <group>software.amazon.awssdk</group>
+            <name>checksums-spi</name>
+            <version>2.21.9</version>
+            <scope>required</scope>
+            <purl>pkg:maven/software.amazon.awssdk/checksums-spi@2.21.9?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/software.amazon.awssdk/checksums@2.21.9?type=jar" type="library">
+            <group>software.amazon.awssdk</group>
+            <name>checksums</name>
+            <version>2.21.9</version>
+            <scope>required</scope>
+            <purl>pkg:maven/software.amazon.awssdk/checksums@2.21.9?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/software.amazon.awssdk/third-party-jackson-core@2.21.9?type=jar" type="library">
+            <group>software.amazon.awssdk</group>
+            <name>third-party-jackson-core</name>
+            <version>2.21.9</version>
+            <scope>required</scope>
+            <purl>pkg:maven/software.amazon.awssdk/third-party-jackson-core@2.21.9?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.jetbrains/annotations@24.0.1?type=jar" type="library">
+            <group>org.jetbrains</group>
+            <name>annotations</name>
+            <version>24.0.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.jetbrains/annotations@24.0.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.vladsch.flexmark/flexmark-util-options@0.64.8?type=jar" type="library">
+            <group>com.vladsch.flexmark</group>
+            <name>flexmark-util-options</name>
+            <version>0.64.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.vladsch.flexmark/flexmark-util-options@0.64.8?type=jar</purl>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/software.amazon.awssdk/auth@2.21.9?type=jar">
+            <dependency ref="pkg:maven/software.amazon.awssdk/annotations@2.21.9?type=jar"/>
+            <dependency ref="pkg:maven/software.amazon.awssdk/utils@2.21.9?type=jar"/>
+            <dependency ref="pkg:maven/software.amazon.awssdk/sdk-core@2.21.9?type=jar"/>
+            <dependency ref="pkg:maven/software.amazon.awssdk/identity-spi@2.21.9?type=jar"/>
+            <dependency ref="pkg:maven/software.amazon.awssdk/regions@2.21.9?type=jar"/>
+            <dependency ref="pkg:maven/software.amazon.awssdk/profiles@2.21.9?type=jar"/>
+            <dependency ref="pkg:maven/software.amazon.awssdk/http-client-spi@2.21.9?type=jar"/>
+            <dependency ref="pkg:maven/software.amazon.awssdk/json-utils@2.21.9?type=jar"/>
+            <dependency ref="pkg:maven/software.amazon.awssdk/http-auth-aws@2.21.9?type=jar"/>
+            <dependency ref="pkg:maven/software.amazon.awssdk/http-auth@2.21.9?type=jar"/>
+            <dependency ref="pkg:maven/software.amazon.awssdk/http-auth-spi@2.21.9?type=jar"/>
+            <dependency ref="pkg:maven/software.amazon.eventstream/eventstream@1.0.1?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/io.github.classgraph/classgraph@4.8.158?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/javax.ws.rs/javax.ws.rs-api@2.1.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/jakarta.inject/jakarta.inject-api@1.0.5?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base@2.15.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider@2.15.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor@2.15.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-smile@2.15.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.15.0?type=jar">
+            <dependency ref="pkg:maven/org.yaml/snakeyaml@2.0?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.15.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.15.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.15.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.slf4j/jul-to-slf4j@1.7.36?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.2.11?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/ch.qos.logback/logback-classic@1.2.11?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/ch.qos.logback/logback-access@1.2.11?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.dropwizard.metrics/metrics-core@4.2.19?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar">
+            <dependency ref="pkg:maven/commons-collections/commons-collections@3.2.2?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/com.typesafe/config@1.4.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.hibernate.validator/hibernate-validator@6.2.5.Final?type=jar">
+            <dependency ref="pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2?type=jar"/>
+            <dependency ref="pkg:maven/org.jboss.logging/jboss-logging@3.4.1.Final?type=jar"/>
+            <dependency ref="pkg:maven/com.fasterxml/classmate@1.5.1?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/commons-codec/commons-codec@1.16.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/commons-io/commons-io@2.11.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.jsoup/jsoup@1.15.4?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark@0.64.8?type=jar">
+            <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-ast@0.64.8?type=jar"/>
+            <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-builder@0.64.8?type=jar"/>
+            <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-collection@0.64.8?type=jar"/>
+            <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-data@0.64.8?type=jar"/>
+            <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-dependency@0.64.8?type=jar"/>
+            <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-format@0.64.8?type=jar"/>
+            <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-html@0.64.8?type=jar"/>
+            <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-misc@0.64.8?type=jar"/>
+            <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-sequence@0.64.8?type=jar"/>
+            <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-visitor@0.64.8?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-ext-emoji@0.64.8?type=jar">
+            <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util@0.64.8?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-ext-gfm-strikethrough@0.64.8?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-ext-gfm-tasklist@0.64.8?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-ext-tables@0.64.8?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-ext-autolink@0.64.8?type=jar">
+            <dependency ref="pkg:maven/org.nibor.autolink/autolink@0.6.0?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-ext-media-tags@0.64.8?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/de.svenkubiak/jBCrypt@0.4.3?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.samskivert/jmustache@1.15?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/javax.validation/validation-api@2.0.1.Final?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/javax.el/javax.el-api@3.0.1-b06?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.glassfish.web/javax.el@2.2.6?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.codehaus.woodstox/stax2-api@4.2.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.github.hakky54/sslcontext-kickstart@7.4.11?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/software.amazon.awssdk/annotations@2.21.9?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/software.amazon.awssdk/utils@2.21.9?type=jar">
+            <dependency ref="pkg:maven/org.reactivestreams/reactive-streams@1.0.4?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/software.amazon.awssdk/sdk-core@2.21.9?type=jar">
+            <dependency ref="pkg:maven/software.amazon.awssdk/metrics-spi@2.21.9?type=jar"/>
+            <dependency ref="pkg:maven/software.amazon.awssdk/endpoints-spi@2.21.9?type=jar"/>
+            <dependency ref="pkg:maven/software.amazon.awssdk/checksums-spi@2.21.9?type=jar"/>
+            <dependency ref="pkg:maven/software.amazon.awssdk/checksums@2.21.9?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/software.amazon.awssdk/identity-spi@2.21.9?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/software.amazon.awssdk/regions@2.21.9?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/software.amazon.awssdk/profiles@2.21.9?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/software.amazon.awssdk/http-client-spi@2.21.9?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/software.amazon.awssdk/json-utils@2.21.9?type=jar">
+            <dependency ref="pkg:maven/software.amazon.awssdk/third-party-jackson-core@2.21.9?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/software.amazon.awssdk/http-auth-aws@2.21.9?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/software.amazon.awssdk/http-auth@2.21.9?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/software.amazon.awssdk/http-auth-spi@2.21.9?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/software.amazon.eventstream/eventstream@1.0.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.yaml/snakeyaml@2.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/commons-collections/commons-collections@3.2.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.jboss.logging/jboss-logging@3.4.1.Final?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml/classmate@1.5.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-ast@0.64.8?type=jar">
+            <dependency ref="pkg:maven/org.jetbrains/annotations@24.0.1?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-builder@0.64.8?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-collection@0.64.8?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-data@0.64.8?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-dependency@0.64.8?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-format@0.64.8?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-html@0.64.8?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-misc@0.64.8?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-sequence@0.64.8?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-visitor@0.64.8?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util@0.64.8?type=jar">
+            <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-options@0.64.8?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.nibor.autolink/autolink@0.6.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.reactivestreams/reactive-streams@1.0.4?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/software.amazon.awssdk/metrics-spi@2.21.9?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/software.amazon.awssdk/endpoints-spi@2.21.9?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/software.amazon.awssdk/checksums-spi@2.21.9?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/software.amazon.awssdk/checksums@2.21.9?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/software.amazon.awssdk/third-party-jackson-core@2.21.9?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.jetbrains/annotations@24.0.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.vladsch.flexmark/flexmark-util-options@0.64.8?type=jar">
+        </dependency>
+    </dependencies>
+</bom>

@@ -1,0 +1,776 @@
+{
+  "dependencyGraphs": {
+    "D:\\Work\\SBOM\\TestProjects\\jacop\\pom.xml": {
+      "graph": {
+        "junit junit 4.13.1 - Maven": [
+          "org.hamcrest hamcrest-core 1.3 - Maven"
+        ],
+        "org.slf4j slf4j-api 1.7.24 - Maven": null,
+        "org.mockito mockito-all 1.10.19 - Maven": null,
+        "org.jline jline 3.21.0 - Maven": null,
+        "net.java.dev.jna jna 5.9.0 - Maven": null,
+        "org.hamcrest hamcrest-core 1.3 - Maven": null,
+        "org.jacop jacop 4.10.0-SNAPSHOT - Maven": [
+          "org.mockito mockito-all 1.10.19 - Maven",
+          "junit junit 4.13.1 - Maven",
+          "org.scala-lang scala-library 2.13.10 - Maven",
+          "org.scala-lang scala-compiler 2.13.10 - Maven",
+          "org.slf4j slf4j-api 1.7.24 - Maven",
+          "org.slf4j slf4j-log4j12 1.7.24 - Maven"
+        ],
+        "org.scala-lang scala-reflect 2.13.10 - Maven": null,
+        "org.scala-lang scala-library 2.13.10 - Maven": null,
+        "org.slf4j slf4j-log4j12 1.7.24 - Maven": [
+          "log4j log4j 1.2.17 - Maven"
+        ],
+        "org.scala-lang scala-compiler 2.13.10 - Maven": [
+          "org.scala-lang scala-reflect 2.13.10 - Maven",
+          "io.github.java-diff-utils java-diff-utils 4.12 - Maven",
+          "org.jline jline 3.21.0 - Maven",
+          "net.java.dev.jna jna 5.9.0 - Maven"
+        ],
+        "log4j log4j 1.2.17 - Maven": null,
+        "io.github.java-diff-utils java-diff-utils 4.12 - Maven": null
+      },
+      "explicitlyReferencedComponentIds": [
+        "junit junit 4.13.1 - Maven",
+        "org.slf4j slf4j-api 1.7.24 - Maven",
+        "org.mockito mockito-all 1.10.19 - Maven",
+        "org.scala-lang scala-library 2.13.10 - Maven",
+        "org.slf4j slf4j-log4j12 1.7.24 - Maven",
+        "org.scala-lang scala-compiler 2.13.10 - Maven"
+      ],
+      "developmentDependencies": [
+        "junit junit 4.13.1 - Maven",
+        "org.hamcrest hamcrest-core 1.3 - Maven"
+      ],
+      "dependencies": [
+        "org.slf4j slf4j-api 1.7.24 - Maven",
+        "org.mockito mockito-all 1.10.19 - Maven",
+        "org.jline jline 3.21.0 - Maven",
+        "net.java.dev.jna jna 5.9.0 - Maven",
+        "org.scala-lang scala-reflect 2.13.10 - Maven",
+        "org.scala-lang scala-library 2.13.10 - Maven",
+        "org.slf4j slf4j-log4j12 1.7.24 - Maven",
+        "org.scala-lang scala-compiler 2.13.10 - Maven",
+        "log4j log4j 1.2.17 - Maven",
+        "io.github.java-diff-utils java-diff-utils 4.12 - Maven"
+      ]
+    }
+  },
+  "componentsFound": [
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "junit",
+        "artifactId": "junit",
+        "version": "4.13.1",
+        "type": "Maven",
+        "id": "junit junit 4.13.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "junit",
+          "Name": "junit",
+          "Version": "4.13.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "junit",
+          "artifactId": "junit",
+          "version": "4.13.1",
+          "type": "Maven",
+          "id": "junit junit 4.13.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "junit",
+            "Name": "junit",
+            "Version": "4.13.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.slf4j",
+        "artifactId": "slf4j-api",
+        "version": "1.7.24",
+        "type": "Maven",
+        "id": "org.slf4j slf4j-api 1.7.24 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.slf4j",
+          "Name": "slf4j-api",
+          "Version": "1.7.24",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-api",
+          "version": "1.7.24",
+          "type": "Maven",
+          "id": "org.slf4j slf4j-api 1.7.24 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.slf4j",
+            "Name": "slf4j-api",
+            "Version": "1.7.24",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.mockito",
+        "artifactId": "mockito-all",
+        "version": "1.10.19",
+        "type": "Maven",
+        "id": "org.mockito mockito-all 1.10.19 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.mockito",
+          "Name": "mockito-all",
+          "Version": "1.10.19",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.mockito",
+          "artifactId": "mockito-all",
+          "version": "1.10.19",
+          "type": "Maven",
+          "id": "org.mockito mockito-all 1.10.19 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.mockito",
+            "Name": "mockito-all",
+            "Version": "1.10.19",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.jline",
+        "artifactId": "jline",
+        "version": "3.21.0",
+        "type": "Maven",
+        "id": "org.jline jline 3.21.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.jline",
+          "Name": "jline",
+          "Version": "3.21.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.scala-lang",
+          "artifactId": "scala-compiler",
+          "version": "2.13.10",
+          "type": "Maven",
+          "id": "org.scala-lang scala-compiler 2.13.10 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.scala-lang",
+            "Name": "scala-compiler",
+            "Version": "2.13.10",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "net.java.dev.jna",
+        "artifactId": "jna",
+        "version": "5.9.0",
+        "type": "Maven",
+        "id": "net.java.dev.jna jna 5.9.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "net.java.dev.jna",
+          "Name": "jna",
+          "Version": "5.9.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.scala-lang",
+          "artifactId": "scala-compiler",
+          "version": "2.13.10",
+          "type": "Maven",
+          "id": "org.scala-lang scala-compiler 2.13.10 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.scala-lang",
+            "Name": "scala-compiler",
+            "Version": "2.13.10",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.hamcrest",
+        "artifactId": "hamcrest-core",
+        "version": "1.3",
+        "type": "Maven",
+        "id": "org.hamcrest hamcrest-core 1.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.hamcrest",
+          "Name": "hamcrest-core",
+          "Version": "1.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "junit",
+          "artifactId": "junit",
+          "version": "4.13.1",
+          "type": "Maven",
+          "id": "junit junit 4.13.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "junit",
+            "Name": "junit",
+            "Version": "4.13.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.jacop",
+        "artifactId": "jacop",
+        "version": "4.10.0-SNAPSHOT",
+        "type": "Maven",
+        "id": "org.jacop jacop 4.10.0-SNAPSHOT - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.jacop",
+          "Name": "jacop",
+          "Version": "4.10.0-SNAPSHOT",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": null,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.scala-lang",
+        "artifactId": "scala-reflect",
+        "version": "2.13.10",
+        "type": "Maven",
+        "id": "org.scala-lang scala-reflect 2.13.10 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.scala-lang",
+          "Name": "scala-reflect",
+          "Version": "2.13.10",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.scala-lang",
+          "artifactId": "scala-compiler",
+          "version": "2.13.10",
+          "type": "Maven",
+          "id": "org.scala-lang scala-compiler 2.13.10 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.scala-lang",
+            "Name": "scala-compiler",
+            "Version": "2.13.10",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.scala-lang",
+        "artifactId": "scala-library",
+        "version": "2.13.10",
+        "type": "Maven",
+        "id": "org.scala-lang scala-library 2.13.10 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.scala-lang",
+          "Name": "scala-library",
+          "Version": "2.13.10",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.scala-lang",
+          "artifactId": "scala-library",
+          "version": "2.13.10",
+          "type": "Maven",
+          "id": "org.scala-lang scala-library 2.13.10 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.scala-lang",
+            "Name": "scala-library",
+            "Version": "2.13.10",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.slf4j",
+        "artifactId": "slf4j-log4j12",
+        "version": "1.7.24",
+        "type": "Maven",
+        "id": "org.slf4j slf4j-log4j12 1.7.24 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.slf4j",
+          "Name": "slf4j-log4j12",
+          "Version": "1.7.24",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-log4j12",
+          "version": "1.7.24",
+          "type": "Maven",
+          "id": "org.slf4j slf4j-log4j12 1.7.24 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.slf4j",
+            "Name": "slf4j-log4j12",
+            "Version": "1.7.24",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.scala-lang",
+        "artifactId": "scala-compiler",
+        "version": "2.13.10",
+        "type": "Maven",
+        "id": "org.scala-lang scala-compiler 2.13.10 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.scala-lang",
+          "Name": "scala-compiler",
+          "Version": "2.13.10",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.scala-lang",
+          "artifactId": "scala-compiler",
+          "version": "2.13.10",
+          "type": "Maven",
+          "id": "org.scala-lang scala-compiler 2.13.10 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.scala-lang",
+            "Name": "scala-compiler",
+            "Version": "2.13.10",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "log4j",
+        "artifactId": "log4j",
+        "version": "1.2.17",
+        "type": "Maven",
+        "id": "log4j log4j 1.2.17 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "log4j",
+          "Name": "log4j",
+          "Version": "1.2.17",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-log4j12",
+          "version": "1.7.24",
+          "type": "Maven",
+          "id": "org.slf4j slf4j-log4j12 1.7.24 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.slf4j",
+            "Name": "slf4j-log4j12",
+            "Version": "1.7.24",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "io.github.java-diff-utils",
+        "artifactId": "java-diff-utils",
+        "version": "4.12",
+        "type": "Maven",
+        "id": "io.github.java-diff-utils java-diff-utils 4.12 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "io.github.java-diff-utils",
+          "Name": "java-diff-utils",
+          "Version": "4.12",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.scala-lang",
+          "artifactId": "scala-compiler",
+          "version": "2.13.10",
+          "type": "Maven",
+          "id": "org.scala-lang scala-compiler 2.13.10 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.scala-lang",
+            "Name": "scala-compiler",
+            "Version": "2.13.10",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    }
+  ],
+  "detectorsInScan": [
+    {
+      "detectorId": "Yarn",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Vcpkg",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Vcpkg"
+      ]
+    },
+    {
+      "detectorId": "RustCrateDetector",
+      "isExperimental": false,
+      "version": 8,
+      "supportedComponentTypes": [
+        "Cargo"
+      ]
+    },
+    {
+      "detectorId": "Ruby",
+      "isExperimental": false,
+      "version": 3,
+      "supportedComponentTypes": [
+        "RubyGems"
+      ]
+    },
+    {
+      "detectorId": "Poetry",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "Pnpm",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Pip",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "NuGet",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetPackagesConfig",
+      "isExperimental": true,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetProjectCentric",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "Npm",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "NpmWithRoots",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "MvnCli",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Linux",
+      "isExperimental": false,
+      "version": 4,
+      "supportedComponentTypes": [
+        "Linux"
+      ]
+    },
+    {
+      "detectorId": "Ivy",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Gradle",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Go",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Go"
+      ]
+    },
+    {
+      "detectorId": "CocoaPods",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pod",
+        "Git"
+      ]
+    },
+    {
+      "detectorId": "SPDX22SBOM",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "Spdx"
+      ]
+    }
+  ],
+  "containerDetailsMap": {},
+  "resultCode": "Success",
+  "sourceDirectory": "D:\\Work\\SBOM\\TestProjects\\jacop"
+}

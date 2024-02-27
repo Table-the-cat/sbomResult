@@ -1,0 +1,10 @@
+org(0).assertj(0).core(0).api(6)
+org(0).bridj(7)
+org(0).bridj(7).ann(8)
+org(0).bridj(7).cpp(5)
+org(0).easymock(7)
+org(0).junit(15)
+org(0).junit(15).runner(2)
+org(0).slf4j(42)
+org(0).slf4j(42).helpers(1)
+sum: 93

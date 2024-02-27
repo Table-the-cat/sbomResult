@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:c9c4c948-20ca-456f-87e9-9417bdf02891" version="1">
+    <metadata>
+        <timestamp>2023-11-17T14:55:03.119975100Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>OpenRewrite</vendor>
+                <name>OpenRewrite CycloneDX</name>
+                <version>7.18.0</version>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/org.jhiccup/jHiccup@2.0.11-SNAPSHOT?type=jar" type="library">
+            <group>org.jhiccup</group>
+            <name>jHiccup</name>
+            <version>2.0.11-SNAPSHOT</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>Public Domain, per Creative Commons CC0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.jhiccup/jHiccup@2.0.11-SNAPSHOT?type=jar</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="pkg:maven/org.hdrhistogram/HdrHistogram@2.1.12?type=jar" type="library">
+            <group>org.hdrhistogram</group>
+            <name>HdrHistogram</name>
+            <version>2.1.12</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>Public Domain, per Creative Commons CC0</name>
+                </license>
+                <license>
+                    <name>BSD-2-Clause</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.hdrhistogram/HdrHistogram@2.1.12?type=jar</purl>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/org.hdrhistogram/HdrHistogram@2.1.12?type=jar">
+        </dependency>
+    </dependencies>
+</bom>

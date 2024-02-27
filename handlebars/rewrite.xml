@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:50294685-ebed-42d3-a155-1ec87b0bece8" version="1">
+    <metadata>
+        <timestamp>2023-11-17T10:20:08.467392500Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>OpenRewrite</vendor>
+                <name>OpenRewrite CycloneDX</name>
+                <version>7.18.0</version>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/com.github.jknack/handlebars@5.0.0-SNAPSHOT?type=jar" type="library">
+            <group>com.github.jknack</group>
+            <name>handlebars</name>
+            <version>5.0.0-SNAPSHOT</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.github.jknack/handlebars@5.0.0-SNAPSHOT?type=jar</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="pkg:maven/org.openjdk.nashorn/nashorn-core@15.3?type=jar" type="library">
+            <group>org.openjdk.nashorn</group>
+            <name>nashorn-core</name>
+            <version>15.3</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>GPL v2 with the Classpath exception</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.openjdk.nashorn/nashorn-core@15.3?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar" type="library">
+            <group>org.apache.commons</group>
+            <name>commons-lang3</name>
+            <version>3.12.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar" type="library">
+            <group>org.apache.commons</group>
+            <name>commons-text</name>
+            <version>1.10.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.antlr/antlr4-runtime@4.9.3?type=jar" type="library">
+            <group>org.antlr</group>
+            <name>antlr4-runtime</name>
+            <version>4.9.3</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.antlr/antlr4-runtime@4.9.3?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.slf4j/slf4j-api@1.7.32?type=jar" type="library">
+            <group>org.slf4j</group>
+            <name>slf4j-api</name>
+            <version>1.7.32</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.slf4j/slf4j-api@1.7.32?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.ow2.asm/asm@7.3.1?type=jar" type="library">
+            <group>org.ow2.asm</group>
+            <name>asm</name>
+            <version>7.3.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>BSD-3-Clause</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.ow2.asm/asm@7.3.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.ow2.asm/asm-commons@7.3.1?type=jar" type="library">
+            <group>org.ow2.asm</group>
+            <name>asm-commons</name>
+            <version>7.3.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>BSD-3-Clause</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.ow2.asm/asm-commons@7.3.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.ow2.asm/asm-tree@7.3.1?type=jar" type="library">
+            <group>org.ow2.asm</group>
+            <name>asm-tree</name>
+            <version>7.3.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>BSD-3-Clause</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.ow2.asm/asm-tree@7.3.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.ow2.asm/asm-util@7.3.1?type=jar" type="library">
+            <group>org.ow2.asm</group>
+            <name>asm-util</name>
+            <version>7.3.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>BSD-3-Clause</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.ow2.asm/asm-util@7.3.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.ow2.asm/asm-analysis@7.3.1?type=jar" type="library">
+            <group>org.ow2.asm</group>
+            <name>asm-analysis</name>
+            <version>7.3.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>BSD-3-Clause</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.ow2.asm/asm-analysis@7.3.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/javax.servlet/servlet-api@2.5?type=jar" type="library">
+            <group>javax.servlet</group>
+            <name>servlet-api</name>
+            <version>2.5</version>
+            <scope>optional</scope>
+            <purl>pkg:maven/javax.servlet/servlet-api@2.5?type=jar</purl>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/org.openjdk.nashorn/nashorn-core@15.3?type=jar">
+            <dependency ref="pkg:maven/org.ow2.asm/asm@7.3.1?type=jar"/>
+            <dependency ref="pkg:maven/org.ow2.asm/asm-commons@7.3.1?type=jar"/>
+            <dependency ref="pkg:maven/org.ow2.asm/asm-tree@7.3.1?type=jar"/>
+            <dependency ref="pkg:maven/org.ow2.asm/asm-util@7.3.1?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.antlr/antlr4-runtime@4.9.3?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.32?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.ow2.asm/asm@7.3.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.ow2.asm/asm-commons@7.3.1?type=jar">
+            <dependency ref="pkg:maven/org.ow2.asm/asm-analysis@7.3.1?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.ow2.asm/asm-tree@7.3.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.ow2.asm/asm-util@7.3.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.ow2.asm/asm-analysis@7.3.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/javax.servlet/servlet-api@2.5?type=jar">
+        </dependency>
+    </dependencies>
+</bom>

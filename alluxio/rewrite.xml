@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:1ade8ee8-20e9-4793-84a0-4d8ef76b4e69" version="1">
+    <metadata>
+        <timestamp>2023-10-25T12:09:16.846453100Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>OpenRewrite</vendor>
+                <name>OpenRewrite CycloneDX</name>
+                <version>7.18.0</version>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/org.alluxio/alluxio-parent@305-SNAPSHOT?type=pom" type="library">
+            <group>org.alluxio</group>
+            <name>alluxio-parent</name>
+            <version>305-SNAPSHOT</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.alluxio/alluxio-parent@305-SNAPSHOT?type=pom</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar" type="library">
+            <group>org.slf4j</group>
+            <name>slf4j-api</name>
+            <version>1.7.30</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar</purl>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar">
+        </dependency>
+    </dependencies>
+</bom>

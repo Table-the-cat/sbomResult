@@ -1,0 +1,897 @@
+{
+  "dependencyGraphs": {
+    "D:\\Work\\SBOM\\results\\avatarify-python\\requirements.txt": {
+      "graph": {
+        "pycparser 2.21 - pip": null,
+        "pyzmq 20.0.0 - pip": [
+          "py 1.11.0 - pip",
+          "cffi 1.16.0 - pip"
+        ],
+        "requests 2.31.0 - pip": [
+          "charset-normalizer 3.3.2 - pip",
+          "idna 3.6 - pip",
+          "urllib3 2.2.1 - pip",
+          "certifi 2024.2.2 - pip"
+        ],
+        "pyyaml 5.4 - pip": null,
+        "pyfakewebcam 0.1.0 - pip": null,
+        "urllib3 2.2.1 - pip": null,
+        "msgpack 1.0.7 - pip": null,
+        "face-alignment 1.3.3 - pip": null,
+        "idna 3.6 - pip": null,
+        "numpy 1.26.4 - pip": null,
+        "msgpack-numpy 0.4.7.1 - pip": [
+          "numpy 1.26.4 - pip",
+          "msgpack 1.0.7 - pip"
+        ],
+        "certifi 2024.2.2 - pip": null,
+        "charset-normalizer 3.3.2 - pip": null,
+        "py 1.11.0 - pip": null,
+        "cffi 1.16.0 - pip": [
+          "pycparser 2.21 - pip"
+        ],
+        "opencv-python 4.2.0.34 - pip": [
+          "numpy 1.26.4 - pip"
+        ]
+      },
+      "explicitlyReferencedComponentIds": [
+        "pyzmq 20.0.0 - pip",
+        "requests 2.31.0 - pip",
+        "pyyaml 5.4 - pip",
+        "pyfakewebcam 0.1.0 - pip",
+        "face-alignment 1.3.3 - pip",
+        "msgpack-numpy 0.4.7.1 - pip",
+        "opencv-python 4.2.0.34 - pip"
+      ],
+      "developmentDependencies": [],
+      "dependencies": []
+    }
+  },
+  "componentsFound": [
+    {
+      "locationsFoundAt": [
+        "/requirements.txt"
+      ],
+      "component": {
+        "name": "pycparser",
+        "version": "2.21",
+        "type": "Pip",
+        "id": "pycparser 2.21 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "pycparser",
+          "Version": "2.21",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "pyzmq",
+          "version": "20.0.0",
+          "type": "Pip",
+          "id": "pyzmq 20.0.0 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "pyzmq",
+            "Version": "20.0.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/requirements.txt"
+      ],
+      "component": {
+        "name": "pyzmq",
+        "version": "20.0.0",
+        "type": "Pip",
+        "id": "pyzmq 20.0.0 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "pyzmq",
+          "Version": "20.0.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "pyzmq",
+          "version": "20.0.0",
+          "type": "Pip",
+          "id": "pyzmq 20.0.0 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "pyzmq",
+            "Version": "20.0.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/requirements.txt"
+      ],
+      "component": {
+        "name": "requests",
+        "version": "2.31.0",
+        "type": "Pip",
+        "id": "requests 2.31.0 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "requests",
+          "Version": "2.31.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "requests",
+          "version": "2.31.0",
+          "type": "Pip",
+          "id": "requests 2.31.0 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "requests",
+            "Version": "2.31.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/requirements.txt"
+      ],
+      "component": {
+        "name": "pyyaml",
+        "version": "5.4",
+        "type": "Pip",
+        "id": "pyyaml 5.4 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "pyyaml",
+          "Version": "5.4",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "pyyaml",
+          "version": "5.4",
+          "type": "Pip",
+          "id": "pyyaml 5.4 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "pyyaml",
+            "Version": "5.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/requirements.txt"
+      ],
+      "component": {
+        "name": "pyfakewebcam",
+        "version": "0.1.0",
+        "type": "Pip",
+        "id": "pyfakewebcam 0.1.0 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "pyfakewebcam",
+          "Version": "0.1.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "pyfakewebcam",
+          "version": "0.1.0",
+          "type": "Pip",
+          "id": "pyfakewebcam 0.1.0 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "pyfakewebcam",
+            "Version": "0.1.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/requirements.txt"
+      ],
+      "component": {
+        "name": "urllib3",
+        "version": "2.2.1",
+        "type": "Pip",
+        "id": "urllib3 2.2.1 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "urllib3",
+          "Version": "2.2.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "requests",
+          "version": "2.31.0",
+          "type": "Pip",
+          "id": "requests 2.31.0 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "requests",
+            "Version": "2.31.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/requirements.txt"
+      ],
+      "component": {
+        "name": "msgpack",
+        "version": "1.0.7",
+        "type": "Pip",
+        "id": "msgpack 1.0.7 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "msgpack",
+          "Version": "1.0.7",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "msgpack-numpy",
+          "version": "0.4.7.1",
+          "type": "Pip",
+          "id": "msgpack-numpy 0.4.7.1 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "msgpack-numpy",
+            "Version": "0.4.7.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/requirements.txt"
+      ],
+      "component": {
+        "name": "face-alignment",
+        "version": "1.3.3",
+        "type": "Pip",
+        "id": "face-alignment 1.3.3 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "face-alignment",
+          "Version": "1.3.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "face-alignment",
+          "version": "1.3.3",
+          "type": "Pip",
+          "id": "face-alignment 1.3.3 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "face-alignment",
+            "Version": "1.3.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/requirements.txt"
+      ],
+      "component": {
+        "name": "idna",
+        "version": "3.6",
+        "type": "Pip",
+        "id": "idna 3.6 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "idna",
+          "Version": "3.6",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "requests",
+          "version": "2.31.0",
+          "type": "Pip",
+          "id": "requests 2.31.0 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "requests",
+            "Version": "2.31.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/requirements.txt"
+      ],
+      "component": {
+        "name": "numpy",
+        "version": "1.26.4",
+        "type": "Pip",
+        "id": "numpy 1.26.4 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "numpy",
+          "Version": "1.26.4",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "opencv-python",
+          "version": "4.2.0.34",
+          "type": "Pip",
+          "id": "opencv-python 4.2.0.34 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "opencv-python",
+            "Version": "4.2.0.34",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        },
+        {
+          "name": "msgpack-numpy",
+          "version": "0.4.7.1",
+          "type": "Pip",
+          "id": "msgpack-numpy 0.4.7.1 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "msgpack-numpy",
+            "Version": "0.4.7.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/requirements.txt"
+      ],
+      "component": {
+        "name": "msgpack-numpy",
+        "version": "0.4.7.1",
+        "type": "Pip",
+        "id": "msgpack-numpy 0.4.7.1 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "msgpack-numpy",
+          "Version": "0.4.7.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "msgpack-numpy",
+          "version": "0.4.7.1",
+          "type": "Pip",
+          "id": "msgpack-numpy 0.4.7.1 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "msgpack-numpy",
+            "Version": "0.4.7.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/requirements.txt"
+      ],
+      "component": {
+        "name": "certifi",
+        "version": "2024.2.2",
+        "type": "Pip",
+        "id": "certifi 2024.2.2 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "certifi",
+          "Version": "2024.2.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "requests",
+          "version": "2.31.0",
+          "type": "Pip",
+          "id": "requests 2.31.0 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "requests",
+            "Version": "2.31.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/requirements.txt"
+      ],
+      "component": {
+        "name": "charset-normalizer",
+        "version": "3.3.2",
+        "type": "Pip",
+        "id": "charset-normalizer 3.3.2 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "charset-normalizer",
+          "Version": "3.3.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "requests",
+          "version": "2.31.0",
+          "type": "Pip",
+          "id": "requests 2.31.0 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "requests",
+            "Version": "2.31.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/requirements.txt"
+      ],
+      "component": {
+        "name": "py",
+        "version": "1.11.0",
+        "type": "Pip",
+        "id": "py 1.11.0 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "py",
+          "Version": "1.11.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "pyzmq",
+          "version": "20.0.0",
+          "type": "Pip",
+          "id": "pyzmq 20.0.0 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "pyzmq",
+            "Version": "20.0.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/requirements.txt"
+      ],
+      "component": {
+        "name": "cffi",
+        "version": "1.16.0",
+        "type": "Pip",
+        "id": "cffi 1.16.0 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "cffi",
+          "Version": "1.16.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "pyzmq",
+          "version": "20.0.0",
+          "type": "Pip",
+          "id": "pyzmq 20.0.0 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "pyzmq",
+            "Version": "20.0.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/requirements.txt"
+      ],
+      "component": {
+        "name": "opencv-python",
+        "version": "4.2.0.34",
+        "type": "Pip",
+        "id": "opencv-python 4.2.0.34 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "opencv-python",
+          "Version": "4.2.0.34",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "opencv-python",
+          "version": "4.2.0.34",
+          "type": "Pip",
+          "id": "opencv-python 4.2.0.34 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "opencv-python",
+            "Version": "4.2.0.34",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    }
+  ],
+  "detectorsInScan": [
+    {
+      "detectorId": "Yarn",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Vcpkg",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Vcpkg"
+      ]
+    },
+    {
+      "detectorId": "RustCrateDetector",
+      "isExperimental": false,
+      "version": 8,
+      "supportedComponentTypes": [
+        "Cargo"
+      ]
+    },
+    {
+      "detectorId": "Ruby",
+      "isExperimental": false,
+      "version": 3,
+      "supportedComponentTypes": [
+        "RubyGems"
+      ]
+    },
+    {
+      "detectorId": "Poetry",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "Pnpm",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Pip",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "NuGet",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetPackagesConfig",
+      "isExperimental": true,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetProjectCentric",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "Npm",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "NpmWithRoots",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "MvnCli",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Linux",
+      "isExperimental": false,
+      "version": 4,
+      "supportedComponentTypes": [
+        "Linux"
+      ]
+    },
+    {
+      "detectorId": "Ivy",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Gradle",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Go",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Go"
+      ]
+    },
+    {
+      "detectorId": "CocoaPods",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pod",
+        "Git"
+      ]
+    },
+    {
+      "detectorId": "SPDX22SBOM",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "Spdx"
+      ]
+    }
+  ],
+  "containerDetailsMap": {},
+  "resultCode": "Success",
+  "sourceDirectory": "D:\\Work\\SBOM\\results\\avatarify-python"
+}

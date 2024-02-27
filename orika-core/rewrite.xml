@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:c33f881b-f8d9-4f2a-a933-f4cfcff09f7b" version="1">
+    <metadata>
+        <timestamp>2023-10-27T05:44:11.325724100Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>OpenRewrite</vendor>
+                <name>OpenRewrite CycloneDX</name>
+                <version>7.18.0</version>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/ma.glasnost.orika/orika-core@1.6.0-SNAPSHOT?type=jar" type="library">
+            <group>ma.glasnost.orika</group>
+            <name>orika-core</name>
+            <version>1.6.0-SNAPSHOT</version>
+            <scope>required</scope>
+            <purl>pkg:maven/ma.glasnost.orika/orika-core@1.6.0-SNAPSHOT?type=jar</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="pkg:maven/org.javassist/javassist@3.28.0-GA?type=jar" type="library">
+            <group>org.javassist</group>
+            <name>javassist</name>
+            <version>3.28.0-GA</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>MPL 1.1</name>
+                </license>
+                <license>
+                    <name>LGPL 2.1</name>
+                </license>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.javassist/javassist@3.28.0-GA?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.thoughtworks.paranamer/paranamer@2.8?type=jar" type="library">
+            <group>com.thoughtworks.paranamer</group>
+            <name>paranamer</name>
+            <version>2.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.thoughtworks.paranamer/paranamer@2.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.slf4j/slf4j-api@1.7.26?type=jar" type="library">
+            <group>org.slf4j</group>
+            <name>slf4j-api</name>
+            <version>1.7.26</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.slf4j/slf4j-api@1.7.26?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.guava/guava@27.0.1-jre?type=jar" type="library">
+            <group>com.google.guava</group>
+            <name>guava</name>
+            <version>27.0.1-jre</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.google.guava/guava@27.0.1-jre?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar" type="library">
+            <group>com.google.guava</group>
+            <name>failureaccess</name>
+            <version>1.0.1</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar" type="library">
+            <group>com.google.guava</group>
+            <name>listenablefuture</name>
+            <version>9999.0-empty-to-avoid-conflict-with-guava</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar" type="library">
+            <group>com.google.code.findbugs</group>
+            <name>jsr305</name>
+            <version>3.0.2</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.checkerframework/checker-qual@2.5.2?type=jar" type="library">
+            <group>org.checkerframework</group>
+            <name>checker-qual</name>
+            <version>2.5.2</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>The MIT License</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.checkerframework/checker-qual@2.5.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.2.0?type=jar" type="library">
+            <group>com.google.errorprone</group>
+            <name>error_prone_annotations</name>
+            <version>2.2.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.google.errorprone/error_prone_annotations@2.2.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.j2objc/j2objc-annotations@1.1?type=jar" type="library">
+            <group>com.google.j2objc</group>
+            <name>j2objc-annotations</name>
+            <version>1.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.google.j2objc/j2objc-annotations@1.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.codehaus.mojo/animal-sniffer-annotations@1.17?type=jar" type="library">
+            <group>org.codehaus.mojo</group>
+            <name>animal-sniffer-annotations</name>
+            <version>1.17</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.codehaus.mojo/animal-sniffer-annotations@1.17?type=jar</purl>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/org.javassist/javassist@3.28.0-GA?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.thoughtworks.paranamer/paranamer@2.8?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.26?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.google.guava/guava@27.0.1-jre?type=jar">
+            <dependency ref="pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar"/>
+            <dependency ref="pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar"/>
+            <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar"/>
+            <dependency ref="pkg:maven/org.checkerframework/checker-qual@2.5.2?type=jar"/>
+            <dependency ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.2.0?type=jar"/>
+            <dependency ref="pkg:maven/com.google.j2objc/j2objc-annotations@1.1?type=jar"/>
+            <dependency ref="pkg:maven/org.codehaus.mojo/animal-sniffer-annotations@1.17?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.checkerframework/checker-qual@2.5.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.2.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.google.j2objc/j2objc-annotations@1.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.codehaus.mojo/animal-sniffer-annotations@1.17?type=jar">
+        </dependency>
+    </dependencies>
+</bom>

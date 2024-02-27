@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:d2f2ed52-14dc-4dcf-8d34-65c1eed226f4" version="1">
+    <metadata>
+        <timestamp>2023-10-27T04:40:58.531991700Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>OpenRewrite</vendor>
+                <name>OpenRewrite CycloneDX</name>
+                <version>7.18.0</version>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/com.github.sarxos/webcam-capture@0.3.13-SNAPSHOT?type=bundle" type="library">
+            <group>com.github.sarxos</group>
+            <name>webcam-capture</name>
+            <version>0.3.13-SNAPSHOT</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.github.sarxos/webcam-capture@0.3.13-SNAPSHOT?type=bundle</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="pkg:maven/com.nativelibs4java/bridj@0.7.0?type=jar" type="library">
+            <group>com.nativelibs4java</group>
+            <name>bridj</name>
+            <version>0.7.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.nativelibs4java/bridj@0.7.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.slf4j/slf4j-api@1.7.2?type=jar" type="library">
+            <group>org.slf4j</group>
+            <name>slf4j-api</name>
+            <version>1.7.2</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.slf4j/slf4j-api@1.7.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/ch.qos.logback/logback-classic@1.0.9?type=jar" type="library">
+            <group>ch.qos.logback</group>
+            <name>logback-classic</name>
+            <version>1.0.9</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <name>Eclipse Public License - v 1.0</name>
+                </license>
+                <license>
+                    <name>GNU Lesser General Public License</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/ch.qos.logback/logback-classic@1.0.9?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/ch.qos.logback/logback-core@1.0.9?type=jar" type="library">
+            <group>ch.qos.logback</group>
+            <name>logback-core</name>
+            <version>1.0.9</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <name>Eclipse Public License - v 1.0</name>
+                </license>
+                <license>
+                    <name>GNU Lesser General Public License</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/ch.qos.logback/logback-core@1.0.9?type=jar</purl>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/com.nativelibs4java/bridj@0.7.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/ch.qos.logback/logback-classic@1.0.9?type=jar">
+            <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.0.9?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.0.9?type=jar">
+        </dependency>
+    </dependencies>
+</bom>

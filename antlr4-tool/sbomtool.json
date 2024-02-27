@@ -1,0 +1,442 @@
+{
+  "dependencyGraphs": {
+    "D:\\Work\\SBOM\\TestProjects\\antlr4-dev\\tool\\pom.xml": {
+      "graph": {
+        "org.antlr antlr-runtime 3.5.3 - Maven": null,
+        "com.ibm.icu icu4j 72.1 - Maven": null,
+        "org.antlr ST4 4.3.4 - Maven": null,
+        "org.antlr antlr4-runtime 4.13.1-SNAPSHOT - Maven": null,
+        "org.antlr antlr4 4.13.1-SNAPSHOT - Maven": [
+          "org.antlr antlr4-runtime 4.13.1-SNAPSHOT - Maven",
+          "org.antlr antlr-runtime 3.5.3 - Maven",
+          "org.antlr ST4 4.3.4 - Maven",
+          "org.abego.treelayout org.abego.treelayout.core 1.0.3 - Maven",
+          "com.ibm.icu icu4j 72.1 - Maven"
+        ],
+        "org.abego.treelayout org.abego.treelayout.core 1.0.3 - Maven": null
+      },
+      "explicitlyReferencedComponentIds": [
+        "org.antlr antlr-runtime 3.5.3 - Maven",
+        "com.ibm.icu icu4j 72.1 - Maven",
+        "org.antlr ST4 4.3.4 - Maven",
+        "org.antlr antlr4-runtime 4.13.1-SNAPSHOT - Maven",
+        "org.abego.treelayout org.abego.treelayout.core 1.0.3 - Maven"
+      ],
+      "developmentDependencies": [],
+      "dependencies": [
+        "org.antlr antlr-runtime 3.5.3 - Maven",
+        "com.ibm.icu icu4j 72.1 - Maven",
+        "org.antlr ST4 4.3.4 - Maven",
+        "org.antlr antlr4-runtime 4.13.1-SNAPSHOT - Maven",
+        "org.abego.treelayout org.abego.treelayout.core 1.0.3 - Maven"
+      ]
+    }
+  },
+  "componentsFound": [
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.antlr",
+        "artifactId": "antlr-runtime",
+        "version": "3.5.3",
+        "type": "Maven",
+        "id": "org.antlr antlr-runtime 3.5.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.antlr",
+          "Name": "antlr-runtime",
+          "Version": "3.5.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.antlr",
+          "artifactId": "antlr-runtime",
+          "version": "3.5.3",
+          "type": "Maven",
+          "id": "org.antlr antlr-runtime 3.5.3 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.antlr",
+            "Name": "antlr-runtime",
+            "Version": "3.5.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.ibm.icu",
+        "artifactId": "icu4j",
+        "version": "72.1",
+        "type": "Maven",
+        "id": "com.ibm.icu icu4j 72.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.ibm.icu",
+          "Name": "icu4j",
+          "Version": "72.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.ibm.icu",
+          "artifactId": "icu4j",
+          "version": "72.1",
+          "type": "Maven",
+          "id": "com.ibm.icu icu4j 72.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.ibm.icu",
+            "Name": "icu4j",
+            "Version": "72.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.antlr",
+        "artifactId": "ST4",
+        "version": "4.3.4",
+        "type": "Maven",
+        "id": "org.antlr ST4 4.3.4 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.antlr",
+          "Name": "st4",
+          "Version": "4.3.4",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.antlr",
+          "artifactId": "ST4",
+          "version": "4.3.4",
+          "type": "Maven",
+          "id": "org.antlr ST4 4.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.antlr",
+            "Name": "st4",
+            "Version": "4.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.antlr",
+        "artifactId": "antlr4-runtime",
+        "version": "4.13.1-SNAPSHOT",
+        "type": "Maven",
+        "id": "org.antlr antlr4-runtime 4.13.1-SNAPSHOT - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.antlr",
+          "Name": "antlr4-runtime",
+          "Version": "4.13.1-SNAPSHOT",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.antlr",
+          "artifactId": "antlr4-runtime",
+          "version": "4.13.1-SNAPSHOT",
+          "type": "Maven",
+          "id": "org.antlr antlr4-runtime 4.13.1-SNAPSHOT - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.antlr",
+            "Name": "antlr4-runtime",
+            "Version": "4.13.1-SNAPSHOT",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.antlr",
+        "artifactId": "antlr4",
+        "version": "4.13.1-SNAPSHOT",
+        "type": "Maven",
+        "id": "org.antlr antlr4 4.13.1-SNAPSHOT - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.antlr",
+          "Name": "antlr4",
+          "Version": "4.13.1-SNAPSHOT",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": null,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.abego.treelayout",
+        "artifactId": "org.abego.treelayout.core",
+        "version": "1.0.3",
+        "type": "Maven",
+        "id": "org.abego.treelayout org.abego.treelayout.core 1.0.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.abego.treelayout",
+          "Name": "org.abego.treelayout.core",
+          "Version": "1.0.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.abego.treelayout",
+          "artifactId": "org.abego.treelayout.core",
+          "version": "1.0.3",
+          "type": "Maven",
+          "id": "org.abego.treelayout org.abego.treelayout.core 1.0.3 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.abego.treelayout",
+            "Name": "org.abego.treelayout.core",
+            "Version": "1.0.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    }
+  ],
+  "detectorsInScan": [
+    {
+      "detectorId": "Yarn",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Vcpkg",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Vcpkg"
+      ]
+    },
+    {
+      "detectorId": "RustCrateDetector",
+      "isExperimental": false,
+      "version": 8,
+      "supportedComponentTypes": [
+        "Cargo"
+      ]
+    },
+    {
+      "detectorId": "Ruby",
+      "isExperimental": false,
+      "version": 3,
+      "supportedComponentTypes": [
+        "RubyGems"
+      ]
+    },
+    {
+      "detectorId": "Poetry",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "Pnpm",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Pip",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "NuGet",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetPackagesConfig",
+      "isExperimental": true,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetProjectCentric",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "Npm",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "NpmWithRoots",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "MvnCli",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Linux",
+      "isExperimental": false,
+      "version": 4,
+      "supportedComponentTypes": [
+        "Linux"
+      ]
+    },
+    {
+      "detectorId": "Ivy",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Gradle",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Go",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Go"
+      ]
+    },
+    {
+      "detectorId": "CocoaPods",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pod",
+        "Git"
+      ]
+    },
+    {
+      "detectorId": "SPDX22SBOM",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "Spdx"
+      ]
+    }
+  ],
+  "containerDetailsMap": {},
+  "resultCode": "Success",
+  "sourceDirectory": "D:\\Work\\SBOM\\TestProjects\\antlr4-dev\\tool"
+}

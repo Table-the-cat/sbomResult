@@ -1,0 +1,602 @@
+{
+  "dependencyGraphs": {
+    "D:\\Work\\SBOM\\TestProjects\\kafka-python\\docs\\requirements.txt": {
+      "graph": {
+        "sphinxcontrib-jquery 4.1 - pip": null,
+        "docutils 0.20.1 - pip": null,
+        "sphinxcontrib-devhelp 1.0.6 - pip": null,
+        "sphinx 7.2.6 - pip": [
+          "sphinxcontrib-applehelp 1.0.8 - pip",
+          "sphinxcontrib-devhelp 1.0.6 - pip",
+          "sphinxcontrib-jsmath 1.0.1 - pip",
+          "sphinxcontrib-qthelp 1.0.7 - pip"
+        ],
+        "sphinxcontrib-applehelp 1.0.8 - pip": null,
+        "sphinxcontrib-qthelp 1.0.7 - pip": null,
+        "sphinx_rtd_theme 2.0.0 - pip": [
+          "sphinx 7.2.6 - pip",
+          "docutils 0.20.1 - pip",
+          "sphinxcontrib-jquery 4.1 - pip"
+        ],
+        "sphinxcontrib-jsmath 1.0.1 - pip": null
+      },
+      "explicitlyReferencedComponentIds": [
+        "sphinx 7.2.6 - pip",
+        "sphinx_rtd_theme 2.0.0 - pip"
+      ],
+      "developmentDependencies": [],
+      "dependencies": []
+    }
+  },
+  "componentsFound": [
+    {
+      "locationsFoundAt": [
+        "/docs/requirements.txt"
+      ],
+      "component": {
+        "name": "sphinxcontrib-jquery",
+        "version": "4.1",
+        "type": "Pip",
+        "id": "sphinxcontrib-jquery 4.1 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "sphinxcontrib-jquery",
+          "Version": "4.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "sphinx_rtd_theme",
+          "version": "2.0.0",
+          "type": "Pip",
+          "id": "sphinx_rtd_theme 2.0.0 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "sphinx-rtd-theme",
+            "Version": "2.0.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/docs/requirements.txt"
+      ],
+      "component": {
+        "name": "docutils",
+        "version": "0.20.1",
+        "type": "Pip",
+        "id": "docutils 0.20.1 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "docutils",
+          "Version": "0.20.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "sphinx_rtd_theme",
+          "version": "2.0.0",
+          "type": "Pip",
+          "id": "sphinx_rtd_theme 2.0.0 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "sphinx-rtd-theme",
+            "Version": "2.0.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/docs/requirements.txt"
+      ],
+      "component": {
+        "name": "sphinxcontrib-devhelp",
+        "version": "1.0.6",
+        "type": "Pip",
+        "id": "sphinxcontrib-devhelp 1.0.6 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "sphinxcontrib-devhelp",
+          "Version": "1.0.6",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "sphinx",
+          "version": "7.2.6",
+          "type": "Pip",
+          "id": "sphinx 7.2.6 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "sphinx",
+            "Version": "7.2.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        },
+        {
+          "name": "sphinx_rtd_theme",
+          "version": "2.0.0",
+          "type": "Pip",
+          "id": "sphinx_rtd_theme 2.0.0 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "sphinx-rtd-theme",
+            "Version": "2.0.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/docs/requirements.txt"
+      ],
+      "component": {
+        "name": "sphinx",
+        "version": "7.2.6",
+        "type": "Pip",
+        "id": "sphinx 7.2.6 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "sphinx",
+          "Version": "7.2.6",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "sphinx",
+          "version": "7.2.6",
+          "type": "Pip",
+          "id": "sphinx 7.2.6 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "sphinx",
+            "Version": "7.2.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        },
+        {
+          "name": "sphinx_rtd_theme",
+          "version": "2.0.0",
+          "type": "Pip",
+          "id": "sphinx_rtd_theme 2.0.0 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "sphinx-rtd-theme",
+            "Version": "2.0.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/docs/requirements.txt"
+      ],
+      "component": {
+        "name": "sphinxcontrib-applehelp",
+        "version": "1.0.8",
+        "type": "Pip",
+        "id": "sphinxcontrib-applehelp 1.0.8 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "sphinxcontrib-applehelp",
+          "Version": "1.0.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "sphinx",
+          "version": "7.2.6",
+          "type": "Pip",
+          "id": "sphinx 7.2.6 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "sphinx",
+            "Version": "7.2.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        },
+        {
+          "name": "sphinx_rtd_theme",
+          "version": "2.0.0",
+          "type": "Pip",
+          "id": "sphinx_rtd_theme 2.0.0 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "sphinx-rtd-theme",
+            "Version": "2.0.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/docs/requirements.txt"
+      ],
+      "component": {
+        "name": "sphinxcontrib-qthelp",
+        "version": "1.0.7",
+        "type": "Pip",
+        "id": "sphinxcontrib-qthelp 1.0.7 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "sphinxcontrib-qthelp",
+          "Version": "1.0.7",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "sphinx",
+          "version": "7.2.6",
+          "type": "Pip",
+          "id": "sphinx 7.2.6 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "sphinx",
+            "Version": "7.2.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        },
+        {
+          "name": "sphinx_rtd_theme",
+          "version": "2.0.0",
+          "type": "Pip",
+          "id": "sphinx_rtd_theme 2.0.0 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "sphinx-rtd-theme",
+            "Version": "2.0.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/docs/requirements.txt"
+      ],
+      "component": {
+        "name": "sphinx_rtd_theme",
+        "version": "2.0.0",
+        "type": "Pip",
+        "id": "sphinx_rtd_theme 2.0.0 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "sphinx-rtd-theme",
+          "Version": "2.0.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "sphinx_rtd_theme",
+          "version": "2.0.0",
+          "type": "Pip",
+          "id": "sphinx_rtd_theme 2.0.0 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "sphinx-rtd-theme",
+            "Version": "2.0.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/docs/requirements.txt"
+      ],
+      "component": {
+        "name": "sphinxcontrib-jsmath",
+        "version": "1.0.1",
+        "type": "Pip",
+        "id": "sphinxcontrib-jsmath 1.0.1 - pip",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "pypi",
+          "Namespace": null,
+          "Name": "sphinxcontrib-jsmath",
+          "Version": "1.0.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "Pip",
+      "isDevelopmentDependency": null,
+      "dependencyScope": null,
+      "topLevelReferrers": [
+        {
+          "name": "sphinx",
+          "version": "7.2.6",
+          "type": "Pip",
+          "id": "sphinx 7.2.6 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "sphinx",
+            "Version": "7.2.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        },
+        {
+          "name": "sphinx_rtd_theme",
+          "version": "2.0.0",
+          "type": "Pip",
+          "id": "sphinx_rtd_theme 2.0.0 - pip",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "pypi",
+            "Namespace": null,
+            "Name": "sphinx-rtd-theme",
+            "Version": "2.0.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    }
+  ],
+  "detectorsInScan": [
+    {
+      "detectorId": "Yarn",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Vcpkg",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Vcpkg"
+      ]
+    },
+    {
+      "detectorId": "RustCrateDetector",
+      "isExperimental": false,
+      "version": 8,
+      "supportedComponentTypes": [
+        "Cargo"
+      ]
+    },
+    {
+      "detectorId": "Ruby",
+      "isExperimental": false,
+      "version": 3,
+      "supportedComponentTypes": [
+        "RubyGems"
+      ]
+    },
+    {
+      "detectorId": "Poetry",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "Pnpm",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Pip",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "NuGet",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetPackagesConfig",
+      "isExperimental": true,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetProjectCentric",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "Npm",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "NpmWithRoots",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "MvnCli",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Linux",
+      "isExperimental": false,
+      "version": 4,
+      "supportedComponentTypes": [
+        "Linux"
+      ]
+    },
+    {
+      "detectorId": "Ivy",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Gradle",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Go",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Go"
+      ]
+    },
+    {
+      "detectorId": "CocoaPods",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pod",
+        "Git"
+      ]
+    },
+    {
+      "detectorId": "SPDX22SBOM",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "Spdx"
+      ]
+    }
+  ],
+  "containerDetailsMap": {},
+  "resultCode": "Success",
+  "sourceDirectory": "D:\\Work\\SBOM\\TestProjects\\kafka-python"
+}

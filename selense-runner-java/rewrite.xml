@@ -1,0 +1,1519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:aea47a79-1f25-44c0-8250-9137c00dc85e" version="1">
+    <metadata>
+        <timestamp>2023-10-26T11:08:27.154203300Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>OpenRewrite</vendor>
+                <name>OpenRewrite CycloneDX</name>
+                <version>7.18.0</version>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/jp.vmi/selenese-runner-java@4.3.1-SNAPSHOT?type=jar" type="library">
+            <group>jp.vmi</group>
+            <name>selenese-runner-java</name>
+            <version>4.3.1-SNAPSHOT</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/jp.vmi/selenese-runner-java@4.3.1-SNAPSHOT?type=jar</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-java@4.8.1?type=jar" type="library">
+            <group>org.seleniumhq.selenium</group>
+            <name>selenium-java</name>
+            <version>4.8.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.seleniumhq.selenium/selenium-java@4.8.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.seleniumhq.selenium/htmlunit-driver@4.8.0?type=jar" type="library">
+            <group>org.seleniumhq.selenium</group>
+            <name>htmlunit-driver</name>
+            <version>4.8.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.seleniumhq.selenium/htmlunit-driver@4.8.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/net.sourceforge.nekohtml/nekohtml@1.9.22?type=jar" type="library">
+            <group>net.sourceforge.nekohtml</group>
+            <name>nekohtml</name>
+            <version>1.9.22</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/net.sourceforge.nekohtml/nekohtml@1.9.22?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar" type="library">
+            <group>org.apache.commons</group>
+            <name>commons-lang3</name>
+            <version>3.12.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar" type="library">
+            <group>org.apache.commons</group>
+            <name>commons-text</name>
+            <version>1.10.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/commons-io/commons-io@2.11.0?type=jar" type="library">
+            <group>commons-io</group>
+            <name>commons-io</name>
+            <version>2.11.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/commons-io/commons-io@2.11.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/args4j/args4j@2.33?type=jar" type="library">
+            <group>args4j</group>
+            <name>args4j</name>
+            <version>2.33</version>
+            <scope>required</scope>
+            <purl>pkg:maven/args4j/args4j@2.33?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar" type="library">
+            <group>org.slf4j</group>
+            <name>slf4j-api</name>
+            <version>2.0.7</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.slf4j/jcl-over-slf4j@2.0.7?type=jar" type="library">
+            <group>org.slf4j</group>
+            <name>jcl-over-slf4j</name>
+            <version>2.0.7</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.slf4j/jcl-over-slf4j@2.0.7?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/ch.qos.logback/logback-classic@1.3.6?type=jar" type="library">
+            <group>ch.qos.logback</group>
+            <name>logback-classic</name>
+            <version>1.3.6</version>
+            <scope>required</scope>
+            <purl>pkg:maven/ch.qos.logback/logback-classic@1.3.6?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.inject/guice@5.1.0?type=jar" type="library">
+            <group>com.google.inject</group>
+            <name>guice</name>
+            <version>5.1.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.google.inject/guice@5.1.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.slf4j/jul-to-slf4j@2.0.7?type=jar" type="library">
+            <group>org.slf4j</group>
+            <name>jul-to-slf4j</name>
+            <version>2.0.7</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.slf4j/jul-to-slf4j@2.0.7?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.floreysoft/jmte@7.0.2?type=jar" type="library">
+            <group>com.floreysoft</group>
+            <name>jmte</name>
+            <version>7.0.2</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.floreysoft/jmte@7.0.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.code.gson/gson@2.10.1?type=jar" type="library">
+            <group>com.google.code.gson</group>
+            <name>gson</name>
+            <version>2.10.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache-2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.google.code.gson/gson@2.10.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.assertthat/selenium-shutterbug@1.6?type=jar" type="library">
+            <group>com.assertthat</group>
+            <name>selenium-shutterbug</name>
+            <version>1.6</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>MIT License</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.assertthat/selenium-shutterbug@1.6?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar" type="library">
+            <group>jakarta.xml.bind</group>
+            <name>jakarta.xml.bind-api</name>
+            <version>2.3.3</version>
+            <scope>required</scope>
+            <purl>pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.glassfish.jaxb/jaxb-runtime@2.3.8?type=jar" type="library">
+            <group>org.glassfish.jaxb</group>
+            <name>jaxb-runtime</name>
+            <version>2.3.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.glassfish.jaxb/jaxb-runtime@2.3.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-api@4.8.1?type=jar" type="library">
+            <group>org.seleniumhq.selenium</group>
+            <name>selenium-api</name>
+            <version>4.8.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.seleniumhq.selenium/selenium-api@4.8.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-chrome-driver@4.8.1?type=jar" type="library">
+            <group>org.seleniumhq.selenium</group>
+            <name>selenium-chrome-driver</name>
+            <version>4.8.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.seleniumhq.selenium/selenium-chrome-driver@4.8.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-devtools-v108@4.8.1?type=jar" type="library">
+            <group>org.seleniumhq.selenium</group>
+            <name>selenium-devtools-v108</name>
+            <version>4.8.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.seleniumhq.selenium/selenium-devtools-v108@4.8.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-devtools-v109@4.8.1?type=jar" type="library">
+            <group>org.seleniumhq.selenium</group>
+            <name>selenium-devtools-v109</name>
+            <version>4.8.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.seleniumhq.selenium/selenium-devtools-v109@4.8.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-devtools-v110@4.8.1?type=jar" type="library">
+            <group>org.seleniumhq.selenium</group>
+            <name>selenium-devtools-v110</name>
+            <version>4.8.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.seleniumhq.selenium/selenium-devtools-v110@4.8.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-devtools-v85@4.8.1?type=jar" type="library">
+            <group>org.seleniumhq.selenium</group>
+            <name>selenium-devtools-v85</name>
+            <version>4.8.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.seleniumhq.selenium/selenium-devtools-v85@4.8.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-edge-driver@4.8.1?type=jar" type="library">
+            <group>org.seleniumhq.selenium</group>
+            <name>selenium-edge-driver</name>
+            <version>4.8.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.seleniumhq.selenium/selenium-edge-driver@4.8.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-firefox-driver@4.8.1?type=jar" type="library">
+            <group>org.seleniumhq.selenium</group>
+            <name>selenium-firefox-driver</name>
+            <version>4.8.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.seleniumhq.selenium/selenium-firefox-driver@4.8.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-ie-driver@4.8.1?type=jar" type="library">
+            <group>org.seleniumhq.selenium</group>
+            <name>selenium-ie-driver</name>
+            <version>4.8.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.seleniumhq.selenium/selenium-ie-driver@4.8.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.8.1?type=jar" type="library">
+            <group>org.seleniumhq.selenium</group>
+            <name>selenium-remote-driver</name>
+            <version>4.8.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.8.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-safari-driver@4.8.1?type=jar" type="library">
+            <group>org.seleniumhq.selenium</group>
+            <name>selenium-safari-driver</name>
+            <version>4.8.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.seleniumhq.selenium/selenium-safari-driver@4.8.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-support@4.8.1?type=jar" type="library">
+            <group>org.seleniumhq.selenium</group>
+            <name>selenium-support</name>
+            <version>4.8.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.seleniumhq.selenium/selenium-support@4.8.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/net.sourceforge.htmlunit/htmlunit@2.70.0?type=jar" type="library">
+            <group>net.sourceforge.htmlunit</group>
+            <name>htmlunit</name>
+            <version>2.70.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/net.sourceforge.htmlunit/htmlunit@2.70.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/xerces/xercesImpl@2.11.0?type=jar" type="library">
+            <group>xerces</group>
+            <name>xercesImpl</name>
+            <version>2.11.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/xerces/xercesImpl@2.11.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/ch.qos.logback/logback-core@1.3.6?type=jar" type="library">
+            <group>ch.qos.logback</group>
+            <name>logback-core</name>
+            <version>1.3.6</version>
+            <scope>required</scope>
+            <purl>pkg:maven/ch.qos.logback/logback-core@1.3.6?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/javax.inject/javax.inject@1?type=jar" type="library">
+            <group>javax.inject</group>
+            <name>javax.inject</name>
+            <version>1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/javax.inject/javax.inject@1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/aopalliance/aopalliance@1.0?type=jar" type="library">
+            <group>aopalliance</group>
+            <name>aopalliance</name>
+            <version>1.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>Public Domain</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/aopalliance/aopalliance@1.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.guava/guava@31.1-jre?type=jar" type="library">
+            <group>com.google.guava</group>
+            <name>guava</name>
+            <version>31.1-jre</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.google.guava/guava@31.1-jre?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.github.zafarkhaja/java-semver@0.9.0?type=jar" type="library">
+            <group>com.github.zafarkhaja</group>
+            <name>java-semver</name>
+            <version>0.9.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>The MIT License</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.github.zafarkhaja/java-semver@0.9.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.github.bonigarcia/webdrivermanager@4.0.0?type=jar" type="library">
+            <group>io.github.bonigarcia</group>
+            <name>webdrivermanager</name>
+            <version>4.0.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/io.github.bonigarcia/webdrivermanager@4.0.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar" type="library">
+            <group>jakarta.activation</group>
+            <name>jakarta.activation-api</name>
+            <version>1.2.2</version>
+            <scope>required</scope>
+            <purl>pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.glassfish.jaxb/txw2@2.3.8?type=jar" type="library">
+            <group>org.glassfish.jaxb</group>
+            <name>txw2</name>
+            <version>2.3.8</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.glassfish.jaxb/txw2@2.3.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.sun.istack/istack-commons-runtime@3.0.12?type=jar" type="library">
+            <group>com.sun.istack</group>
+            <name>istack-commons-runtime</name>
+            <version>3.0.12</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.sun.istack/istack-commons-runtime@3.0.12?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.auto.service/auto-service-annotations@1.0.1?type=jar" type="library">
+            <group>com.google.auto.service</group>
+            <name>auto-service-annotations</name>
+            <version>1.0.1</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.google.auto.service/auto-service-annotations@1.0.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.auto.service/auto-service@1.0.1?type=jar" type="library">
+            <group>com.google.auto.service</group>
+            <name>auto-service</name>
+            <version>1.0.1</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.google.auto.service/auto-service@1.0.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-chromium-driver@4.8.1?type=jar" type="library">
+            <group>org.seleniumhq.selenium</group>
+            <name>selenium-chromium-driver</name>
+            <version>4.8.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.seleniumhq.selenium/selenium-chromium-driver@4.8.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-json@4.8.1?type=jar" type="library">
+            <group>org.seleniumhq.selenium</group>
+            <name>selenium-json</name>
+            <version>4.8.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.seleniumhq.selenium/selenium-json@4.8.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-http@4.8.1?type=jar" type="library">
+            <group>org.seleniumhq.selenium</group>
+            <name>selenium-http</name>
+            <version>4.8.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.seleniumhq.selenium/selenium-http@4.8.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.beust/jcommander@1.82?type=jar" type="library">
+            <group>com.beust</group>
+            <name>jcommander</name>
+            <version>1.82</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.beust/jcommander@1.82?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.netty/netty-buffer@4.1.87.Final?type=jar" type="library">
+            <group>io.netty</group>
+            <name>netty-buffer</name>
+            <version>4.1.87.Final</version>
+            <scope>required</scope>
+            <purl>pkg:maven/io.netty/netty-buffer@4.1.87.Final?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.netty/netty-codec-http@4.1.87.Final?type=jar" type="library">
+            <group>io.netty</group>
+            <name>netty-codec-http</name>
+            <version>4.1.87.Final</version>
+            <scope>required</scope>
+            <purl>pkg:maven/io.netty/netty-codec-http@4.1.87.Final?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.netty/netty-common@4.1.87.Final?type=jar" type="library">
+            <group>io.netty</group>
+            <name>netty-common</name>
+            <version>4.1.87.Final</version>
+            <scope>required</scope>
+            <purl>pkg:maven/io.netty/netty-common@4.1.87.Final?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.netty/netty-transport-classes-epoll@4.1.87.Final?type=jar" type="library">
+            <group>io.netty</group>
+            <name>netty-transport-classes-epoll</name>
+            <version>4.1.87.Final</version>
+            <scope>required</scope>
+            <purl>pkg:maven/io.netty/netty-transport-classes-epoll@4.1.87.Final?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.87.Final?type=jar" type="library">
+            <group>io.netty</group>
+            <name>netty-transport-classes-kqueue</name>
+            <version>4.1.87.Final</version>
+            <scope>required</scope>
+            <purl>pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.87.Final?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.netty/netty-transport-native-epoll@4.1.87.Final?type=jar" type="library">
+            <group>io.netty</group>
+            <name>netty-transport-native-epoll</name>
+            <version>4.1.87.Final</version>
+            <scope>required</scope>
+            <purl>pkg:maven/io.netty/netty-transport-native-epoll@4.1.87.Final?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.netty/netty-transport-native-kqueue@4.1.87.Final?type=jar" type="library">
+            <group>io.netty</group>
+            <name>netty-transport-native-kqueue</name>
+            <version>4.1.87.Final</version>
+            <scope>required</scope>
+            <purl>pkg:maven/io.netty/netty-transport-native-kqueue@4.1.87.Final?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.netty/netty-transport-native-unix-common@4.1.87.Final?type=jar" type="library">
+            <group>io.netty</group>
+            <name>netty-transport-native-unix-common</name>
+            <version>4.1.87.Final</version>
+            <scope>required</scope>
+            <purl>pkg:maven/io.netty/netty-transport-native-unix-common@4.1.87.Final?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.netty/netty-transport@4.1.87.Final?type=jar" type="library">
+            <group>io.netty</group>
+            <name>netty-transport</name>
+            <version>4.1.87.Final</version>
+            <scope>required</scope>
+            <purl>pkg:maven/io.netty/netty-transport@4.1.87.Final?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.opentelemetry/opentelemetry-api@1.22.0?type=jar" type="library">
+            <group>io.opentelemetry</group>
+            <name>opentelemetry-api</name>
+            <version>1.22.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/io.opentelemetry/opentelemetry-api@1.22.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.opentelemetry/opentelemetry-context@1.22.0?type=jar" type="library">
+            <group>io.opentelemetry</group>
+            <name>opentelemetry-context</name>
+            <version>1.22.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/io.opentelemetry/opentelemetry-context@1.22.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.opentelemetry/opentelemetry-exporter-logging@1.22.0?type=jar" type="library">
+            <group>io.opentelemetry</group>
+            <name>opentelemetry-exporter-logging</name>
+            <version>1.22.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/io.opentelemetry/opentelemetry-exporter-logging@1.22.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-common@1.22.0?type=jar" type="library">
+            <group>io.opentelemetry</group>
+            <name>opentelemetry-sdk-common</name>
+            <version>1.22.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/io.opentelemetry/opentelemetry-sdk-common@1.22.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi@1.22.0?type=jar" type="library">
+            <group>io.opentelemetry</group>
+            <name>opentelemetry-sdk-extension-autoconfigure-spi</name>
+            <version>1.22.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi@1.22.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure@1.22.0-alpha?type=jar" type="library">
+            <group>io.opentelemetry</group>
+            <name>opentelemetry-sdk-extension-autoconfigure</name>
+            <version>1.22.0-alpha</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure@1.22.0-alpha?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-trace@1.22.0?type=jar" type="library">
+            <group>io.opentelemetry</group>
+            <name>opentelemetry-sdk-trace</name>
+            <version>1.22.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/io.opentelemetry/opentelemetry-sdk-trace@1.22.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.opentelemetry/opentelemetry-sdk@1.22.0?type=jar" type="library">
+            <group>io.opentelemetry</group>
+            <name>opentelemetry-sdk</name>
+            <version>1.22.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/io.opentelemetry/opentelemetry-sdk@1.22.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.opentelemetry/opentelemetry-semconv@1.22.0-alpha?type=jar" type="library">
+            <group>io.opentelemetry</group>
+            <name>opentelemetry-semconv</name>
+            <version>1.22.0-alpha</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/io.opentelemetry/opentelemetry-semconv@1.22.0-alpha?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.ous/jtoml@2.0.0?type=jar" type="library">
+            <group>io.ous</group>
+            <name>jtoml</name>
+            <version>2.0.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/io.ous/jtoml@2.0.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/net.bytebuddy/byte-buddy@1.12.22?type=jar" type="library">
+            <group>net.bytebuddy</group>
+            <name>byte-buddy</name>
+            <version>1.12.22</version>
+            <scope>required</scope>
+            <purl>pkg:maven/net.bytebuddy/byte-buddy@1.12.22?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.commons/commons-exec@1.3?type=jar" type="library">
+            <group>org.apache.commons</group>
+            <name>commons-exec</name>
+            <version>1.3</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.commons/commons-exec@1.3?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar" type="library">
+            <group>org.asynchttpclient</group>
+            <name>async-http-client</name>
+            <version>2.12.3</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-manager@4.8.1?type=jar" type="library">
+            <group>org.seleniumhq.selenium</group>
+            <name>selenium-manager</name>
+            <version>4.8.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.seleniumhq.selenium/selenium-manager@4.8.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.httpcomponents/httpmime@4.5.14?type=jar" type="library">
+            <group>org.apache.httpcomponents</group>
+            <name>httpmime</name>
+            <version>4.5.14</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.httpcomponents/httpmime@4.5.14?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/net.sourceforge.htmlunit/htmlunit-core-js@2.70.0?type=jar" type="library">
+            <group>net.sourceforge.htmlunit</group>
+            <name>htmlunit-core-js</name>
+            <version>2.70.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>Mozilla Public License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/net.sourceforge.htmlunit/htmlunit-core-js@2.70.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/net.sourceforge.htmlunit/neko-htmlunit@2.70.0?type=jar" type="library">
+            <group>net.sourceforge.htmlunit</group>
+            <name>neko-htmlunit</name>
+            <version>2.70.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/net.sourceforge.htmlunit/neko-htmlunit@2.70.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/net.sourceforge.htmlunit/htmlunit-cssparser@1.14.0?type=jar" type="library">
+            <group>net.sourceforge.htmlunit</group>
+            <name>htmlunit-cssparser</name>
+            <version>1.14.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/net.sourceforge.htmlunit/htmlunit-cssparser@1.14.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/net.sourceforge.htmlunit/htmlunit-xpath@2.70.0?type=jar" type="library">
+            <group>net.sourceforge.htmlunit</group>
+            <name>htmlunit-xpath</name>
+            <version>2.70.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/net.sourceforge.htmlunit/htmlunit-xpath@2.70.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/commons-net/commons-net@3.9.0?type=jar" type="library">
+            <group>commons-net</group>
+            <name>commons-net</name>
+            <version>3.9.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/commons-net/commons-net@3.9.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/commons-codec/commons-codec@1.15?type=jar" type="library">
+            <group>commons-codec</group>
+            <name>commons-codec</name>
+            <version>1.15</version>
+            <scope>required</scope>
+            <purl>pkg:maven/commons-codec/commons-codec@1.15?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.brotli/dec@0.1.2?type=jar" type="library">
+            <group>org.brotli</group>
+            <name>dec</name>
+            <version>0.1.2</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.brotli/dec@0.1.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.shapesecurity/salvation2@3.0.1?type=jar" type="library">
+            <group>com.shapesecurity</group>
+            <name>salvation2</name>
+            <version>3.0.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.shapesecurity/salvation2@3.0.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.50.v20221201?type=jar" type="library">
+            <group>org.eclipse.jetty.websocket</group>
+            <name>websocket-client</name>
+            <version>9.4.50.v20221201</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.50.v20221201?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/xml-apis/xml-apis@1.4.01?type=jar" type="library">
+            <group>xml-apis</group>
+            <name>xml-apis</name>
+            <version>1.4.01</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+                <license>
+                    <name>The SAX License</name>
+                </license>
+                <license>
+                    <name>The W3C License</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/xml-apis/xml-apis@1.4.01?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar" type="library">
+            <group>com.google.guava</group>
+            <name>failureaccess</name>
+            <version>1.0.1</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar" type="library">
+            <group>com.google.guava</group>
+            <name>listenablefuture</name>
+            <version>9999.0-empty-to-avoid-conflict-with-guava</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar" type="library">
+            <group>com.google.code.findbugs</group>
+            <name>jsr305</name>
+            <version>3.0.2</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.checkerframework/checker-qual@3.12.0?type=jar" type="library">
+            <group>org.checkerframework</group>
+            <name>checker-qual</name>
+            <version>3.12.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>The MIT License</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.checkerframework/checker-qual@3.12.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.11.0?type=jar" type="library">
+            <group>com.google.errorprone</group>
+            <name>error_prone_annotations</name>
+            <version>2.11.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.google.errorprone/error_prone_annotations@2.11.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar" type="library">
+            <group>com.google.j2objc</group>
+            <name>j2objc-annotations</name>
+            <version>1.3</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.0?type=jar" type="library">
+            <group>org.apache.httpcomponents.client5</group>
+            <name>httpclient5</name>
+            <version>5.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.rauschig/jarchivelib@1.0.0?type=jar" type="library">
+            <group>org.rauschig</group>
+            <name>jarchivelib</name>
+            <version>1.0.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.rauschig/jarchivelib@1.0.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.jsoup/jsoup@1.13.1?type=jar" type="library">
+            <group>org.jsoup</group>
+            <name>jsoup</name>
+            <version>1.13.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>The MIT License</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.jsoup/jsoup@1.13.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.auto/auto-common@1.2?type=jar" type="library">
+            <group>com.google.auto</group>
+            <name>auto-common</name>
+            <version>1.2</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.google.auto/auto-common@1.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/dev.failsafe/failsafe@3.3.0?type=jar" type="library">
+            <group>dev.failsafe</group>
+            <name>failsafe</name>
+            <version>3.3.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/dev.failsafe/failsafe@3.3.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.netty/netty-codec@4.1.87.Final?type=jar" type="library">
+            <group>io.netty</group>
+            <name>netty-codec</name>
+            <version>4.1.87.Final</version>
+            <scope>required</scope>
+            <purl>pkg:maven/io.netty/netty-codec@4.1.87.Final?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.netty/netty-handler@4.1.87.Final?type=jar" type="library">
+            <group>io.netty</group>
+            <name>netty-handler</name>
+            <version>4.1.87.Final</version>
+            <scope>required</scope>
+            <purl>pkg:maven/io.netty/netty-handler@4.1.87.Final?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.netty/netty-resolver@4.1.87.Final?type=jar" type="library">
+            <group>io.netty</group>
+            <name>netty-resolver</name>
+            <version>4.1.87.Final</version>
+            <scope>required</scope>
+            <purl>pkg:maven/io.netty/netty-resolver@4.1.87.Final?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-metrics@1.22.0?type=jar" type="library">
+            <group>io.opentelemetry</group>
+            <name>opentelemetry-sdk-metrics</name>
+            <version>1.22.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/io.opentelemetry/opentelemetry-sdk-metrics@1.22.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-logs@1.22.0-alpha?type=jar" type="library">
+            <group>io.opentelemetry</group>
+            <name>opentelemetry-sdk-logs</name>
+            <version>1.22.0-alpha</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/io.opentelemetry/opentelemetry-sdk-logs@1.22.0-alpha?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar" type="library">
+            <group>org.asynchttpclient</group>
+            <name>async-http-client-netty-utils</name>
+            <version>2.12.3</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.netty/netty-codec-socks@4.1.60.Final?type=jar" type="library">
+            <group>io.netty</group>
+            <name>netty-codec-socks</name>
+            <version>4.1.60.Final</version>
+            <scope>required</scope>
+            <purl>pkg:maven/io.netty/netty-codec-socks@4.1.60.Final?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.netty/netty-handler-proxy@4.1.60.Final?type=jar" type="library">
+            <group>io.netty</group>
+            <name>netty-handler-proxy</name>
+            <version>4.1.60.Final</version>
+            <scope>required</scope>
+            <purl>pkg:maven/io.netty/netty-handler-proxy@4.1.60.Final?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.netty/netty-transport-native-epoll@4.1.87.Final?type=jar" type="library">
+            <group>io.netty</group>
+            <name>netty-transport-native-epoll</name>
+            <version>4.1.87.Final</version>
+            <scope>required</scope>
+            <purl>pkg:maven/io.netty/netty-transport-native-epoll@4.1.87.Final?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.netty/netty-transport-native-kqueue@4.1.87.Final?type=jar" type="library">
+            <group>io.netty</group>
+            <name>netty-transport-native-kqueue</name>
+            <version>4.1.87.Final</version>
+            <scope>required</scope>
+            <purl>pkg:maven/io.netty/netty-transport-native-kqueue@4.1.87.Final?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar" type="library">
+            <group>org.reactivestreams</group>
+            <name>reactive-streams</name>
+            <version>1.0.3</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>CC0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar" type="library">
+            <group>com.typesafe.netty</group>
+            <name>netty-reactive-streams</name>
+            <version>2.0.4</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar" type="library">
+            <group>com.sun.activation</group>
+            <name>jakarta.activation</name>
+            <version>1.2.2</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.httpcomponents/httpclient@4.5.14?type=jar" type="library">
+            <group>org.apache.httpcomponents</group>
+            <name>httpclient</name>
+            <version>4.5.14</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.httpcomponents/httpclient@4.5.14?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.eclipse.jetty/jetty-client@9.4.50.v20221201?type=jar" type="library">
+            <group>org.eclipse.jetty</group>
+            <name>jetty-client</name>
+            <version>9.4.50.v20221201</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.eclipse.jetty/jetty-client@9.4.50.v20221201?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.eclipse.jetty/jetty-util@9.4.50.v20221201?type=jar" type="library">
+            <group>org.eclipse.jetty</group>
+            <name>jetty-util</name>
+            <version>9.4.50.v20221201</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.eclipse.jetty/jetty-util@9.4.50.v20221201?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.eclipse.jetty/jetty-io@9.4.50.v20221201?type=jar" type="library">
+            <group>org.eclipse.jetty</group>
+            <name>jetty-io</name>
+            <version>9.4.50.v20221201</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.eclipse.jetty/jetty-io@9.4.50.v20221201?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.50.v20221201?type=jar" type="library">
+            <group>org.eclipse.jetty.websocket</group>
+            <name>websocket-common</name>
+            <version>9.4.50.v20221201</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.50.v20221201?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.0?type=jar" type="library">
+            <group>org.apache.httpcomponents.core5</group>
+            <name>httpcore5</name>
+            <version>5.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.0?type=jar" type="library">
+            <group>org.apache.httpcomponents.core5</group>
+            <name>httpcore5-h2</name>
+            <version>5.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.commons/commons-compress@1.18?type=jar" type="library">
+            <group>org.apache.commons</group>
+            <name>commons-compress</name>
+            <version>1.18</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.commons/commons-compress@1.18?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.opentelemetry/opentelemetry-api-logs@1.22.0-alpha?type=jar" type="library">
+            <group>io.opentelemetry</group>
+            <name>opentelemetry-api-logs</name>
+            <version>1.22.0-alpha</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/io.opentelemetry/opentelemetry-api-logs@1.22.0-alpha?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.httpcomponents/httpcore@4.4.16?type=jar" type="library">
+            <group>org.apache.httpcomponents</group>
+            <name>httpcore</name>
+            <version>4.4.16</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.httpcomponents/httpcore@4.4.16?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/commons-logging/commons-logging@1.2?type=jar" type="library">
+            <group>commons-logging</group>
+            <name>commons-logging</name>
+            <version>1.2</version>
+            <scope>required</scope>
+            <purl>pkg:maven/commons-logging/commons-logging@1.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.eclipse.jetty/jetty-http@9.4.50.v20221201?type=jar" type="library">
+            <group>org.eclipse.jetty</group>
+            <name>jetty-http</name>
+            <version>9.4.50.v20221201</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.eclipse.jetty/jetty-http@9.4.50.v20221201?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.50.v20221201?type=jar" type="library">
+            <group>org.eclipse.jetty.websocket</group>
+            <name>websocket-api</name>
+            <version>9.4.50.v20221201</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.50.v20221201?type=jar</purl>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-java@4.8.1?type=jar">
+            <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-api@4.8.1?type=jar"/>
+            <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-chrome-driver@4.8.1?type=jar"/>
+            <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-devtools-v108@4.8.1?type=jar"/>
+            <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-devtools-v109@4.8.1?type=jar"/>
+            <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-devtools-v110@4.8.1?type=jar"/>
+            <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-devtools-v85@4.8.1?type=jar"/>
+            <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-edge-driver@4.8.1?type=jar"/>
+            <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-firefox-driver@4.8.1?type=jar"/>
+            <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-ie-driver@4.8.1?type=jar"/>
+            <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.8.1?type=jar"/>
+            <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-safari-driver@4.8.1?type=jar"/>
+            <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-support@4.8.1?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.seleniumhq.selenium/htmlunit-driver@4.8.0?type=jar">
+            <dependency ref="pkg:maven/net.sourceforge.htmlunit/htmlunit@2.70.0?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/net.sourceforge.nekohtml/nekohtml@1.9.22?type=jar">
+            <dependency ref="pkg:maven/xerces/xercesImpl@2.11.0?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/commons-io/commons-io@2.11.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/args4j/args4j@2.33?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.slf4j/jcl-over-slf4j@2.0.7?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/ch.qos.logback/logback-classic@1.3.6?type=jar">
+            <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.3.6?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/com.google.inject/guice@5.1.0?type=jar">
+            <dependency ref="pkg:maven/javax.inject/javax.inject@1?type=jar"/>
+            <dependency ref="pkg:maven/aopalliance/aopalliance@1.0?type=jar"/>
+            <dependency ref="pkg:maven/com.google.guava/guava@31.1-jre?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.slf4j/jul-to-slf4j@2.0.7?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.floreysoft/jmte@7.0.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.google.code.gson/gson@2.10.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.assertthat/selenium-shutterbug@1.6?type=jar">
+            <dependency ref="pkg:maven/com.github.zafarkhaja/java-semver@0.9.0?type=jar"/>
+            <dependency ref="pkg:maven/io.github.bonigarcia/webdrivermanager@4.0.0?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar">
+            <dependency ref="pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-runtime@2.3.8?type=jar">
+            <dependency ref="pkg:maven/org.glassfish.jaxb/txw2@2.3.8?type=jar"/>
+            <dependency ref="pkg:maven/com.sun.istack/istack-commons-runtime@3.0.12?type=jar"/>
+            <dependency ref="pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-api@4.8.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-chrome-driver@4.8.1?type=jar">
+            <dependency ref="pkg:maven/com.google.auto.service/auto-service-annotations@1.0.1?type=jar"/>
+            <dependency ref="pkg:maven/com.google.auto.service/auto-service@1.0.1?type=jar"/>
+            <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-chromium-driver@4.8.1?type=jar"/>
+            <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-json@4.8.1?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-devtools-v108@4.8.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-devtools-v109@4.8.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-devtools-v110@4.8.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-devtools-v85@4.8.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-edge-driver@4.8.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-firefox-driver@4.8.1?type=jar">
+            <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-http@4.8.1?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-ie-driver@4.8.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.8.1?type=jar">
+            <dependency ref="pkg:maven/com.beust/jcommander@1.82?type=jar"/>
+            <dependency ref="pkg:maven/io.netty/netty-buffer@4.1.87.Final?type=jar"/>
+            <dependency ref="pkg:maven/io.netty/netty-codec-http@4.1.87.Final?type=jar"/>
+            <dependency ref="pkg:maven/io.netty/netty-common@4.1.87.Final?type=jar"/>
+            <dependency ref="pkg:maven/io.netty/netty-transport-classes-epoll@4.1.87.Final?type=jar"/>
+            <dependency ref="pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.87.Final?type=jar"/>
+            <dependency ref="pkg:maven/io.netty/netty-transport-native-epoll@4.1.87.Final?type=jar"/>
+            <dependency ref="pkg:maven/io.netty/netty-transport-native-kqueue@4.1.87.Final?type=jar"/>
+            <dependency ref="pkg:maven/io.netty/netty-transport-native-unix-common@4.1.87.Final?type=jar"/>
+            <dependency ref="pkg:maven/io.netty/netty-transport@4.1.87.Final?type=jar"/>
+            <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-api@1.22.0?type=jar"/>
+            <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-context@1.22.0?type=jar"/>
+            <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-exporter-logging@1.22.0?type=jar"/>
+            <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-common@1.22.0?type=jar"/>
+            <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi@1.22.0?type=jar"/>
+            <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure@1.22.0-alpha?type=jar"/>
+            <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-trace@1.22.0?type=jar"/>
+            <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-sdk@1.22.0?type=jar"/>
+            <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-semconv@1.22.0-alpha?type=jar"/>
+            <dependency ref="pkg:maven/io.ous/jtoml@2.0.0?type=jar"/>
+            <dependency ref="pkg:maven/net.bytebuddy/byte-buddy@1.12.22?type=jar"/>
+            <dependency ref="pkg:maven/org.apache.commons/commons-exec@1.3?type=jar"/>
+            <dependency ref="pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar"/>
+            <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-manager@4.8.1?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-safari-driver@4.8.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-support@4.8.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/net.sourceforge.htmlunit/htmlunit@2.70.0?type=jar">
+            <dependency ref="pkg:maven/org.apache.httpcomponents/httpmime@4.5.14?type=jar"/>
+            <dependency ref="pkg:maven/net.sourceforge.htmlunit/htmlunit-core-js@2.70.0?type=jar"/>
+            <dependency ref="pkg:maven/net.sourceforge.htmlunit/neko-htmlunit@2.70.0?type=jar"/>
+            <dependency ref="pkg:maven/net.sourceforge.htmlunit/htmlunit-cssparser@1.14.0?type=jar"/>
+            <dependency ref="pkg:maven/net.sourceforge.htmlunit/htmlunit-xpath@2.70.0?type=jar"/>
+            <dependency ref="pkg:maven/commons-net/commons-net@3.9.0?type=jar"/>
+            <dependency ref="pkg:maven/commons-codec/commons-codec@1.15?type=jar"/>
+            <dependency ref="pkg:maven/org.brotli/dec@0.1.2?type=jar"/>
+            <dependency ref="pkg:maven/com.shapesecurity/salvation2@3.0.1?type=jar"/>
+            <dependency ref="pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.50.v20221201?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/xerces/xercesImpl@2.11.0?type=jar">
+            <dependency ref="pkg:maven/xml-apis/xml-apis@1.4.01?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.3.6?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/javax.inject/javax.inject@1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/aopalliance/aopalliance@1.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.google.guava/guava@31.1-jre?type=jar">
+            <dependency ref="pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar"/>
+            <dependency ref="pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar"/>
+            <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar"/>
+            <dependency ref="pkg:maven/org.checkerframework/checker-qual@3.12.0?type=jar"/>
+            <dependency ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.11.0?type=jar"/>
+            <dependency ref="pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/com.github.zafarkhaja/java-semver@0.9.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.github.bonigarcia/webdrivermanager@4.0.0?type=jar">
+            <dependency ref="pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.0?type=jar"/>
+            <dependency ref="pkg:maven/org.rauschig/jarchivelib@1.0.0?type=jar"/>
+            <dependency ref="pkg:maven/org.jsoup/jsoup@1.13.1?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.glassfish.jaxb/txw2@2.3.8?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.sun.istack/istack-commons-runtime@3.0.12?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.google.auto.service/auto-service-annotations@1.0.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.google.auto.service/auto-service@1.0.1?type=jar">
+            <dependency ref="pkg:maven/com.google.auto/auto-common@1.2?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-chromium-driver@4.8.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-json@4.8.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-http@4.8.1?type=jar">
+            <dependency ref="pkg:maven/dev.failsafe/failsafe@3.3.0?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/com.beust/jcommander@1.82?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.netty/netty-buffer@4.1.87.Final?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.netty/netty-codec-http@4.1.87.Final?type=jar">
+            <dependency ref="pkg:maven/io.netty/netty-codec@4.1.87.Final?type=jar"/>
+            <dependency ref="pkg:maven/io.netty/netty-handler@4.1.87.Final?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/io.netty/netty-common@4.1.87.Final?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.netty/netty-transport-classes-epoll@4.1.87.Final?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.87.Final?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.netty/netty-transport-native-epoll@4.1.87.Final?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.netty/netty-transport-native-kqueue@4.1.87.Final?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.netty/netty-transport-native-unix-common@4.1.87.Final?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.netty/netty-transport@4.1.87.Final?type=jar">
+            <dependency ref="pkg:maven/io.netty/netty-resolver@4.1.87.Final?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-api@1.22.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-context@1.22.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-exporter-logging@1.22.0?type=jar">
+            <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-metrics@1.22.0?type=jar"/>
+            <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-logs@1.22.0-alpha?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-common@1.22.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi@1.22.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure@1.22.0-alpha?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-trace@1.22.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-sdk@1.22.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-semconv@1.22.0-alpha?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.ous/jtoml@2.0.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/net.bytebuddy/byte-buddy@1.12.22?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.commons/commons-exec@1.3?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar">
+            <dependency ref="pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar"/>
+            <dependency ref="pkg:maven/io.netty/netty-codec-socks@4.1.60.Final?type=jar"/>
+            <dependency ref="pkg:maven/io.netty/netty-handler-proxy@4.1.60.Final?type=jar"/>
+            <dependency ref="pkg:maven/io.netty/netty-transport-native-epoll@4.1.87.Final?type=jar"/>
+            <dependency ref="pkg:maven/io.netty/netty-transport-native-kqueue@4.1.87.Final?type=jar"/>
+            <dependency ref="pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar"/>
+            <dependency ref="pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar"/>
+            <dependency ref="pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-manager@4.8.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.httpcomponents/httpmime@4.5.14?type=jar">
+            <dependency ref="pkg:maven/org.apache.httpcomponents/httpclient@4.5.14?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/net.sourceforge.htmlunit/htmlunit-core-js@2.70.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/net.sourceforge.htmlunit/neko-htmlunit@2.70.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/net.sourceforge.htmlunit/htmlunit-cssparser@1.14.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/net.sourceforge.htmlunit/htmlunit-xpath@2.70.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/commons-net/commons-net@3.9.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/commons-codec/commons-codec@1.15?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.brotli/dec@0.1.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.shapesecurity/salvation2@3.0.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.50.v20221201?type=jar">
+            <dependency ref="pkg:maven/org.eclipse.jetty/jetty-client@9.4.50.v20221201?type=jar"/>
+            <dependency ref="pkg:maven/org.eclipse.jetty/jetty-util@9.4.50.v20221201?type=jar"/>
+            <dependency ref="pkg:maven/org.eclipse.jetty/jetty-io@9.4.50.v20221201?type=jar"/>
+            <dependency ref="pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.50.v20221201?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/xml-apis/xml-apis@1.4.01?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.checkerframework/checker-qual@3.12.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.11.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.0?type=jar">
+            <dependency ref="pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.0?type=jar"/>
+            <dependency ref="pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.0?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.rauschig/jarchivelib@1.0.0?type=jar">
+            <dependency ref="pkg:maven/org.apache.commons/commons-compress@1.18?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.jsoup/jsoup@1.13.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.google.auto/auto-common@1.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/dev.failsafe/failsafe@3.3.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.netty/netty-codec@4.1.87.Final?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.netty/netty-handler@4.1.87.Final?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.netty/netty-resolver@4.1.87.Final?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-metrics@1.22.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-logs@1.22.0-alpha?type=jar">
+            <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-api-logs@1.22.0-alpha?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.netty/netty-codec-socks@4.1.60.Final?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.netty/netty-handler-proxy@4.1.60.Final?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.netty/netty-transport-native-epoll@4.1.87.Final?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.netty/netty-transport-native-kqueue@4.1.87.Final?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.httpcomponents/httpclient@4.5.14?type=jar">
+            <dependency ref="pkg:maven/org.apache.httpcomponents/httpcore@4.4.16?type=jar"/>
+            <dependency ref="pkg:maven/commons-logging/commons-logging@1.2?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.eclipse.jetty/jetty-client@9.4.50.v20221201?type=jar">
+            <dependency ref="pkg:maven/org.eclipse.jetty/jetty-http@9.4.50.v20221201?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.eclipse.jetty/jetty-util@9.4.50.v20221201?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.eclipse.jetty/jetty-io@9.4.50.v20221201?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.50.v20221201?type=jar">
+            <dependency ref="pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.50.v20221201?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.commons/commons-compress@1.18?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-api-logs@1.22.0-alpha?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.httpcomponents/httpcore@4.4.16?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/commons-logging/commons-logging@1.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.eclipse.jetty/jetty-http@9.4.50.v20221201?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.50.v20221201?type=jar">
+        </dependency>
+    </dependencies>
+</bom>

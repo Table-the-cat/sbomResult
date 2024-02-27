@@ -1,0 +1,144 @@
+{
+  "name": "mvn-build",
+  "number": "1",
+  "agent": {},
+  "buildAgent": {
+    "name": "GENERIC"
+  },
+  "modules": [
+    {
+      "type": "maven",
+      "properties": {
+        "animal.sniffer.version": "1.22",
+        "checker-framework.version": "3.29.0",
+        "javac.version": "9+181-r4173-1",
+        "maven-javadoc-plugin.additionalJOptions": "",
+        "maven-javadoc-plugin.version": "3.4.1",
+        "maven-source-plugin.version": "3.2.1",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "project.build.sourceEncoding": "UTF-8",
+        "test.add.opens": "",
+        "test.include": "%regex[.*.class]",
+        "truth.version": "1.1.3"
+      },
+      "id": "com.google.guava:guava:HEAD-jre-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "guava-HEAD-jre-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/google/guava/guava/HEAD-jre-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "org.checkerframework:checker-qual:3.29.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:HEAD-jre-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a805a761b7a734d69f9c1766ead1ff78698a1497",
+          "md5": "e1fb3fdd0ee620c5ea92ae121815d9ed",
+          "sha256": "e7dc80e5df8c247d542ae240194680392123fa7c7cfe5d231b70ffafa95468c1"
+        },
+        {
+          "id": "com.google.code.findbugs:jsr305:3.0.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:HEAD-jre-SNAPSHOT"
+            ]
+          ],
+          "sha1": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+          "md5": "dd83accb899363c32b07d7a1b2e4ce40",
+          "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotations:2.18.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:HEAD-jre-SNAPSHOT"
+            ]
+          ],
+          "sha1": "89b684257096f548fa39a7df9fdaa409d4d4df91",
+          "md5": "64145d0e7fee5a69ed7b84cf402de998",
+          "sha256": "9e6814cb71816988a4fd1b07a993a8f21bb7058d522c162b1de849e19bea54ae"
+        },
+        {
+          "id": "com.google.j2objc:j2objc-annotations:2.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:HEAD-jre-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c85270e307e7b822f1086b93689124b89768e273",
+          "md5": "c50af69b704dc91050efb98e0dff66d1",
+          "sha256": "f02a95fa1a5e95edb3ed859fd0fb7df709d121a35290eff8b74dce2ab7f4d6ed"
+        },
+        {
+          "id": "com.google.guava:failureaccess:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:HEAD-jre-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9",
+          "md5": "091883993ef5bfa91da01dcc8fc52236",
+          "sha256": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+        },
+        {
+          "id": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:HEAD-jre-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b421526c5f297295adef1c886e5246c39d4ac629",
+          "md5": "d094c22570d65e132c19cea5d352e381",
+          "sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+          "id": "jdk:srczip:999",
+          "type": "jar",
+          "scopes": [
+            "system"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:HEAD-jre-SNAPSHOT"
+            ]
+          ],
+          "sha1": "e5ddaea73b37e9b3efba61f272ee188f0d2df317",
+          "md5": "a01b77350b56c16e6ef3fc94ec39fc58",
+          "sha256": "02f8aac416708b6b542bdae912a37eebc3f2ce989758312b9da7a736e5675ef1"
+        }
+      ]
+    }
+  ],
+  "started": "2024-02-09T17:29:57.817+0800"
+}

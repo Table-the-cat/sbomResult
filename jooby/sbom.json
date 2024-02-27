@@ -1,0 +1,2430 @@
+
+"components": [
+  {
+    "group": "com.github.spotbugs",
+    "name": "spotbugs-annotations",
+    "version": "4.7.3",
+    "description": "Annotations the SpotBugs tool supports",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "a70cfa500f3d66e6bd7ecb7cfe671ce2"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "46fb4f0ae2e69eafa963711cc5c3369ac81aa31f"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "c0fd1ac2e22acdd46913a2ff74551b71f124457199688698204af4bf3d43165d"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "47a9596641e37f75cfba6c690c2ed8bf45e28619bb5fb13493108330b0c7efe785e5eea1390953852c7a9961f63164e08bd71dd61ab8bed5f2699e1bf032ca76"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "e59214b34da8049c03510134fefc9f0e9b25a90fe6dc3755ed7cd7c052da869f0b3990057c5f669630a6381e57a41f62"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "5577b1a6d32682968b87beb3fda5824a04520040ae160a03bf97fb940db7ef6123778aadd40079ac53bb4f1c7feffd2c"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "223b0e8681421828f9f4e322abdaa25457ecbef7452f3aabb2baa7a0a942a171"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "3dcf225f14d1a6e6cb1f4375894e79205b27f438750ce8c4c7c435363aba38bc7ceed9c81e01fbdaa1f1da23590d31f094a202c647724faa2c6acfffe95a3f75"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "LGPL-2.1-only"
+        }
+      }
+    ],
+    "purl": "pkg:maven/com.github.spotbugs/spotbugs-annotations@4.7.3?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/com.github.spotbugs/spotbugs-annotations@4.7.3?type=jar"
+  },
+  {
+    "group": "com.google.code.findbugs",
+    "name": "jsr305",
+    "version": "3.0.2",
+    "description": "JSR305 Annotations for Findbugs",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "dd83accb899363c32b07d7a1b2e4ce40"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "bb09db62919a50fa5b55906013be6ca4fc7acb2e87455fac5eaf9ede2e41ce8bbafc0e5a385a561264ea4cd71bbbd3ef5a45e02d63277a201d06a0ae1636f804"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "ca0b169d3eb2d0922dc031133a021f861a043bb3e405a88728215fd6ff00fa52fdc7347842dcc2031472e3726164bdc4"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "9903fd7505218999f8262efedb3d935d64bcef84aae781064ab5e1b24755466b269517cada562fa140cd1d417ede57a1"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "223fda9a89a461afaae73b177a2dc20ed4a90f2f8757f5c65f3241b0510f00ff"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "3996b5af57a5d5c6a0cd62b11773360fb051dd86a2ba968476806a2a5d32049b82d69a24a3c694e8fe4d735be6a28e41000cc500cc2a9fb577e058045855d2d6"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar"
+  },
+  {
+    "publisher": "QOS.ch",
+    "group": "org.slf4j",
+    "name": "slf4j-api",
+    "version": "2.0.9",
+    "description": "The slf4j API",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "45630e54b0f0ac2b3c80462515ad8fda"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "7cf2726fdcfbc8610f9a71fb3ed639871f315340"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "0818930dc8d7debb403204611691da58e49d42c50b6ffcfdce02dadb7c3c2b6c"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "069e6ddce79617e37d61758120c7e68348ee62f255781948937f7bec3058e46244026d7f6a11e90fbc15cd4288c4bb1acee4f242af521c721a9e68a05e64d526"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "fd6f7ad85d02ac63cd1a586c8bb158c1fc000495f512f097731ea9f749b5da2637615b821294962805ba312c738f40aa"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "17cd61f59a162250b52a89c7c56eb60da253b776210500313c7b82744483ff84717946f969251fb4d76f9bb12a2458fe"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "9dcb04582c64c79e788f9191195834ec75bb3457133d22a176a0ccb069b97103"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "990faffa454598a3fa82affe30f1323db769d2e1fff20d9c7163ef6fd95ac7a0874c06a634207a2eaed9e5afbdee68b225138fc75018717ba97efe3ffe92c88a"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"
+  },
+  {
+    "publisher": "Eclipse Foundation",
+    "group": "jakarta.inject",
+    "name": "jakarta.inject-api",
+    "version": "2.0.1",
+    "description": "Jakarta Dependency Injection",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "72003bf6efcc8455d414bbd7da86c11c"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "4c28afe1991a941d7702fe1362c365f0a8641d1e"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "f7dc98062fccf14126abb751b64fab12c312566e8cbdc8483598bffcea93af7c"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "f186b2ada470abba1cc3b4f8c4373d940fb7c71a051b2c26f7c204ad4dfb69235fbf3f9c33da36d744cb90f52d921c51d76c0ff263bacb35eafb66cab83dc47d"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "405bd297a73901f013d48a0da028d04d400f3e61f4997c0e7297eb08120670a0e242e0002db8f130c33ab16cb02feb2d"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "4db7e54434d0a208c876868f5595b808f2728c0455feaa752ab7b569a2186fc37cb891c9aa0076de3d08f6da6ff06eba"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "3a5aba9f1ff1a130b76af886123eb375fa578498490df3dc60bb7ce7d59e9404"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "00bba8efc2d6e7f0a509b321868d75f1aaf0681a750d089d913bde8424ab7bb88aadf49de6e291e352523e4f8c117b1b48033ff31d4d665dcc43c4c6ea000ba9"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1?type=jar"
+  },
+  {
+    "publisher": "com.typesafe",
+    "group": "com.typesafe",
+    "name": "config",
+    "version": "1.4.2",
+    "description": "configuration library for JVM languages using HOCON files",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "bac1bde09507bbd53e4e8a6a270488b7"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "4c40a633e7994cfb0354244efb6d03fcb11c3ecf"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "0076c249b4387d8369146528fd5dacb3efba098dc02ecf9ac81debdfc2e12fd5"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "830a85093ab23a7c147974e781e2e6847c8fae043bdb5135149906d96f15c8de24f878d37b41c45c0a41a66a2af08b7c26c69daa224f90eb6960cb6b65457be7"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "3fde4d51dc42b0014d64a39b19bd79ed53cb4ee958488d87298f332e223fcada08cb95656526273331aa25a2da51e034"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "b1cbeba850eba05c5bbc95b3e5a13497a4b94eb5c91eac10305b404c50c9f2bba19c841c1db0ac23404c77098abf95fa"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "baf6f2a098798bc61304df459fca71f47aa71654869fb0f3c72c67f32b91d40e"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "ab5bb68d2515d8f305aa678cc6577589c35e79c79c10cd3c6c36c0488a4a46fb653448e64ff8cb69b956dfe3e7d75ad6b2e0fdcd8c29a6c35f69d33252d6bb96"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/com.typesafe/config@1.4.2?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/com.typesafe/config@1.4.2?type=jar"
+  },
+  {
+    "group": "com.github.vladimir-bukhtoyarov",
+    "name": "bucket4j-core",
+    "version": "7.6.0",
+    "description": "Bucket4j core library",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "7b701e1573982ebfc4332451cfee8638"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "603d37b2a108e2b437bb9b3b2ffb5962b4aa198c"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "d17310e2066e59c0404f61ae5da1a40ff9442afa31363a82bddc1a4e6253fd88"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "9ba5079365de788026f0a14315d8cd36b7b9c298bda7302af5a83f944a48945cfddd32d8ee04d10c658e771b2a00a0a0985dc65fbc13fdf705f155abc756d232"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "673b9f850d137e43e5c2774921eddd6bd2654c51661f18c67e5e8468c7bcb0559212c7501d4eb8f5e9b418139f212d27"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "426e81e8c47d0dd098b709b0f4ba176c9116ed601cd0c7bc6d936ca78fe11088d1ca86beff8e4e376d1d40eaf3cd6bb1"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "159313c77b7022c73f9fc46069e92440dd440a0891fda4d8c32012e014ba6b48"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "96de732dc9c0598cd74e6717c0f30a11c12824b9832484dc95b189b62265cf06edcc116212129529027ac6e5cf0f78fe74581a47b224434a0f6e0e0fe1bcd645"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/com.github.vladimir-bukhtoyarov/bucket4j-core@7.6.0?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/com.github.vladimir-bukhtoyarov/bucket4j-core@7.6.0?type=jar"
+  },
+  {
+    "group": "org.junit.jupiter",
+    "name": "junit-jupiter-engine",
+    "version": "5.10.0",
+    "description": "Module \"junit-jupiter-engine\" of JUnit 5.",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "9b559627f23413bf20f450211f6edcba"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "90587932d718fc51a48112d33045a18476c542ad"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "57ea48e6f795200791065bbc86b70b84cd05367c5c9f2ac8f9268e27154c88a8"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "35c6c38b155b568a1315b6f88e28d1940c69df807f9227fec0b54ad98688ccbd4c6020092d3d7fa889f74a708df82fce3733788bdcbad62eaac0f557e567d708"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "e8db2934ed9897d3ada8dfa6468932ef8ca8fad5afbc4ada860dc4e7c535f29486e90a68e19da0915ecd85e6a96f6984"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "7365bb2e9c662f095bf95dd417a0eacb517d98c87e6ed9f04f98f735687c9d4575bc7f683b47e1f1c307d096c63358c2"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "0acd5b2ad5e5e135139ce8ae0a5b0c87a8b8ad6e84270b6b0d77002f7b0f5e51"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "41f661d021d400e919f0d27fcd8607eadd3cc83ed43f1334e41a049b4e9204fdf61adebb26e74ba562b185421f4de615414122b07d1244420577e6721e95f29d"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "EPL-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.10.0?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.10.0?type=jar"
+  },
+  {
+    "group": "org.junit.platform",
+    "name": "junit-platform-engine",
+    "version": "1.10.0",
+    "description": "Module \"junit-platform-engine\" of JUnit 5.",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "a383ac183081fe771888842534e77e62"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "276c4edcf64fabb5a139fa7b4f99330d7a93b804"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "cd338efd02ee73966ea754e0c0c71e1a11f4af5db9c2003e4b6137e119155abe"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "499e25e1920d73fea8f4e21a45ca0f3fc44561aa2589882bc29bb9bf212566b84ea704ea32ae5266da344c25b07dc23c3201587caf72508da2383b6f0848573b"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "24c0589ec60ce52fde3ef2e200bf58bce21603a2a2e8bc2f54356cdf77c43587682b03dccdbef4d13450e02e38854b65"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "09b681d1f2c841fe73948f46ddab05bfc619426bd044ed402c2d9dff25a220bb28a3ce2f4c199bf25372ab7c9960d107"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "de10deb955b234f16ba12d812554575eee9b4ea95d06b525d390b8eb3e891bab"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "571cf7198a576be8895f2516304bdf01f46d268f4121ff1aee87dd0b43340875c0710d5eb341385299a89a35ea2e0af66cf9342b19075b6a6f589d650d086d90"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "EPL-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.junit.platform/junit-platform-engine@1.10.0?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.junit.platform/junit-platform-engine@1.10.0?type=jar"
+  },
+  {
+    "group": "org.opentest4j",
+    "name": "opentest4j",
+    "version": "1.3.0",
+    "description": "Open Test Alliance for the JVM",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "03c404f727531f3fd3b4c73997899327"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "152ea56b3a72f655d4fd677fc0ef2596c3dd5e6e"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "48e2df636cab6563ced64dcdff8abb2355627cb236ef0bf37598682ddf742f1b"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "78fc698a7871bb50305e3657893c10500595f043348d875f57bc39ca4a6a51eda3967b7c8c8a7ec3e8f85f2171bca4aa98823e912e416e87e81c6ba5b70a37c3"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "10398b6998c9202a0731e2e19ae1c3f9d8a83582c2663fe7bdda15794ee6fa816727dbd8f7c7164bd5395ee1cfe7c97e"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "3abe706fd78509c25a402c7bbf6f9ddf71ffb5b35054864ba0fdf7902207115f888a0ba728fd71d2e87a9360d2498121"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "d961907a1bfa1dcda329dca494ffbc251b31fabcaca5ab7095661a8ce3c1d654"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "0ad661617bcac51bcd26f7ad4611c69b1fd9811b50dbf734e041a3243ab1f845e7796620e8a7c40c4a2df3946864598b1251396c7d9bd813203d82710788cce0"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.opentest4j/opentest4j@1.3.0?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.opentest4j/opentest4j@1.3.0?type=jar"
+  },
+  {
+    "group": "org.junit.platform",
+    "name": "junit-platform-commons",
+    "version": "1.10.0",
+    "description": "Module \"junit-platform-commons\" of JUnit 5.",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "0cef49daddba2084397f34eca55502f9"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "d533ff2c286eaf963566f92baf5f8a06628d2609"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "6083db08ca11fca1e16099d0dcfede0193d80b3762b276349d80d3da536791b2"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "51496111e3d0d1f27c3cee09bbfed9a9eb7d94b7bd12cbb39fddb5e64e6ba77e26cf89a8bd96d85bfe9fd39bd3db1c108aecad8c609e24ea6da3f4945353ca10"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "0f38ea0fa3f0edcc1b6863cb31c8a6f7170b77f7a9184a2a8b1c82a9db71d6a36e225826d5c0eed72219e4154b7ac9d3"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "66bb121d6917c783c6c479f6c3c72d9aefded42e487d29c7ed53e50391c0ec65b15915f131afd7450c3d0d5655cc34ec"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "17e1d961aa7474be5b63d7709539651ea8059b0d43e1ff86c6e57bac35fd25d2"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "799355554d789d71eceb1134e568aaadde5ff7d552c39248ead4d1d4ace4b4bbda11036ec9259f41ffc543e9a91bbad76572c74cf17049b9fc9f3374d2e835e4"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "EPL-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.junit.platform/junit-platform-commons@1.10.0?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.junit.platform/junit-platform-commons@1.10.0?type=jar"
+  },
+  {
+    "group": "org.junit.jupiter",
+    "name": "junit-jupiter-api",
+    "version": "5.10.0",
+    "description": "Module \"junit-jupiter-api\" of JUnit 5.",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "d976b1d3b22eded7c2e496ea881ed77f"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "2fe4ba3d31d5067878e468c96aa039005a9134d3"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "108088fd7ea46a8e65a0ce7f5d75ae3ff7865606770a078715f5a6e5709e17d8"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "440d7376673ed8e8ea84ce9f10e089f417c93a4f7044d23443588fbfa96cf74492ab26597fd9955537ce0e3190448062cfeadd428cb0de8522f81ccf3faa6353"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "4821081abdd5853511d766f243a505e32fbd5d631949279774d2293284b124fcb5befd72b84c77b533c1788b689fc71f"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "7e57f5349ef292f82bd126badc3375cae46e4b78eb81aa811f38996406fde7dad4158b971a62b2aec265283e96d82bef"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "7b5496d43d3777a8d9df1d00a4dbac1510b511898faf4bfd72b1510f8ba66c8e"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "ddaf1aacf2b14b78c9e00a12db9a54a94ceb1096dfde3c0f17cf6414d2f48b6ea211ec680c70b9f7d91835595121f3f34287a9e59dd9bb6436569fd67a111bb4"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "EPL-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.0?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.0?type=jar"
+  },
+  {
+    "group": "org.apiguardian",
+    "name": "apiguardian-api",
+    "version": "1.1.2",
+    "description": "@API Guardian",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "8c7de3f82037fa4a2e8be2a2f13092af"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "a231e0d844d2721b0fa1b238006d15c6ded6842a"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "b509448ac506d607319f182537f0b35d71007582ec741832a1f111e5b5b70b38"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "d7ccd0e7019f1a997de39d66dc0ad4efe150428fdd7f4c743c93884f1602a3e90135ad34baea96d5b6d925ad6c0c8487c8e78304f0a089a12383d4a62e2c9a61"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "5ae11cfedcee7da43a506a67946ddc8a7a2622284a924ba78f74541e9a22db6868a15f5d84edb91a541e38afded734ea"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "c146116b3dfd969200b2ce52d96b92dd02d6f5a45a86e7e85edf35600ddbc2f3c6e8a1ad7e2db4dcd2c398c09fad0927"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "b4b436d7f615fc0b820204e69f83c517d1c1ccc5f6b99e459209ede4482268de"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "7b95b7ac68a6891b8901b5507acd2c24a0c1e20effa63cd513764f513eab4eb55f8de5178edbe0a400c11f3a18d3f56243569d6d663100f06dd98288504c09c5"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"
+  },
+  {
+    "publisher": "Mountainminds GmbH & Co. KG",
+    "group": "org.jacoco",
+    "name": "org.jacoco.agent",
+    "version": "0.8.10",
+    "description": "JaCoCo Agent",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "8331d56ccf06e829de437b72f1f25e1c"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "bba3e2904ca2c57e30b7c8802f73362447d8560a"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "40d25997de4c625769bf5d1283eb855b87c9caef4ca1fa03b8ef0b752ba4b54a"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "67a50cd123be71b3f0f46f4bd94d4d6f9ffa34d08e95cfd3e497f418f71cd8124802007707fab4cae0991b509f63ab4048dfeaa73343bc966fc6091bfdccc680"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "dfc5d9e86557d6700b5519830ab5f7bd97e3f7da306dab817bd37e98e569e3ca00ecfb9360774e9f8366f199990a503d"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "8a37bc1ae96fb6b295d3572627e09c8a7b76bbcc32aa981d2e3c6e256f4673e50c03326c5b8e71797c974d2e72ff85f5"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "4747c4fdb72ec2b6b5dd373cc06c7a476a4daf7007ac9c01b058ca1928d8f4d0"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "c829b6925b4376edc022cc03359bde2595b9e48061efd3f1dd19a7f1e0e17f148b140f073b837e4df9bc499279260cd3ca182d65031eece81ebdfe53f3ff2e1c"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "EPL-2.0",
+          "url": "https://www.eclipse.org/legal/epl-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.jacoco/org.jacoco.agent@0.8.10?classifier=runtime&type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.jacoco/org.jacoco.agent@0.8.10?classifier=runtime&type=jar"
+  },
+  {
+    "group": "com.squareup.okhttp3",
+    "name": "okhttp",
+    "version": "4.11.0",
+    "description": "Square’s meticulous HTTP client for Java and Kotlin.",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "8f53e26319679de3ea22261b1899a99c"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "436932d695b2c43f2c86b8111c596179cd133d56"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "ee8f6bd6cd1257013d748330f4ca147638a9fbcb52fb388d5ac93cf53408745d"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "9c0a254ab18e6eb2af3f6851771dee5b2e2d6d006f491dd73177cfbbb25005a1d523cf4f6f4cc8622ae0229cc072c43680a7bf1340a5ec6bfadc51e85540afcb"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "ccfabb51defc80594c08ec2b359eea1d175e09cbe976083dc0d714921820508deaa942882fa85d8ea63fa48142395dc9"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "c58f65dacfa212d5e4439c4a07a73ef78d391f4dafa86a2c127a2e71e381bffeea3cbcc207e74e34c266e5dcaec08610"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "3665bf5d8c939a60eaaebf574fb9dab5c275495aa2d1153befdceaa539e28ec6"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "705d320bbe61aaf156507400d0f1bb7eb5da1d2dc4800d0e97e2e2c9dc1ba476fa95f3151f9942fba2a20e1675fc1ea3ef6025e9bbbf635ac2b0fff788fa5257"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/com.squareup.okhttp3/okhttp@4.11.0?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/com.squareup.okhttp3/okhttp@4.11.0?type=jar"
+  },
+  {
+    "group": "com.squareup.okio",
+    "name": "okio",
+    "version": "3.2.0",
+    "description": "A modern I/O API for Java",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "2bf808bc9efbf3be528f8ec0bd6ab7c3"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "afd4b7185a6976c2ac6bfb7b126c257ee9b3e765"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "dca932cb2029b6c9e26770f87db08b14d481ffe8131a59f369a2385c11be4e2d"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "69d95c275b9e2c583ac980b4919824a675ccfabc663846d4946f4cd4c7e99c649d2e0d778cbe1a9bedeab86561a20829d0e25d002d1d58c1f89df96b6f91148c"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "e58a5edf4d0ece7012930360689ee9e9fa8bbdaedd85e3d7399b59ae88632fc63857db180658414d8bec6d37dc0e04af"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "78c7b82c0bc8b5930e2a99fd972255b3080917b997a21b299adb294a76c99d584b4e0ffa3881469dfacc3add083e82a5"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "be94e80e1cd538ab456975d5c48a0406082def8863c965c0d5aa87b0ca5bf11a"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "6a9cc7e89cf965092687e5e9461b68b8861c38bfc29ab06876141ff2cc0350bf9dcb3c4129bc59077f14c1b00236e20435d212121b564202123d5e46a173f056"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/com.squareup.okio/okio@3.2.0?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/com.squareup.okio/okio@3.2.0?type=jar"
+  },
+  {
+    "group": "com.squareup.okio",
+    "name": "okio-jvm",
+    "version": "3.2.0",
+    "description": "A modern I/O API for Java",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "93417dbcbbb0e56d272b7ad5b28afede"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "332d1c5dc82b0241cb1d35bb0901d28470cc89ca"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "b642baef4c570055de4cb3d1667b2b16dced901ff8066345a063691aa06025a4"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "7a847597b02d34cb754474218d83bbf4241c0d76da025b53b79ff4513fe80ab2901341802d1a8c4bd8bd0a243237ff2a1e50a1fedcc8bc7be1c9e5a36788fc6f"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "827bb331a1cdc3006403d2205b06b3b4681448f9d8d634af1953e2dc9c8a20ee33f468c5bc89c6f6cf9c71b9cbc299eb"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "97927fe05e134c08278b63b403a13d6b4a36f5e906a9653393c2bd30f330b35980c4f71826b31f2292ea585c12ccde12"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "7310775c311671d4c8b7c970fb65413b687d25fa209919bf370ecdd013674dd7"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "ec5ddc7fecfe1ff2a45a7dcbec2ba1221eb4e4ba70922cb38185f11178317bcb3db600f603d79b6fffd4bfe2a6b25ee7d7371a64a1a5234cea8d955b21676cb1"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/com.squareup.okio/okio-jvm@3.2.0?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/com.squareup.okio/okio-jvm@3.2.0?type=jar"
+  },
+  {
+    "group": "org.jetbrains",
+    "name": "annotations",
+    "version": "13.0",
+    "description": "A set of annotations used for code inspection support and code documentation.",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "f4fb462172517b46b6cd90003508515a"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "919f0dfe192fb4e063e7dacadee7f8bb9a2672a9"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "5622d0ffe410e7272e2bb9fae1006caedeb86d0c62d2d9f3929a3b3cdcdef1963218fcf0cede82e95ef9f4da3ed4a173fa055ee6e4038886376181e0423e02ff"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "6bcde3a6e471d416522e6288474bc4f9115e2e8abf8ce5d300829bee4aa98dff73be7d8c6f0607f3d6d423c7f5abbf90"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "f4d5a5d5a76b24c4751c8c52f2879b097d2430c3571c59b4630e8c871c9bdb08e24e803a14c24fc8d3378417f29b7244"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "b4a80ea81c4bc7e364e07981465f547e8ed83031806eaf3b97dfb38f894f5b6f"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "15b23bce818b4399b334dd632eb85de5a1b70c47fb9260561e70b1f726211c83bddbc957f3b4c32a1d8c687f9bc6c38d0a638c731cb5daf5b619aa725d6050c2"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.jetbrains/annotations@13.0?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.jetbrains/annotations@13.0?type=jar"
+  },
+  {
+    "group": "org.mockito",
+    "name": "mockito-core",
+    "version": "5.6.0",
+    "description": "Mockito mock objects library core API and implementation",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "7ca44fb290ff3a6581a7a48d15aab5ae"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "550b7a0eb22e1d72d33dcc2e5ef6954f73100d76"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "aaf9aabadf375eb2755b5aab685f14e5c74268c657cb95c0cc7badbd665d9cda"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "269e5ebec44e61d75a2a84b21ecc250309342977ec90b44e0f36d7dd917521a3e7ba405b4883bc452d454520627f2fe60165b7827be68c27add3d5acb7fcc43c"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "9b828c748a58e8e3720a0a75ab0aa16c307ae00a1491e07b7ee4b68c29ba0d17dad4c580d9a49abaebb3c9f3d4c58d04"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "08bf876e327d7c22a62c7b178a495611fb1aea6d7258f096f59acd6d62177da94f4e898b86606455b99f8d7c4e6a73fa"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "a74b74448f33244179dcaf0445b4f2fa9e6fd83849f0498304e2b9459044b6d3"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "83b91abeade7fac8c7f6193c8b321628f09195e9187bea04c5599bc2757ee9f85c266a0d1f3390cf093c0e852e95bd30951313033b5d7eb42c31b1f4de359a4e"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.mockito/mockito-core@5.6.0?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.mockito/mockito-core@5.6.0?type=jar"
+  },
+  {
+    "group": "net.bytebuddy",
+    "name": "byte-buddy",
+    "version": "1.14.8",
+    "description": "Byte Buddy is a Java library for creating Java classes at run time. This artifact is a build of Byte Buddy with all ASM dependencies repackaged into its own name space.",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "3a88102cd441fe7977ef92e7cd72b466"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "505d7d8937ff00cc55db79723e26c94069b87d66"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "94f53baeefe84c9778cd19ffb4f3d2af55eccbccac5e54a3cbf19ec17f0ede25"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "234ad73599b45ad6cf00efe2ec6f82f2b1d4fd578da10f2ecfd61e841dc825d5f4cbbe520b669fd39d3b50c1790db39e325dd7472ded52197ef35293f0afc130"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "99dbb3625b50456cdff145082250b922d09f22b0d7f3ee29f1549fe8fea0866769d4a1ed7eff1d1f66226ee2e28a1e4f"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "d32c1953815b3d48b90dd71921fae0a77b6e6703efb15db39fc013b7af99d89dc3c3c585e22166209c5094815bf5c4c7"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "485d0bb0ab1fd50c38c86e18c5a401fed5f35b0c4bacf6099907c1f28cf9e666"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "4caeb1f9e97b75012cd11493458990b73cb01528048914caeba98b131cf88ebef2b3610357541de5276bacc31d7f1d5e2a2faf84674e80cb2ff6d142d1aa5709"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/net.bytebuddy/byte-buddy@1.14.8?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/net.bytebuddy/byte-buddy@1.14.8?type=jar"
+  },
+  {
+    "group": "net.bytebuddy",
+    "name": "byte-buddy-agent",
+    "version": "1.14.8",
+    "description": "The Byte Buddy agent offers convenience for attaching an agent to the local or a remote VM.",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "62a3d91ea56feb3eb3e13bc914f01464"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "ae6ebe485f3bcd0a1e20241488a32e6400a501ef"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "f7c60fd229df2b0f4e390f50e0582a23ac1d895645df0d487c54dd67a289800b"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "fd199fcd0f3ffb6ee15addcf65da711b4873ccf2c3b6702a7cc3397a818ac3f5e9455bac060537e95e71f0cef91c14b6a9305e767ee49d675c8a7cee26bf1f3c"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "c897de778191dc9158bdb453832fb007c07231d3f6a3e75e26f96e53186139cb9ede8ed2b9c86367542556c68215cd53"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "8a1f41b67c11ef1de82bbddf74e59baf3969f021b67fb8025a856caff21682d44e55b377a0a3a04b492f10e2633ef179"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "31d061e6e64dff4fc04a5bff4ecab5c886943a2868fd2c4a3438c5cd63353dbe"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "65608648329d9a9eef74d7a8d9c4947527a4572f208db4e9db571be5b0b27cb860f50092bfc36e64756a9c98b4bee13c840d4ac432511ac1e2c609eca5976c28"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/net.bytebuddy/byte-buddy-agent@1.14.8?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/net.bytebuddy/byte-buddy-agent@1.14.8?type=jar"
+  },
+  {
+    "publisher": "Joe Walnes, Henri Tremblay, Leonardo Mesquita",
+    "group": "org.objenesis",
+    "name": "objenesis",
+    "version": "3.3",
+    "description": "A library for instantiating Java objects",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "ab0e0b2ab81affdd7f38bcc60fd85571"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "1049c09f1de4331e8193e579448d0916d75b7631"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "02dfd0b0439a5591e35b708ed2f5474eb0948f53abf74637e959b8e4ef69bfeb"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "1fa990d15bd179f07ffbc460d580a6fd0562e45dee8bd4a9405917536b78f45c0d6f644b67f85d781c758aa56eff90aef23eedcc9bd7f5ff887a67b716083e61"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "2f6878f91a12db32c244afcee619d57c3ad6ff0297f4e41c2247e737c1ccc5fcc1ce03256b479b0f9b87900410bc4502"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "a3dd9f6908fe732900d50eb209988183ffcf511afb4e401ef95b75c51777709d2d10e1dc9ee386b7357c5c2cbcf8c00e"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "fd2b66d174ed68cbfcda41d5cbd29db766c5676866d6b2324b446a87afab3a9f"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "ef509e8bcea73bc282287205ffc7625508080be44c16948137274f189459624891dcf109118c9feff109e1aa99becf176f8db837ac4fd586201510c3ae2ea30a"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.objenesis/objenesis@3.3?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.objenesis/objenesis@3.3?type=jar"
+  },
+  {
+    "group": "com.google.guava",
+    "name": "guava",
+    "version": "32.1.2-jre",
+    "description": "Guava is a suite of core and expanded libraries that include utility classes, Google's collections, I/O classes, and much more.",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "5fe031b3b35ed56182478811a931d617"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "bc65dea7cfd9e4dacf8419d8af0e741655857d27885bb35d943d7187fc3a8fce"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "d683751034688863dc82315a75620abbeeca525cc592d5227b136c29902a0d035f306c6bfaf87d00d95bd1bd967953b00a932286ce09cfba1a0fb35efd852cd4"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "cdf41f5f70c467f1f0d8ec42d43eebd8e9da7e5fc60bd24d17db852ce0669a7316abb0a217f19c5cca41b20ade17a1f0"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "2084f7a28971f428e1b07a659d9a2cc221654b0e31d457c1219b5526e102124207ab4b2d163d4d5ec731551da396003b"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "0ccf9f22abd1ae422fd040e387adb12c31e4dd749c3e40181077e6fb9acdb51b"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "e354820ed3f5da18411e6f4ba69294b2d171b2debbd51053e617178fa7a7cb64b3a6978c841a3060fd77474cf99e6aa2451aea39a5755cfe1f7eaef0d20d0e63"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar"
+  },
+  {
+    "group": "com.google.guava",
+    "name": "failureaccess",
+    "version": "1.0.1",
+    "description": "Contains com.google.common.util.concurrent.internal.InternalFutureFailureAccess and InternalFutures. Most users will never need to use this artifact. Its classes is conceptually a part of Guava, but they're in this separate artifact so that Android libraries can use them without pulling in all of Guava (just as they can use ListenableFuture by depending on the listenablefuture artifact).",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "091883993ef5bfa91da01dcc8fc52236"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "f8d59b808d6ba617252305b66d5590937da9b2b843d492d06b8d0b1b1f397e39f360d5817707797b979a5bf20bf21987b35333e7a15c44ed7401fea2d2119cae"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "67659dbd9647ec303d7f15128dc9dba19b98fd8d74758ee3b602451e32c855e236ccaafe08edf4bbfa245f981268440f"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "1460875f0331c5fa3791772a6a322a7db180261bc2adacf7271df1fbf3b088a587a755a604c039982cb593c5cfc1f101"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "ea86406e75fcd93eafe3cde1b3135ba485f1bb9b75fed98894a0bf1f0aee04f0"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "52ac0f487ab5dd27c9f2e54fd1d84c7a620cae9d49be4072aa2b11501787bf4391ddaa13d02eccdf19e8eea46aecbea5f6064b26777c1b836108a280652e04ac"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar"
+  },
+  {
+    "group": "com.google.guava",
+    "name": "listenablefuture",
+    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+    "description": "An empty artifact that Guava depends on to signal that it is providing ListenableFuture -- but is also available in a second \"version\" that contains com.google.common.util.concurrent.ListenableFuture class, without any other Guava classes. The idea is: - If users want only ListenableFuture, they depend on listenablefuture-1.0. - If users want all of Guava, they depend on guava, which, as of Guava 27.0, depends on listenablefuture-9999.0-empty-to-avoid-conflict-with-guava. The 9999.0-... version number is enough for some build systems (notably, Gradle) to select that empty artifact over the \"real\" listenablefuture-1.0 -- avoiding a conflict with the copy of ListenableFuture in guava itself. If users are using an older version of Guava or a build system other than Gradle, they may see class conflicts. If so, they can solve them by manually excluding the listenablefuture artifact or manually forcing their build systems to use 9999.0-....",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "d094c22570d65e132c19cea5d352e381"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "b421526c5f297295adef1c886e5246c39d4ac629"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "c5987a979174cbacae2e78b319f080420cc71bcdbcf7893745731eeb93c23ed13bff8d4599441f373f3a246023d33df03e882de3015ee932a74a774afdd0782f"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "caff9b74079f95832ca7f6029346b34b606051cc8c5a4389fac263511d277ada0c55f28b0d43011055b268c6eb7184d5"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "e939f08df0545847ea0d3e4b04a114b08499ad069ba8ec9461d1779f87a56e0c37273630a0f4c14e78c348d3ac7eb97f"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "1f0a8b1177773b3a8ace839df5eed63cbf56b24a38714898a6e4ed065c42559f"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "6b495ecc2a18b17365cb08d124a0da47f04bcdde81927b5245edf3edd8e498c3c3fb92ce6a4127f660bac851bb1d3e4510e5c20d03be47ce99dc296d360db285"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar"
+  },
+  {
+    "group": "org.checkerframework",
+    "name": "checker-qual",
+    "version": "3.33.0",
+    "description": "checker-qual contains annotations (type qualifiers) that a programmer writes to specify Java code for type-checking by the Checker Framework.",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "fc9418b779d9d57dcd52197006cbdb9b"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "de2b60b62da487644fc11f734e73c8b0b431238f"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "e316255bbfcd9fe50d165314b85abb2b33cb2a66a93c491db648e498a82c2de1"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "049c446677b7b386f3fb501bf65e032bdf2b1b29a3f545848035fff2b683cd275380cf302e30eea641af7f0801f779bcda3d82a71d928e4176f564f796640a64"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "ddf7a0f70421d1ed75e93c0a30434a4862c3905e433223e19861323cf0994e843392b746003040f10a7db6fc960b8aa6"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "edf079834fdd23317851318504b2fcc10b055cdb5cc4ada9c773d1b6c815ed6dd193c433d2b83103f070fd521021ff33"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "56244f45b03fc2a472b35489324e392e6001fac088d19f33629a87adb74a0575"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "e0516c11fe613f258bf9ad39358a8d9fb7c8df57ff9aaca5d6d16055c196fac4ed3b4185f2501a3bdf7aeb1fe142693b1d788bdaa73366be1af15762bb3591a4"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.checkerframework/checker-qual@3.33.0?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.checkerframework/checker-qual@3.33.0?type=jar"
+  },
+  {
+    "publisher": "Google LLC",
+    "group": "com.google.errorprone",
+    "name": "error_prone_annotations",
+    "version": "2.18.0",
+    "description": "Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "64145d0e7fee5a69ed7b84cf402de998"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "89b684257096f548fa39a7df9fdaa409d4d4df91"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "9e6814cb71816988a4fd1b07a993a8f21bb7058d522c162b1de849e19bea54ae"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "3cea86be94bb8ae40d21ad4bf7d7f6b2233e89593b7b741ad84c78840cd3837bb5136f52e62fe9ae0953d7b190c46ad3edc102dfa97b4c7ea472a80206bf5db7"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "7622eb33f83f03ab32b710b36c2fe836e24c5318f65fb8c0631a99507ca3ae65c2df8e33b63a5ce853b9cab6d9cb32e5"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "1ea52a5ce2a9ee1a960dc2a1bbe4b009d4d6a4448498e4cd76401605fa877662911e8c93b2b8bfda57bedc56c83f10a0"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "ed53f4295da75753267f241315352c4a39e60796f04e1c0c12d29c3a38be48ed"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "8266b313bd4e1170daf60642e838841370d99bc24b2a1f91825ca22037a6a30ff15cc76069f8e8770f1dc12772c277ee1320de67e815041697d93d6d7ba884fb"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.18.0?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.18.0?type=jar"
+  },
+  {
+    "group": "com.google.j2objc",
+    "name": "j2objc-annotations",
+    "version": "2.8",
+    "description": "A set of annotations that provide additional information to the J2ObjC translator to modify the result of translation.",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "c50af69b704dc91050efb98e0dff66d1"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "c85270e307e7b822f1086b93689124b89768e273"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "f02a95fa1a5e95edb3ed859fd0fb7df709d121a35290eff8b74dce2ab7f4d6ed"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "f8263868a792b41707c9e7fe6fa5650a14cd93fbeafad20efe3772a3058fc933eb59782ec59e6eb9b9c569aa96da80134ae9fdf7547b69c44a97087efddceeff"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "e6087ec31fec8289158496ad2ed6ce8472d5d513808a312e0782cedac3b86c37a62a63c0b5ea3839491d109fe9e148a1"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "10add34bfeb8612283eef89ac96747a3c9b755acd80ad526e1addaeb7efd6323c52b9bfa1a3d34adb40e1ccb963ee65d"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "b3336f8abd6b1f73b9f06d306974557000a000073bfbae6b54fda26d17dbb072"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "d376c184a6df071c4e93b913d175b5c2e63deac37105dc20342c19bdda62e4e9598ca1e8bfb4f4fd5cdee6dd5ac3b8af49e2c5193e324d59a59ce1f7adeab627"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/com.google.j2objc/j2objc-annotations@2.8?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/com.google.j2objc/j2objc-annotations@2.8?type=jar"
+  },
+  {
+    "group": "org.webjars.npm",
+    "name": "vue",
+    "version": "3.3.4",
+    "description": "WebJar for vue",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "612d536b9712da965f0d1dc0c5354ccb"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "b4f7202e2d07b85913d951c248d2fc474b000af2"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "4359fb229e3ba9bf052593e13fd0c64218290e1016224eb51d9610a4c8fdaa99"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "22a2416b928c454a32b09eab4de7b6f7619278314bff21cfc5bff3754c724698953ad84730c0645791dd98609885e92735f38b6424b51058ed3e4da99af5e54e"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "846ecc035b4e730f8aaedec42429643cb391f3c31b5a8783f54f822a8e6d976134bdcbe8916f5e3ab0ed0bc5587e04b6"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "f23439eb9a25bcaa6eac568c365c24247737ec75250ea95b4e435b6ee9d6f9b3d1dc62c945bab80bb6154c554d0afba9"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "58a7e59a7469a0422a3c7ec1b8a2720891efaa57c3cdb5fe4af033a27b2a66ea"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "655e0b57b8183da084248df7a4028f8113c0e1cf7c64224ad077a172089962c6d2a78f0eb8957540c6dea4425a894fe87fe1da9033f7a14d9024567d58b2cba7"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.webjars.npm/vue@3.3.4?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.webjars.npm/vue@3.3.4?type=jar"
+  },
+  {
+    "group": "org.webjars.npm",
+    "name": "vue__runtime-dom",
+    "version": "3.3.4",
+    "description": "WebJar for @vue/runtime-dom",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "526974c17a96b890197d42874f9b9aab"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "1a6a732d5ef839d6aa925d9b881aa761a8b243e1"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "247aa20936e4a9661d03cba6a21ce1ec9f3de13174d93edf384923ba28f0f73b"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "6c1ed273573760e5e7f1a732c34d7df89152bf00c4ebe30a460b3fca769a53175971ee6207a8232411e799fda2574eee8213fabf44ef1b6440da9a71e2be15e3"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "96a815f3fb0b6860cea985c633cb9066cd72e961ec9a3cd8b7e8c561f0caa7fc9bc89e6999e2bfa9c0065217d24da075"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "3f4a4700b12ab3fed3b9ccade915c5a0598168443844fe2002176189e5db6e245e39030e9f75b1e40a5e98340c09b0db"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "e1fd6d36d500ccd172b01c030d4c3424e879e6aecaa21f8e5dbf120a88829c50"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "716ec8ebe09595b737eda7126893b688d802478746108f0e97dbaf82c4e2134b225fb7e01846b51eb0d72210f2b5cce786ab7a22cdd52c1581d2e563037aa930"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.webjars.npm/vue__runtime-dom@3.3.4?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.webjars.npm/vue__runtime-dom@3.3.4?type=jar"
+  },
+  {
+    "group": "org.webjars.npm",
+    "name": "vue__runtime-core",
+    "version": "3.3.4",
+    "description": "WebJar for @vue/runtime-core",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "ee76e57355325e699b423c3e4d9fb9fb"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "79c715e1ba832ccee28dd1f3483c8dee02290d9f"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "11dd35edd4ea265f30dfdc4229500576bfd0d5f1da8107874fcec1f97dd95540"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "0d8dfa41996babca6163baf51655cd101770c37726235580fd90fbeed8ce6ec684ecc9e5eb11db9584a03eca5eaa80e69cf50af5e9d549105fafa25da6afc8b7"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "9dc04b1d93c072ff8c58cd5cce106a1fc9c85c6b0734014beb50bd17e65fac945023cc7d2ef9db15b204d2d6f373518c"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "1b324c8591bbf3856885478d80795267e7daf1755780503971b05f30bb17d98b209432fc696643c208fa9a064dd65b4a"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "11409e0048914fac50340363301ecc37429fcea1d65a7670db35d5adb447f7bb"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "2396a85295080aa993f326dfc9cd73de31f7bbb026e58fe0fba873410cb790e254aea8f8e8912137b83cc262ef4936c40f366ac323006d221ff8f90a7ed09264"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.webjars.npm/vue__runtime-core@3.3.4?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.webjars.npm/vue__runtime-core@3.3.4?type=jar"
+  },
+  {
+    "group": "org.webjars.npm",
+    "name": "vue__reactivity",
+    "version": "3.3.4",
+    "description": "WebJar for @vue/reactivity",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "ed18c1ce15668ef86583e4ab99a12b26"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "dac058c0e0aead7f9dd75e0e4a0390ec0ea3ed48"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "d408d87240a4ae983457516fad8229be7f73dfdb004fa74208abd7cae7305f6f"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "56a0d783168e2df0a75b56f905c6836fc57c6fa129c91526d8e76469c27f31f63102f6957d32449ebfd1fdc8608ac96da3f3e5892810004db39f3cd6a56e8d7a"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "cea6be9cee97420f91f966a1f3adf15cb2791c870aad78508a72ccad3351805c301376df906881129bee5d4b3efcfec4"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "bc22014a91b7120303a9dfb2ad4ade88f041824ff382358beaf89089d30410e98806e35007d64a61d014eb50fa690c6a"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "f24bafbea87f9a0a5daba52864594da9de7b03080688af1fe8e6406bb9744b2f"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "c65da13d3ac0648fc18e7b6d93ce5527c633c3e8e55ec0370b47f00e3d98aeb70d523b9c43ac2adc62de241e7b1269dea3bc88e60c5e6746b0338fc191332f60"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.webjars.npm/vue__reactivity@3.3.4?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.webjars.npm/vue__reactivity@3.3.4?type=jar"
+  },
+  {
+    "group": "org.webjars.npm",
+    "name": "csstype",
+    "version": "3.1.2",
+    "description": "WebJar for csstype",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "39c06af9cc29e23b4755b088400a43e0"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "38dd6cf00a5f55a5ab20b7589da2faaa60f437a9"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "967374b37f6005bc70de8a2df7a98029f8012ff050fe5c0d49429fc916f0063e"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "6db8180a12864cb314842930804d4fe88cf9f35ace31a28ffb9902c98a38eabdb61becdb378b841aacd1e2c76e4cf35098ff8b2eedf2909af2b5dcc1a7e69616"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "364701cca9395028fa46cadfb84c3d0d99039041854d74ae36561d499e76f54bae2dcb5f50ba08e03f0cfaccbfc5d2d4"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "1601ab304209893bdb6478e96e410296ddadbb7e4b9c51dc31a9f24aef0484e5ee3e32419f9618c55a4322c7bf73cc49"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "2cd0d23039de11e542273ed0a9c354f3e7e7042193015c98c19341e0c55d7ecb"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "e4b8102fbb37fbcefac2b57270add51617e595df3466ca0161840abe255d6569470d5bb631052aef1081af73588718de993c635c66293a04438840f1da01e11c"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.webjars.npm/csstype@3.1.2?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.webjars.npm/csstype@3.1.2?type=jar"
+  },
+  {
+    "group": "org.webjars.npm",
+    "name": "vue__server-renderer",
+    "version": "3.3.4",
+    "description": "WebJar for @vue/server-renderer",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "fcefcb055fed6007a929ae7936843a40"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "9a76d00af97a73c5a0cf291c3cee5925e22a1571"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "d402ef29d48d67b04e922dd87dec15c95c0b6fd659dbd136d26159ba90cd0f4c"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "e6a2face9347bb3984a38023a06483e4176f5ae68f36beded04cdca3cceb494b1ad281d17df404aa8295d2c9aa89f80c93fac0c53d1b787cc1b52dd4490a1c1d"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "cef27a88ba6d508ba45e555d32081de3a646ea20e21e8eda4c60a903c4f7cbc8ecad28d85bf75f5f01c6f30bdf87aa27"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "f7dd94f3464ca9714ae1e2de8b08a343a579cebd9bc316118d2ca3e74bd25321946bb30b2e5d80eeade404608925173f"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "8157e69a8cc2cbbd992aef7669625512c3642df2f8bb45d61f35bbbebcef8030"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "3a5385668a39de797c2a9396bffbc3f0de6783e15b6ef6d0a0a6f7f9052d2aa9e44780d99501e3731c7151fb33f2148db24e9155d323374b94f55402e3c09b13"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.webjars.npm/vue__server-renderer@3.3.4?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.webjars.npm/vue__server-renderer@3.3.4?type=jar"
+  },
+  {
+    "group": "org.webjars.npm",
+    "name": "vue__compiler-ssr",
+    "version": "3.3.4",
+    "description": "WebJar for @vue/compiler-ssr",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "77e893b909761cf1f99d754a0b6b7c7f"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "f7c8b4a0ce27e5c1724cfe7886af3800b265bebd"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "275ff2adf06ab02f1d597c026fa5224a88e196deb1b45f532fdb6080cf18d19a"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "8fea446167acbb63005d4c637691782ad149322fe0f13d776c094dfc87bf94315f60530980a70cfc9f34af0d09021117a30ebb08dde37fcd61ff5d55d03ef199"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "99c567eaf5d628a5d615b5d04e004c7a19228bd599304de07e142fc5e55b7992dede1b32e4f54cd4af4614034cebbf1e"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "40fd915dbad8e26cfccd378a458bc1455faad612e1188d42ad2f93a25f218b3f77d4f35f25c4da5a20458591cdb2813e"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "8c715004e28694cd8be09f486663274e9d2f26b7e2ecbf3450ba6e610f3bb55d"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "7c3363a5b76efae32245ca0e67d7119f1d8b77c42a33a552de8c71c0f59da2a2bf39b47fa7b0ea68f835b174a31d8c1b623a423983f75a8b8f90cc2e558a8182"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.webjars.npm/vue__compiler-ssr@3.3.4?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.webjars.npm/vue__compiler-ssr@3.3.4?type=jar"
+  },
+  {
+    "group": "org.webjars.npm",
+    "name": "vue__shared",
+    "version": "3.3.4",
+    "description": "WebJar for @vue/shared",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "02c1ff0c8be6da80d901b36e3a27bdd3"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "8b7e8d3da21f668b5c9c36d19dab66f48bb10ff2"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "0443b3173e72f191af656735a750c70122267ae77211ba422b55e0161af1df18"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "66867689cdfafac57512f5daa2bebe160d66b4b4b111014ee753758b825c61fa3fdc4eb4716de3091359b9874c4aae7f0a09107ec7e6c5856c7dffd89208e87d"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "0c2586fb316460441eb9a187ae020651cb744050d787d9591b3e59547205ce9dc9ef9c9d1e0a419d1c2900fe1edb6b88"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "0148c5a086f57540921d9359591d2c0df415d222c088fbe14962ea2086666c20621f5717d71853d20ec56bfda4aa2808"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "f4e0a157e60085b6f10bf8fe5c2193cbbbf88f1900f6e4e79d1d409bfd7535b1"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "c61f5694be539c8126d69a63f2d13808a9ed5299e78161dcc2dd62e09c88bbaabbd8031e6866fa1744eccd8e9c42aca599bf51ea0cafdbcf0f6619f51891eb2d"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.webjars.npm/vue__shared@3.3.4?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.webjars.npm/vue__shared@3.3.4?type=jar"
+  },
+  {
+    "group": "org.webjars.npm",
+    "name": "vue__compiler-dom",
+    "version": "3.3.4",
+    "description": "WebJar for @vue/compiler-dom",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "61235a1d3dc8ee5d7c5162c34757c4ed"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "b5e402a68432ab181f0422afe6d0d4b38013f104"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "b94b679557c4da251b5b9ae372fd34bd331758f445adfe725103c4fca31670a9"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "c45accaf4f6468f1314bc7a5385e2c137044cdaf1541e4b9ea2811cd5a3e50136cdf306afe28292dd61c7a536eb743cd4f739e8ff9011fcec2dc9d96559c6d1e"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "3612de8fc4b52fb8ae295697eb6a01bd651e34ab6e9289a9afb6fed7d28f20053324bf81ba6b7c99608e2bfdf76a1b40"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "d732cf27e25ea5d450f84f8279ea88a97f233dbca61605a3c9c0650e4d14de665ab3f7f0a9903c737fd1205a878ebeac"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "1251ca2354476f76c87a1b49b9ac1be1b7e4ccef16746e769e90f79baebb4662"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "54aee089bc0e84ee14625c0e9756ea6748f094b894209dfec0389df46d6a898a20fc1a01475da6eaab3eda3507ae07896c7c5cebacc012b48929fb14adb079e0"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.webjars.npm/vue__compiler-dom@3.3.4?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.webjars.npm/vue__compiler-dom@3.3.4?type=jar"
+  },
+  {
+    "group": "org.webjars.npm",
+    "name": "vue__compiler-core",
+    "version": "3.3.4",
+    "description": "WebJar for @vue/compiler-core",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "6d44dde73a47a0d777054f1eb2cb4d2c"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "df0222285294bd4d4955e0df2e13178c7ca7b230"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "4ae0d2b0d4a4ec294a2525a6577ea606ce608af017c86cef8ec3f135ac633fe9"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "e43ed722c6c0ab714460498e42c2b88ea3ac6f41fc34534b585e8a524b619c08058de7041b1dd16772042fba24cdec9bf6ff39fc750a21c40af081bc6ce255dd"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "3682127ad7dc2ba1d96a1f8ea336138a0c5e15f11694698164b653e2088d8dcee130ff9c6b9ae1c4e8739b57bf5e56ce"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "9fee9a05e5220b92fc2293596aacee375c64d58fcc51898d52580ec5b3d95bfa6c734daf3ddd9a57e9fcf0b654687304"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "7a9c3143ae98d87a184b3a225bdbc0fc7cac374fd08153e7ed1c72e16a395aee"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "f98ef24e4d80a1c8a510127af7c7e3d493346c10b55c14d49ac50304b34cb2d6c5252ab5ebb61415b923a98dbbb49e9649b2255507e48fd08444480d4d81e970"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.webjars.npm/vue__compiler-core@3.3.4?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.webjars.npm/vue__compiler-core@3.3.4?type=jar"
+  },
+  {
+    "group": "org.webjars.npm",
+    "name": "vue__compiler-sfc",
+    "version": "3.3.4",
+    "description": "WebJar for @vue/compiler-sfc",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "7ab711ec0e32be9b11096bde8624f4f2"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "e678774ce40c76da681423488bdc7e393a76c199"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "047f6ae3f339a42481051c8e6eeb424955718c3172af475c723fb6376f0fb1b2"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "3559fcfb982ea1ded92d88625165ff9c386bbc8707ffa60f09fa67c74bb6e55b3ab4f31838ccf85c02608b02a23b8818551a38f6ae5ac92fda0595f1684febf4"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "9d6d4111e759baa5556405b2958544edabb537e521007a7dbf027263927628cea82d344f89cbef1d1ca136e12b49bc9b"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "a7819277134debde79731d89c4d52043cceb4d86461595d00170b74f44ce2cae6729d7c125d8cae73befc71a8d68b4c1"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "eb4acadc569b904395cf3e5295900256d6f940be25707176f743fe5e2a237bed"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "38952e1b2a86067cad4f20eb5693dc5ae8ec38fd0f87f34ce834f353c3c4be7ea6590cb63593d342ebcc5cfe8dab2c7f74e706d2629183f9272d6a6633145798"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.webjars.npm/vue__compiler-sfc@3.3.4?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.webjars.npm/vue__compiler-sfc@3.3.4?type=jar"
+  },
+  {
+    "group": "org.webjars.npm",
+    "name": "magic-string",
+    "version": "0.30.5",
+    "description": "WebJar for magic-string",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "ea36ed61d468e790a2c3bba8b5222a5a"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "bedf6adf3282bbd9a6d13fd1957d025bf40824cc"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "4e5ed7723f7cf8ce278266cde5086b1a232d425a9e6662a2a5f86b7b2567f4a5"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "6f8d71a2fc6c7bf850906a11b439c0ca9ca98e2be859158517c20e18b874c2275f6db3269ba9f8d88882b714415139527a44a998c07ba2179fdc6763ba9033d9"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "7362ef07e6edbabd3604119a1932db9ae40ebb9ae26fd8d33d42bcf82b81118a23f10fbf1eff81b9836cf72b7f67fa89"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "0c53158a75034fc4cebc28834b1dc522b5b73c81bd08ae032f71cb625f318a65ea1e472180494c59ccdd0dfc642920ab"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "b56d78477206e66d16b87c45bf28e7e41c06964e4676df503661c6c182484b01"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "478921ce07cda7fe83661a3a9b0d22d44f12132cca1032e8f35e5ddacc5958ddf8979e70b190279e6b50714527a52a417c0848b1ec00bfc3760d1e72dca6194d"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.webjars.npm/magic-string@0.30.5?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.webjars.npm/magic-string@0.30.5?type=jar"
+  },
+  {
+    "group": "org.webjars.npm",
+    "name": "jridgewell__sourcemap-codec",
+    "version": "1.4.15",
+    "description": "WebJar for @jridgewell/sourcemap-codec",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "084e4afeeda1298afed0390d5b38e4dc"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "040c22d6a40576516a1af29ce5dca939ade2514f"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "51dfb8b972a7577787bf6dc550d2afa9bbc4e5898a88d93a4d22360bf16e917a"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "c60d80a65717bb73597f353a546c561f47cfefc7a0fc79fe7a3253550ae13b64f580819cfe929229a7d4f20266a12fe1e778364cc990287c517938ba969ea253"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "b6affd5ee162f5f8745b011b5ac71a2aac56affc00704fd57be969efce711977858fdd9927b6d399797d6b7d96ec817a"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "b2f067437c2d54e453520905bd51c1832a5685717505365643c49210c2871ce0d30d1c5dc6927f75a4ebc984544fea5c"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "6d34efb28690b72d386b7901ba4a5ebfc551fbd59894b6c7b515205748febd80"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "0ecccd4b3fb9b74c4da448823625b48955c79c441550cbb88dcaf109963297751af47e7c3fcaf3c6a4036d711ceeda05814d0543cfdf98e39b7d1eecea867391"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.webjars.npm/jridgewell__sourcemap-codec@1.4.15?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.webjars.npm/jridgewell__sourcemap-codec@1.4.15?type=jar"
+  },
+  {
+    "group": "org.webjars.npm",
+    "name": "postcss",
+    "version": "8.4.31",
+    "description": "WebJar for postcss",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "3d0a8fa21619ffed562cea06b5853e4c"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "3942d98805aab4b7be2fe11f461029986e50bcf9"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "d22fe86b7fbab7249dedefc5eef584bddb403aa783563186370fca850ffe9498"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "1ae07691d187fe2d82d4c62ab45c0449a23b7ca00237dceb1d7c581c1d85d826768cd619373e6b8e7b82e27f12565547682150861e59a4f515affe863ba772eb"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "dff4c7342f1ca880f4b88e6496def2b3d38b54054069064597f79d20836036ce209115e426e129456fb692a815a94fc7"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "546849ccd9ddfc02ae9d5b264d6516c3984bf2c40fad4e1652d6924c47e145187e43cc6fe6ff2e9b9ca6676c7e37b51e"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "8313ee4166933ebde0f08bb57a3483decc3c0cbbcd9d9801affb8dc5b0d4b5bd"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "a0c26987940174ee3e42da8f0698e73a5d86019544fdbd0b22349adc6cfe3c455c73e0a96f67aa80af9f08c112e17f33e2d02ea513ed00ab4d2ca2cb557541f2"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.webjars.npm/postcss@8.4.31?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.webjars.npm/postcss@8.4.31?type=jar"
+  },
+  {
+    "group": "org.webjars.npm",
+    "name": "nanoid",
+    "version": "3.3.7",
+    "description": "WebJar for nanoid",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "4b35c6bf6b591ff5236047f083b45047"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "85a0fe07019648ed7cc7aab2f4d85fe098040d86"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "9f6cc3836bef9ffa3b04bb69625408da05a322564d5d5ebe98cdaef8b867336e"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "ae7525b23e68557d934a5adf1582b9a54d7884fbc50ed7319b272527887e016b4b3eaabf38b40afeb8d2ae9bc5bb9ecef76a3dcfd455a7fe58721e57b0bc2929"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "32e6445bccc6e93cdfd0227dceb31d22a0a1a3af6a9a2550794ec3a4f303d8dbc72b6d950943a2a6189350de768d5066"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "70b80f8c593925640990055c632025e50423d00e129d92c02c6b65de043779d79d0fa44174586267983bc97d3811608e"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "4a1885d8178fe23b75eb8e3a3e984304ff368fa47b77767107b45a6f388df915"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "4f2c4133410b9292d40d05fb20e1e9c0998b1971d3e6ec7e5409500fc3a81b88f587fa72e4855b8830d97202051f5d188beaf2b0b35e213c623fd1d23009abf7"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.webjars.npm/nanoid@3.3.7?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.webjars.npm/nanoid@3.3.7?type=jar"
+  },
+  {
+    "group": "org.webjars.npm",
+    "name": "picocolors",
+    "version": "1.0.0",
+    "description": "WebJar for picocolors",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "f5ffb3063e6f7542b4f50d6c24ced611"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "0cda9f7692c98c4f2eaf81d910126124229ea7ba"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "cd07762389ee98623fe74a13a90f6751b03721b736ff91099e88a93d8fec502f"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "c12d079b0d45c995bebbe4e53d5c5c80396757d45712492b970c8e95cc7b57769d61aec6bfd0a9c9519e4d02dec39dde2ea0e5f11cdfe62ee234bf745449ecf6"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "7714a8d071c1d588b56bac4394166e0c77dd996c102f0a946592f420a86b6d0e0c246b5d925eba54d5dd554e07bab339"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "27e263b615325c5d51b4c4ec3754bf1ee319b6e39ccb4994828703d8e9762028a836a1ee4c7a14672a69fcf5fdb856ad"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "378a52f68f870fcea3d7f6391b8b01e4e6359dcc50773ec42b03b95d9d033e15"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "bee11e196963fab67555806eb46d71106cb4ca84e7daf3a35356c99cae3eb810f62227b3dd265ec9d92e545c6357d6ab9c3b667db48888e7220d92ff1dae8f59"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "ISC",
+          "url": "https://www.isc.org/licenses/"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.webjars.npm/picocolors@1.0.0?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.webjars.npm/picocolors@1.0.0?type=jar"
+  },
+  {
+    "group": "org.webjars.npm",
+    "name": "vue__reactivity-transform",
+    "version": "3.3.4",
+    "description": "WebJar for @vue/reactivity-transform",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "5e906a693c4338bf9bb7018c9a1cdf47"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "603354b7f8ee6b2141407630ee6bb3512dd3a6e6"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "d67a67d092a0231bffabf5e2d365769c0574f14236b89436436a921c1566a4c3"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "d1393aa27bcb9423f69fc5e461ce779f0cc10b2479bea84e903bbe5053405ac3a7793b9a27621cdbce3a64a918758241224866b2f0e2a26e9b8e3893fcea76ce"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "2b4ef8ddfb7519fda91eb99649ecc5424318448294d93b1bcb49c7b2847e9f1809fcea02a2af3f33144d3f4f20b9127b"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "df1e99495d60b0d6c93901c40add8c3507cf043dd332f291039a1ca625de8328f8b7c6d9a2c6d853714e7848b0a4b715"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "3bfb5aee5de22082e4f9777313c15a8223a654cbba12230855499757e310450b"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "9e7763c2e2c63a0a2981aec9681792580dc9cf80efa51d3d572995a98602bb083dfd960ce93a641dfafa4c7e442b148dadd20948890e40bd6930760b9310663c"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.webjars.npm/vue__reactivity-transform@3.3.4?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.webjars.npm/vue__reactivity-transform@3.3.4?type=jar"
+  },
+  {
+    "group": "org.webjars.npm",
+    "name": "estree-walker",
+    "version": "2.0.2",
+    "description": "WebJar for estree-walker",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "43a975c25c0aaa79e5990576676eb69c"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "646870abf5e112ad4ad2f537eed05376b6f61eed"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "0a16b826105c4ef9cb6b44d82451ba5edd1bb5251021e49862b1f5a70abb2659"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "2727a22d7b973dc57f05b5fa03319b0ed62ea75038c128d27893095d3814571452122f6404b82f254e15eb1f24efe583e44bd09bc03c6cf8cad9e9be0c021c0c"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "5069f9025081a2901967f87463d7055f2e8e4940d71bfb3163692e5be8e264c8b58409ee0862f0b872ad86c4c6b77430"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "69585796280cd5c09edb986d4585a4f9238fadbb0b23211091f64a9e56ebbc1b503931643313497d33545bd183d4cdd8"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "72077177adb82b753c4c1a541238c143365c581636312cf26753a09a52081980"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "889980974128562bb696de13e6350315bbeca1abb3e5b60fed88e7cdca0e5aff469864a1b7b7a86685cb040d96d7e35af051d144ffb70a5d1193944d6d5b7e1c"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.webjars.npm/estree-walker@2.0.2?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.webjars.npm/estree-walker@2.0.2?type=jar"
+  },
+  {
+    "group": "org.webjars.npm",
+    "name": "source-map-js",
+    "version": "1.0.2",
+    "description": "WebJar for source-map-js",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "9c952b57839f8c7b5fb17ecddc4156c8"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "cd02f8d4b14da04cc62a528881d0615200bc2a5d"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "d80d46bd22b303efb61aa14eb933fe237a8419fe32f0a1b65012e3492fb55bfa"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "012455b6afe501290faf6dec56ff3dcb77519baddab742bafda5f05487ef3b5b12c2e0522b3c2ada64cfe0ff1b1716cf9799bc2556ef238595d35a0dc84e2c98"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "58ba2be08ea0f7ab0f2b46aa857948a4b0574c432fd58bf4e7715b510489c7b5f594fc6a03b7809115797ed7fb1c155e"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "45dacf1f92dcc28b0a3f58d19ce5f9eeea4b68e792496f73fae151e4b3505af3fd4ddbd8e137d7e889d3b7dad2a33c23"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "b4977c460f08673ea5587ab0babb382085f4d10aaecd015de8ca431138030fe0"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "e0882d3f147b8bc15ac97a76ad26bf52f0987270f15f590bd2b42e5d380f4922188174dfd9f3a33448f6ab90971f0caf7a43e38b642e2c0f54e7546769588d03"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "BSD-3-Clause",
+          "url": "https://opensource.org/licenses/BSD-3-Clause"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.webjars.npm/source-map-js@1.0.2?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.webjars.npm/source-map-js@1.0.2?type=jar"
+  },
+  {
+    "group": "org.webjars.npm",
+    "name": "babel__parser",
+    "version": "8.0.0-alpha.4",
+    "description": "WebJar for @babel/parser",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "368ec3b8f11d1e422fb14a122f2fa87d"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "3d62b9b58147e7553d06b729af0b6ef420ca58c8"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "20c540e29e746e8805a794cba66446caf15ad97e5a4562f2483412522e4c65b5"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "527e07a778e7cdea68f4999f16d1044cd72ea9216e5e408a418a3fff96324a981d7219d70e1e01ff281c1febc4545e7331c5fe2ff9cc750f0e2fbcf7092f2717"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "e5fa4054137fbf7c0bf86faa425920587ba9934b2ce3d680ac2e8870f9e1efb042bfad4f25b145e89fe05cd149e2b916"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "5df6af717dc192e8d79a64558ca4b828e90b742d19a2c927340d3bcef3f4cc489ade9e311a426acab00c56c816a4e762"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "3725a9ef074677f88e986730de83441acf5923db9e33963e5d59641796702dc6"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "980dac90b5e90d6cfc38a4a0a693063d5994b0e15d77edfccf3132af28e85d9be91e5a2194d2a12b0a313fc66af45596777e1258ba815af4697b9cc31b98e8f9"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.webjars.npm/babel__parser@8.0.0-alpha.4?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.webjars.npm/babel__parser@8.0.0-alpha.4?type=jar"
+  }
+]

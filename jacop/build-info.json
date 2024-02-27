@@ -1,0 +1,189 @@
+{
+  "name": "mvn-build",
+  "number": "1",
+  "agent": {},
+  "buildAgent": {
+    "name": "GENERIC"
+  },
+  "modules": [
+    {
+      "type": "maven",
+      "properties": {
+        "argLine": "-javaagent:D:\\\\Work\\\\Maven\\\\repository\\\\org\\\\jacoco\\\\org.jacoco.agent\\\\0.8.8\\\\org.jacoco.agent-0.8.8-runtime.jar=destfile=D:\\\\Work\\\\SBOM\\\\TestProjects\\\\jacop\\\\target\\\\jacoco.exec,excludes=org/jacop/examples/scala/**/*.class:org/jacop/scala/**/*.class",
+        "aspectj.version": "1.8.10",
+        "checkstyle.config.location": "resources/checkstyle.xml",
+        "dependency.locations.enabled": "false",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "project.build.sourceEncoding": "UTF-8"
+      },
+      "id": "org.jacop:jacop:4.10.0-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "jacop-4.10.0-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "org/jacop/jacop/4.10.0-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "org.jline:jline:3.21.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.scala-lang:scala-compiler:2.13.10",
+              "org.jacop:jacop:4.10.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "2bf6f2311356f309fda0412e9389d2499346b5a1",
+          "md5": "859778f9cdd3bd42bbaaf0f6f7fe5e6a",
+          "sha256": "1e7d63a2bd1c26354ca1987e55469ea4327c4a3845c10d7a7790ca9729c49c02"
+        },
+        {
+          "id": "org.scala-lang:scala-library:2.13.10",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.jacop:jacop:4.10.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "67c1afabaea9ba51321159e70a78515647e1b73d",
+          "md5": "f8ca7cf82f6d54ffdb6f8a2cdfe2474f",
+          "sha256": "e6ca607c3fce03e8fa38af3374ce1f8bb098e316e8bf6f6d27331360feddb1c1"
+        },
+        {
+          "id": "org.scala-lang:scala-reflect:2.13.10",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.scala-lang:scala-compiler:2.13.10",
+              "org.jacop:jacop:4.10.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "f19c2a5fc93a63398a5cfc56a14f0abf1d28d27c",
+          "md5": "5983f5b393ac6739336b0df8f293093c",
+          "sha256": "62bd7a7198193c5373a992c122990279e413af3307162472a5d3cbb8ecadb35e"
+        },
+        {
+          "id": "log4j:log4j:1.2.17",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.slf4j:slf4j-log4j12:1.7.24",
+              "org.jacop:jacop:4.10.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "5af35056b4d257e4b64b9e8069c0746e8b08629f",
+          "md5": "04a41f0a068986f0f73485cf507c0f40",
+          "sha256": "1d31696445697720527091754369082a6651bd49781b6005deb94e56753406f9"
+        },
+        {
+          "id": "org.mockito:mockito-all:1.10.19",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.jacop:jacop:4.10.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "539df70269cc254a58cccc5d8e43286b4a73bf30",
+          "md5": "979ec16f27b6b541278e0ecd10efd771",
+          "sha256": "d1a7a7ef14b3db5c0fc3e0a63a81b374b510afe85add9f7984b97911f4c70605"
+        },
+        {
+          "id": "org.slf4j:slf4j-log4j12:1.7.24",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.jacop:jacop:4.10.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "309d7b29b14573c05d4c69cc7e44da0cb17212d3",
+          "md5": "65268a5177e9e211357f6cda3d68b461",
+          "sha256": "3263031ada62232de8c3302035329734efc3e97c68a11fe78524a32c98a9d0a4"
+        },
+        {
+          "id": "io.github.java-diff-utils:java-diff-utils:4.12",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.scala-lang:scala-compiler:2.13.10",
+              "org.jacop:jacop:4.10.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1a712a91324d566eef39817fc5c9980eb10c21db",
+          "md5": "2bab3395dcfe2ea5b092ad646ca899d3",
+          "sha256": "9990a2039778f6b4cc94790141c2868864eacee0620c6c459451121a901cd5b5"
+        },
+        {
+          "id": "org.slf4j:slf4j-api:1.7.24",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.jacop:jacop:4.10.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3f6b4bd4f8dbe8d4bea06d107a3826469b85c3e9",
+          "md5": "d18638036e314cdd66f04e2d248b7df9",
+          "sha256": "baf3c7fe15fefeaf9e5b000d94547379dc48370f22a8797e239c127e7d7756ec"
+        },
+        {
+          "id": "net.java.dev.jna:jna:5.9.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.scala-lang:scala-compiler:2.13.10",
+              "org.jacop:jacop:4.10.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "8f503e6d9b500ceff299052d6be75b38c7257758",
+          "md5": "bd7ccbc4f374a791fbfc8b79c2de1e72",
+          "sha256": "eafcc780b445434d3c5ae7fa2fb6665de1a7560d537d2c408a8e80cd14d27161"
+        },
+        {
+          "id": "org.scala-lang:scala-compiler:2.13.10",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.jacop:jacop:4.10.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b0f3373b9d37bad4a7e8858912e4b709d41eaf76",
+          "md5": "9695c41448e1eb200023061dd4bfd4bf",
+          "sha256": "2cd4a964ea48e78c91a2a7b19c4fc67a9868728ace5ee966b1d498270b3c3aa7"
+        }
+      ]
+    }
+  ],
+  "started": "2024-02-09T17:36:13.276+0800"
+}

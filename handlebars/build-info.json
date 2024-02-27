@@ -1,0 +1,128 @@
+{
+  "version" : "1.0.1",
+  "name" : "mvn-build",
+  "number" : "1",
+  "buildAgent" : {
+    "name" : "Maven",
+    "version" : "3.6.3"
+  },
+  "agent" : {
+    "name" : "Maven",
+    "version" : "3.6.3"
+  },
+  "started" : "2023-11-23T16:28:09.202+0800",
+  "durationMillis" : 9891,
+  "vcs" : [ ],
+  "modules" : [ {
+    "properties" : {
+      "maven.compiler.target" : "1.8",
+      "antlr-version" : "4.9.3",
+      "jackson2-version" : "2.14.0-rc2",
+      "nashorn.version" : "15.3",
+      "maven.compiler.source" : "1.8",
+      "maven.build.timestamp.format" : "yyyy-MM-dd HH:mm:ssa",
+      "project.build.sourceEncoding" : "UTF-8",
+      "maven.compiler.compilerVersion" : "1.8",
+      "humanize.version" : "1.2.2",
+      "jacoco.version" : "0.8.7",
+      "timestamp" : "2023-11-23 08:28:06上午"
+    },
+    "type" : "maven",
+    "id" : "com.github.jknack:handlebars:5.0.0-SNAPSHOT",
+    "repository" : "",
+    "artifacts" : [ {
+      "type" : "pom",
+      "name" : "handlebars-5.0.0-SNAPSHOT.pom",
+      "path" : "com/github/jknack/handlebars/5.0.0-SNAPSHOT"
+    } ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "5959582d97d8b61f4d154ca9e495aafd16726e34",
+      "sha256" : "c658ea360a70faeeadb66fb3c90a702e4142a0ab7768f9ae9828678e0d9ad4dc",
+      "md5" : "69ca51af4e9a67a1027a7f95b52c3e8f",
+      "id" : "javax.servlet:servlet-api:2.5",
+      "scopes" : [ "provided" ],
+      "requestedBy" : [ [ "com.github.jknack:handlebars:5.0.0-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "cdcff33940d9f2de763bc41ea05a0be5941176c3",
+      "sha256" : "3624f8474c1af46d75f98bc097d7864a323c81b3808aa43689a6e1c601c027be",
+      "md5" : "fbcf58513bc25b80f075d812aad3e3cf",
+      "id" : "org.slf4j:slf4j-api:1.7.32",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "com.github.jknack:handlebars:5.0.0-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "7ec32f922315924e82bf58b36ee1b673b2a9b820",
+      "sha256" : "2f67e11ceec819ebd88ddee5300aba699b1cbab2e20c22e97cf027d3be93959b",
+      "md5" : "542c066ed00a4fa9857e9343e2c595b9",
+      "id" : "org.ow2.asm:asm:7.3.1",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.openjdk.nashorn:nashorn-core:15.3", "com.github.jknack:handlebars:5.0.0-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "045dfd299ea0c17d534499c4f06417ceccfa2d02",
+      "sha256" : "46b8a8efd4b94facb5ab4b35afe30ee0546ae7a43d2c64e6def56c2f168fefa5",
+      "md5" : "b5b082ef17f6d6bb3d8ed9c129161bdb",
+      "id" : "org.ow2.asm:asm-analysis:7.3.1",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.ow2.asm:asm-commons:7.3.1", "org.openjdk.nashorn:nashorn-core:15.3", "com.github.jknack:handlebars:5.0.0-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e",
+      "sha256" : "d919d904486c037f8d193412da0c92e22a9fa24230b9d67a57855c5c31c7e94e",
+      "md5" : "19fe50567358922bdad277959ea69545",
+      "id" : "org.apache.commons:commons-lang3:3.12.0",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "com.github.jknack:handlebars:5.0.0-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "daaa79ef260eb67404b9a52bc319a024c7f49cfe",
+      "sha256" : "87cd8bb3c6bf6bcbb33fca48060c5065f66ebf6a3d7de9bf18bff51bcf156ebc",
+      "md5" : "be985ed0af52424f8f5d27ec71c249ab",
+      "id" : "org.ow2.asm:asm-commons:7.3.1",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.openjdk.nashorn:nashorn-core:15.3", "com.github.jknack:handlebars:5.0.0-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "587ce54d243145b2e89598bfcea7823ded73be5d",
+      "sha256" : "f91a4a8aa868c5c4665bb4fd134019a91f9f8b9216527fba295e3c8b5422b78b",
+      "md5" : "3ef0bd9837a905e0b2d443de9199a409",
+      "id" : "org.ow2.asm:asm-tree:7.3.1",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.openjdk.nashorn:nashorn-core:15.3", "com.github.jknack:handlebars:5.0.0-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "cac1bf54c2fb86671c357d281d1060fe5d50a0de",
+      "sha256" : "182128592742ed4883ac82bf205f137b6bfbe1234c68e6feb13759e75a85b729",
+      "md5" : "181141e54fdd56474937d7ebfb325ba3",
+      "id" : "org.ow2.asm:asm-util:7.3.1",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.openjdk.nashorn:nashorn-core:15.3", "com.github.jknack:handlebars:5.0.0-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "81befc16ebedb8b8aea3e4c0835dd5ca7e8523a8",
+      "sha256" : "131a6594969bc4f321d652ea2a33bc0e378ca312685ef87791b2c60b29d01ea5",
+      "md5" : "718f199bafa6574ffa1111fa3e10276a",
+      "id" : "org.antlr:antlr4-runtime:4.9.3",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "com.github.jknack:handlebars:5.0.0-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "3363381aef8cef2dbc1023b3e3a9433b08b64e01",
+      "sha256" : "770cd903fa7b604d1f7ef7ba17f84108667294b2b478be8ed1af3bffb4ae0018",
+      "md5" : "4afc9bfa2d31dbf7330c98fcc954b892",
+      "id" : "org.apache.commons:commons-text:1.10.0",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "com.github.jknack:handlebars:5.0.0-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "43977e804697048fc8d81d333a36c17d07a5b3dd",
+      "sha256" : "efc4f1e6164377a6a347dae255cf764fb3e5461cafd859abbdfb39e2dc831b62",
+      "md5" : "91e98c20afa1090c344229ce28b4c53f",
+      "id" : "org.openjdk.nashorn:nashorn-core:15.3",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "com.github.jknack:handlebars:5.0.0-SNAPSHOT" ] ]
+    } ]
+  } ]
+}

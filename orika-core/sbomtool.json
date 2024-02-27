@@ -1,0 +1,2392 @@
+{
+  "dependencyGraphs": {
+    "D:\\Work\\SBOM\\TestProjects\\orika\\core\\pom.xml": {
+      "graph": {
+        "javax.persistence javax.persistence-api 2.2 - Maven": null,
+        "junit junit 4.12 - Maven": [
+          "org.hamcrest hamcrest-core 1.3 - Maven"
+        ],
+        "net.bytebuddy byte-buddy 1.9.5 - Maven": null,
+        "ch.qos.logback logback-core 1.2.3 - Maven": null,
+        "org.jboss.logging jboss-logging 3.3.2.Final - Maven": null,
+        "org.dom4j dom4j 2.1.1 - Maven": null,
+        "antlr antlr 2.7.7 - Maven": null,
+        "org.springframework spring-expression 5.1.5.RELEASE - Maven": null,
+        "org.hibernate hibernate-core 5.4.1.Final - Maven": [
+          "javax.persistence javax.persistence-api 2.2 - Maven",
+          "net.bytebuddy byte-buddy 1.9.5 - Maven",
+          "antlr antlr 2.7.7 - Maven",
+          "org.jboss.spec.javax.transaction jboss-transaction-api_1.2_spec 1.1.1.Final - Maven",
+          "org.jboss jandex 2.0.5.Final - Maven",
+          "com.fasterxml classmate 1.3.4 - Maven",
+          "javax.activation javax.activation-api 1.2.0 - Maven",
+          "org.dom4j dom4j 2.1.1 - Maven",
+          "org.glassfish.jaxb jaxb-runtime 2.3.1 - Maven"
+        ],
+        "org.springframework spring-jcl 5.1.5.RELEASE - Maven": null,
+        "javax.activation javax.activation-api 1.2.0 - Maven": null,
+        "ch.qos.logback logback-classic 1.2.3 - Maven": null,
+        "com.fasterxml classmate 1.3.4 - Maven": null,
+        "org.objenesis objenesis 3.2 - Maven": null,
+        "org.springframework spring-context 5.1.5.RELEASE - Maven": [
+          "org.springframework spring-aop 5.1.5.RELEASE - Maven",
+          "org.springframework spring-expression 5.1.5.RELEASE - Maven"
+        ],
+        "com.google.code.findbugs jsr305 3.0.2 - Maven": null,
+        "org.springframework spring-test 5.1.5.RELEASE - Maven": null,
+        "org.jvnet.staxex stax-ex 1.8 - Maven": null,
+        "com.google.errorprone error_prone_annotations 2.2.0 - Maven": null,
+        "ma.glasnost.orika orika-core 1.6.0-SNAPSHOT - Maven": [
+          "org.javassist javassist 3.28.0-GA - Maven",
+          "com.thoughtworks.paranamer paranamer 2.8 - Maven",
+          "org.slf4j slf4j-api 1.7.26 - Maven",
+          "com.google.guava guava 27.0.1-jre - Maven",
+          "junit junit 4.12 - Maven",
+          "org.hamcrest hamcrest 2.1 - Maven",
+          "org.easymock easymock 4.3 - Maven",
+          "org.hibernate.common hibernate-commons-annotations 5.1.0.Final - Maven",
+          "org.hibernate hibernate-core 5.4.1.Final - Maven",
+          "com.h2database h2 1.4.198 - Maven",
+          "ch.qos.logback logback-core 1.2.3 - Maven",
+          "ch.qos.logback logback-classic 1.2.3 - Maven",
+          "org.springframework spring-tx 5.1.5.RELEASE - Maven",
+          "org.springframework spring-context 5.1.5.RELEASE - Maven",
+          "org.springframework spring-test 5.1.5.RELEASE - Maven",
+          "org.springframework spring-orm 5.1.5.RELEASE - Maven",
+          "javax.xml.bind jaxb-api 2.3.1 - Maven"
+        ],
+        "org.springframework spring-tx 5.1.5.RELEASE - Maven": [
+          "org.springframework spring-beans 5.1.5.RELEASE - Maven",
+          "org.springframework spring-core 5.1.5.RELEASE - Maven"
+        ],
+        "org.javassist javassist 3.28.0-GA - Maven": null,
+        "com.sun.istack istack-commons-runtime 3.0.7 - Maven": null,
+        "org.glassfish.jaxb txw2 2.3.1 - Maven": null,
+        "org.codehaus.mojo animal-sniffer-annotations 1.17 - Maven": null,
+        "org.easymock easymock 4.3 - Maven": [
+          "org.objenesis objenesis 3.2 - Maven"
+        ],
+        "com.google.guava listenablefuture 9999.0-empty-to-avoid-conflict-with-guava - Maven": null,
+        "javax.xml.bind jaxb-api 2.3.1 - Maven": null,
+        "com.google.guava failureaccess 1.0.1 - Maven": null,
+        "org.glassfish.jaxb jaxb-runtime 2.3.1 - Maven": [
+          "org.glassfish.jaxb txw2 2.3.1 - Maven",
+          "com.sun.istack istack-commons-runtime 3.0.7 - Maven",
+          "org.jvnet.staxex stax-ex 1.8 - Maven",
+          "com.sun.xml.fastinfoset FastInfoset 1.2.15 - Maven"
+        ],
+        "org.springframework spring-aop 5.1.5.RELEASE - Maven": null,
+        "org.springframework spring-beans 5.1.5.RELEASE - Maven": null,
+        "com.thoughtworks.paranamer paranamer 2.8 - Maven": null,
+        "org.hamcrest hamcrest-core 1.3 - Maven": null,
+        "org.springframework spring-core 5.1.5.RELEASE - Maven": [
+          "org.springframework spring-jcl 5.1.5.RELEASE - Maven"
+        ],
+        "com.sun.xml.fastinfoset FastInfoset 1.2.15 - Maven": null,
+        "org.jboss jandex 2.0.5.Final - Maven": null,
+        "org.checkerframework checker-qual 2.5.2 - Maven": null,
+        "org.jboss.spec.javax.transaction jboss-transaction-api_1.2_spec 1.1.1.Final - Maven": null,
+        "com.google.guava guava 27.0.1-jre - Maven": [
+          "com.google.guava failureaccess 1.0.1 - Maven",
+          "com.google.guava listenablefuture 9999.0-empty-to-avoid-conflict-with-guava - Maven",
+          "com.google.code.findbugs jsr305 3.0.2 - Maven",
+          "org.checkerframework checker-qual 2.5.2 - Maven",
+          "com.google.errorprone error_prone_annotations 2.2.0 - Maven",
+          "com.google.j2objc j2objc-annotations 1.1 - Maven",
+          "org.codehaus.mojo animal-sniffer-annotations 1.17 - Maven"
+        ],
+        "org.springframework spring-jdbc 5.1.5.RELEASE - Maven": null,
+        "com.google.j2objc j2objc-annotations 1.1 - Maven": null,
+        "org.hibernate.common hibernate-commons-annotations 5.1.0.Final - Maven": [
+          "org.jboss.logging jboss-logging 3.3.2.Final - Maven"
+        ],
+        "org.springframework spring-orm 5.1.5.RELEASE - Maven": [
+          "org.springframework spring-jdbc 5.1.5.RELEASE - Maven"
+        ],
+        "com.h2database h2 1.4.198 - Maven": null,
+        "org.slf4j slf4j-api 1.7.26 - Maven": null,
+        "org.hamcrest hamcrest 2.1 - Maven": null
+      },
+      "explicitlyReferencedComponentIds": [
+        "junit junit 4.12 - Maven",
+        "ch.qos.logback logback-core 1.2.3 - Maven",
+        "org.hibernate hibernate-core 5.4.1.Final - Maven",
+        "ch.qos.logback logback-classic 1.2.3 - Maven",
+        "org.springframework spring-context 5.1.5.RELEASE - Maven",
+        "org.springframework spring-test 5.1.5.RELEASE - Maven",
+        "org.springframework spring-tx 5.1.5.RELEASE - Maven",
+        "org.javassist javassist 3.28.0-GA - Maven",
+        "org.easymock easymock 4.3 - Maven",
+        "javax.xml.bind jaxb-api 2.3.1 - Maven",
+        "com.thoughtworks.paranamer paranamer 2.8 - Maven",
+        "com.google.guava guava 27.0.1-jre - Maven",
+        "org.hibernate.common hibernate-commons-annotations 5.1.0.Final - Maven",
+        "org.springframework spring-orm 5.1.5.RELEASE - Maven",
+        "com.h2database h2 1.4.198 - Maven",
+        "org.slf4j slf4j-api 1.7.26 - Maven",
+        "org.hamcrest hamcrest 2.1 - Maven"
+      ],
+      "developmentDependencies": [
+        "javax.persistence javax.persistence-api 2.2 - Maven",
+        "junit junit 4.12 - Maven",
+        "net.bytebuddy byte-buddy 1.9.5 - Maven",
+        "ch.qos.logback logback-core 1.2.3 - Maven",
+        "org.jboss.logging jboss-logging 3.3.2.Final - Maven",
+        "org.dom4j dom4j 2.1.1 - Maven",
+        "antlr antlr 2.7.7 - Maven",
+        "org.springframework spring-expression 5.1.5.RELEASE - Maven",
+        "org.hibernate hibernate-core 5.4.1.Final - Maven",
+        "org.springframework spring-jcl 5.1.5.RELEASE - Maven",
+        "javax.activation javax.activation-api 1.2.0 - Maven",
+        "ch.qos.logback logback-classic 1.2.3 - Maven",
+        "com.fasterxml classmate 1.3.4 - Maven",
+        "org.objenesis objenesis 3.2 - Maven",
+        "org.springframework spring-context 5.1.5.RELEASE - Maven",
+        "org.springframework spring-test 5.1.5.RELEASE - Maven",
+        "org.jvnet.staxex stax-ex 1.8 - Maven",
+        "org.springframework spring-tx 5.1.5.RELEASE - Maven",
+        "com.sun.istack istack-commons-runtime 3.0.7 - Maven",
+        "org.glassfish.jaxb txw2 2.3.1 - Maven",
+        "org.easymock easymock 4.3 - Maven",
+        "javax.xml.bind jaxb-api 2.3.1 - Maven",
+        "org.glassfish.jaxb jaxb-runtime 2.3.1 - Maven",
+        "org.springframework spring-aop 5.1.5.RELEASE - Maven",
+        "org.springframework spring-beans 5.1.5.RELEASE - Maven",
+        "org.hamcrest hamcrest-core 1.3 - Maven",
+        "org.springframework spring-core 5.1.5.RELEASE - Maven",
+        "com.sun.xml.fastinfoset FastInfoset 1.2.15 - Maven",
+        "org.jboss jandex 2.0.5.Final - Maven",
+        "org.jboss.spec.javax.transaction jboss-transaction-api_1.2_spec 1.1.1.Final - Maven",
+        "org.springframework spring-jdbc 5.1.5.RELEASE - Maven",
+        "org.hibernate.common hibernate-commons-annotations 5.1.0.Final - Maven",
+        "org.springframework spring-orm 5.1.5.RELEASE - Maven",
+        "com.h2database h2 1.4.198 - Maven",
+        "org.hamcrest hamcrest 2.1 - Maven"
+      ],
+      "dependencies": [
+        "com.google.code.findbugs jsr305 3.0.2 - Maven",
+        "com.google.errorprone error_prone_annotations 2.2.0 - Maven",
+        "org.javassist javassist 3.28.0-GA - Maven",
+        "org.codehaus.mojo animal-sniffer-annotations 1.17 - Maven",
+        "com.google.guava listenablefuture 9999.0-empty-to-avoid-conflict-with-guava - Maven",
+        "com.google.guava failureaccess 1.0.1 - Maven",
+        "com.thoughtworks.paranamer paranamer 2.8 - Maven",
+        "org.checkerframework checker-qual 2.5.2 - Maven",
+        "com.google.guava guava 27.0.1-jre - Maven",
+        "com.google.j2objc j2objc-annotations 1.1 - Maven",
+        "org.slf4j slf4j-api 1.7.26 - Maven"
+      ]
+    }
+  },
+  "componentsFound": [
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "javax.persistence",
+        "artifactId": "javax.persistence-api",
+        "version": "2.2",
+        "type": "Maven",
+        "id": "javax.persistence javax.persistence-api 2.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "javax.persistence",
+          "Name": "javax.persistence-api",
+          "Version": "2.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hibernate",
+          "artifactId": "hibernate-core",
+          "version": "5.4.1.Final",
+          "type": "Maven",
+          "id": "org.hibernate hibernate-core 5.4.1.Final - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hibernate",
+            "Name": "hibernate-core",
+            "Version": "5.4.1.Final",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "junit",
+        "artifactId": "junit",
+        "version": "4.12",
+        "type": "Maven",
+        "id": "junit junit 4.12 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "junit",
+          "Name": "junit",
+          "Version": "4.12",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "junit",
+          "artifactId": "junit",
+          "version": "4.12",
+          "type": "Maven",
+          "id": "junit junit 4.12 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "junit",
+            "Name": "junit",
+            "Version": "4.12",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "net.bytebuddy",
+        "artifactId": "byte-buddy",
+        "version": "1.9.5",
+        "type": "Maven",
+        "id": "net.bytebuddy byte-buddy 1.9.5 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "net.bytebuddy",
+          "Name": "byte-buddy",
+          "Version": "1.9.5",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hibernate",
+          "artifactId": "hibernate-core",
+          "version": "5.4.1.Final",
+          "type": "Maven",
+          "id": "org.hibernate hibernate-core 5.4.1.Final - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hibernate",
+            "Name": "hibernate-core",
+            "Version": "5.4.1.Final",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "ch.qos.logback",
+        "artifactId": "logback-core",
+        "version": "1.2.3",
+        "type": "Maven",
+        "id": "ch.qos.logback logback-core 1.2.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "ch.qos.logback",
+          "Name": "logback-core",
+          "Version": "1.2.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "ch.qos.logback",
+          "artifactId": "logback-core",
+          "version": "1.2.3",
+          "type": "Maven",
+          "id": "ch.qos.logback logback-core 1.2.3 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "ch.qos.logback",
+            "Name": "logback-core",
+            "Version": "1.2.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.jboss.logging",
+        "artifactId": "jboss-logging",
+        "version": "3.3.2.Final",
+        "type": "Maven",
+        "id": "org.jboss.logging jboss-logging 3.3.2.Final - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.jboss.logging",
+          "Name": "jboss-logging",
+          "Version": "3.3.2.Final",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hibernate.common",
+          "artifactId": "hibernate-commons-annotations",
+          "version": "5.1.0.Final",
+          "type": "Maven",
+          "id": "org.hibernate.common hibernate-commons-annotations 5.1.0.Final - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hibernate.common",
+            "Name": "hibernate-commons-annotations",
+            "Version": "5.1.0.Final",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.dom4j",
+        "artifactId": "dom4j",
+        "version": "2.1.1",
+        "type": "Maven",
+        "id": "org.dom4j dom4j 2.1.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.dom4j",
+          "Name": "dom4j",
+          "Version": "2.1.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hibernate",
+          "artifactId": "hibernate-core",
+          "version": "5.4.1.Final",
+          "type": "Maven",
+          "id": "org.hibernate hibernate-core 5.4.1.Final - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hibernate",
+            "Name": "hibernate-core",
+            "Version": "5.4.1.Final",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "antlr",
+        "artifactId": "antlr",
+        "version": "2.7.7",
+        "type": "Maven",
+        "id": "antlr antlr 2.7.7 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "antlr",
+          "Name": "antlr",
+          "Version": "2.7.7",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hibernate",
+          "artifactId": "hibernate-core",
+          "version": "5.4.1.Final",
+          "type": "Maven",
+          "id": "org.hibernate hibernate-core 5.4.1.Final - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hibernate",
+            "Name": "hibernate-core",
+            "Version": "5.4.1.Final",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-expression",
+        "version": "5.1.5.RELEASE",
+        "type": "Maven",
+        "id": "org.springframework spring-expression 5.1.5.RELEASE - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.springframework",
+          "Name": "spring-expression",
+          "Version": "5.1.5.RELEASE",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.springframework",
+          "artifactId": "spring-context",
+          "version": "5.1.5.RELEASE",
+          "type": "Maven",
+          "id": "org.springframework spring-context 5.1.5.RELEASE - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.springframework",
+            "Name": "spring-context",
+            "Version": "5.1.5.RELEASE",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.hibernate",
+        "artifactId": "hibernate-core",
+        "version": "5.4.1.Final",
+        "type": "Maven",
+        "id": "org.hibernate hibernate-core 5.4.1.Final - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.hibernate",
+          "Name": "hibernate-core",
+          "Version": "5.4.1.Final",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hibernate",
+          "artifactId": "hibernate-core",
+          "version": "5.4.1.Final",
+          "type": "Maven",
+          "id": "org.hibernate hibernate-core 5.4.1.Final - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hibernate",
+            "Name": "hibernate-core",
+            "Version": "5.4.1.Final",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-jcl",
+        "version": "5.1.5.RELEASE",
+        "type": "Maven",
+        "id": "org.springframework spring-jcl 5.1.5.RELEASE - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.springframework",
+          "Name": "spring-jcl",
+          "Version": "5.1.5.RELEASE",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.springframework",
+          "artifactId": "spring-tx",
+          "version": "5.1.5.RELEASE",
+          "type": "Maven",
+          "id": "org.springframework spring-tx 5.1.5.RELEASE - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.springframework",
+            "Name": "spring-tx",
+            "Version": "5.1.5.RELEASE",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "javax.activation",
+        "artifactId": "javax.activation-api",
+        "version": "1.2.0",
+        "type": "Maven",
+        "id": "javax.activation javax.activation-api 1.2.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "javax.activation",
+          "Name": "javax.activation-api",
+          "Version": "1.2.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hibernate",
+          "artifactId": "hibernate-core",
+          "version": "5.4.1.Final",
+          "type": "Maven",
+          "id": "org.hibernate hibernate-core 5.4.1.Final - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hibernate",
+            "Name": "hibernate-core",
+            "Version": "5.4.1.Final",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "ch.qos.logback",
+        "artifactId": "logback-classic",
+        "version": "1.2.3",
+        "type": "Maven",
+        "id": "ch.qos.logback logback-classic 1.2.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "ch.qos.logback",
+          "Name": "logback-classic",
+          "Version": "1.2.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "ch.qos.logback",
+          "artifactId": "logback-classic",
+          "version": "1.2.3",
+          "type": "Maven",
+          "id": "ch.qos.logback logback-classic 1.2.3 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "ch.qos.logback",
+            "Name": "logback-classic",
+            "Version": "1.2.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.fasterxml",
+        "artifactId": "classmate",
+        "version": "1.3.4",
+        "type": "Maven",
+        "id": "com.fasterxml classmate 1.3.4 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.fasterxml",
+          "Name": "classmate",
+          "Version": "1.3.4",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hibernate",
+          "artifactId": "hibernate-core",
+          "version": "5.4.1.Final",
+          "type": "Maven",
+          "id": "org.hibernate hibernate-core 5.4.1.Final - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hibernate",
+            "Name": "hibernate-core",
+            "Version": "5.4.1.Final",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.objenesis",
+        "artifactId": "objenesis",
+        "version": "3.2",
+        "type": "Maven",
+        "id": "org.objenesis objenesis 3.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.objenesis",
+          "Name": "objenesis",
+          "Version": "3.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.easymock",
+          "artifactId": "easymock",
+          "version": "4.3",
+          "type": "Maven",
+          "id": "org.easymock easymock 4.3 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.easymock",
+            "Name": "easymock",
+            "Version": "4.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-context",
+        "version": "5.1.5.RELEASE",
+        "type": "Maven",
+        "id": "org.springframework spring-context 5.1.5.RELEASE - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.springframework",
+          "Name": "spring-context",
+          "Version": "5.1.5.RELEASE",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.springframework",
+          "artifactId": "spring-context",
+          "version": "5.1.5.RELEASE",
+          "type": "Maven",
+          "id": "org.springframework spring-context 5.1.5.RELEASE - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.springframework",
+            "Name": "spring-context",
+            "Version": "5.1.5.RELEASE",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.code.findbugs",
+        "artifactId": "jsr305",
+        "version": "3.0.2",
+        "type": "Maven",
+        "id": "com.google.code.findbugs jsr305 3.0.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.code.findbugs",
+          "Name": "jsr305",
+          "Version": "3.0.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "27.0.1-jre",
+          "type": "Maven",
+          "id": "com.google.guava guava 27.0.1-jre - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "guava",
+            "Version": "27.0.1-jre",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-test",
+        "version": "5.1.5.RELEASE",
+        "type": "Maven",
+        "id": "org.springframework spring-test 5.1.5.RELEASE - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.springframework",
+          "Name": "spring-test",
+          "Version": "5.1.5.RELEASE",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.springframework",
+          "artifactId": "spring-test",
+          "version": "5.1.5.RELEASE",
+          "type": "Maven",
+          "id": "org.springframework spring-test 5.1.5.RELEASE - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.springframework",
+            "Name": "spring-test",
+            "Version": "5.1.5.RELEASE",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.jvnet.staxex",
+        "artifactId": "stax-ex",
+        "version": "1.8",
+        "type": "Maven",
+        "id": "org.jvnet.staxex stax-ex 1.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.jvnet.staxex",
+          "Name": "stax-ex",
+          "Version": "1.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hibernate",
+          "artifactId": "hibernate-core",
+          "version": "5.4.1.Final",
+          "type": "Maven",
+          "id": "org.hibernate hibernate-core 5.4.1.Final - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hibernate",
+            "Name": "hibernate-core",
+            "Version": "5.4.1.Final",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.errorprone",
+        "artifactId": "error_prone_annotations",
+        "version": "2.2.0",
+        "type": "Maven",
+        "id": "com.google.errorprone error_prone_annotations 2.2.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.errorprone",
+          "Name": "error_prone_annotations",
+          "Version": "2.2.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "27.0.1-jre",
+          "type": "Maven",
+          "id": "com.google.guava guava 27.0.1-jre - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "guava",
+            "Version": "27.0.1-jre",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "ma.glasnost.orika",
+        "artifactId": "orika-core",
+        "version": "1.6.0-SNAPSHOT",
+        "type": "Maven",
+        "id": "ma.glasnost.orika orika-core 1.6.0-SNAPSHOT - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "ma.glasnost.orika",
+          "Name": "orika-core",
+          "Version": "1.6.0-SNAPSHOT",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": null,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-tx",
+        "version": "5.1.5.RELEASE",
+        "type": "Maven",
+        "id": "org.springframework spring-tx 5.1.5.RELEASE - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.springframework",
+          "Name": "spring-tx",
+          "Version": "5.1.5.RELEASE",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.springframework",
+          "artifactId": "spring-tx",
+          "version": "5.1.5.RELEASE",
+          "type": "Maven",
+          "id": "org.springframework spring-tx 5.1.5.RELEASE - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.springframework",
+            "Name": "spring-tx",
+            "Version": "5.1.5.RELEASE",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.javassist",
+        "artifactId": "javassist",
+        "version": "3.28.0-GA",
+        "type": "Maven",
+        "id": "org.javassist javassist 3.28.0-GA - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.javassist",
+          "Name": "javassist",
+          "Version": "3.28.0-GA",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.javassist",
+          "artifactId": "javassist",
+          "version": "3.28.0-GA",
+          "type": "Maven",
+          "id": "org.javassist javassist 3.28.0-GA - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.javassist",
+            "Name": "javassist",
+            "Version": "3.28.0-GA",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.sun.istack",
+        "artifactId": "istack-commons-runtime",
+        "version": "3.0.7",
+        "type": "Maven",
+        "id": "com.sun.istack istack-commons-runtime 3.0.7 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.sun.istack",
+          "Name": "istack-commons-runtime",
+          "Version": "3.0.7",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hibernate",
+          "artifactId": "hibernate-core",
+          "version": "5.4.1.Final",
+          "type": "Maven",
+          "id": "org.hibernate hibernate-core 5.4.1.Final - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hibernate",
+            "Name": "hibernate-core",
+            "Version": "5.4.1.Final",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.glassfish.jaxb",
+        "artifactId": "txw2",
+        "version": "2.3.1",
+        "type": "Maven",
+        "id": "org.glassfish.jaxb txw2 2.3.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.glassfish.jaxb",
+          "Name": "txw2",
+          "Version": "2.3.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hibernate",
+          "artifactId": "hibernate-core",
+          "version": "5.4.1.Final",
+          "type": "Maven",
+          "id": "org.hibernate hibernate-core 5.4.1.Final - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hibernate",
+            "Name": "hibernate-core",
+            "Version": "5.4.1.Final",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.codehaus.mojo",
+        "artifactId": "animal-sniffer-annotations",
+        "version": "1.17",
+        "type": "Maven",
+        "id": "org.codehaus.mojo animal-sniffer-annotations 1.17 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.codehaus.mojo",
+          "Name": "animal-sniffer-annotations",
+          "Version": "1.17",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "27.0.1-jre",
+          "type": "Maven",
+          "id": "com.google.guava guava 27.0.1-jre - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "guava",
+            "Version": "27.0.1-jre",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.easymock",
+        "artifactId": "easymock",
+        "version": "4.3",
+        "type": "Maven",
+        "id": "org.easymock easymock 4.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.easymock",
+          "Name": "easymock",
+          "Version": "4.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.easymock",
+          "artifactId": "easymock",
+          "version": "4.3",
+          "type": "Maven",
+          "id": "org.easymock easymock 4.3 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.easymock",
+            "Name": "easymock",
+            "Version": "4.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.guava",
+        "artifactId": "listenablefuture",
+        "version": "9999.0-empty-to-avoid-conflict-with-guava",
+        "type": "Maven",
+        "id": "com.google.guava listenablefuture 9999.0-empty-to-avoid-conflict-with-guava - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.guava",
+          "Name": "listenablefuture",
+          "Version": "9999.0-empty-to-avoid-conflict-with-guava",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "27.0.1-jre",
+          "type": "Maven",
+          "id": "com.google.guava guava 27.0.1-jre - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "guava",
+            "Version": "27.0.1-jre",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "javax.xml.bind",
+        "artifactId": "jaxb-api",
+        "version": "2.3.1",
+        "type": "Maven",
+        "id": "javax.xml.bind jaxb-api 2.3.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "javax.xml.bind",
+          "Name": "jaxb-api",
+          "Version": "2.3.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "javax.xml.bind",
+          "artifactId": "jaxb-api",
+          "version": "2.3.1",
+          "type": "Maven",
+          "id": "javax.xml.bind jaxb-api 2.3.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "javax.xml.bind",
+            "Name": "jaxb-api",
+            "Version": "2.3.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.guava",
+        "artifactId": "failureaccess",
+        "version": "1.0.1",
+        "type": "Maven",
+        "id": "com.google.guava failureaccess 1.0.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.guava",
+          "Name": "failureaccess",
+          "Version": "1.0.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "27.0.1-jre",
+          "type": "Maven",
+          "id": "com.google.guava guava 27.0.1-jre - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "guava",
+            "Version": "27.0.1-jre",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.glassfish.jaxb",
+        "artifactId": "jaxb-runtime",
+        "version": "2.3.1",
+        "type": "Maven",
+        "id": "org.glassfish.jaxb jaxb-runtime 2.3.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.glassfish.jaxb",
+          "Name": "jaxb-runtime",
+          "Version": "2.3.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hibernate",
+          "artifactId": "hibernate-core",
+          "version": "5.4.1.Final",
+          "type": "Maven",
+          "id": "org.hibernate hibernate-core 5.4.1.Final - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hibernate",
+            "Name": "hibernate-core",
+            "Version": "5.4.1.Final",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-aop",
+        "version": "5.1.5.RELEASE",
+        "type": "Maven",
+        "id": "org.springframework spring-aop 5.1.5.RELEASE - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.springframework",
+          "Name": "spring-aop",
+          "Version": "5.1.5.RELEASE",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.springframework",
+          "artifactId": "spring-context",
+          "version": "5.1.5.RELEASE",
+          "type": "Maven",
+          "id": "org.springframework spring-context 5.1.5.RELEASE - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.springframework",
+            "Name": "spring-context",
+            "Version": "5.1.5.RELEASE",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-beans",
+        "version": "5.1.5.RELEASE",
+        "type": "Maven",
+        "id": "org.springframework spring-beans 5.1.5.RELEASE - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.springframework",
+          "Name": "spring-beans",
+          "Version": "5.1.5.RELEASE",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.springframework",
+          "artifactId": "spring-tx",
+          "version": "5.1.5.RELEASE",
+          "type": "Maven",
+          "id": "org.springframework spring-tx 5.1.5.RELEASE - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.springframework",
+            "Name": "spring-tx",
+            "Version": "5.1.5.RELEASE",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.thoughtworks.paranamer",
+        "artifactId": "paranamer",
+        "version": "2.8",
+        "type": "Maven",
+        "id": "com.thoughtworks.paranamer paranamer 2.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.thoughtworks.paranamer",
+          "Name": "paranamer",
+          "Version": "2.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.thoughtworks.paranamer",
+          "artifactId": "paranamer",
+          "version": "2.8",
+          "type": "Maven",
+          "id": "com.thoughtworks.paranamer paranamer 2.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.thoughtworks.paranamer",
+            "Name": "paranamer",
+            "Version": "2.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.hamcrest",
+        "artifactId": "hamcrest-core",
+        "version": "1.3",
+        "type": "Maven",
+        "id": "org.hamcrest hamcrest-core 1.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.hamcrest",
+          "Name": "hamcrest-core",
+          "Version": "1.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "junit",
+          "artifactId": "junit",
+          "version": "4.12",
+          "type": "Maven",
+          "id": "junit junit 4.12 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "junit",
+            "Name": "junit",
+            "Version": "4.12",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-core",
+        "version": "5.1.5.RELEASE",
+        "type": "Maven",
+        "id": "org.springframework spring-core 5.1.5.RELEASE - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.springframework",
+          "Name": "spring-core",
+          "Version": "5.1.5.RELEASE",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.springframework",
+          "artifactId": "spring-tx",
+          "version": "5.1.5.RELEASE",
+          "type": "Maven",
+          "id": "org.springframework spring-tx 5.1.5.RELEASE - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.springframework",
+            "Name": "spring-tx",
+            "Version": "5.1.5.RELEASE",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.sun.xml.fastinfoset",
+        "artifactId": "FastInfoset",
+        "version": "1.2.15",
+        "type": "Maven",
+        "id": "com.sun.xml.fastinfoset FastInfoset 1.2.15 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.sun.xml.fastinfoset",
+          "Name": "fastinfoset",
+          "Version": "1.2.15",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hibernate",
+          "artifactId": "hibernate-core",
+          "version": "5.4.1.Final",
+          "type": "Maven",
+          "id": "org.hibernate hibernate-core 5.4.1.Final - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hibernate",
+            "Name": "hibernate-core",
+            "Version": "5.4.1.Final",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.jboss",
+        "artifactId": "jandex",
+        "version": "2.0.5.Final",
+        "type": "Maven",
+        "id": "org.jboss jandex 2.0.5.Final - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.jboss",
+          "Name": "jandex",
+          "Version": "2.0.5.Final",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hibernate",
+          "artifactId": "hibernate-core",
+          "version": "5.4.1.Final",
+          "type": "Maven",
+          "id": "org.hibernate hibernate-core 5.4.1.Final - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hibernate",
+            "Name": "hibernate-core",
+            "Version": "5.4.1.Final",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.checkerframework",
+        "artifactId": "checker-qual",
+        "version": "2.5.2",
+        "type": "Maven",
+        "id": "org.checkerframework checker-qual 2.5.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.checkerframework",
+          "Name": "checker-qual",
+          "Version": "2.5.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "27.0.1-jre",
+          "type": "Maven",
+          "id": "com.google.guava guava 27.0.1-jre - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "guava",
+            "Version": "27.0.1-jre",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.jboss.spec.javax.transaction",
+        "artifactId": "jboss-transaction-api_1.2_spec",
+        "version": "1.1.1.Final",
+        "type": "Maven",
+        "id": "org.jboss.spec.javax.transaction jboss-transaction-api_1.2_spec 1.1.1.Final - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.jboss.spec.javax.transaction",
+          "Name": "jboss-transaction-api_1.2_spec",
+          "Version": "1.1.1.Final",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hibernate",
+          "artifactId": "hibernate-core",
+          "version": "5.4.1.Final",
+          "type": "Maven",
+          "id": "org.hibernate hibernate-core 5.4.1.Final - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hibernate",
+            "Name": "hibernate-core",
+            "Version": "5.4.1.Final",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.guava",
+        "artifactId": "guava",
+        "version": "27.0.1-jre",
+        "type": "Maven",
+        "id": "com.google.guava guava 27.0.1-jre - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.guava",
+          "Name": "guava",
+          "Version": "27.0.1-jre",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "27.0.1-jre",
+          "type": "Maven",
+          "id": "com.google.guava guava 27.0.1-jre - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "guava",
+            "Version": "27.0.1-jre",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-jdbc",
+        "version": "5.1.5.RELEASE",
+        "type": "Maven",
+        "id": "org.springframework spring-jdbc 5.1.5.RELEASE - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.springframework",
+          "Name": "spring-jdbc",
+          "Version": "5.1.5.RELEASE",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.springframework",
+          "artifactId": "spring-orm",
+          "version": "5.1.5.RELEASE",
+          "type": "Maven",
+          "id": "org.springframework spring-orm 5.1.5.RELEASE - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.springframework",
+            "Name": "spring-orm",
+            "Version": "5.1.5.RELEASE",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.j2objc",
+        "artifactId": "j2objc-annotations",
+        "version": "1.1",
+        "type": "Maven",
+        "id": "com.google.j2objc j2objc-annotations 1.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.j2objc",
+          "Name": "j2objc-annotations",
+          "Version": "1.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "27.0.1-jre",
+          "type": "Maven",
+          "id": "com.google.guava guava 27.0.1-jre - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "guava",
+            "Version": "27.0.1-jre",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.hibernate.common",
+        "artifactId": "hibernate-commons-annotations",
+        "version": "5.1.0.Final",
+        "type": "Maven",
+        "id": "org.hibernate.common hibernate-commons-annotations 5.1.0.Final - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.hibernate.common",
+          "Name": "hibernate-commons-annotations",
+          "Version": "5.1.0.Final",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hibernate.common",
+          "artifactId": "hibernate-commons-annotations",
+          "version": "5.1.0.Final",
+          "type": "Maven",
+          "id": "org.hibernate.common hibernate-commons-annotations 5.1.0.Final - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hibernate.common",
+            "Name": "hibernate-commons-annotations",
+            "Version": "5.1.0.Final",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-orm",
+        "version": "5.1.5.RELEASE",
+        "type": "Maven",
+        "id": "org.springframework spring-orm 5.1.5.RELEASE - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.springframework",
+          "Name": "spring-orm",
+          "Version": "5.1.5.RELEASE",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.springframework",
+          "artifactId": "spring-orm",
+          "version": "5.1.5.RELEASE",
+          "type": "Maven",
+          "id": "org.springframework spring-orm 5.1.5.RELEASE - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.springframework",
+            "Name": "spring-orm",
+            "Version": "5.1.5.RELEASE",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.h2database",
+        "artifactId": "h2",
+        "version": "1.4.198",
+        "type": "Maven",
+        "id": "com.h2database h2 1.4.198 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.h2database",
+          "Name": "h2",
+          "Version": "1.4.198",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.h2database",
+          "artifactId": "h2",
+          "version": "1.4.198",
+          "type": "Maven",
+          "id": "com.h2database h2 1.4.198 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.h2database",
+            "Name": "h2",
+            "Version": "1.4.198",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.slf4j",
+        "artifactId": "slf4j-api",
+        "version": "1.7.26",
+        "type": "Maven",
+        "id": "org.slf4j slf4j-api 1.7.26 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.slf4j",
+          "Name": "slf4j-api",
+          "Version": "1.7.26",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-api",
+          "version": "1.7.26",
+          "type": "Maven",
+          "id": "org.slf4j slf4j-api 1.7.26 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.slf4j",
+            "Name": "slf4j-api",
+            "Version": "1.7.26",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.hamcrest",
+        "artifactId": "hamcrest",
+        "version": "2.1",
+        "type": "Maven",
+        "id": "org.hamcrest hamcrest 2.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.hamcrest",
+          "Name": "hamcrest",
+          "Version": "2.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hamcrest",
+          "artifactId": "hamcrest",
+          "version": "2.1",
+          "type": "Maven",
+          "id": "org.hamcrest hamcrest 2.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hamcrest",
+            "Name": "hamcrest",
+            "Version": "2.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    }
+  ],
+  "detectorsInScan": [
+    {
+      "detectorId": "Yarn",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Vcpkg",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Vcpkg"
+      ]
+    },
+    {
+      "detectorId": "RustCrateDetector",
+      "isExperimental": false,
+      "version": 8,
+      "supportedComponentTypes": [
+        "Cargo"
+      ]
+    },
+    {
+      "detectorId": "Ruby",
+      "isExperimental": false,
+      "version": 3,
+      "supportedComponentTypes": [
+        "RubyGems"
+      ]
+    },
+    {
+      "detectorId": "Poetry",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "Pnpm",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Pip",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "NuGet",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetPackagesConfig",
+      "isExperimental": true,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetProjectCentric",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "Npm",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "NpmWithRoots",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "MvnCli",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Linux",
+      "isExperimental": false,
+      "version": 4,
+      "supportedComponentTypes": [
+        "Linux"
+      ]
+    },
+    {
+      "detectorId": "Ivy",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Gradle",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Go",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Go"
+      ]
+    },
+    {
+      "detectorId": "CocoaPods",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pod",
+        "Git"
+      ]
+    },
+    {
+      "detectorId": "SPDX22SBOM",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "Spdx"
+      ]
+    }
+  ],
+  "containerDetailsMap": {},
+  "resultCode": "Success",
+  "sourceDirectory": "D:\\Work\\SBOM\\TestProjects\\orika\\core"
+}

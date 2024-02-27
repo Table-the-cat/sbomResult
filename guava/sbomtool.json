@@ -1,0 +1,538 @@
+{
+  "dependencyGraphs": {
+    "D:\\Work\\SBOM\\TestProjects\\guava-master\\guava\\pom.xml": {
+      "graph": {
+        "com.google.errorprone error_prone_annotations 2.18.0 - Maven": null,
+        "org.checkerframework checker-qual 3.29.0 - Maven": null,
+        "jdk srczip 999 - Maven": null,
+        "com.google.guava guava HEAD-jre-SNAPSHOT - Maven": [
+          "com.google.guava failureaccess 1.0.1 - Maven",
+          "com.google.guava listenablefuture 9999.0-empty-to-avoid-conflict-with-guava - Maven",
+          "com.google.code.findbugs jsr305 3.0.2 - Maven",
+          "org.checkerframework checker-qual 3.29.0 - Maven",
+          "com.google.errorprone error_prone_annotations 2.18.0 - Maven",
+          "com.google.j2objc j2objc-annotations 2.8 - Maven",
+          "jdk srczip 999 - Maven"
+        ],
+        "com.google.guava failureaccess 1.0.1 - Maven": null,
+        "com.google.j2objc j2objc-annotations 2.8 - Maven": null,
+        "com.google.code.findbugs jsr305 3.0.2 - Maven": null,
+        "com.google.guava listenablefuture 9999.0-empty-to-avoid-conflict-with-guava - Maven": null
+      },
+      "explicitlyReferencedComponentIds": [
+        "com.google.errorprone error_prone_annotations 2.18.0 - Maven",
+        "org.checkerframework checker-qual 3.29.0 - Maven",
+        "jdk srczip 999 - Maven",
+        "com.google.guava failureaccess 1.0.1 - Maven",
+        "com.google.j2objc j2objc-annotations 2.8 - Maven",
+        "com.google.code.findbugs jsr305 3.0.2 - Maven",
+        "com.google.guava listenablefuture 9999.0-empty-to-avoid-conflict-with-guava - Maven"
+      ],
+      "developmentDependencies": [],
+      "dependencies": [
+        "com.google.errorprone error_prone_annotations 2.18.0 - Maven",
+        "org.checkerframework checker-qual 3.29.0 - Maven",
+        "jdk srczip 999 - Maven",
+        "com.google.guava failureaccess 1.0.1 - Maven",
+        "com.google.j2objc j2objc-annotations 2.8 - Maven",
+        "com.google.code.findbugs jsr305 3.0.2 - Maven",
+        "com.google.guava listenablefuture 9999.0-empty-to-avoid-conflict-with-guava - Maven"
+      ]
+    }
+  },
+  "componentsFound": [
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.errorprone",
+        "artifactId": "error_prone_annotations",
+        "version": "2.18.0",
+        "type": "Maven",
+        "id": "com.google.errorprone error_prone_annotations 2.18.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.errorprone",
+          "Name": "error_prone_annotations",
+          "Version": "2.18.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.errorprone",
+          "artifactId": "error_prone_annotations",
+          "version": "2.18.0",
+          "type": "Maven",
+          "id": "com.google.errorprone error_prone_annotations 2.18.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.errorprone",
+            "Name": "error_prone_annotations",
+            "Version": "2.18.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.checkerframework",
+        "artifactId": "checker-qual",
+        "version": "3.29.0",
+        "type": "Maven",
+        "id": "org.checkerframework checker-qual 3.29.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.checkerframework",
+          "Name": "checker-qual",
+          "Version": "3.29.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.checkerframework",
+          "artifactId": "checker-qual",
+          "version": "3.29.0",
+          "type": "Maven",
+          "id": "org.checkerframework checker-qual 3.29.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.checkerframework",
+            "Name": "checker-qual",
+            "Version": "3.29.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "jdk",
+        "artifactId": "srczip",
+        "version": "999",
+        "type": "Maven",
+        "id": "jdk srczip 999 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "jdk",
+          "Name": "srczip",
+          "Version": "999",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenSystem",
+      "topLevelReferrers": [
+        {
+          "groupId": "jdk",
+          "artifactId": "srczip",
+          "version": "999",
+          "type": "Maven",
+          "id": "jdk srczip 999 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "jdk",
+            "Name": "srczip",
+            "Version": "999",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.guava",
+        "artifactId": "guava",
+        "version": "HEAD-jre-SNAPSHOT",
+        "type": "Maven",
+        "id": "com.google.guava guava HEAD-jre-SNAPSHOT - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.guava",
+          "Name": "guava",
+          "Version": "HEAD-jre-SNAPSHOT",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": null,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.guava",
+        "artifactId": "failureaccess",
+        "version": "1.0.1",
+        "type": "Maven",
+        "id": "com.google.guava failureaccess 1.0.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.guava",
+          "Name": "failureaccess",
+          "Version": "1.0.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "failureaccess",
+          "version": "1.0.1",
+          "type": "Maven",
+          "id": "com.google.guava failureaccess 1.0.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "failureaccess",
+            "Version": "1.0.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.j2objc",
+        "artifactId": "j2objc-annotations",
+        "version": "2.8",
+        "type": "Maven",
+        "id": "com.google.j2objc j2objc-annotations 2.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.j2objc",
+          "Name": "j2objc-annotations",
+          "Version": "2.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.j2objc",
+          "artifactId": "j2objc-annotations",
+          "version": "2.8",
+          "type": "Maven",
+          "id": "com.google.j2objc j2objc-annotations 2.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.j2objc",
+            "Name": "j2objc-annotations",
+            "Version": "2.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.code.findbugs",
+        "artifactId": "jsr305",
+        "version": "3.0.2",
+        "type": "Maven",
+        "id": "com.google.code.findbugs jsr305 3.0.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.code.findbugs",
+          "Name": "jsr305",
+          "Version": "3.0.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.code.findbugs",
+          "artifactId": "jsr305",
+          "version": "3.0.2",
+          "type": "Maven",
+          "id": "com.google.code.findbugs jsr305 3.0.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.code.findbugs",
+            "Name": "jsr305",
+            "Version": "3.0.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.guava",
+        "artifactId": "listenablefuture",
+        "version": "9999.0-empty-to-avoid-conflict-with-guava",
+        "type": "Maven",
+        "id": "com.google.guava listenablefuture 9999.0-empty-to-avoid-conflict-with-guava - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.guava",
+          "Name": "listenablefuture",
+          "Version": "9999.0-empty-to-avoid-conflict-with-guava",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "listenablefuture",
+          "version": "9999.0-empty-to-avoid-conflict-with-guava",
+          "type": "Maven",
+          "id": "com.google.guava listenablefuture 9999.0-empty-to-avoid-conflict-with-guava - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "listenablefuture",
+            "Version": "9999.0-empty-to-avoid-conflict-with-guava",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    }
+  ],
+  "detectorsInScan": [
+    {
+      "detectorId": "Yarn",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Vcpkg",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Vcpkg"
+      ]
+    },
+    {
+      "detectorId": "RustCrateDetector",
+      "isExperimental": false,
+      "version": 8,
+      "supportedComponentTypes": [
+        "Cargo"
+      ]
+    },
+    {
+      "detectorId": "Ruby",
+      "isExperimental": false,
+      "version": 3,
+      "supportedComponentTypes": [
+        "RubyGems"
+      ]
+    },
+    {
+      "detectorId": "Poetry",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "Pnpm",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Pip",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "NuGet",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetPackagesConfig",
+      "isExperimental": true,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetProjectCentric",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "Npm",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "NpmWithRoots",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "MvnCli",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Linux",
+      "isExperimental": false,
+      "version": 4,
+      "supportedComponentTypes": [
+        "Linux"
+      ]
+    },
+    {
+      "detectorId": "Ivy",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Gradle",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Go",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Go"
+      ]
+    },
+    {
+      "detectorId": "CocoaPods",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pod",
+        "Git"
+      ]
+    },
+    {
+      "detectorId": "SPDX22SBOM",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "Spdx"
+      ]
+    }
+  ],
+  "containerDetailsMap": {},
+  "resultCode": "Success",
+  "sourceDirectory": "D:\\Work\\SBOM\\TestProjects\\guava-master\\guava"
+}

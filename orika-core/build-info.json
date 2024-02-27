@@ -1,0 +1,765 @@
+{
+  "name": "mvn-build",
+  "number": "1",
+  "agent": {},
+  "buildAgent": {
+    "name": "GENERIC"
+  },
+  "modules": [
+    {
+      "type": "maven",
+      "properties": {
+        "easymock.version": "4.3",
+        "h2.version": "1.4.198",
+        "hibernate.version": "5.4.1.Final",
+        "javassist.version": "3.28.0-GA",
+        "junit.version": "4.12",
+        "logback.version": "1.2.3",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "maven.javadoc.failOnError": "false",
+        "paranamer.version": "2.8",
+        "project.build.sourceEncoding": "UTF-8",
+        "slf4j.version": "1.7.26",
+        "sonatypeOssDistMgmtSnapshotsUrl": "https://oss.sonatype.org/content/repositories/snapshots/",
+        "springframework.version": "5.1.5.RELEASE"
+      },
+      "id": "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "orika-core-1.6.0-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "ma/glasnost/orika/orika-core/1.6.0-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "org.jboss:jandex:2.0.5.Final",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.hibernate:hibernate-core:5.4.1.Final",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "7060f67764565b9ee9d467e3ed0cb8a9c601b23a",
+          "md5": "8faa3033123cfc8470107d2ae4ebe76d",
+          "sha256": "9112a9c33175b8c64b999ecf47b649fdf1cd6fa8262d0677895e976ed2891f0b"
+        },
+        {
+          "id": "com.google.code.findbugs:jsr305:3.0.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:27.0.1-jre",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+          "md5": "dd83accb899363c32b07d7a1b2e4ce40",
+          "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+          "id": "com.sun.istack:istack-commons-runtime:3.0.7",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.glassfish.jaxb:jaxb-runtime:2.3.1",
+              "org.hibernate:hibernate-core:5.4.1.Final",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c197c86ceec7318b1284bffb49b54226ca774003",
+          "md5": "83e9617b86023b91bd54f65c09838f4b",
+          "sha256": "6443e10ba2e259fb821d9b6becf10db5316285fc30c53cec9d7b19a3877e7fdf"
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotations:2.2.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:27.0.1-jre",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "88e3c593e9b3586e1c6177f89267da6fc6986f0c",
+          "md5": "416757b9e6ba0563368ab59e668b3225",
+          "sha256": "6ebd22ca1b9d8ec06d41de8d64e0596981d9607b42035f9ed374f9de271a481a"
+        },
+        {
+          "id": "org.springframework:spring-orm:5.1.5.RELEASE",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "2320c1442ad2d33c4bb0c289d0e48554c7c42ee7",
+          "md5": "c15fb2260f43184b17458865db915386",
+          "sha256": "cdc0ce57e0a1c76732e2ee2299ec78501a0c925ccebf9e856bf4066acc44f291"
+        },
+        {
+          "id": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:27.0.1-jre",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b421526c5f297295adef1c886e5246c39d4ac629",
+          "md5": "d094c22570d65e132c19cea5d352e381",
+          "sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+          "id": "org.hamcrest:hamcrest:2.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "9420ba32c29217b54eebd26ff7f9234d31c3fbb2",
+          "md5": "a139bcc7cb0c2eff7e9f9733a58d5bdd",
+          "sha256": "ba93b2e3a562322ba432f0a1b53addcc55cb188253319a020ed77f824e692050"
+        },
+        {
+          "id": "org.easymock:easymock:4.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b0dbe2df1a71b8115835561f46a8f06cb168a94f",
+          "md5": "f4d141b8c32c022def9089ee4f890c90",
+          "sha256": "c230864c8b11636aaa6bb49eee00a4342d3e016d860b4f80b89068fd056d1404"
+        },
+        {
+          "id": "org.springframework:spring-jcl:5.1.5.RELEASE",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.springframework:spring-core:5.1.5.RELEASE",
+              "org.springframework:spring-tx:5.1.5.RELEASE",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "5cbd44d11a031c64c788edf1f99706b31c434469",
+          "md5": "5395be46a9accac156f78c800dbb0b9d",
+          "sha256": "194423c7c485e40706d74c01a36b1f0aad436f0b55958f06ac95bcbac65bf4e6"
+        },
+        {
+          "id": "javax.xml.bind:jaxb-api:2.3.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "8531ad5ac454cc2deb9d4d32c40c4d7451939b5d",
+          "md5": "bcf270d320f645ad19f5edb60091e87f",
+          "sha256": "88b955a0df57880a26a74708bc34f74dcaf8ebf4e78843a28b50eae945732b06"
+        },
+        {
+          "id": "com.google.j2objc:j2objc-annotations:1.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:27.0.1-jre",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ed28ded51a8b1c6b112568def5f4b455e6809019",
+          "md5": "49ae3204bb0bb9b2ac77062641f4a6d7",
+          "sha256": "2994a7eb78f2710bd3d3bfb639b2c94e219cedac0d4d084d516e78c16dddecf6"
+        },
+        {
+          "id": "org.glassfish.jaxb:txw2:2.3.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.glassfish.jaxb:jaxb-runtime:2.3.1",
+              "org.hibernate:hibernate-core:5.4.1.Final",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a09d2c48d3285f206fafbffe0e50619284e92126",
+          "md5": "0fed730907ba86376ef392ee7eb42d5f",
+          "sha256": "34975dde1c6920f1a39791142235689bc3cd357e24d05edd8ff93b885bd68d60"
+        },
+        {
+          "id": "com.sun.xml.fastinfoset:FastInfoset:1.2.15",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.glassfish.jaxb:jaxb-runtime:2.3.1",
+              "org.hibernate:hibernate-core:5.4.1.Final",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "bb7b7ec0379982b97c62cd17465cb6d9155f68e8",
+          "md5": "57f3894ad7e069ae740b277d92d10fa0",
+          "sha256": "785861db11ca1bd0d1956682b974ad73eb19cd3e01a4b3fa82d62eca97210aec"
+        },
+        {
+          "id": "com.thoughtworks.paranamer:paranamer:2.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "619eba74c19ccf1da8ebec97a2d7f8ba05773dd6",
+          "md5": "f213c72b67d4850f17a4a3e9064904de",
+          "sha256": "688cb118a6021d819138e855208c956031688be4b47a24bb615becc63acedf07"
+        },
+        {
+          "id": "org.springframework:spring-context:5.1.5.RELEASE",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "d39299241a2c8353d83f0f0c84d3677973da7c57",
+          "md5": "8e681927c1f9932874a2a7c3b32f6952",
+          "sha256": "6140252422a01d85dbd75fd2d6e8d4a7856f7c6ba6be4c5b59ff5f4b800d498b"
+        },
+        {
+          "id": "org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.hibernate:hibernate-core:5.4.1.Final",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a8485cab9484dda36e9a8c319e76b5cc18797b58",
+          "md5": "1e633c47138aba999d39692a31a1a124",
+          "sha256": "a310a50b9bdc44aaf36362dc9bb212235a147ffa8ef72dc9544a39c329eabbc3"
+        },
+        {
+          "id": "ch.qos.logback:logback-core:1.2.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "864344400c3d4d92dfeb0a305dc87d953677c03c",
+          "md5": "841fc80c6edff60d947a3872a2db4d45",
+          "sha256": "5946d837fe6f960c02a53eda7a6926ecc3c758bbdd69aa453ee429f858217f22"
+        },
+        {
+          "id": "antlr:antlr:2.7.7",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.hibernate:hibernate-core:5.4.1.Final",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "83cd2cd674a217ade95a4bb83a8a14f351f48bd0",
+          "md5": "f8f1352c52a4c6a500b597596501fc64",
+          "sha256": "88fbda4b912596b9f56e8e12e580cc954bacfb51776ecfddd3e18fc1cf56dc4c"
+        },
+        {
+          "id": "org.codehaus.mojo:animal-sniffer-annotations:1.17",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:27.0.1-jre",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "f97ce6decaea32b36101e37979f8b647f00681fb",
+          "md5": "7ca108b790cf6ab5dbf5422cc79f0d89",
+          "sha256": "92654f493ecfec52082e76354f0ebf87648dc3d5cec2e3c3cdb947c016747a53"
+        },
+        {
+          "id": "net.bytebuddy:byte-buddy:1.9.5",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.hibernate:hibernate-core:5.4.1.Final",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "38ceb06ae54ba0524d14a85fe84ed03aecef5078",
+          "md5": "91e1ae2956ff94969942b86d01f73c71",
+          "sha256": "193e7dde8bc8bff90ff73843eda9a611624c5c364cdf0beebebae1a8be34b80f"
+        },
+        {
+          "id": "org.slf4j:slf4j-api:1.7.26",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "77100a62c2e6f04b53977b9f541044d7d722693d",
+          "md5": "60ec8751be37d54a2aa1b6178f87b968",
+          "sha256": "6d9e5b86cfd1dd44c676899285b5bb4fa0d371cf583e8164f9c8a0366553242b"
+        },
+        {
+          "id": "org.springframework:spring-jdbc:5.1.5.RELEASE",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.springframework:spring-orm:5.1.5.RELEASE",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "067a6be20d032276a12a91fce4fe8b13ccc8c95d",
+          "md5": "2b8095a5313d33d4592531a86d0016ae",
+          "sha256": "6b30c02543ff33d165203d851feb03a48ee83b0331f8accea3928a98f9628e25"
+        },
+        {
+          "id": "org.hibernate:hibernate-core:5.4.1.Final",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b08cf2177405f8065df907c15a2266157d8adbef",
+          "md5": "3567fc4c8d7fde586e53da73d59a10ba",
+          "sha256": "f430af5bd8aa3a1e136c2c93eec766d2c0964d23c8800df1307be767e6a1d060"
+        },
+        {
+          "id": "com.fasterxml:classmate:1.3.4",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.hibernate:hibernate-core:5.4.1.Final",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "03d5f48f10bbe4eb7bd862f10c0583be2e0053c6",
+          "md5": "1e2e0fcc510753882683417e01895242",
+          "sha256": "c2bfcc21467351d0f9a1558822b72dbac2b21f6b9f700a44fc6b345491ef3c88"
+        },
+        {
+          "id": "org.glassfish.jaxb:jaxb-runtime:2.3.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.hibernate:hibernate-core:5.4.1.Final",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "dd6dda9da676a54c5b36ca2806ff95ee017d8738",
+          "md5": "848098e3eda0d37738d51a7acacd8e95",
+          "sha256": "45fecfa5c8217ce1f3652ab95179790ec8cc0dec0384bca51cbeb94a293d9f2f"
+        },
+        {
+          "id": "org.hibernate.common:hibernate-commons-annotations:5.1.0.Final",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "700aeedc4a2089816621948f0379e17cbd17d5db",
+          "md5": "a617d0538d80949185648c9c790e60ad",
+          "sha256": "1e3bfcfe9efdb40e9d3c084c9bcf8597e492e30294c7e40b56ed18a67c2838cd"
+        },
+        {
+          "id": "ch.qos.logback:logback-classic:1.2.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "7c4f3c474fb2c041d8028740440937705ebb473a",
+          "md5": "64f7a68f931aed8e5ad8243470440f0b",
+          "sha256": "fb53f8539e7fcb8f093a56e138112056ec1dc809ebb020b59d8a36a5ebac37e0"
+        },
+        {
+          "id": "com.google.guava:failureaccess:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:27.0.1-jre",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9",
+          "md5": "091883993ef5bfa91da01dcc8fc52236",
+          "sha256": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+        },
+        {
+          "id": "com.google.guava:guava:27.0.1-jre",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "bd41a290787b5301e63929676d792c507bbc00ae",
+          "md5": "c148d6fe5117365bb04268eaeee7339a",
+          "sha256": "e1c814fd04492a27c38e0317eabeaa1b3e950ec8010239e400fe90ad6c9107b4"
+        },
+        {
+          "id": "org.jboss.logging:jboss-logging:3.3.2.Final",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.hibernate.common:hibernate-commons-annotations:5.1.0.Final",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3789d00e859632e6c6206adc0c71625559e6e3b0",
+          "md5": "c397132f958d7e8ac0d566b6723ca7ca",
+          "sha256": "cb914bfe888da7d9162e965ac8b0d6f28f2f32eca944a00fbbf6dd3cf1aacc13"
+        },
+        {
+          "id": "org.hamcrest:hamcrest-core:1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "junit:junit:4.12",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "42a25dc3219429f0e5d060061f71acb49bf010a0",
+          "md5": "6393363b47ddcbba82321110c3e07519",
+          "sha256": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9"
+        },
+        {
+          "id": "org.objenesis:objenesis:3.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.easymock:easymock:4.3",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "7fadf57620c8b8abdf7519533e5527367cb51f09",
+          "md5": "5c1ee20481a06561af295034ea89c4b4",
+          "sha256": "03d960bd5aef03c653eb000413ada15eb77cdd2b8e4448886edf5692805e35f3"
+        },
+        {
+          "id": "org.springframework:spring-beans:5.1.5.RELEASE",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.springframework:spring-tx:5.1.5.RELEASE",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "58b10c61f6bf2362909d884813c4049b657735f5",
+          "md5": "e6ac01d5b15c48ff45112c13664c7057",
+          "sha256": "7f759c26bfc4697346de39993df48b2dac49f502d5d4e5d69f19054edc4376f5"
+        },
+        {
+          "id": "org.springframework:spring-aop:5.1.5.RELEASE",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.springframework:spring-context:5.1.5.RELEASE",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "5e6ab23bc14369b0e29881afd85ad13b79846a0e",
+          "md5": "bea7aa8a96cf2d2821e44e73312b6c46",
+          "sha256": "3a65f53ff7b61f68a29ee672a3f683f046602e766f5a10eabab7c0dc2a827757"
+        },
+        {
+          "id": "junit:junit:4.12",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "2973d150c0dc1fefe998f834810d68f278ea58ec",
+          "md5": "5b38c40c97fbd0adee29f91e60405584",
+          "sha256": "59721f0805e223d84b90677887d9ff567dc534d7c502ca903c0c2b17f05c116a"
+        },
+        {
+          "id": "javax.activation:javax.activation-api:1.2.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.hibernate:hibernate-core:5.4.1.Final",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "85262acf3ca9816f9537ca47d5adeabaead7cb16",
+          "md5": "5e50e56bcf4a3ef3bc758f69f7643c3b",
+          "sha256": "43fdef0b5b6ceb31b0424b208b930c74ab58fac2ceeb7b3f6fd3aeb8b5ca4393"
+        },
+        {
+          "id": "org.springframework:spring-core:5.1.5.RELEASE",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.springframework:spring-tx:5.1.5.RELEASE",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "aacc4555108f3da913a58114b2aebc819f58cce4",
+          "md5": "f9fb0fef81c5301a8b30686bcaa2627b",
+          "sha256": "f771b605019eb9d2cf8f60c25c050233e39487ff54d74c93d687ea8de8b7285a"
+        },
+        {
+          "id": "org.springframework:spring-test:5.1.5.RELEASE",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "0693fac3c64b4617b7c2b207e45e93529f6594bd",
+          "md5": "142b2ed65a982a94c87c53c97581019d",
+          "sha256": "f3629e1e657e5b395fef09af986b77f738d83d6beefbb8be4d70f31f5affda51"
+        },
+        {
+          "id": "org.checkerframework:checker-qual:2.5.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:27.0.1-jre",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "cea74543d5904a30861a61b4643a5f2bb372efc4",
+          "md5": "04acc78b24bbd365423da357da003cf0",
+          "sha256": "64b02691c8b9d4e7700f8ee2e742dce7ea2c6e81e662b7522c9ee3bf568c040a"
+        },
+        {
+          "id": "org.jvnet.staxex:stax-ex:1.8",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.glassfish.jaxb:jaxb-runtime:2.3.1",
+              "org.hibernate:hibernate-core:5.4.1.Final",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "8cc35f73da321c29973191f2cf143d29d26a1df7",
+          "md5": "a0ebfdbc6b5a34b174a1d1f732d1bdda",
+          "sha256": "95b05d9590af4154c6513b9c5dc1fb2e55b539972ba0a9ef28e9a0c01d83ad77"
+        },
+        {
+          "id": "javax.persistence:javax.persistence-api:2.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.hibernate:hibernate-core:5.4.1.Final",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "25665ac8c0b62f50e6488173233239120fc52c96",
+          "md5": "e6520b3435f5b6d58eee415b5542abf8",
+          "sha256": "5578b71b37999a5eaed3fea0d14aa61c60c6ec6328256f2b63472f336318baf4"
+        },
+        {
+          "id": "com.h2database:h2:1.4.198",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c5693092efef44cc4587828afe12f7f7208a67f4",
+          "md5": "fee209f2becf65972bac959fb2729b2a",
+          "sha256": "32dd6b149cb722aa4c2dd4d40a74a9cd41e32ac59a4e755a66e5753660d61d46"
+        },
+        {
+          "id": "org.springframework:spring-tx:5.1.5.RELEASE",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c2d39bf1f87a7b9f74a199b3aa37ffc8be84b918",
+          "md5": "3f9105131de928f12339ee966eded1ff",
+          "sha256": "666f72b73c7e6b34e5bb92a0d77a14cdeef491c00fcb07a1e89eb62b08500135"
+        },
+        {
+          "id": "org.javassist:javassist:3.28.0-GA",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "9a958811a88381bb159cc2f5ed79c34a45c4af7a",
+          "md5": "1a2dd8c76321cef26cc2669fe70a2557",
+          "sha256": "57d0a9e9286f82f4eaa851125186997f811befce0e2060ff0a15a77f5a9dd9a7"
+        },
+        {
+          "id": "org.dom4j:dom4j:2.1.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.hibernate:hibernate-core:5.4.1.Final",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3dce5dbb3571aa820c677fadd8349bfa8f00c199",
+          "md5": "f5710c1d5f5627ae5ce850a0b12ea87a",
+          "sha256": "a2ef5fb4990b914a31176c51f6137f6f04253dd165420985051f9fd4fb032128"
+        },
+        {
+          "id": "org.springframework:spring-expression:5.1.5.RELEASE",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.springframework:spring-context:5.1.5.RELEASE",
+              "ma.glasnost.orika:orika-core:1.6.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b728a06924560ee69307a52d100e6b156d9a4a80",
+          "md5": "4eb211187dc029cccce154ce661681ef",
+          "sha256": "c3c25bf89de3e277926abb0f32655ff5e365e1d1eed8c8602e05b07126bba1cf"
+        }
+      ]
+    }
+  ],
+  "started": "2024-02-10T01:06:31.694+0800"
+}

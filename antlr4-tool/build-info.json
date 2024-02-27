@@ -1,0 +1,110 @@
+{
+  "name": "mvn-build",
+  "number": "1",
+  "agent": {},
+  "buildAgent": {
+    "name": "GENERIC"
+  },
+  "modules": [
+    {
+      "type": "maven",
+      "properties": {
+        "antlr.testinprocess": "true",
+        "arguments": "",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "project.build.outputTimestamp": "1684690020",
+        "project.build.sourceEncoding": "UTF-8",
+        "project.reporting.outputEncoding": "UTF-8",
+        "sonatypeOssDistMgmtSnapshotsUrl": "https://oss.sonatype.org/content/repositories/snapshots/"
+      },
+      "id": "org.antlr:antlr4:4.13.1-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "antlr4-4.13.1-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "org/antlr/antlr4/4.13.1-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "org.antlr:ST4:4.3.4",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.antlr:antlr4:4.13.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "bf68d049dd4e6e104055a79ac3bf9e6307d29258",
+          "md5": "a6de791d02497d94d2f53047c8db6e1c",
+          "sha256": "f927ac384c46d749f8b5ec68972a53aed21e00313509299616edb73bfa15ff33"
+        },
+        {
+          "id": "org.abego.treelayout:org.abego.treelayout.core:1.0.3",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.antlr:antlr4:4.13.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "457216e8e6578099ae63667bb1e4439235892028",
+          "md5": "9c8cefab6360a672565370d5311f0f3c",
+          "sha256": "fa5e31395c39c2e7d46aca0f81f72060931607b2fa41bd36038eb2cb6fb93326"
+        },
+        {
+          "id": "org.antlr:antlr-runtime:3.5.3",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.antlr:antlr4:4.13.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "9011fb189c5ed6d99e5f3322514848d1ec1e1416",
+          "md5": "0b5c0ce1bb9c8190e2e60401fc439daa",
+          "sha256": "68bf9f5a33dfcb34033495c587e6236bef4e37aa6612919f5b1e843b90669fb9"
+        },
+        {
+          "id": "org.antlr:antlr4-runtime:4.13.1-20230904.220842-1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.antlr:antlr4:4.13.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "7651780358c2fb69242c3c4e9160d16ae9b98a17",
+          "md5": "bba74413355ba112a0edbb4958ec2c79",
+          "sha256": "1ab0977340bd962a70bfdc6e02eb04ed93edfa15def7f00eb847a5795edefb6b"
+        },
+        {
+          "id": "com.ibm.icu:icu4j:72.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.antlr:antlr4:4.13.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "bc9057df4b5efddf7f6d1880bf7f3399f4ce5633",
+          "md5": "b98735702f497dd482638bedc16a1c09",
+          "sha256": "3df572b240a68d13b5cd778ad2393e885d26411434cd8f098ac5987ea2e64ce3"
+        }
+      ]
+    }
+  ],
+  "started": "2024-02-05T17:48:13.104+0800"
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:82eb74f8-ce0d-4f1e-9ab6-0c95f9020628" version="1">
+    <metadata>
+        <timestamp>2023-10-27T13:20:40.662346Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>OpenRewrite</vendor>
+                <name>OpenRewrite CycloneDX</name>
+                <version>7.18.0</version>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/org.asynchttpclient/async-http-client-project@2.12.3?type=pom" type="library">
+            <group>org.asynchttpclient</group>
+            <name>async-http-client-project</name>
+            <version>2.12.3</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.asynchttpclient/async-http-client-project@2.12.3?type=pom</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar" type="library">
+            <group>org.slf4j</group>
+            <name>slf4j-api</name>
+            <version>1.7.30</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar" type="library">
+            <group>com.sun.activation</group>
+            <name>jakarta.activation</name>
+            <version>1.2.2</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar</purl>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar">
+        </dependency>
+    </dependencies>
+</bom>

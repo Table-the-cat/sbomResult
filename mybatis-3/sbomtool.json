@@ -1,0 +1,3260 @@
+{
+  "dependencyGraphs": {
+    "D:\\Work\\SBOM\\TestProjects\\mybatis-3-master\\pom.xml": {
+      "graph": {
+        "org.mockito mockito-junit-jupiter 5.0.0 - Maven": null,
+        "com.nimbusds nimbus-jose-jwt 9.22 - Maven": null,
+        "org.apache.commons commons-compress 1.22 - Maven": null,
+        "junit junit 4.13.2 - Maven": [
+          "org.hamcrest hamcrest-core 1.3 - Maven"
+        ],
+        "eu.codearte.catch-exception catch-exception 2.0 - Maven": null,
+        "net.minidev accessors-smart 2.4.8 - Maven": null,
+        "com.nimbusds lang-tag 1.6 - Maven": null,
+        "commons-logging commons-logging 1.2 - Maven": null,
+        "org.javassist javassist 3.29.2-GA - Maven": null,
+        "com.github.docker-java docker-java-api 3.2.13 - Maven": [
+          "com.fasterxml.jackson.core jackson-annotations 2.10.3 - Maven"
+        ],
+        "org.testcontainers testcontainers 1.17.6 - Maven": [
+          "junit junit 4.13.2 - Maven",
+          "org.apache.commons commons-compress 1.22 - Maven",
+          "org.rnorth.duct-tape duct-tape 1.0.8 - Maven",
+          "com.github.docker-java docker-java-api 3.2.13 - Maven",
+          "com.github.docker-java docker-java-transport-zerodep 3.2.13 - Maven"
+        ],
+        "org.opentest4j opentest4j 1.2.0 - Maven": null,
+        "org.ow2.asm asm 7.1 - Maven": null,
+        "org.assertj assertj-core 3.24.2 - Maven": null,
+        "org.slf4j slf4j-api 2.0.6 - Maven": null,
+        "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven": null,
+        "org.apache.derby derbytools 10.15.2.0 - Maven": null,
+        "ognl ognl 3.3.4 - Maven": null,
+        "org.testcontainers database-commons 1.17.6 - Maven": null,
+        "com.nimbusds oauth2-oidc-sdk 9.35 - Maven": [
+          "com.github.stephenc.jcip jcip-annotations 1.0-1 - Maven",
+          "com.nimbusds content-type 2.2 - Maven",
+          "com.nimbusds lang-tag 1.6 - Maven",
+          "com.nimbusds nimbus-jose-jwt 9.22 - Maven"
+        ],
+        "org.hamcrest hamcrest-core 1.3 - Maven": null,
+        "org.hsqldb hsqldb 2.6.1 - Maven": null,
+        "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven": [
+          "org.junit.platform junit-platform-engine 1.9.2 - Maven",
+          "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven",
+          "org.apiguardian apiguardian-api 1.1.2 - Maven"
+        ],
+        "org.apache.derby derbyoptionaltools 10.15.2.0 - Maven": [
+          "org.apache.derby derbytools 10.15.2.0 - Maven"
+        ],
+        "org.apiguardian apiguardian-api 1.1.2 - Maven": null,
+        "org.apache.logging.log4j log4j-api 2.19.0 - Maven": null,
+        "com.github.docker-java docker-java-transport-zerodep 3.2.13 - Maven": [
+          "com.github.docker-java docker-java-transport 3.2.13 - Maven",
+          "net.java.dev.jna jna 5.8.0 - Maven"
+        ],
+        "org.testcontainers postgresql 1.17.6 - Maven": [
+          "org.testcontainers jdbc 1.17.6 - Maven"
+        ],
+        "net.bytebuddy byte-buddy-agent 1.12.22 - Maven": null,
+        "org.rnorth.duct-tape duct-tape 1.0.8 - Maven": [
+          "org.jetbrains annotations 17.0.0 - Maven"
+        ],
+        "com.nimbusds content-type 2.2 - Maven": null,
+        "com.microsoft.sqlserver mssql-jdbc 11.2.0.jre8 - Maven": [
+          "com.microsoft.azure msal4j 1.13.0 - Maven"
+        ],
+        "org.mybatis mybatis 3.5.12-SNAPSHOT - Maven": [
+          "ognl ognl 3.3.4 - Maven",
+          "org.javassist javassist 3.29.2-GA - Maven",
+          "org.slf4j slf4j-api 2.0.6 - Maven",
+          "ch.qos.reload4j reload4j 1.2.24 - Maven",
+          "org.apache.logging.log4j log4j-api 2.19.0 - Maven",
+          "commons-logging commons-logging 1.2 - Maven",
+          "cglib cglib 3.3.0 - Maven",
+          "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+          "org.junit.jupiter junit-jupiter-params 5.9.2 - Maven",
+          "org.hsqldb hsqldb 2.6.1 - Maven",
+          "org.apache.derby derby 10.15.2.0 - Maven",
+          "org.apache.derby derbyshared 10.15.2.0 - Maven",
+          "org.apache.derby derbyoptionaltools 10.15.2.0 - Maven",
+          "com.h2database h2 2.1.214 - Maven",
+          "org.mockito mockito-core 5.0.0 - Maven",
+          "org.mockito mockito-junit-jupiter 5.0.0 - Maven",
+          "org.apache.velocity velocity-engine-core 2.3 - Maven",
+          "org.postgresql postgresql 42.5.1 - Maven",
+          "com.mysql mysql-connector-j 8.0.32 - Maven",
+          "org.assertj assertj-core 3.24.2 - Maven",
+          "eu.codearte.catch-exception catch-exception 2.0 - Maven",
+          "org.testcontainers junit-jupiter 1.17.6 - Maven",
+          "org.testcontainers postgresql 1.17.6 - Maven",
+          "org.testcontainers mysql 1.17.6 - Maven",
+          "com.microsoft.sqlserver mssql-jdbc 11.2.0.jre8 - Maven",
+          "ch.qos.logback logback-classic 1.4.5 - Maven",
+          "org.apache.logging.log4j log4j-core 2.19.0 - Maven"
+        ],
+        "com.fasterxml.jackson.core jackson-annotations 2.10.3 - Maven": null,
+        "org.apache.logging.log4j log4j-core 2.19.0 - Maven": null,
+        "org.junit.platform junit-platform-engine 1.9.2 - Maven": [
+          "org.opentest4j opentest4j 1.2.0 - Maven",
+          "org.junit.platform junit-platform-commons 1.9.2 - Maven"
+        ],
+        "org.apache.commons commons-lang3 3.11 - Maven": null,
+        "org.testcontainers mysql 1.17.6 - Maven": null,
+        "org.mockito mockito-core 5.0.0 - Maven": [
+          "net.bytebuddy byte-buddy 1.12.22 - Maven",
+          "net.bytebuddy byte-buddy-agent 1.12.22 - Maven",
+          "org.objenesis objenesis 3.3 - Maven"
+        ],
+        "com.fasterxml.jackson.core jackson-core 2.13.2 - Maven": null,
+        "com.microsoft.azure msal4j 1.13.0 - Maven": [
+          "com.nimbusds oauth2-oidc-sdk 9.35 - Maven",
+          "net.minidev json-smart 2.4.8 - Maven",
+          "com.fasterxml.jackson.core jackson-databind 2.13.2.1 - Maven"
+        ],
+        "org.junit.jupiter junit-jupiter-params 5.9.2 - Maven": null,
+        "cglib cglib 3.3.0 - Maven": [
+          "org.ow2.asm asm 7.1 - Maven"
+        ],
+        "com.github.docker-java docker-java-transport 3.2.13 - Maven": null,
+        "ch.qos.logback logback-core 1.4.5 - Maven": null,
+        "ch.qos.reload4j reload4j 1.2.24 - Maven": null,
+        "org.checkerframework checker-qual 3.5.0 - Maven": null,
+        "net.java.dev.jna jna 5.8.0 - Maven": null,
+        "com.github.stephenc.jcip jcip-annotations 1.0-1 - Maven": null,
+        "com.fasterxml.jackson.core jackson-databind 2.13.2.1 - Maven": [
+          "com.fasterxml.jackson.core jackson-core 2.13.2 - Maven"
+        ],
+        "org.testcontainers junit-jupiter 1.17.6 - Maven": [
+          "org.testcontainers testcontainers 1.17.6 - Maven"
+        ],
+        "org.apache.velocity velocity-engine-core 2.3 - Maven": [
+          "org.apache.commons commons-lang3 3.11 - Maven"
+        ],
+        "org.objenesis objenesis 3.3 - Maven": null,
+        "com.h2database h2 2.1.214 - Maven": null,
+        "com.mysql mysql-connector-j 8.0.32 - Maven": [
+          "com.google.protobuf protobuf-java 3.21.9 - Maven"
+        ],
+        "org.testcontainers jdbc 1.17.6 - Maven": [
+          "org.testcontainers database-commons 1.17.6 - Maven"
+        ],
+        "org.postgresql postgresql 42.5.1 - Maven": [
+          "org.checkerframework checker-qual 3.5.0 - Maven"
+        ],
+        "org.jetbrains annotations 17.0.0 - Maven": null,
+        "org.apache.derby derbyshared 10.15.2.0 - Maven": null,
+        "net.bytebuddy byte-buddy 1.12.22 - Maven": null,
+        "net.minidev json-smart 2.4.8 - Maven": [
+          "net.minidev accessors-smart 2.4.8 - Maven"
+        ],
+        "org.junit.platform junit-platform-commons 1.9.2 - Maven": null,
+        "ch.qos.logback logback-classic 1.4.5 - Maven": [
+          "ch.qos.logback logback-core 1.4.5 - Maven"
+        ],
+        "com.google.protobuf protobuf-java 3.21.9 - Maven": null,
+        "org.apache.derby derby 10.15.2.0 - Maven": null
+      },
+      "explicitlyReferencedComponentIds": [
+        "org.mockito mockito-junit-jupiter 5.0.0 - Maven",
+        "eu.codearte.catch-exception catch-exception 2.0 - Maven",
+        "commons-logging commons-logging 1.2 - Maven",
+        "org.javassist javassist 3.29.2-GA - Maven",
+        "org.assertj assertj-core 3.24.2 - Maven",
+        "org.slf4j slf4j-api 2.0.6 - Maven",
+        "ognl ognl 3.3.4 - Maven",
+        "org.hsqldb hsqldb 2.6.1 - Maven",
+        "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+        "org.apache.derby derbyoptionaltools 10.15.2.0 - Maven",
+        "org.apache.logging.log4j log4j-api 2.19.0 - Maven",
+        "org.testcontainers postgresql 1.17.6 - Maven",
+        "com.microsoft.sqlserver mssql-jdbc 11.2.0.jre8 - Maven",
+        "org.apache.logging.log4j log4j-core 2.19.0 - Maven",
+        "org.testcontainers mysql 1.17.6 - Maven",
+        "org.mockito mockito-core 5.0.0 - Maven",
+        "org.junit.jupiter junit-jupiter-params 5.9.2 - Maven",
+        "cglib cglib 3.3.0 - Maven",
+        "ch.qos.reload4j reload4j 1.2.24 - Maven",
+        "org.testcontainers junit-jupiter 1.17.6 - Maven",
+        "org.apache.velocity velocity-engine-core 2.3 - Maven",
+        "com.h2database h2 2.1.214 - Maven",
+        "com.mysql mysql-connector-j 8.0.32 - Maven",
+        "org.postgresql postgresql 42.5.1 - Maven",
+        "org.apache.derby derbyshared 10.15.2.0 - Maven",
+        "ch.qos.logback logback-classic 1.4.5 - Maven",
+        "org.apache.derby derby 10.15.2.0 - Maven"
+      ],
+      "developmentDependencies": [
+        "org.mockito mockito-junit-jupiter 5.0.0 - Maven",
+        "org.apache.commons commons-compress 1.22 - Maven",
+        "junit junit 4.13.2 - Maven",
+        "eu.codearte.catch-exception catch-exception 2.0 - Maven",
+        "com.github.docker-java docker-java-api 3.2.13 - Maven",
+        "org.testcontainers testcontainers 1.17.6 - Maven",
+        "org.opentest4j opentest4j 1.2.0 - Maven",
+        "org.assertj assertj-core 3.24.2 - Maven",
+        "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven",
+        "org.apache.derby derbytools 10.15.2.0 - Maven",
+        "org.testcontainers database-commons 1.17.6 - Maven",
+        "org.hamcrest hamcrest-core 1.3 - Maven",
+        "org.hsqldb hsqldb 2.6.1 - Maven",
+        "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+        "org.apache.derby derbyoptionaltools 10.15.2.0 - Maven",
+        "org.apiguardian apiguardian-api 1.1.2 - Maven",
+        "com.github.docker-java docker-java-transport-zerodep 3.2.13 - Maven",
+        "org.testcontainers postgresql 1.17.6 - Maven",
+        "net.bytebuddy byte-buddy-agent 1.12.22 - Maven",
+        "org.rnorth.duct-tape duct-tape 1.0.8 - Maven",
+        "org.apache.logging.log4j log4j-core 2.19.0 - Maven",
+        "org.junit.platform junit-platform-engine 1.9.2 - Maven",
+        "org.apache.commons commons-lang3 3.11 - Maven",
+        "org.testcontainers mysql 1.17.6 - Maven",
+        "org.mockito mockito-core 5.0.0 - Maven",
+        "org.junit.jupiter junit-jupiter-params 5.9.2 - Maven",
+        "com.github.docker-java docker-java-transport 3.2.13 - Maven",
+        "ch.qos.logback logback-core 1.4.5 - Maven",
+        "org.checkerframework checker-qual 3.5.0 - Maven",
+        "net.java.dev.jna jna 5.8.0 - Maven",
+        "org.testcontainers junit-jupiter 1.17.6 - Maven",
+        "org.apache.velocity velocity-engine-core 2.3 - Maven",
+        "org.objenesis objenesis 3.3 - Maven",
+        "com.h2database h2 2.1.214 - Maven",
+        "com.mysql mysql-connector-j 8.0.32 - Maven",
+        "org.testcontainers jdbc 1.17.6 - Maven",
+        "org.postgresql postgresql 42.5.1 - Maven",
+        "org.jetbrains annotations 17.0.0 - Maven",
+        "org.apache.derby derbyshared 10.15.2.0 - Maven",
+        "net.bytebuddy byte-buddy 1.12.22 - Maven",
+        "org.junit.platform junit-platform-commons 1.9.2 - Maven",
+        "ch.qos.logback logback-classic 1.4.5 - Maven",
+        "com.google.protobuf protobuf-java 3.21.9 - Maven",
+        "org.apache.derby derby 10.15.2.0 - Maven"
+      ],
+      "dependencies": [
+        "com.nimbusds nimbus-jose-jwt 9.22 - Maven",
+        "net.minidev accessors-smart 2.4.8 - Maven",
+        "com.nimbusds lang-tag 1.6 - Maven",
+        "commons-logging commons-logging 1.2 - Maven",
+        "org.javassist javassist 3.29.2-GA - Maven",
+        "org.ow2.asm asm 7.1 - Maven",
+        "org.slf4j slf4j-api 2.0.6 - Maven",
+        "ognl ognl 3.3.4 - Maven",
+        "com.nimbusds oauth2-oidc-sdk 9.35 - Maven",
+        "org.apache.logging.log4j log4j-api 2.19.0 - Maven",
+        "com.nimbusds content-type 2.2 - Maven",
+        "com.microsoft.sqlserver mssql-jdbc 11.2.0.jre8 - Maven",
+        "com.fasterxml.jackson.core jackson-annotations 2.10.3 - Maven",
+        "com.fasterxml.jackson.core jackson-core 2.13.2 - Maven",
+        "com.microsoft.azure msal4j 1.13.0 - Maven",
+        "cglib cglib 3.3.0 - Maven",
+        "ch.qos.reload4j reload4j 1.2.24 - Maven",
+        "com.github.stephenc.jcip jcip-annotations 1.0-1 - Maven",
+        "com.fasterxml.jackson.core jackson-databind 2.13.2.1 - Maven",
+        "net.minidev json-smart 2.4.8 - Maven"
+      ]
+    }
+  },
+  "componentsFound": [
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.mockito",
+        "artifactId": "mockito-junit-jupiter",
+        "version": "5.0.0",
+        "type": "Maven",
+        "id": "org.mockito mockito-junit-jupiter 5.0.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.mockito",
+          "Name": "mockito-junit-jupiter",
+          "Version": "5.0.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.mockito",
+          "artifactId": "mockito-junit-jupiter",
+          "version": "5.0.0",
+          "type": "Maven",
+          "id": "org.mockito mockito-junit-jupiter 5.0.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.mockito",
+            "Name": "mockito-junit-jupiter",
+            "Version": "5.0.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.nimbusds",
+        "artifactId": "nimbus-jose-jwt",
+        "version": "9.22",
+        "type": "Maven",
+        "id": "com.nimbusds nimbus-jose-jwt 9.22 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.nimbusds",
+          "Name": "nimbus-jose-jwt",
+          "Version": "9.22",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenProvided",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.microsoft.sqlserver",
+          "artifactId": "mssql-jdbc",
+          "version": "11.2.0.jre8",
+          "type": "Maven",
+          "id": "com.microsoft.sqlserver mssql-jdbc 11.2.0.jre8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.microsoft.sqlserver",
+            "Name": "mssql-jdbc",
+            "Version": "11.2.0.jre8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.commons",
+        "artifactId": "commons-compress",
+        "version": "1.22",
+        "type": "Maven",
+        "id": "org.apache.commons commons-compress 1.22 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.commons",
+          "Name": "commons-compress",
+          "Version": "1.22",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.testcontainers",
+          "artifactId": "junit-jupiter",
+          "version": "1.17.6",
+          "type": "Maven",
+          "id": "org.testcontainers junit-jupiter 1.17.6 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.testcontainers",
+            "Name": "junit-jupiter",
+            "Version": "1.17.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "junit",
+        "artifactId": "junit",
+        "version": "4.13.2",
+        "type": "Maven",
+        "id": "junit junit 4.13.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "junit",
+          "Name": "junit",
+          "Version": "4.13.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.testcontainers",
+          "artifactId": "junit-jupiter",
+          "version": "1.17.6",
+          "type": "Maven",
+          "id": "org.testcontainers junit-jupiter 1.17.6 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.testcontainers",
+            "Name": "junit-jupiter",
+            "Version": "1.17.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "eu.codearte.catch-exception",
+        "artifactId": "catch-exception",
+        "version": "2.0",
+        "type": "Maven",
+        "id": "eu.codearte.catch-exception catch-exception 2.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "eu.codearte.catch-exception",
+          "Name": "catch-exception",
+          "Version": "2.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "eu.codearte.catch-exception",
+          "artifactId": "catch-exception",
+          "version": "2.0",
+          "type": "Maven",
+          "id": "eu.codearte.catch-exception catch-exception 2.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "eu.codearte.catch-exception",
+            "Name": "catch-exception",
+            "Version": "2.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "net.minidev",
+        "artifactId": "accessors-smart",
+        "version": "2.4.8",
+        "type": "Maven",
+        "id": "net.minidev accessors-smart 2.4.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "net.minidev",
+          "Name": "accessors-smart",
+          "Version": "2.4.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenProvided",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.microsoft.sqlserver",
+          "artifactId": "mssql-jdbc",
+          "version": "11.2.0.jre8",
+          "type": "Maven",
+          "id": "com.microsoft.sqlserver mssql-jdbc 11.2.0.jre8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.microsoft.sqlserver",
+            "Name": "mssql-jdbc",
+            "Version": "11.2.0.jre8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.nimbusds",
+        "artifactId": "lang-tag",
+        "version": "1.6",
+        "type": "Maven",
+        "id": "com.nimbusds lang-tag 1.6 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.nimbusds",
+          "Name": "lang-tag",
+          "Version": "1.6",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenProvided",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.microsoft.sqlserver",
+          "artifactId": "mssql-jdbc",
+          "version": "11.2.0.jre8",
+          "type": "Maven",
+          "id": "com.microsoft.sqlserver mssql-jdbc 11.2.0.jre8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.microsoft.sqlserver",
+            "Name": "mssql-jdbc",
+            "Version": "11.2.0.jre8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "commons-logging",
+        "artifactId": "commons-logging",
+        "version": "1.2",
+        "type": "Maven",
+        "id": "commons-logging commons-logging 1.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "commons-logging",
+          "Name": "commons-logging",
+          "Version": "1.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "commons-logging",
+          "artifactId": "commons-logging",
+          "version": "1.2",
+          "type": "Maven",
+          "id": "commons-logging commons-logging 1.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "commons-logging",
+            "Name": "commons-logging",
+            "Version": "1.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.javassist",
+        "artifactId": "javassist",
+        "version": "3.29.2-GA",
+        "type": "Maven",
+        "id": "org.javassist javassist 3.29.2-GA - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.javassist",
+          "Name": "javassist",
+          "Version": "3.29.2-GA",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.javassist",
+          "artifactId": "javassist",
+          "version": "3.29.2-GA",
+          "type": "Maven",
+          "id": "org.javassist javassist 3.29.2-GA - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.javassist",
+            "Name": "javassist",
+            "Version": "3.29.2-GA",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.github.docker-java",
+        "artifactId": "docker-java-api",
+        "version": "3.2.13",
+        "type": "Maven",
+        "id": "com.github.docker-java docker-java-api 3.2.13 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.github.docker-java",
+          "Name": "docker-java-api",
+          "Version": "3.2.13",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.testcontainers",
+          "artifactId": "junit-jupiter",
+          "version": "1.17.6",
+          "type": "Maven",
+          "id": "org.testcontainers junit-jupiter 1.17.6 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.testcontainers",
+            "Name": "junit-jupiter",
+            "Version": "1.17.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.testcontainers",
+        "artifactId": "testcontainers",
+        "version": "1.17.6",
+        "type": "Maven",
+        "id": "org.testcontainers testcontainers 1.17.6 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.testcontainers",
+          "Name": "testcontainers",
+          "Version": "1.17.6",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.testcontainers",
+          "artifactId": "junit-jupiter",
+          "version": "1.17.6",
+          "type": "Maven",
+          "id": "org.testcontainers junit-jupiter 1.17.6 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.testcontainers",
+            "Name": "junit-jupiter",
+            "Version": "1.17.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.opentest4j",
+        "artifactId": "opentest4j",
+        "version": "1.2.0",
+        "type": "Maven",
+        "id": "org.opentest4j opentest4j 1.2.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.opentest4j",
+          "Name": "opentest4j",
+          "Version": "1.2.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-engine",
+          "version": "5.9.2",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-engine",
+            "Version": "5.9.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.ow2.asm",
+        "artifactId": "asm",
+        "version": "7.1",
+        "type": "Maven",
+        "id": "org.ow2.asm asm 7.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.ow2.asm",
+          "Name": "asm",
+          "Version": "7.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "cglib",
+          "artifactId": "cglib",
+          "version": "3.3.0",
+          "type": "Maven",
+          "id": "cglib cglib 3.3.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "cglib",
+            "Name": "cglib",
+            "Version": "3.3.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.assertj",
+        "artifactId": "assertj-core",
+        "version": "3.24.2",
+        "type": "Maven",
+        "id": "org.assertj assertj-core 3.24.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.assertj",
+          "Name": "assertj-core",
+          "Version": "3.24.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.assertj",
+          "artifactId": "assertj-core",
+          "version": "3.24.2",
+          "type": "Maven",
+          "id": "org.assertj assertj-core 3.24.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.assertj",
+            "Name": "assertj-core",
+            "Version": "3.24.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.slf4j",
+        "artifactId": "slf4j-api",
+        "version": "2.0.6",
+        "type": "Maven",
+        "id": "org.slf4j slf4j-api 2.0.6 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.slf4j",
+          "Name": "slf4j-api",
+          "Version": "2.0.6",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-api",
+          "version": "2.0.6",
+          "type": "Maven",
+          "id": "org.slf4j slf4j-api 2.0.6 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.slf4j",
+            "Name": "slf4j-api",
+            "Version": "2.0.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.junit.jupiter",
+        "artifactId": "junit-jupiter-api",
+        "version": "5.9.2",
+        "type": "Maven",
+        "id": "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.junit.jupiter",
+          "Name": "junit-jupiter-api",
+          "Version": "5.9.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-engine",
+          "version": "5.9.2",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-engine",
+            "Version": "5.9.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.derby",
+        "artifactId": "derbytools",
+        "version": "10.15.2.0",
+        "type": "Maven",
+        "id": "org.apache.derby derbytools 10.15.2.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.derby",
+          "Name": "derbytools",
+          "Version": "10.15.2.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.derby",
+          "artifactId": "derbyoptionaltools",
+          "version": "10.15.2.0",
+          "type": "Maven",
+          "id": "org.apache.derby derbyoptionaltools 10.15.2.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.derby",
+            "Name": "derbyoptionaltools",
+            "Version": "10.15.2.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "ognl",
+        "artifactId": "ognl",
+        "version": "3.3.4",
+        "type": "Maven",
+        "id": "ognl ognl 3.3.4 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "ognl",
+          "Name": "ognl",
+          "Version": "3.3.4",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "ognl",
+          "artifactId": "ognl",
+          "version": "3.3.4",
+          "type": "Maven",
+          "id": "ognl ognl 3.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "ognl",
+            "Name": "ognl",
+            "Version": "3.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.testcontainers",
+        "artifactId": "database-commons",
+        "version": "1.17.6",
+        "type": "Maven",
+        "id": "org.testcontainers database-commons 1.17.6 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.testcontainers",
+          "Name": "database-commons",
+          "Version": "1.17.6",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.testcontainers",
+          "artifactId": "postgresql",
+          "version": "1.17.6",
+          "type": "Maven",
+          "id": "org.testcontainers postgresql 1.17.6 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.testcontainers",
+            "Name": "postgresql",
+            "Version": "1.17.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.nimbusds",
+        "artifactId": "oauth2-oidc-sdk",
+        "version": "9.35",
+        "type": "Maven",
+        "id": "com.nimbusds oauth2-oidc-sdk 9.35 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.nimbusds",
+          "Name": "oauth2-oidc-sdk",
+          "Version": "9.35",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenProvided",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.microsoft.sqlserver",
+          "artifactId": "mssql-jdbc",
+          "version": "11.2.0.jre8",
+          "type": "Maven",
+          "id": "com.microsoft.sqlserver mssql-jdbc 11.2.0.jre8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.microsoft.sqlserver",
+            "Name": "mssql-jdbc",
+            "Version": "11.2.0.jre8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.hamcrest",
+        "artifactId": "hamcrest-core",
+        "version": "1.3",
+        "type": "Maven",
+        "id": "org.hamcrest hamcrest-core 1.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.hamcrest",
+          "Name": "hamcrest-core",
+          "Version": "1.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.testcontainers",
+          "artifactId": "junit-jupiter",
+          "version": "1.17.6",
+          "type": "Maven",
+          "id": "org.testcontainers junit-jupiter 1.17.6 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.testcontainers",
+            "Name": "junit-jupiter",
+            "Version": "1.17.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.hsqldb",
+        "artifactId": "hsqldb",
+        "version": "2.6.1",
+        "type": "Maven",
+        "id": "org.hsqldb hsqldb 2.6.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.hsqldb",
+          "Name": "hsqldb",
+          "Version": "2.6.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hsqldb",
+          "artifactId": "hsqldb",
+          "version": "2.6.1",
+          "type": "Maven",
+          "id": "org.hsqldb hsqldb 2.6.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hsqldb",
+            "Name": "hsqldb",
+            "Version": "2.6.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.junit.jupiter",
+        "artifactId": "junit-jupiter-engine",
+        "version": "5.9.2",
+        "type": "Maven",
+        "id": "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.junit.jupiter",
+          "Name": "junit-jupiter-engine",
+          "Version": "5.9.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-engine",
+          "version": "5.9.2",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-engine",
+            "Version": "5.9.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.derby",
+        "artifactId": "derbyoptionaltools",
+        "version": "10.15.2.0",
+        "type": "Maven",
+        "id": "org.apache.derby derbyoptionaltools 10.15.2.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.derby",
+          "Name": "derbyoptionaltools",
+          "Version": "10.15.2.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.derby",
+          "artifactId": "derbyoptionaltools",
+          "version": "10.15.2.0",
+          "type": "Maven",
+          "id": "org.apache.derby derbyoptionaltools 10.15.2.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.derby",
+            "Name": "derbyoptionaltools",
+            "Version": "10.15.2.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apiguardian",
+        "artifactId": "apiguardian-api",
+        "version": "1.1.2",
+        "type": "Maven",
+        "id": "org.apiguardian apiguardian-api 1.1.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apiguardian",
+          "Name": "apiguardian-api",
+          "Version": "1.1.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-engine",
+          "version": "5.9.2",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-engine",
+            "Version": "5.9.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.logging.log4j",
+        "artifactId": "log4j-api",
+        "version": "2.19.0",
+        "type": "Maven",
+        "id": "org.apache.logging.log4j log4j-api 2.19.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.logging.log4j",
+          "Name": "log4j-api",
+          "Version": "2.19.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.logging.log4j",
+          "artifactId": "log4j-api",
+          "version": "2.19.0",
+          "type": "Maven",
+          "id": "org.apache.logging.log4j log4j-api 2.19.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.logging.log4j",
+            "Name": "log4j-api",
+            "Version": "2.19.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.github.docker-java",
+        "artifactId": "docker-java-transport-zerodep",
+        "version": "3.2.13",
+        "type": "Maven",
+        "id": "com.github.docker-java docker-java-transport-zerodep 3.2.13 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.github.docker-java",
+          "Name": "docker-java-transport-zerodep",
+          "Version": "3.2.13",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.testcontainers",
+          "artifactId": "junit-jupiter",
+          "version": "1.17.6",
+          "type": "Maven",
+          "id": "org.testcontainers junit-jupiter 1.17.6 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.testcontainers",
+            "Name": "junit-jupiter",
+            "Version": "1.17.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.testcontainers",
+        "artifactId": "postgresql",
+        "version": "1.17.6",
+        "type": "Maven",
+        "id": "org.testcontainers postgresql 1.17.6 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.testcontainers",
+          "Name": "postgresql",
+          "Version": "1.17.6",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.testcontainers",
+          "artifactId": "postgresql",
+          "version": "1.17.6",
+          "type": "Maven",
+          "id": "org.testcontainers postgresql 1.17.6 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.testcontainers",
+            "Name": "postgresql",
+            "Version": "1.17.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "net.bytebuddy",
+        "artifactId": "byte-buddy-agent",
+        "version": "1.12.22",
+        "type": "Maven",
+        "id": "net.bytebuddy byte-buddy-agent 1.12.22 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "net.bytebuddy",
+          "Name": "byte-buddy-agent",
+          "Version": "1.12.22",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.mockito",
+          "artifactId": "mockito-core",
+          "version": "5.0.0",
+          "type": "Maven",
+          "id": "org.mockito mockito-core 5.0.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.mockito",
+            "Name": "mockito-core",
+            "Version": "5.0.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.rnorth.duct-tape",
+        "artifactId": "duct-tape",
+        "version": "1.0.8",
+        "type": "Maven",
+        "id": "org.rnorth.duct-tape duct-tape 1.0.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.rnorth.duct-tape",
+          "Name": "duct-tape",
+          "Version": "1.0.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.testcontainers",
+          "artifactId": "junit-jupiter",
+          "version": "1.17.6",
+          "type": "Maven",
+          "id": "org.testcontainers junit-jupiter 1.17.6 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.testcontainers",
+            "Name": "junit-jupiter",
+            "Version": "1.17.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.nimbusds",
+        "artifactId": "content-type",
+        "version": "2.2",
+        "type": "Maven",
+        "id": "com.nimbusds content-type 2.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.nimbusds",
+          "Name": "content-type",
+          "Version": "2.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenProvided",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.microsoft.sqlserver",
+          "artifactId": "mssql-jdbc",
+          "version": "11.2.0.jre8",
+          "type": "Maven",
+          "id": "com.microsoft.sqlserver mssql-jdbc 11.2.0.jre8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.microsoft.sqlserver",
+            "Name": "mssql-jdbc",
+            "Version": "11.2.0.jre8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.microsoft.sqlserver",
+        "artifactId": "mssql-jdbc",
+        "version": "11.2.0.jre8",
+        "type": "Maven",
+        "id": "com.microsoft.sqlserver mssql-jdbc 11.2.0.jre8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.microsoft.sqlserver",
+          "Name": "mssql-jdbc",
+          "Version": "11.2.0.jre8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenProvided",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.microsoft.sqlserver",
+          "artifactId": "mssql-jdbc",
+          "version": "11.2.0.jre8",
+          "type": "Maven",
+          "id": "com.microsoft.sqlserver mssql-jdbc 11.2.0.jre8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.microsoft.sqlserver",
+            "Name": "mssql-jdbc",
+            "Version": "11.2.0.jre8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.mybatis",
+        "artifactId": "mybatis",
+        "version": "3.5.12-SNAPSHOT",
+        "type": "Maven",
+        "id": "org.mybatis mybatis 3.5.12-SNAPSHOT - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.mybatis",
+          "Name": "mybatis",
+          "Version": "3.5.12-SNAPSHOT",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": null,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.fasterxml.jackson.core",
+        "artifactId": "jackson-annotations",
+        "version": "2.10.3",
+        "type": "Maven",
+        "id": "com.fasterxml.jackson.core jackson-annotations 2.10.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.fasterxml.jackson.core",
+          "Name": "jackson-annotations",
+          "Version": "2.10.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenProvided",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.testcontainers",
+          "artifactId": "junit-jupiter",
+          "version": "1.17.6",
+          "type": "Maven",
+          "id": "org.testcontainers junit-jupiter 1.17.6 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.testcontainers",
+            "Name": "junit-jupiter",
+            "Version": "1.17.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.logging.log4j",
+        "artifactId": "log4j-core",
+        "version": "2.19.0",
+        "type": "Maven",
+        "id": "org.apache.logging.log4j log4j-core 2.19.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.logging.log4j",
+          "Name": "log4j-core",
+          "Version": "2.19.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.logging.log4j",
+          "artifactId": "log4j-core",
+          "version": "2.19.0",
+          "type": "Maven",
+          "id": "org.apache.logging.log4j log4j-core 2.19.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.logging.log4j",
+            "Name": "log4j-core",
+            "Version": "2.19.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.junit.platform",
+        "artifactId": "junit-platform-engine",
+        "version": "1.9.2",
+        "type": "Maven",
+        "id": "org.junit.platform junit-platform-engine 1.9.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.junit.platform",
+          "Name": "junit-platform-engine",
+          "Version": "1.9.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-engine",
+          "version": "5.9.2",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-engine",
+            "Version": "5.9.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.commons",
+        "artifactId": "commons-lang3",
+        "version": "3.11",
+        "type": "Maven",
+        "id": "org.apache.commons commons-lang3 3.11 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.commons",
+          "Name": "commons-lang3",
+          "Version": "3.11",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.velocity",
+          "artifactId": "velocity-engine-core",
+          "version": "2.3",
+          "type": "Maven",
+          "id": "org.apache.velocity velocity-engine-core 2.3 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.velocity",
+            "Name": "velocity-engine-core",
+            "Version": "2.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.testcontainers",
+        "artifactId": "mysql",
+        "version": "1.17.6",
+        "type": "Maven",
+        "id": "org.testcontainers mysql 1.17.6 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.testcontainers",
+          "Name": "mysql",
+          "Version": "1.17.6",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.testcontainers",
+          "artifactId": "mysql",
+          "version": "1.17.6",
+          "type": "Maven",
+          "id": "org.testcontainers mysql 1.17.6 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.testcontainers",
+            "Name": "mysql",
+            "Version": "1.17.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.mockito",
+        "artifactId": "mockito-core",
+        "version": "5.0.0",
+        "type": "Maven",
+        "id": "org.mockito mockito-core 5.0.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.mockito",
+          "Name": "mockito-core",
+          "Version": "5.0.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.mockito",
+          "artifactId": "mockito-core",
+          "version": "5.0.0",
+          "type": "Maven",
+          "id": "org.mockito mockito-core 5.0.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.mockito",
+            "Name": "mockito-core",
+            "Version": "5.0.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.fasterxml.jackson.core",
+        "artifactId": "jackson-core",
+        "version": "2.13.2",
+        "type": "Maven",
+        "id": "com.fasterxml.jackson.core jackson-core 2.13.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.fasterxml.jackson.core",
+          "Name": "jackson-core",
+          "Version": "2.13.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenProvided",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.microsoft.sqlserver",
+          "artifactId": "mssql-jdbc",
+          "version": "11.2.0.jre8",
+          "type": "Maven",
+          "id": "com.microsoft.sqlserver mssql-jdbc 11.2.0.jre8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.microsoft.sqlserver",
+            "Name": "mssql-jdbc",
+            "Version": "11.2.0.jre8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.microsoft.azure",
+        "artifactId": "msal4j",
+        "version": "1.13.0",
+        "type": "Maven",
+        "id": "com.microsoft.azure msal4j 1.13.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.microsoft.azure",
+          "Name": "msal4j",
+          "Version": "1.13.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenProvided",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.microsoft.sqlserver",
+          "artifactId": "mssql-jdbc",
+          "version": "11.2.0.jre8",
+          "type": "Maven",
+          "id": "com.microsoft.sqlserver mssql-jdbc 11.2.0.jre8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.microsoft.sqlserver",
+            "Name": "mssql-jdbc",
+            "Version": "11.2.0.jre8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.junit.jupiter",
+        "artifactId": "junit-jupiter-params",
+        "version": "5.9.2",
+        "type": "Maven",
+        "id": "org.junit.jupiter junit-jupiter-params 5.9.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.junit.jupiter",
+          "Name": "junit-jupiter-params",
+          "Version": "5.9.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-params",
+          "version": "5.9.2",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-params 5.9.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-params",
+            "Version": "5.9.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "cglib",
+        "artifactId": "cglib",
+        "version": "3.3.0",
+        "type": "Maven",
+        "id": "cglib cglib 3.3.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "cglib",
+          "Name": "cglib",
+          "Version": "3.3.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "cglib",
+          "artifactId": "cglib",
+          "version": "3.3.0",
+          "type": "Maven",
+          "id": "cglib cglib 3.3.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "cglib",
+            "Name": "cglib",
+            "Version": "3.3.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.github.docker-java",
+        "artifactId": "docker-java-transport",
+        "version": "3.2.13",
+        "type": "Maven",
+        "id": "com.github.docker-java docker-java-transport 3.2.13 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.github.docker-java",
+          "Name": "docker-java-transport",
+          "Version": "3.2.13",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.testcontainers",
+          "artifactId": "junit-jupiter",
+          "version": "1.17.6",
+          "type": "Maven",
+          "id": "org.testcontainers junit-jupiter 1.17.6 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.testcontainers",
+            "Name": "junit-jupiter",
+            "Version": "1.17.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "ch.qos.logback",
+        "artifactId": "logback-core",
+        "version": "1.4.5",
+        "type": "Maven",
+        "id": "ch.qos.logback logback-core 1.4.5 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "ch.qos.logback",
+          "Name": "logback-core",
+          "Version": "1.4.5",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "ch.qos.logback",
+          "artifactId": "logback-classic",
+          "version": "1.4.5",
+          "type": "Maven",
+          "id": "ch.qos.logback logback-classic 1.4.5 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "ch.qos.logback",
+            "Name": "logback-classic",
+            "Version": "1.4.5",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "ch.qos.reload4j",
+        "artifactId": "reload4j",
+        "version": "1.2.24",
+        "type": "Maven",
+        "id": "ch.qos.reload4j reload4j 1.2.24 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "ch.qos.reload4j",
+          "Name": "reload4j",
+          "Version": "1.2.24",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "ch.qos.reload4j",
+          "artifactId": "reload4j",
+          "version": "1.2.24",
+          "type": "Maven",
+          "id": "ch.qos.reload4j reload4j 1.2.24 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "ch.qos.reload4j",
+            "Name": "reload4j",
+            "Version": "1.2.24",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.checkerframework",
+        "artifactId": "checker-qual",
+        "version": "3.5.0",
+        "type": "Maven",
+        "id": "org.checkerframework checker-qual 3.5.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.checkerframework",
+          "Name": "checker-qual",
+          "Version": "3.5.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.postgresql",
+          "artifactId": "postgresql",
+          "version": "42.5.1",
+          "type": "Maven",
+          "id": "org.postgresql postgresql 42.5.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.postgresql",
+            "Name": "postgresql",
+            "Version": "42.5.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "net.java.dev.jna",
+        "artifactId": "jna",
+        "version": "5.8.0",
+        "type": "Maven",
+        "id": "net.java.dev.jna jna 5.8.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "net.java.dev.jna",
+          "Name": "jna",
+          "Version": "5.8.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.testcontainers",
+          "artifactId": "junit-jupiter",
+          "version": "1.17.6",
+          "type": "Maven",
+          "id": "org.testcontainers junit-jupiter 1.17.6 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.testcontainers",
+            "Name": "junit-jupiter",
+            "Version": "1.17.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.github.stephenc.jcip",
+        "artifactId": "jcip-annotations",
+        "version": "1.0-1",
+        "type": "Maven",
+        "id": "com.github.stephenc.jcip jcip-annotations 1.0-1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.github.stephenc.jcip",
+          "Name": "jcip-annotations",
+          "Version": "1.0-1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenProvided",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.microsoft.sqlserver",
+          "artifactId": "mssql-jdbc",
+          "version": "11.2.0.jre8",
+          "type": "Maven",
+          "id": "com.microsoft.sqlserver mssql-jdbc 11.2.0.jre8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.microsoft.sqlserver",
+            "Name": "mssql-jdbc",
+            "Version": "11.2.0.jre8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.fasterxml.jackson.core",
+        "artifactId": "jackson-databind",
+        "version": "2.13.2.1",
+        "type": "Maven",
+        "id": "com.fasterxml.jackson.core jackson-databind 2.13.2.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.fasterxml.jackson.core",
+          "Name": "jackson-databind",
+          "Version": "2.13.2.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenProvided",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.microsoft.sqlserver",
+          "artifactId": "mssql-jdbc",
+          "version": "11.2.0.jre8",
+          "type": "Maven",
+          "id": "com.microsoft.sqlserver mssql-jdbc 11.2.0.jre8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.microsoft.sqlserver",
+            "Name": "mssql-jdbc",
+            "Version": "11.2.0.jre8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.testcontainers",
+        "artifactId": "junit-jupiter",
+        "version": "1.17.6",
+        "type": "Maven",
+        "id": "org.testcontainers junit-jupiter 1.17.6 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.testcontainers",
+          "Name": "junit-jupiter",
+          "Version": "1.17.6",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.testcontainers",
+          "artifactId": "junit-jupiter",
+          "version": "1.17.6",
+          "type": "Maven",
+          "id": "org.testcontainers junit-jupiter 1.17.6 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.testcontainers",
+            "Name": "junit-jupiter",
+            "Version": "1.17.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.velocity",
+        "artifactId": "velocity-engine-core",
+        "version": "2.3",
+        "type": "Maven",
+        "id": "org.apache.velocity velocity-engine-core 2.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.velocity",
+          "Name": "velocity-engine-core",
+          "Version": "2.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.velocity",
+          "artifactId": "velocity-engine-core",
+          "version": "2.3",
+          "type": "Maven",
+          "id": "org.apache.velocity velocity-engine-core 2.3 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.velocity",
+            "Name": "velocity-engine-core",
+            "Version": "2.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.objenesis",
+        "artifactId": "objenesis",
+        "version": "3.3",
+        "type": "Maven",
+        "id": "org.objenesis objenesis 3.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.objenesis",
+          "Name": "objenesis",
+          "Version": "3.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.mockito",
+          "artifactId": "mockito-core",
+          "version": "5.0.0",
+          "type": "Maven",
+          "id": "org.mockito mockito-core 5.0.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.mockito",
+            "Name": "mockito-core",
+            "Version": "5.0.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.h2database",
+        "artifactId": "h2",
+        "version": "2.1.214",
+        "type": "Maven",
+        "id": "com.h2database h2 2.1.214 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.h2database",
+          "Name": "h2",
+          "Version": "2.1.214",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.h2database",
+          "artifactId": "h2",
+          "version": "2.1.214",
+          "type": "Maven",
+          "id": "com.h2database h2 2.1.214 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.h2database",
+            "Name": "h2",
+            "Version": "2.1.214",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.mysql",
+        "artifactId": "mysql-connector-j",
+        "version": "8.0.32",
+        "type": "Maven",
+        "id": "com.mysql mysql-connector-j 8.0.32 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.mysql",
+          "Name": "mysql-connector-j",
+          "Version": "8.0.32",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.mysql",
+          "artifactId": "mysql-connector-j",
+          "version": "8.0.32",
+          "type": "Maven",
+          "id": "com.mysql mysql-connector-j 8.0.32 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.mysql",
+            "Name": "mysql-connector-j",
+            "Version": "8.0.32",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.testcontainers",
+        "artifactId": "jdbc",
+        "version": "1.17.6",
+        "type": "Maven",
+        "id": "org.testcontainers jdbc 1.17.6 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.testcontainers",
+          "Name": "jdbc",
+          "Version": "1.17.6",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.testcontainers",
+          "artifactId": "postgresql",
+          "version": "1.17.6",
+          "type": "Maven",
+          "id": "org.testcontainers postgresql 1.17.6 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.testcontainers",
+            "Name": "postgresql",
+            "Version": "1.17.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.postgresql",
+        "artifactId": "postgresql",
+        "version": "42.5.1",
+        "type": "Maven",
+        "id": "org.postgresql postgresql 42.5.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.postgresql",
+          "Name": "postgresql",
+          "Version": "42.5.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.postgresql",
+          "artifactId": "postgresql",
+          "version": "42.5.1",
+          "type": "Maven",
+          "id": "org.postgresql postgresql 42.5.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.postgresql",
+            "Name": "postgresql",
+            "Version": "42.5.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.jetbrains",
+        "artifactId": "annotations",
+        "version": "17.0.0",
+        "type": "Maven",
+        "id": "org.jetbrains annotations 17.0.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.jetbrains",
+          "Name": "annotations",
+          "Version": "17.0.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.testcontainers",
+          "artifactId": "junit-jupiter",
+          "version": "1.17.6",
+          "type": "Maven",
+          "id": "org.testcontainers junit-jupiter 1.17.6 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.testcontainers",
+            "Name": "junit-jupiter",
+            "Version": "1.17.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.derby",
+        "artifactId": "derbyshared",
+        "version": "10.15.2.0",
+        "type": "Maven",
+        "id": "org.apache.derby derbyshared 10.15.2.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.derby",
+          "Name": "derbyshared",
+          "Version": "10.15.2.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.derby",
+          "artifactId": "derbyshared",
+          "version": "10.15.2.0",
+          "type": "Maven",
+          "id": "org.apache.derby derbyshared 10.15.2.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.derby",
+            "Name": "derbyshared",
+            "Version": "10.15.2.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "net.bytebuddy",
+        "artifactId": "byte-buddy",
+        "version": "1.12.22",
+        "type": "Maven",
+        "id": "net.bytebuddy byte-buddy 1.12.22 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "net.bytebuddy",
+          "Name": "byte-buddy",
+          "Version": "1.12.22",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.mockito",
+          "artifactId": "mockito-core",
+          "version": "5.0.0",
+          "type": "Maven",
+          "id": "org.mockito mockito-core 5.0.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.mockito",
+            "Name": "mockito-core",
+            "Version": "5.0.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "net.minidev",
+        "artifactId": "json-smart",
+        "version": "2.4.8",
+        "type": "Maven",
+        "id": "net.minidev json-smart 2.4.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "net.minidev",
+          "Name": "json-smart",
+          "Version": "2.4.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenProvided",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.microsoft.sqlserver",
+          "artifactId": "mssql-jdbc",
+          "version": "11.2.0.jre8",
+          "type": "Maven",
+          "id": "com.microsoft.sqlserver mssql-jdbc 11.2.0.jre8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.microsoft.sqlserver",
+            "Name": "mssql-jdbc",
+            "Version": "11.2.0.jre8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.junit.platform",
+        "artifactId": "junit-platform-commons",
+        "version": "1.9.2",
+        "type": "Maven",
+        "id": "org.junit.platform junit-platform-commons 1.9.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.junit.platform",
+          "Name": "junit-platform-commons",
+          "Version": "1.9.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-engine",
+          "version": "5.9.2",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-engine",
+            "Version": "5.9.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "ch.qos.logback",
+        "artifactId": "logback-classic",
+        "version": "1.4.5",
+        "type": "Maven",
+        "id": "ch.qos.logback logback-classic 1.4.5 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "ch.qos.logback",
+          "Name": "logback-classic",
+          "Version": "1.4.5",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "ch.qos.logback",
+          "artifactId": "logback-classic",
+          "version": "1.4.5",
+          "type": "Maven",
+          "id": "ch.qos.logback logback-classic 1.4.5 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "ch.qos.logback",
+            "Name": "logback-classic",
+            "Version": "1.4.5",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.protobuf",
+        "artifactId": "protobuf-java",
+        "version": "3.21.9",
+        "type": "Maven",
+        "id": "com.google.protobuf protobuf-java 3.21.9 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.protobuf",
+          "Name": "protobuf-java",
+          "Version": "3.21.9",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.mysql",
+          "artifactId": "mysql-connector-j",
+          "version": "8.0.32",
+          "type": "Maven",
+          "id": "com.mysql mysql-connector-j 8.0.32 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.mysql",
+            "Name": "mysql-connector-j",
+            "Version": "8.0.32",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.derby",
+        "artifactId": "derby",
+        "version": "10.15.2.0",
+        "type": "Maven",
+        "id": "org.apache.derby derby 10.15.2.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.derby",
+          "Name": "derby",
+          "Version": "10.15.2.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.derby",
+          "artifactId": "derby",
+          "version": "10.15.2.0",
+          "type": "Maven",
+          "id": "org.apache.derby derby 10.15.2.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.derby",
+            "Name": "derby",
+            "Version": "10.15.2.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    }
+  ],
+  "detectorsInScan": [
+    {
+      "detectorId": "Yarn",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Vcpkg",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Vcpkg"
+      ]
+    },
+    {
+      "detectorId": "RustCrateDetector",
+      "isExperimental": false,
+      "version": 8,
+      "supportedComponentTypes": [
+        "Cargo"
+      ]
+    },
+    {
+      "detectorId": "Ruby",
+      "isExperimental": false,
+      "version": 3,
+      "supportedComponentTypes": [
+        "RubyGems"
+      ]
+    },
+    {
+      "detectorId": "Poetry",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "Pnpm",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Pip",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "NuGet",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetPackagesConfig",
+      "isExperimental": true,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetProjectCentric",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "Npm",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "NpmWithRoots",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "MvnCli",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Linux",
+      "isExperimental": false,
+      "version": 4,
+      "supportedComponentTypes": [
+        "Linux"
+      ]
+    },
+    {
+      "detectorId": "Ivy",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Gradle",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Go",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Go"
+      ]
+    },
+    {
+      "detectorId": "CocoaPods",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pod",
+        "Git"
+      ]
+    },
+    {
+      "detectorId": "SPDX22SBOM",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "Spdx"
+      ]
+    }
+  ],
+  "containerDetailsMap": {},
+  "resultCode": "Success",
+  "sourceDirectory": "D:\\Work\\SBOM\\TestProjects\\mybatis-3-master"
+}

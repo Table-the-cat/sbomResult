@@ -1,0 +1,1289 @@
+{
+  "name": "mvn-build",
+  "number": "1",
+  "agent": {},
+  "buildAgent": {
+    "name": "GENERIC"
+  },
+  "modules": [
+    {
+      "type": "maven",
+      "properties": {
+        "awsJdkVer": "[2.20.35,)",
+        "buildIsTainted": "ok",
+        "buildNumber": "386aa9d1fb7e284d54d3dd63626c9ee3ad135d98",
+        "commonsCodecVer": "1.16.0",
+        "deployPluginVer": "3.1.1",
+        "endorsed.dir": "D:\\Work\\SBOM\\TestProjects\\para\\para-core\\target/endorsed",
+        "flexmarkVer": "0.64.8",
+        "httpClientVer": "5.2.1",
+        "httpCoreVer": "5.2.2",
+        "jacksonVer": "2.15.0",
+        "jerseyVer": "2.39.1",
+        "logbackVer": "1.2.11",
+        "lucenePluginVer": "1.46.0",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "metricsVer": "4.2.19",
+        "netbeans.hint.j2eeVersion": "1.7",
+        "project.build.sourceEncoding": "UTF-8",
+        "project.reporting.outputEncoding": "UTF-8",
+        "project.testresult.directory": "D:\\Work\\SBOM\\TestProjects\\para\\para-core\\target/test-results",
+        "scmBranch": "master",
+        "skipITs": "false",
+        "skipTests": "false",
+        "skipUTs": "false",
+        "slf4jVer": "1.7.36",
+        "sonar.jacoco.itReportPath": "D:\\Work\\SBOM\\TestProjects\\para\\para-core\\target/test-results/coverage/jacoco/jacoco-it.exec",
+        "sonar.jacoco.reportPath": "D:\\Work\\SBOM\\TestProjects\\para\\para-core\\target/test-results/coverage/jacoco/jacoco.exec",
+        "sonar.java.codeCoveragePlugin": "jacoco",
+        "sonar.surefire.reportsPath": "D:\\Work\\SBOM\\TestProjects\\para\\para-core\\target/test-results/surefire-reports",
+        "springBootVer": "2.7.13",
+        "sqlPluginVer": "1.46.0",
+        "timestamp": "1707722833082"
+      },
+      "id": "com.erudika:para-core:1.49.1-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "para-core-1.49.1-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/erudika/para-core/1.49.1-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.15.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "bb4bb4c699571e8683e08f19c02cf9946e7e1346",
+          "md5": "9204aad02786fbba6636efd51646fdd0",
+          "sha256": "da59dba8212ea0886cf2ecf0e67365850db417b92a238e746a13381028cd2d75"
+        },
+        {
+          "id": "com.vladsch.flexmark:flexmark:0.64.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "e82621ebed3a6cfa31c52900aaf9a9b6dd3c859d",
+          "md5": "5618d653adfb3db30b81563ce35af337",
+          "sha256": "3133878d108f0e1964d7d427f379a7433e1b71a45f9f3c1fab7ed0ac0301d3b0"
+        },
+        {
+          "id": "software.amazon.awssdk:regions:2.24.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "software.amazon.awssdk:auth:2.24.0",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "da985fa7dcbaef2a8fd6ba7b977217b7779a6838",
+          "md5": "03e9fb5da114dbb3c807dc0296046877",
+          "sha256": "0e3a5c95b263706f70d638a88ef42e740fc5cc4c87497ec3cc4edf9c7ea48ff4"
+        },
+        {
+          "id": "software.amazon.awssdk:metrics-spi:2.24.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "software.amazon.awssdk:sdk-core:2.24.0",
+              "software.amazon.awssdk:auth:2.24.0",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "effca4448c8ca55809d798e91b41770ab304ef10",
+          "md5": "63c2a56c93c727a318cb6299089c26f7",
+          "sha256": "69ccbe0e563d846f9f031518bf2d8a7877900f7c0d3fd9b8d5d7d44722e89412"
+        },
+        {
+          "id": "com.vladsch.flexmark:flexmark-ext-emoji:0.64.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "eefbf6a1fb644fa14c3fb74017cf9c97a4879a7c",
+          "md5": "02c70835d4c73921959230233442b0f6",
+          "sha256": "012d2db51463afd84702627e493fedce42eb7deb1bae309ddcefd181ab283cbe"
+        },
+        {
+          "id": "com.samskivert:jmustache:1.15",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "7b3b15951d13b774c76db2f4e14d977952f8b4d8",
+          "md5": "0b166350b8b372d5caae4f0b692e016f",
+          "sha256": "1aeb96b9dc17bc29540b8c3342e8e91ee974d5c604165ecd469dd76b041c250c"
+        },
+        {
+          "id": "javax.el:javax.el-api:3.0.1-b06",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "9c4c2400f2d8e35c62d636c13012e1f68c370a00",
+          "md5": "d3f4b29e557c5b2c2a3bff5b19081ff7",
+          "sha256": "0b46b36709ecbb9791ac4ba44d16125b9d65b576112afdaaa286052b6e498bc4"
+        },
+        {
+          "id": "software.amazon.awssdk:profiles:2.24.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "software.amazon.awssdk:auth:2.24.0",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "8fa824cbf3bfdbd208b8834cf642ab25ce8642c5",
+          "md5": "24ca15e5e74fe50bf83258fa8364d751",
+          "sha256": "7e2cf33dd82b680b6cdc0a6b90d59815829cda815f805bdc3423f839ecaa91be"
+        },
+        {
+          "id": "com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:0.64.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1851e124c6d85c5c7f3fdbbe066d30a76ad6be44",
+          "md5": "e43b2bedc366c3c43583c74b5ce994df",
+          "sha256": "fc6cad026fbd036b3ffd0448264360a5f1b572756ef3427ff022715b7fc5f1c3"
+        },
+        {
+          "id": "com.fasterxml.jackson.core:jackson-annotations:2.15.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "89b0fd554928425a776a6e97ed010034312af21d",
+          "md5": "cb0a97fc66b8cfa001aee80d51dc6722",
+          "sha256": "91adcd3dcf5fd9a16499934e7536a23d456692a0093e3d4fd52f138c3936348c"
+        },
+        {
+          "id": "ch.qos.logback:logback-access:1.2.11",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "abce2ef79949d33bc859acc83379feeaa539e75d",
+          "md5": "c91a0e605eb6cdae1544723d8f0e5a73",
+          "sha256": "5635913e83340773652c9de90f68f5c4d2f975040c1afe996817c3c63c7aedaf"
+        },
+        {
+          "id": "org.slf4j:slf4j-api:1.7.36",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6c62681a2f655b49963a5983b8b0950a6120ae14",
+          "md5": "872da51f5de7f3923da4de871d57fd85",
+          "sha256": "d3ef575e3e4979678dc01bf1dcce51021493b4d11fb7f1be8ad982877c16a1c0"
+        },
+        {
+          "id": "com.vladsch.flexmark:flexmark-util-visitor:0.64.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.vladsch.flexmark:flexmark:0.64.8",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a8178ba6dfd7a958353a60b3a51fe7edb1578b49",
+          "md5": "969d8f948f9d3cc8f5b1f96665c9f207",
+          "sha256": "d9b3002a833a078c45e139568b306dab0ac117ff9046c6a1f9e180c0154563fc"
+        },
+        {
+          "id": "com.fasterxml.jackson.module:jackson-module-parameter-names:2.15.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b900bd44597ba9a8b348b49428f457d5f16fc302",
+          "md5": "e261efb71f8af026f0268aa6acee2c42",
+          "sha256": "0cd852a4e5c3e4ef5e9882698623d59ee1a18b3dd3cde4522b3dac112b96cd5b"
+        },
+        {
+          "id": "software.amazon.awssdk:identity-spi:2.24.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "software.amazon.awssdk:auth:2.24.0",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "aa944349bed0e7adb5fea1f260b5a425e734362d",
+          "md5": "7829112b2ae1211749d6b7ef0d82a30f",
+          "sha256": "22c648105a476976faa3f5a8a3d4ca973ae0f81a9b3f92ae0e29eb947089a6a9"
+        },
+        {
+          "id": "javax.validation:validation-api:2.0.1.Final",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "cb855558e6271b1b32e716d24cb85c7f583ce09e",
+          "md5": "5d02c034034a7a16725ceff787e191d6",
+          "sha256": "9873b46df1833c9ee8f5bc1ff6853375115dadd8897bcb5a0dffb5848835ee6c"
+        },
+        {
+          "id": "javax.ws.rs:javax.ws.rs-api:2.1.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "d3466bc9321fe84f268a1adb3b90373fc14b0eb5",
+          "md5": "23b81452f9e2076ffefede649975b0d1",
+          "sha256": "2c309eb2c9455ffee9da8518c70a3b6d46be2a269b2e2a101c806a537efe79a4"
+        },
+        {
+          "id": "org.jetbrains:annotations:24.0.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.vladsch.flexmark:flexmark-util-ast:0.64.8",
+              "com.vladsch.flexmark:flexmark:0.64.8",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "13c5c75c4206580aa4d683bffee658caae6c9f43",
+          "md5": "63ebd6140ac340babaf89a754c359596",
+          "sha256": "61666dbce7e42e6c85b43c04fcfb8293a21dcb55b3c80e869270ce42c01a6b35"
+        },
+        {
+          "id": "com.vladsch.flexmark:flexmark-util-data:0.64.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.vladsch.flexmark:flexmark:0.64.8",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a3f92abd0acbb4d1f12dfd3d6128f73d245d6ba9",
+          "md5": "91e1d2623fe6a51a4779dfb56d4c17da",
+          "sha256": "83ceb5989ab0205054bf1b42446f55cb6da14c10aa7c2bda05d6a2504670f353"
+        },
+        {
+          "id": "org.apache.commons:commons-lang3:3.12.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e",
+          "md5": "19fe50567358922bdad277959ea69545",
+          "sha256": "d919d904486c037f8d193412da0c92e22a9fa24230b9d67a57855c5c31c7e94e"
+        },
+        {
+          "id": "software.amazon.awssdk:http-auth:2.24.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "software.amazon.awssdk:auth:2.24.0",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c1e0316b9706c98976c173ed4f05f66927d535a7",
+          "md5": "66f90e8125caa79a606b7b030ea1b6b1",
+          "sha256": "6d085ec747b5df25da52456f8591fd5144a45fb11f4adf2263605d82e6281a8d"
+        },
+        {
+          "id": "software.amazon.awssdk:json-utils:2.24.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "software.amazon.awssdk:auth:2.24.0",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "f240d8fdd348a919ae7e7a5e94e901a9f02cc028",
+          "md5": "c41b89f49279eb1082d1698b2503d458",
+          "sha256": "fda0b77dfea71209c6a46ed655bfab6745133e01990f62d4daac5c4858e40f6d"
+        },
+        {
+          "id": "com.vladsch.flexmark:flexmark-util-sequence:0.64.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.vladsch.flexmark:flexmark:0.64.8",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "985913246df64fe7e768eb0664b45dedea7536cf",
+          "md5": "c52d3432485fb05dadf040323ac3e279",
+          "sha256": "6e22976fe4e9b8de94fd529991ecb2d79cc482aad94985367470a93be1d82631"
+        },
+        {
+          "id": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3c3a0cfba09271fab4603224f2c2e21c6ddf6dc4",
+          "md5": "e7c92ebc440f4d2b8141448b5d0a3306",
+          "sha256": "d5deb92d59668a8de0ac8da818d5d9c0fdfb4db6b2f1d66a779fe357f310d648"
+        },
+        {
+          "id": "com.vladsch.flexmark:flexmark-util-dependency:0.64.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.vladsch.flexmark:flexmark:0.64.8",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "392bc415728aee6fdb9aded0004b0bf6c15e80ac",
+          "md5": "e1a664a8cb4c9dcd41d1fed79521eeb6",
+          "sha256": "e41adb5e8144699b61b78d50eb004eeb7de84f90c4c63626609e6cee5ea28b42"
+        },
+        {
+          "id": "ch.qos.logback:logback-core:1.2.11",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a01230df5ca5c34540cdaa3ad5efb012f1f1f792",
+          "md5": "115da115b5e66ef64e774ec35af1fb1a",
+          "sha256": "6ce1e9397be8298a2e99029f55f955c6fa3cef255171c554d0b9c201cffd0159"
+        },
+        {
+          "id": "com.vladsch.flexmark:flexmark-util-html:0.64.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.vladsch.flexmark:flexmark:0.64.8",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1ed09f6b6a57be2797aee9c9dfcbeab06afa120b",
+          "md5": "db48d2098c60bdd92f42a65d03b1819a",
+          "sha256": "5b19e6506aff7913c74ad725af7c2b8a9f23958e6324bf0710c5a645a4663017"
+        },
+        {
+          "id": "software.amazon.awssdk:endpoints-spi:2.24.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "software.amazon.awssdk:sdk-core:2.24.0",
+              "software.amazon.awssdk:auth:2.24.0",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "5f62f3390cad82c50256061f9ae704655726164d",
+          "md5": "15f40ba63e647318b9d106a856c47782",
+          "sha256": "605f729803d99a2aeeedaec3ae6e9962549d6fe72df5075a1972f10d3b6f5320"
+        },
+        {
+          "id": "software.amazon.awssdk:annotations:2.24.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "software.amazon.awssdk:auth:2.24.0",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "056254668cb57a269ccafa9397198de5f01286b3",
+          "md5": "508acf08ecdd6a8e2dbe3b5b57702ad9",
+          "sha256": "e8a33dd5baa7ab06474fb9f39b1d6a7f2a3ded97176d2b1c9eea650f6a9d2aa5"
+        },
+        {
+          "id": "org.nibor.autolink:autolink:0.6.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.vladsch.flexmark:flexmark-ext-autolink:0.64.8",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3986d016a14e8c81afeec752f19af29b20e8367b",
+          "md5": "f2633571471a5957ee12e61b184e6219",
+          "sha256": "a80be030f6386f18111cad9161c0b6983157352a1b59a59e6002172f0d321c04"
+        },
+        {
+          "id": "com.vladsch.flexmark:flexmark-util-ast:0.64.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.vladsch.flexmark:flexmark:0.64.8",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "9904d6c8e7c9e2ec63b77e9313e518918758dd84",
+          "md5": "b922dbbafa059c8867874498994f3e31",
+          "sha256": "a5342f644c6a5f37d502f225c3a0cb699c263621c82e720d9c08eba5a9f3b8d3"
+        },
+        {
+          "id": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.15.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "424b157e64cec18e9941cfcda516ec5fd5e18112",
+          "md5": "c042e82ab22fccd808d2be52568f6bfd",
+          "sha256": "022fcfa8b9724e4a5df25bf0ede87540130bc50b68ef0f7feac1e8facc102631"
+        },
+        {
+          "id": "ch.qos.logback:logback-classic:1.2.11",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "4741689214e9d1e8408b206506cbe76d1c6a7d60",
+          "md5": "e13679004cc76ad5792f275f04884fab",
+          "sha256": "4d8e899621a3006c2f66e19feab002b11e6cfc5cb1854fc41f01532c00deb2aa"
+        },
+        {
+          "id": "software.amazon.awssdk:third-party-jackson-core:2.24.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "software.amazon.awssdk:json-utils:2.24.0",
+              "software.amazon.awssdk:auth:2.24.0",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "08ad46baa19cb692fb4c012f72f416bd687a64d8",
+          "md5": "25c5a0196782d35ab25e5cb0a6a08b22",
+          "sha256": "0a27aadacbde841209ec91d70b93096d05627e19223f1da4c5445b0bb2719ae9"
+        },
+        {
+          "id": "org.jsoup:jsoup:1.15.4",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "cd56eb47dcd4590ef6451f87e5ec33bddd1a9a51",
+          "md5": "642bc7d013d5c950fbdf90d9bfffc246",
+          "sha256": "006830d0797710408de5589c18d864343c0ef1a3a0c603c9cb138c943b67d9a4"
+        },
+        {
+          "id": "com.fasterxml.jackson.core:jackson-databind:2.15.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "0d41caa3a4e9f85382702a059a65c512f85ac230",
+          "md5": "2cfab8609aef4ef886ec2c8f4167bb24",
+          "sha256": "00c5a5d5ae71ac8e8d5b8da606841e2251c806355939cb5d51c4cdc6b644a0dc"
+        },
+        {
+          "id": "software.amazon.awssdk:sdk-core:2.24.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "software.amazon.awssdk:auth:2.24.0",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "65a8f8e9bb0b7f36ec063ab0b1a6dabd4555e041",
+          "md5": "343fdea6399686ef9692624c4c6f1d57",
+          "sha256": "8705a2f7518d9eb64ee6a0a713eae94b6201104c0604a4853af8244170962ba9"
+        },
+        {
+          "id": "com.vladsch.flexmark:flexmark-util-misc:0.64.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.vladsch.flexmark:flexmark:0.64.8",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6d0b133faee38c41368ee3c67f0df4498ffe3c25",
+          "md5": "098b129e71db2bd128c045f6651b31b3",
+          "sha256": "74472ca81a9080e51ea1a4f11c270898e3d6c242c92275fab47eb993806c8f2b"
+        },
+        {
+          "id": "com.vladsch.flexmark:flexmark-util-options:0.64.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.vladsch.flexmark:flexmark-util:0.64.8",
+              "com.vladsch.flexmark:flexmark-ext-emoji:0.64.8",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "4b17bc1639c2a874d93a5bb89f78bf0765e3e4c7",
+          "md5": "aeff736d365118e93a039ed22745b95f",
+          "sha256": "2489f41e9caf1d9f8061833b311b25403925cbb631fff2b8c069192804d6fc88"
+        },
+        {
+          "id": "org.yaml:snakeyaml:2.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.15.0",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3aab2116756442bf0d4cd1c089b24d34c3baa253",
+          "md5": "caf24b81b9d57e6d4f68b1ccd36e00a3",
+          "sha256": "880c9d896e4b74a06c549c15ca496450165d6909fa15d7e662bee8f6a66d7afa"
+        },
+        {
+          "id": "software.amazon.awssdk:checksums-spi:2.24.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "software.amazon.awssdk:sdk-core:2.24.0",
+              "software.amazon.awssdk:auth:2.24.0",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "98d9a89fa706e714cf27c8c9eeebf34b51d3431d",
+          "md5": "ac9549e716d713033ef22061890d4387",
+          "sha256": "206b418691883dbc236a318f78b1d8b053034274d7b3a502f175840ec4c0b500"
+        },
+        {
+          "id": "io.dropwizard.metrics:metrics-core:4.2.19",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "d32b4c3f3e733bf4cb239ca4204fbed8464973a5",
+          "md5": "dd9caf026f4330b51c6308e6d0749084",
+          "sha256": "fa967bc2b37c8bff5bc377e60e439504fd9df5d335c7a42b37212403250023df"
+        },
+        {
+          "id": "software.amazon.awssdk:http-client-spi:2.24.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "software.amazon.awssdk:auth:2.24.0",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a861c6469e9a6b9c165e8e0eb5d024c1a4906159",
+          "md5": "e478243ad31ba1e4a742290ca385f6bc",
+          "sha256": "95d9069afebcbf8972c063aca5844d8a71f65d5f170906f7aa036d7dba06bcf5"
+        },
+        {
+          "id": "software.amazon.awssdk:auth:2.24.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "eec15761ceb602921146ea583c9942a28612678e",
+          "md5": "ca3ab1506a139a940ed11fcc1703008f",
+          "sha256": "7e94d46eb23eda1e44ebaed306ce9f42a4ea56776e5580683cea2f72c83b40d6"
+        },
+        {
+          "id": "org.hibernate.validator:hibernate-validator:6.2.5.Final",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a68959c06e5f8ff45faff469aa16f232c04af620",
+          "md5": "9bce6e6e05f6975c0d414a5e935c8107",
+          "sha256": "8d6d89c3204b30a01dc248352f43dba196140bf4adc5f437f63e2ad62a3d2144"
+        },
+        {
+          "id": "org.jboss.logging:jboss-logging:3.4.1.Final",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.hibernate.validator:hibernate-validator:6.2.5.Final",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "40fd4d696c55793e996d1ff3c475833f836c2498",
+          "md5": "52ee373b84e39570c78c0815006375bc",
+          "sha256": "8efe877d93e5e1057a1388b2950503b88b0c28447364fde08adbec61e524eeb8"
+        },
+        {
+          "id": "com.vladsch.flexmark:flexmark-ext-autolink:0.64.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c6c0f6336118b004e7fab14e26f1a773e20842b1",
+          "md5": "8db426ad38362638f680be16c003b0aa",
+          "sha256": "4850d6f895ec3f2932635829d74ff9a2fb00918965bb91c000ab497d603e11b8"
+        },
+        {
+          "id": "com.vladsch.flexmark:flexmark-util-format:0.64.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.vladsch.flexmark:flexmark:0.64.8",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "12bb34f8d1d3d3678b540cb75726414eb910e327",
+          "md5": "f1870467badaf33a3a1fe81119e7967b",
+          "sha256": "6c9ac87686474edf0117b3f838d9dcb3b965fa72be4998d2177b598013679f73"
+        },
+        {
+          "id": "software.amazon.awssdk:http-auth-spi:2.24.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "software.amazon.awssdk:auth:2.24.0",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1a75a23b8bf89a70a5e7f5f75dc79f06bdc070ca",
+          "md5": "214c4206a25a2c0d1f55fb170c526607",
+          "sha256": "83d948765227f0a4bce0b98bdd92695fd0875ed156683194bc9b342a85260a24"
+        },
+        {
+          "id": "software.amazon.awssdk:http-auth-aws:2.24.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "software.amazon.awssdk:auth:2.24.0",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "476ca39416b73b825b7578fd0f12eaa41ead72cd",
+          "md5": "0d6416b508c1ed61110e5c0996471016",
+          "sha256": "620eb4bbee9d3d38ae9ab160c8e096a666080ac81c863812cc980977b6a0b1a2"
+        },
+        {
+          "id": "com.vladsch.flexmark:flexmark-ext-tables:0.64.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "018e37d2e67a346c7c2694dd91944eefd5028608",
+          "md5": "a123d2a67117cb2fdfffe2b6d9664458",
+          "sha256": "cdf82d26e112e96ade7e370138aeb16920b7e2d411d20c6c15cb1acfacd1ef1f"
+        },
+        {
+          "id": "commons-io:commons-io:2.11.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a2503f302b11ebde7ebc3df41daebe0e4eea3689",
+          "md5": "3b4b7ccfaeceeac240b804839ee1a1ca",
+          "sha256": "961b2f6d87dbacc5d54abf45ab7a6e2495f89b75598962d8c723cea9bc210908"
+        },
+        {
+          "id": "com.typesafe:config:1.4.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "4c40a633e7994cfb0354244efb6d03fcb11c3ecf",
+          "md5": "bac1bde09507bbd53e4e8a6a270488b7",
+          "sha256": "0076c249b4387d8369146528fd5dacb3efba098dc02ecf9ac81debdfc2e12fd5"
+        },
+        {
+          "id": "de.svenkubiak:jBCrypt:0.4.3",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "af4402e453e61c2eeb40f12df5f1c1225c135652",
+          "md5": "deaef6fa892ad62d678757dc27c85d63",
+          "sha256": "ebdabf0f2280e1976099a7bef96dc8180e1de1c04c5b471af7b5845875527098"
+        },
+        {
+          "id": "io.github.classgraph:classgraph:4.8.158",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "2a45f9b7d988d0472d5db73f5cbbf9f968068966",
+          "md5": "ad626f5a370f94baf1a108da107cad22",
+          "sha256": "fb99167dc45bf34f9e40141069f68583a53104c45ffca410642255d1ca81343f"
+        },
+        {
+          "id": "org.codehaus.woodstox:stax2-api:4.2.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a3f7325c52240418c2ba257b103c3c550e140c83",
+          "md5": "af8377bc7882332e22456616a9f164f6",
+          "sha256": "678567e48b51a42c65c699f266539ad3d676d4b1a5b0ad7d89ece8b9d5772579"
+        },
+        {
+          "id": "org.glassfish.web:javax.el:2.2.6",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "0232abfe1f919127e9cfcd6e4e2c6324bb394535",
+          "md5": "ed1d66b4161a585d6d9b828b0fdcc574",
+          "sha256": "fc2bf63a313d0ddd6dd99808ececd02ec1bbfa5a0da3bc0c831b599699bde18a"
+        },
+        {
+          "id": "org.slf4j:jul-to-slf4j:1.7.36",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ed46d81cef9c412a88caef405b58f93a678ff2ca",
+          "md5": "2a3fe73e6cafe8f102facaf2dd65353f",
+          "sha256": "9e641fb142c5f0b0623d6222c09ea87523a41bf6bed48ac79940724010b989de"
+        },
+        {
+          "id": "software.amazon.eventstream:eventstream:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "software.amazon.awssdk:auth:2.24.0",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6ff8649dffc5190366ada897ba8525a836297784",
+          "md5": "864488626f50477cfd786d1c80e3b39e",
+          "sha256": "0c37d8e696117f02c302191b8110b0d0eb20fa412fce34c3a269ec73c16ce822"
+        },
+        {
+          "id": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.15.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "66fa3c7c50ae6d06545d5c489ca8fe93d1ae4f02",
+          "md5": "f5afc5d4f4340e8483e4671345ffdd0d",
+          "sha256": "c96de3ab3104cba5b8ffec6a4d1318f7d5ebcef9336c496c491d42e4960fcb4b"
+        },
+        {
+          "id": "commons-beanutils:commons-beanutils:1.9.4",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "d52b9abcd97f38c81342bb7e7ae1eee9b73cba51",
+          "md5": "07dc532ee316fe1f2f0323e9bd2f8df4",
+          "sha256": "7d938c81789028045c08c065e94be75fc280527620d5bd62b519d5838532368a"
+        },
+        {
+          "id": "com.fasterxml.jackson.core:jackson-core:2.15.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "12f334a1dc9c6d2854c43ae314024dde8b3ad572",
+          "md5": "884fa0e39483933acc1168184c002bb9",
+          "sha256": "5b483f68fa9dd6aa37da37d1f79dd5c4b9464238f4f0660a242cb6b5c724950c"
+        },
+        {
+          "id": "com.vladsch.flexmark:flexmark-util:0.64.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.vladsch.flexmark:flexmark-ext-emoji:0.64.8",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "e7aad89229a58c9ac56e09c04a8f9b012d137bff",
+          "md5": "f54b38687f0b77f9955056ed3fcccc0b",
+          "sha256": "1e24c891dac9532bb722be7122c7026fb47868c3de36c02400eed8e9ad535727"
+        },
+        {
+          "id": "com.vladsch.flexmark:flexmark-ext-media-tags:0.64.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a713969f120169b938e956011de1b80bcb00d79c",
+          "md5": "b77a5ce877d22b10324a2f4a75091168",
+          "sha256": "8f2e41be52f9633aeaf36ce8d0ed222e6cc37ad9e0e6c943a0d304b2d071f600"
+        },
+        {
+          "id": "com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.15.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6f383da770d7fe56b5b0a5f6ff35b5d7ef2ef1f8",
+          "md5": "1dd496f5afc58e61173e6f7717261c47",
+          "sha256": "bc9d5020ffce81eca245c9148054600134a209b3d279d7be38fa4f2c07f7a505"
+        },
+        {
+          "id": "software.amazon.awssdk:utils:2.24.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "software.amazon.awssdk:auth:2.24.0",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "e412e6cdc497728cb5218435143e6b4ae817ac9a",
+          "md5": "61a85e2dd4021eabab9ba4faba6a4c49",
+          "sha256": "9edbd964eb48d9c3fd6863e84536bb32562e13f100905a45e57dd3af36110aaa"
+        },
+        {
+          "id": "commons-collections:commons-collections:3.2.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "commons-beanutils:commons-beanutils:1.9.4",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5",
+          "md5": "f54a8510f834a1a57166970bfc982e94",
+          "sha256": "eeeae917917144a68a741d4c0dff66aa5c5c5fd85593ff217bced3fc8ca783b8"
+        },
+        {
+          "id": "jakarta.inject:jakarta.inject-api:1.0.5",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a14342a10456b134f361c258698d568107a1bc4e",
+          "md5": "2ef9822768fe9a182d21ae64f48a81ad",
+          "sha256": "a852b0971c589491e24334bd77e92760c048d2c102fc4c68e582e1cd53130f84"
+        },
+        {
+          "id": "jakarta.validation:jakarta.validation-api:2.0.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.hibernate.validator:hibernate-validator:6.2.5.Final",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "5eacc6522521f7eacb081f95cee1e231648461e7",
+          "md5": "77501d529c1928c9bac2500cc9f93fb0",
+          "sha256": "b42d42428f3d922c892a909fa043287d577c0c5b165ad9b7d568cebf87fc9ea4"
+        },
+        {
+          "id": "com.vladsch.flexmark:flexmark-util-builder:0.64.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.vladsch.flexmark:flexmark:0.64.8",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "79f4593ce00d99b786425cabb12cc13bf785374b",
+          "md5": "c4f513ffe6053d4b564bc9b827902db4",
+          "sha256": "afb9c88d9f652451e75f1ab069ad7ddd791d712eb211c51d8d2a83494240875d"
+        },
+        {
+          "id": "com.vladsch.flexmark:flexmark-ext-gfm-tasklist:0.64.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "4adc75ada3d870908bdbffb76650d19305250d3c",
+          "md5": "b07e5d42fce66cf93edd00d6ec81ddaf",
+          "sha256": "c86754ba8f0ffe997fa448da2a6ab2cfdbea9b381884cfed6f74bf513b77f5a9"
+        },
+        {
+          "id": "com.vladsch.flexmark:flexmark-util-collection:0.64.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.vladsch.flexmark:flexmark:0.64.8",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "40e82ad00bb159ee878557fa8312ed7d95f4b297",
+          "md5": "b08011e78ca2c0d568903f3925466166",
+          "sha256": "031ff01408d0f54c6235db18d451dc6e6b15b859b0ec1e40ff3429a82375082a"
+        },
+        {
+          "id": "software.amazon.awssdk:checksums:2.24.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "software.amazon.awssdk:sdk-core:2.24.0",
+              "software.amazon.awssdk:auth:2.24.0",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "9abcd07755cb6dbaac601469b25849142849d4f4",
+          "md5": "f5045fa873238e75d16bc5e8b7b911c7",
+          "sha256": "f577862221dd649df079ae85f29b8e847dfcd75007ca7e61a4a529360a4c1657"
+        },
+        {
+          "id": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.15.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "fafaf40ed4bcd4bc29891441b7d256f24e55fa7f",
+          "md5": "6c5a5d0fc13223159be84fd3cb94f5ad",
+          "sha256": "691a0a605de15ea610180317331957fe6f7e91f45471ee45cbf9832d74291c31"
+        },
+        {
+          "id": "org.reactivestreams:reactive-streams:1.0.4",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "software.amazon.awssdk:utils:2.24.0",
+              "software.amazon.awssdk:auth:2.24.0",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3864a1320d97d7b045f729a326e1e077661f31b7",
+          "md5": "eda7978509c32d99166745cc144c99cd",
+          "sha256": "f75ca597789b3dac58f61857b9ac2e1034a68fa672db35055a8fb4509e325f28"
+        },
+        {
+          "id": "com.fasterxml:classmate:1.5.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.hibernate.validator:hibernate-validator:6.2.5.Final",
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3fe0bed568c62df5e89f4f174c101eab25345b6c",
+          "md5": "e91fcd30ba329fd1b0b6dc5321fd067c",
+          "sha256": "aab4de3006808c09d25dd4ff4a3611cfb63c95463cfd99e73d2e1680d229a33b"
+        },
+        {
+          "id": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.15.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ddfd375d4df3a4c149bf7d5d71c45b91909cf31f",
+          "md5": "9d9c69bac552315cc87256961dbbd47e",
+          "sha256": "608c6c7aba2b512394e338219cc09ba0dbfe85b683045d9b8f415992c2746b71"
+        },
+        {
+          "id": "io.github.hakky54:sslcontext-kickstart:7.4.11",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "fb8b6271e2cca226c1843508e99233614923a027",
+          "md5": "3f74856e7f2146949a78bb7948db2e79",
+          "sha256": "5f27b57388e702af47046ed2ec0ad5081e75631da466dc500fa29c065a53bf2e"
+        },
+        {
+          "id": "commons-codec:commons-codec:1.16.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.erudika:para-core:1.49.1-SNAPSHOT"
+            ]
+          ],
+          "sha1": "4e3eb3d79888d76b54e28b350915b5dc3919c9de",
+          "md5": "6e26920fa7228891980890cce06b718c",
+          "sha256": "56595fb20b0b85bc91d0d503dad50bb7f1b9afc0eed5dffa6cbb25929000484d"
+        }
+      ]
+    }
+  ],
+  "started": "2024-02-12T15:27:04.187+0800"
+}

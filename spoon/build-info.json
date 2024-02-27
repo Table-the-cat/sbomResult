@@ -1,0 +1,281 @@
+{
+  "name": "mvn-build",
+  "number": "1",
+  "agent": {},
+  "buildAgent": {
+    "name": "GENERIC"
+  },
+  "modules": [
+    {
+      "type": "maven",
+      "properties": {
+        "checkstyle.config.location": "checkstyle.xml",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.release": "11",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "project.build.outputTimestamp": "1696689792",
+        "project.build.sourceEncoding": "UTF-8",
+        "runtime.log": "target/velocity.log",
+        "sonar.coverage.exclusions": "**/support/gui/*"
+      },
+      "id": "fr.inria.gforge.spoon:spoon-core:10.4.3-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "spoon-core-10.4.3-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "fr/inria/gforge/spoon/spoon-core/10.4.3-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "org.eclipse.jdt:org.eclipse.jdt.core:3.33.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "fr.inria.gforge.spoon:spoon-core:10.4.3-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3c65275f9a04f0b4060c4f71e0d88d854ce64825",
+          "md5": "5d9e1d93af774ef84b24b215bf33847f",
+          "sha256": "c03cbbf5ab447d954efb8268a58dd9f2fe70f9e5d9be0a8371f79d785357eba3"
+        },
+        {
+          "id": "org.jspecify:jspecify:0.3.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "fr.inria.gforge.spoon:spoon-core:10.4.3-SNAPSHOT"
+            ]
+          ],
+          "sha1": "fc1a0c38a07667f2dbbece32164dac2d0056d205",
+          "md5": "299339fcc251674841e11d099fde6130",
+          "sha256": "e1c7e1832b6095fcfcbe57485700c7330d53d4e57e2c5bbf9c71819b02e978be"
+        },
+        {
+          "id": "javax.inject:javax.inject:1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.maven.shared:maven-invoker:3.2.0",
+              "fr.inria.gforge.spoon:spoon-core:10.4.3-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6975da39a7040257bd51d21a231b76c915872d38",
+          "md5": "289075e48b909e9e74e6c915b3631d2e",
+          "sha256": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff"
+        },
+        {
+          "id": "com.martiansoftware:jsap:2.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "fr.inria.gforge.spoon:spoon-core:10.4.3-SNAPSHOT"
+            ]
+          ],
+          "sha1": "d17c260c8f5eb6e7d6bd75449a57edfeb53d2305",
+          "md5": "37c5996faaca2c37e6b45c74ffe997aa",
+          "sha256": "331746fa62cfbc3368260c5a2e660936ad11be612308c120a044e120361d474e"
+        },
+        {
+          "id": "org.apache.maven.shared:maven-shared-utils:3.3.4",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.maven.shared:maven-invoker:3.2.0",
+              "fr.inria.gforge.spoon:spoon-core:10.4.3-SNAPSHOT"
+            ]
+          ],
+          "sha1": "f87a61adb1e12a00dcc6cc6005a51e693aa7c4ac",
+          "md5": "908f2a0107ff330ac9b856356a0acaef",
+          "sha256": "7925d9c5a0e2040d24b8fae3f612eb399cbffe5838b33ba368777dc7bddf6dda"
+        },
+        {
+          "id": "org.eclipse.jdt:ecj:3.33.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.eclipse.jdt:org.eclipse.jdt.core:3.33.0",
+              "fr.inria.gforge.spoon:spoon-core:10.4.3-SNAPSHOT"
+            ]
+          ],
+          "sha1": "4041d27ffea3c9351e3121f9bfe94dea4723d583",
+          "md5": "8f97ca731449b0dd4cbf23aa34774c6f",
+          "sha256": "f7686c4960cf70c2ebc5c500a73a8cfc04541b730c18f1c5c21329889b137f45"
+        },
+        {
+          "id": "com.fasterxml.jackson.core:jackson-databind:2.15.3",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "fr.inria.gforge.spoon:spoon-core:10.4.3-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a734bc2c47a9453c4efa772461a3aeb273c010d9",
+          "md5": "5f453c55f127690fa8491ce347aa055c",
+          "sha256": "c3c53333a2172a80678bda1803e39cff45bec6ae3e9c7d4f44a81ec4e2ab18dc"
+        },
+        {
+          "id": "commons-io:commons-io:2.14.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "fr.inria.gforge.spoon:spoon-core:10.4.3-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a4c6e1f6c196339473cd2e1b037f0eb97c62755b",
+          "md5": "4259c0bc6078e53a09883b521c1d53af",
+          "sha256": "e35d1df7232568ed4b81d9a9ed94a0159b3ff6cf1915cc21eef5cb55d7b157a2"
+        },
+        {
+          "id": "org.slf4j:slf4j-api:1.7.36",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "fr.inria.gforge.spoon:spoon-core:10.4.3-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6c62681a2f655b49963a5983b8b0950a6120ae14",
+          "md5": "872da51f5de7f3923da4de871d57fd85",
+          "sha256": "d3ef575e3e4979678dc01bf1dcce51021493b4d11fb7f1be8ad982877c16a1c0"
+        },
+        {
+          "id": "org.codehaus.plexus:plexus-utils:3.1.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.maven:maven-model:3.6.0",
+              "fr.inria.gforge.spoon:spoon-core:10.4.3-SNAPSHOT"
+            ]
+          ],
+          "sha1": "60eecb6f15abdb1c653ad80abaac6fe188b3feaa",
+          "md5": "bfec331a62402081dd4143e3a8d193e4",
+          "sha256": "0ffa0ad084ebff5712540a7b7ea0abda487c53d3a18f78c98d1a3675dab9bf61"
+        },
+        {
+          "id": "org.apache.commons:commons-compress:1.24.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "fr.inria.gforge.spoon:spoon-core:10.4.3-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b4b1b5a3d9573b2970fddab236102c0a4d27d35e",
+          "md5": "a99bcb4c7967d685eeecaa814b9a902d",
+          "sha256": "fbf2c5d275e513c08f4e4fb539726dbf3ac2142af956ba93efb983244f0c36bd"
+        },
+        {
+          "id": "org.apache.maven.shared:maven-invoker:3.2.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "fr.inria.gforge.spoon:spoon-core:10.4.3-SNAPSHOT"
+            ]
+          ],
+          "sha1": "84fe50eb8183be035f77f86e21c5830e3b19c337",
+          "md5": "ae1b36901af33a03b0ba0123d941b938",
+          "sha256": "51cdc34d2092a47f394b31e0545858c022030b47fcf30de16389c15ce7afd17c"
+        },
+        {
+          "id": "com.fasterxml.jackson.core:jackson-core:2.15.3",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.fasterxml.jackson.core:jackson-databind:2.15.3",
+              "fr.inria.gforge.spoon:spoon-core:10.4.3-SNAPSHOT"
+            ]
+          ],
+          "sha1": "60d600567c1862840397bf9ff5a92398edc5797b",
+          "md5": "c86c75392bf138d54d2a219bb1d0cbcd",
+          "sha256": "51fab7aad51ed588482edc507fd542747936c5094d1ab76ed21ddb63b96b610d"
+        },
+        {
+          "id": "org.apache.maven:maven-model:3.6.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "fr.inria.gforge.spoon:spoon-core:10.4.3-SNAPSHOT"
+            ]
+          ],
+          "sha1": "06d73e6218a10cfe82cf0325b582cbed732cc751",
+          "md5": "0505d964b102e3f62845f5d4508e166e",
+          "sha256": "a1bf0c7856afd1f1b9c81c22818328fb7a796b4047010e08f2e859d1896080a9"
+        },
+        {
+          "id": "org.apache.commons:commons-lang3:3.13.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "fr.inria.gforge.spoon:spoon-core:10.4.3-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b7263237aa89c1f99b327197c41d0669707a462e",
+          "md5": "3435b913691a5c1b173485a49850b1a8",
+          "sha256": "82f528cf718c7a3c2f30fc5bc784e3c6a0a10b17605dadb9e16c82ede11e6064"
+        },
+        {
+          "id": "com.fasterxml.jackson.core:jackson-annotations:2.15.3",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.fasterxml.jackson.core:jackson-databind:2.15.3",
+              "fr.inria.gforge.spoon:spoon-core:10.4.3-SNAPSHOT"
+            ]
+          ],
+          "sha1": "79baf4e605eb3bbb60b1c475d44a7aecceea1d60",
+          "md5": "f478f693731e4a2f0f0d3c7bba119b32",
+          "sha256": "aae865c3d88256d61b11523cb1e88bd48d5b9ad5855fa1fc859504fd2204708a"
+        }
+      ]
+    }
+  ],
+  "started": "2024-02-09T15:59:34.961+0800"
+}

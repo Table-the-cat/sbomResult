@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:5928628c-6967-4e76-ad93-d77514532ba8" version="1">
+    <metadata>
+        <timestamp>2023-10-27T05:02:48.983792Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>OpenRewrite</vendor>
+                <name>OpenRewrite CycloneDX</name>
+                <version>7.18.0</version>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/io.jooby/jooby@3.0.6-SNAPSHOT?type=jar" type="library">
+            <group>io.jooby</group>
+            <name>jooby</name>
+            <version>3.0.6-SNAPSHOT</version>
+            <scope>required</scope>
+            <purl>pkg:maven/io.jooby/jooby@3.0.6-SNAPSHOT?type=jar</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="pkg:maven/com.github.spotbugs/spotbugs-annotations@4.7.3?type=jar" type="library">
+            <group>com.github.spotbugs</group>
+            <name>spotbugs-annotations</name>
+            <version>4.7.3</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>GNU LESSER GENERAL PUBLIC LICENSE, Version 2.1</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.github.spotbugs/spotbugs-annotations@4.7.3?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar" type="library">
+            <group>org.slf4j</group>
+            <name>slf4j-api</name>
+            <version>2.0.9</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1?type=jar" type="library">
+            <group>jakarta.inject</group>
+            <name>jakarta.inject-api</name>
+            <version>2.0.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.typesafe/config@1.4.2?type=jar" type="library">
+            <group>com.typesafe</group>
+            <name>config</name>
+            <version>1.4.2</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache-2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.typesafe/config@1.4.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.github.vladimir-bukhtoyarov/bucket4j-core@7.6.0?type=jar" type="library">
+            <group>com.github.vladimir-bukhtoyarov</group>
+            <name>bucket4j-core</name>
+            <version>7.6.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.github.vladimir-bukhtoyarov/bucket4j-core@7.6.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar" type="library">
+            <group>com.google.code.findbugs</group>
+            <name>jsr305</name>
+            <version>3.0.2</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar</purl>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/com.github.spotbugs/spotbugs-annotations@4.7.3?type=jar">
+            <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.typesafe/config@1.4.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.github.vladimir-bukhtoyarov/bucket4j-core@7.6.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar">
+        </dependency>
+    </dependencies>
+</bom>

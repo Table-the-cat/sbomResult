@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:cde8e971-6984-46bd-9edd-a3578c064a63" version="1">
+    <metadata>
+        <timestamp>2023-10-13T06:50:39.767009700Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>OpenRewrite</vendor>
+                <name>OpenRewrite CycloneDX</name>
+                <version>7.18.0</version>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/org.eclipse.steady/root@3.2.6-SNAPSHOT?type=pom" type="library">
+            <group>org.eclipse.steady</group>
+            <name>root</name>
+            <version>3.2.6-SNAPSHOT</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.eclipse.steady/root@3.2.6-SNAPSHOT?type=pom</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="pkg:maven/javax.validation/validation-api@2.0.1.Final?type=jar" type="library">
+            <group>javax.validation</group>
+            <name>validation-api</name>
+            <version>2.0.1.Final</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/javax.validation/validation-api@2.0.1.Final?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.logging.log4j/log4j-api@2.19.0?type=jar" type="library">
+            <group>org.apache.logging.log4j</group>
+            <name>log4j-api</name>
+            <version>2.19.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.logging.log4j/log4j-api@2.19.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.logging.log4j/log4j-core@2.19.0?type=jar" type="library">
+            <group>org.apache.logging.log4j</group>
+            <name>log4j-core</name>
+            <version>2.19.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.logging.log4j/log4j-core@2.19.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.github.spotbugs/spotbugs-annotations@4.7.3?type=jar" type="library">
+            <group>com.github.spotbugs</group>
+            <name>spotbugs-annotations</name>
+            <version>4.7.3</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>GNU LESSER GENERAL PUBLIC LICENSE, Version 2.1</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.github.spotbugs/spotbugs-annotations@4.7.3?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar" type="library">
+            <group>com.google.code.findbugs</group>
+            <name>jsr305</name>
+            <version>3.0.2</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar</purl>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/javax.validation/validation-api@2.0.1.Final?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.logging.log4j/log4j-api@2.19.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.logging.log4j/log4j-core@2.19.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.github.spotbugs/spotbugs-annotations@4.7.3?type=jar">
+            <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar">
+        </dependency>
+    </dependencies>
+</bom>

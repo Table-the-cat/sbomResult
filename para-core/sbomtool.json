@@ -1,0 +1,4590 @@
+{
+  "dependencyGraphs": {
+    "D:\\Work\\SBOM\\TestProjects\\para\\para-core\\pom.xml": {
+      "graph": {
+        "com.vladsch.flexmark flexmark-ext-emoji 0.64.8 - Maven": [
+          "com.vladsch.flexmark flexmark-util 0.64.8 - Maven"
+        ],
+        "org.jsoup jsoup 1.15.4 - Maven": null,
+        "com.vladsch.flexmark flexmark-ext-media-tags 0.64.8 - Maven": null,
+        "org.mockito mockito-core 4.8.1 - Maven": [
+          "net.bytebuddy byte-buddy 1.12.16 - Maven",
+          "net.bytebuddy byte-buddy-agent 1.12.16 - Maven",
+          "org.objenesis objenesis 3.2 - Maven"
+        ],
+        "org.nibor.autolink autolink 0.6.0 - Maven": null,
+        "org.hamcrest hamcrest-core 1.3 - Maven": null,
+        "javax.el javax.el-api 3.0.1-b06 - Maven": null,
+        "org.junit.platform junit-platform-commons 1.9.2 - Maven": null,
+        "com.vladsch.flexmark flexmark-util-dependency 0.64.8 - Maven": null,
+        "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven": [
+          "org.junit.platform junit-platform-engine 1.9.2 - Maven"
+        ],
+        "org.apache.commons commons-lang3 3.12.0 - Maven": null,
+        "software.amazon.awssdk metrics-spi 2.24.0 - Maven": null,
+        "ch.qos.logback logback-classic 1.2.11 - Maven": null,
+        "software.amazon.awssdk identity-spi 2.24.0 - Maven": null,
+        "org.jetbrains annotations 24.0.1 - Maven": null,
+        "com.vladsch.flexmark flexmark-util-collection 0.64.8 - Maven": null,
+        "software.amazon.awssdk endpoints-spi 2.24.0 - Maven": null,
+        "software.amazon.awssdk http-auth-spi 2.24.0 - Maven": null,
+        "com.fasterxml.jackson.core jackson-annotations 2.15.0 - Maven": null,
+        "com.vladsch.flexmark flexmark-util-html 0.64.8 - Maven": null,
+        "com.vladsch.flexmark flexmark-util-ast 0.64.8 - Maven": [
+          "org.jetbrains annotations 24.0.1 - Maven"
+        ],
+        "org.codehaus.woodstox stax2-api 4.2.1 - Maven": null,
+        "org.junit.platform junit-platform-engine 1.9.2 - Maven": null,
+        "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven": [
+          "org.opentest4j opentest4j 1.2.0 - Maven",
+          "org.junit.platform junit-platform-commons 1.9.2 - Maven",
+          "org.apiguardian apiguardian-api 1.1.2 - Maven"
+        ],
+        "org.apiguardian apiguardian-api 1.1.2 - Maven": null,
+        "software.amazon.awssdk annotations 2.24.0 - Maven": null,
+        "org.objenesis objenesis 3.2 - Maven": null,
+        "org.slf4j jul-to-slf4j 1.7.36 - Maven": null,
+        "com.fasterxml.jackson.dataformat jackson-dataformat-cbor 2.15.0 - Maven": null,
+        "org.glassfish.web javax.el 2.2.6 - Maven": null,
+        "com.fasterxml classmate 1.5.1 - Maven": null,
+        "org.junit.vintage junit-vintage-engine 5.9.2 - Maven": null,
+        "com.vladsch.flexmark flexmark-util-options 0.64.8 - Maven": null,
+        "com.vladsch.flexmark flexmark-ext-gfm-tasklist 0.64.8 - Maven": null,
+        "com.fasterxml.jackson.jaxrs jackson-jaxrs-json-provider 2.15.0 - Maven": null,
+        "com.vladsch.flexmark flexmark-ext-gfm-strikethrough 0.64.8 - Maven": null,
+        "ch.qos.logback logback-access 1.2.11 - Maven": null,
+        "software.amazon.awssdk http-client-spi 2.24.0 - Maven": null,
+        "software.amazon.awssdk json-utils 2.24.0 - Maven": [
+          "software.amazon.awssdk third-party-jackson-core 2.24.0 - Maven"
+        ],
+        "software.amazon.awssdk http-auth 2.24.0 - Maven": null,
+        "commons-collections commons-collections 3.2.2 - Maven": null,
+        "net.bytebuddy byte-buddy-agent 1.12.16 - Maven": null,
+        "com.fasterxml.jackson.core jackson-core 2.15.0 - Maven": null,
+        "org.reactivestreams reactive-streams 1.0.4 - Maven": null,
+        "com.fasterxml.jackson.jaxrs jackson-jaxrs-base 2.15.0 - Maven": null,
+        "jakarta.validation jakarta.validation-api 2.0.2 - Maven": null,
+        "com.typesafe config 1.4.2 - Maven": null,
+        "de.svenkubiak jBCrypt 0.4.3 - Maven": null,
+        "com.vladsch.flexmark flexmark-util-sequence 0.64.8 - Maven": null,
+        "com.fasterxml.jackson.dataformat jackson-dataformat-yaml 2.15.0 - Maven": [
+          "org.yaml snakeyaml 2.0 - Maven"
+        ],
+        "com.vladsch.flexmark flexmark 0.64.8 - Maven": [
+          "com.vladsch.flexmark flexmark-util-ast 0.64.8 - Maven",
+          "com.vladsch.flexmark flexmark-util-builder 0.64.8 - Maven",
+          "com.vladsch.flexmark flexmark-util-collection 0.64.8 - Maven",
+          "com.vladsch.flexmark flexmark-util-data 0.64.8 - Maven",
+          "com.vladsch.flexmark flexmark-util-dependency 0.64.8 - Maven",
+          "com.vladsch.flexmark flexmark-util-format 0.64.8 - Maven",
+          "com.vladsch.flexmark flexmark-util-html 0.64.8 - Maven",
+          "com.vladsch.flexmark flexmark-util-misc 0.64.8 - Maven",
+          "com.vladsch.flexmark flexmark-util-sequence 0.64.8 - Maven",
+          "com.vladsch.flexmark flexmark-util-visitor 0.64.8 - Maven"
+        ],
+        "software.amazon.awssdk checksums-spi 2.24.0 - Maven": null,
+        "javax.validation validation-api 2.0.1.Final - Maven": null,
+        "org.opentest4j opentest4j 1.2.0 - Maven": null,
+        "commons-beanutils commons-beanutils 1.9.4 - Maven": [
+          "commons-collections commons-collections 3.2.2 - Maven"
+        ],
+        "commons-io commons-io 2.11.0 - Maven": null,
+        "software.amazon.awssdk http-auth-aws 2.24.0 - Maven": null,
+        "software.amazon.awssdk utils 2.24.0 - Maven": [
+          "org.reactivestreams reactive-streams 1.0.4 - Maven"
+        ],
+        "com.samskivert jmustache 1.15 - Maven": null,
+        "io.github.classgraph classgraph 4.8.158 - Maven": null,
+        "com.vladsch.flexmark flexmark-ext-autolink 0.64.8 - Maven": [
+          "org.nibor.autolink autolink 0.6.0 - Maven"
+        ],
+        "io.dropwizard.metrics metrics-core 4.2.19 - Maven": null,
+        "com.vladsch.flexmark flexmark-ext-tables 0.64.8 - Maven": null,
+        "com.fasterxml.jackson.module jackson-module-parameter-names 2.15.0 - Maven": null,
+        "org.slf4j slf4j-api 1.7.36 - Maven": null,
+        "net.bytebuddy byte-buddy 1.12.16 - Maven": null,
+        "com.vladsch.flexmark flexmark-util-builder 0.64.8 - Maven": null,
+        "com.fasterxml.jackson.datatype jackson-datatype-jdk8 2.15.0 - Maven": null,
+        "ch.qos.logback logback-core 1.2.11 - Maven": null,
+        "software.amazon.awssdk auth 2.24.0 - Maven": [
+          "software.amazon.awssdk annotations 2.24.0 - Maven",
+          "software.amazon.awssdk utils 2.24.0 - Maven",
+          "software.amazon.awssdk sdk-core 2.24.0 - Maven",
+          "software.amazon.awssdk identity-spi 2.24.0 - Maven",
+          "software.amazon.awssdk regions 2.24.0 - Maven",
+          "software.amazon.awssdk profiles 2.24.0 - Maven",
+          "software.amazon.awssdk http-client-spi 2.24.0 - Maven",
+          "software.amazon.awssdk json-utils 2.24.0 - Maven",
+          "software.amazon.awssdk http-auth-aws 2.24.0 - Maven",
+          "software.amazon.awssdk http-auth 2.24.0 - Maven",
+          "software.amazon.awssdk http-auth-spi 2.24.0 - Maven",
+          "software.amazon.eventstream eventstream 1.0.1 - Maven"
+        ],
+        "software.amazon.awssdk third-party-jackson-core 2.24.0 - Maven": null,
+        "software.amazon.awssdk sdk-core 2.24.0 - Maven": [
+          "software.amazon.awssdk metrics-spi 2.24.0 - Maven",
+          "software.amazon.awssdk endpoints-spi 2.24.0 - Maven",
+          "software.amazon.awssdk checksums-spi 2.24.0 - Maven",
+          "software.amazon.awssdk checksums 2.24.0 - Maven"
+        ],
+        "com.fasterxml.jackson.dataformat jackson-dataformat-smile 2.15.0 - Maven": null,
+        "junit junit 4.13.1 - Maven": [
+          "org.hamcrest hamcrest-core 1.3 - Maven"
+        ],
+        "software.amazon.awssdk profiles 2.24.0 - Maven": null,
+        "org.jboss.logging jboss-logging 3.4.1.Final - Maven": null,
+        "com.vladsch.flexmark flexmark-util 0.64.8 - Maven": [
+          "com.vladsch.flexmark flexmark-util-options 0.64.8 - Maven"
+        ],
+        "com.vladsch.flexmark flexmark-util-misc 0.64.8 - Maven": null,
+        "software.amazon.eventstream eventstream 1.0.1 - Maven": null,
+        "io.github.hakky54 sslcontext-kickstart 7.4.11 - Maven": null,
+        "org.hibernate.validator hibernate-validator 6.2.5.Final - Maven": [
+          "jakarta.validation jakarta.validation-api 2.0.2 - Maven",
+          "org.jboss.logging jboss-logging 3.4.1.Final - Maven",
+          "com.fasterxml classmate 1.5.1 - Maven"
+        ],
+        "javax.ws.rs javax.ws.rs-api 2.1.1 - Maven": null,
+        "software.amazon.awssdk regions 2.24.0 - Maven": null,
+        "com.fasterxml.jackson.core jackson-databind 2.15.0 - Maven": null,
+        "com.vladsch.flexmark flexmark-util-data 0.64.8 - Maven": null,
+        "com.vladsch.flexmark flexmark-util-visitor 0.64.8 - Maven": null,
+        "com.erudika para-core 1.49.1-SNAPSHOT - Maven": [
+          "software.amazon.awssdk auth 2.24.0 - Maven",
+          "io.github.classgraph classgraph 4.8.158 - Maven",
+          "javax.ws.rs javax.ws.rs-api 2.1.1 - Maven",
+          "jakarta.inject jakarta.inject-api 1.0.5 - Maven",
+          "com.fasterxml.jackson.core jackson-core 2.15.0 - Maven",
+          "com.fasterxml.jackson.core jackson-annotations 2.15.0 - Maven",
+          "com.fasterxml.jackson.jaxrs jackson-jaxrs-base 2.15.0 - Maven",
+          "com.fasterxml.jackson.jaxrs jackson-jaxrs-json-provider 2.15.0 - Maven",
+          "com.fasterxml.jackson.core jackson-databind 2.15.0 - Maven",
+          "com.fasterxml.jackson.dataformat jackson-dataformat-cbor 2.15.0 - Maven",
+          "com.fasterxml.jackson.dataformat jackson-dataformat-smile 2.15.0 - Maven",
+          "com.fasterxml.jackson.dataformat jackson-dataformat-yaml 2.15.0 - Maven",
+          "com.fasterxml.jackson.module jackson-module-parameter-names 2.15.0 - Maven",
+          "com.fasterxml.jackson.datatype jackson-datatype-jdk8 2.15.0 - Maven",
+          "com.fasterxml.jackson.datatype jackson-datatype-jsr310 2.15.0 - Maven",
+          "org.slf4j slf4j-api 1.7.36 - Maven",
+          "org.slf4j jul-to-slf4j 1.7.36 - Maven",
+          "ch.qos.logback logback-core 1.2.11 - Maven",
+          "ch.qos.logback logback-classic 1.2.11 - Maven",
+          "ch.qos.logback logback-access 1.2.11 - Maven",
+          "io.dropwizard.metrics metrics-core 4.2.19 - Maven",
+          "commons-beanutils commons-beanutils 1.9.4 - Maven",
+          "com.typesafe config 1.4.2 - Maven",
+          "org.hibernate.validator hibernate-validator 6.2.5.Final - Maven",
+          "org.apache.commons commons-lang3 3.12.0 - Maven",
+          "commons-codec commons-codec 1.16.0 - Maven",
+          "commons-io commons-io 2.11.0 - Maven",
+          "org.jsoup jsoup 1.15.4 - Maven",
+          "com.vladsch.flexmark flexmark 0.64.8 - Maven",
+          "com.vladsch.flexmark flexmark-ext-emoji 0.64.8 - Maven",
+          "com.vladsch.flexmark flexmark-ext-gfm-strikethrough 0.64.8 - Maven",
+          "com.vladsch.flexmark flexmark-ext-gfm-tasklist 0.64.8 - Maven",
+          "com.vladsch.flexmark flexmark-ext-tables 0.64.8 - Maven",
+          "com.vladsch.flexmark flexmark-ext-autolink 0.64.8 - Maven",
+          "com.vladsch.flexmark flexmark-ext-media-tags 0.64.8 - Maven",
+          "de.svenkubiak jBCrypt 0.4.3 - Maven",
+          "com.samskivert jmustache 1.15 - Maven",
+          "javax.validation validation-api 2.0.1.Final - Maven",
+          "javax.el javax.el-api 3.0.1-b06 - Maven",
+          "org.glassfish.web javax.el 2.2.6 - Maven",
+          "org.codehaus.woodstox stax2-api 4.2.1 - Maven",
+          "io.github.hakky54 sslcontext-kickstart 7.4.11 - Maven",
+          "org.mockito mockito-core 4.8.1 - Maven",
+          "junit junit 4.13.1 - Maven",
+          "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven",
+          "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+          "org.junit.vintage junit-vintage-engine 5.9.2 - Maven"
+        ],
+        "jakarta.inject jakarta.inject-api 1.0.5 - Maven": null,
+        "org.yaml snakeyaml 2.0 - Maven": null,
+        "commons-codec commons-codec 1.16.0 - Maven": null,
+        "com.vladsch.flexmark flexmark-util-format 0.64.8 - Maven": null,
+        "com.fasterxml.jackson.datatype jackson-datatype-jsr310 2.15.0 - Maven": null,
+        "software.amazon.awssdk checksums 2.24.0 - Maven": null
+      },
+      "explicitlyReferencedComponentIds": [
+        "com.vladsch.flexmark flexmark-ext-emoji 0.64.8 - Maven",
+        "org.jsoup jsoup 1.15.4 - Maven",
+        "com.vladsch.flexmark flexmark-ext-media-tags 0.64.8 - Maven",
+        "org.mockito mockito-core 4.8.1 - Maven",
+        "javax.el javax.el-api 3.0.1-b06 - Maven",
+        "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+        "org.apache.commons commons-lang3 3.12.0 - Maven",
+        "ch.qos.logback logback-classic 1.2.11 - Maven",
+        "com.fasterxml.jackson.core jackson-annotations 2.15.0 - Maven",
+        "org.codehaus.woodstox stax2-api 4.2.1 - Maven",
+        "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven",
+        "org.slf4j jul-to-slf4j 1.7.36 - Maven",
+        "com.fasterxml.jackson.dataformat jackson-dataformat-cbor 2.15.0 - Maven",
+        "org.glassfish.web javax.el 2.2.6 - Maven",
+        "org.junit.vintage junit-vintage-engine 5.9.2 - Maven",
+        "com.vladsch.flexmark flexmark-ext-gfm-tasklist 0.64.8 - Maven",
+        "com.fasterxml.jackson.jaxrs jackson-jaxrs-json-provider 2.15.0 - Maven",
+        "com.vladsch.flexmark flexmark-ext-gfm-strikethrough 0.64.8 - Maven",
+        "ch.qos.logback logback-access 1.2.11 - Maven",
+        "com.fasterxml.jackson.core jackson-core 2.15.0 - Maven",
+        "com.fasterxml.jackson.jaxrs jackson-jaxrs-base 2.15.0 - Maven",
+        "com.typesafe config 1.4.2 - Maven",
+        "de.svenkubiak jBCrypt 0.4.3 - Maven",
+        "com.fasterxml.jackson.dataformat jackson-dataformat-yaml 2.15.0 - Maven",
+        "com.vladsch.flexmark flexmark 0.64.8 - Maven",
+        "javax.validation validation-api 2.0.1.Final - Maven",
+        "commons-beanutils commons-beanutils 1.9.4 - Maven",
+        "commons-io commons-io 2.11.0 - Maven",
+        "com.samskivert jmustache 1.15 - Maven",
+        "io.github.classgraph classgraph 4.8.158 - Maven",
+        "com.vladsch.flexmark flexmark-ext-autolink 0.64.8 - Maven",
+        "io.dropwizard.metrics metrics-core 4.2.19 - Maven",
+        "com.vladsch.flexmark flexmark-ext-tables 0.64.8 - Maven",
+        "com.fasterxml.jackson.module jackson-module-parameter-names 2.15.0 - Maven",
+        "org.slf4j slf4j-api 1.7.36 - Maven",
+        "com.fasterxml.jackson.datatype jackson-datatype-jdk8 2.15.0 - Maven",
+        "ch.qos.logback logback-core 1.2.11 - Maven",
+        "software.amazon.awssdk auth 2.24.0 - Maven",
+        "com.fasterxml.jackson.dataformat jackson-dataformat-smile 2.15.0 - Maven",
+        "junit junit 4.13.1 - Maven",
+        "io.github.hakky54 sslcontext-kickstart 7.4.11 - Maven",
+        "org.hibernate.validator hibernate-validator 6.2.5.Final - Maven",
+        "javax.ws.rs javax.ws.rs-api 2.1.1 - Maven",
+        "com.fasterxml.jackson.core jackson-databind 2.15.0 - Maven",
+        "jakarta.inject jakarta.inject-api 1.0.5 - Maven",
+        "commons-codec commons-codec 1.16.0 - Maven",
+        "com.fasterxml.jackson.datatype jackson-datatype-jsr310 2.15.0 - Maven"
+      ],
+      "developmentDependencies": [
+        "org.mockito mockito-core 4.8.1 - Maven",
+        "org.hamcrest hamcrest-core 1.3 - Maven",
+        "org.junit.platform junit-platform-commons 1.9.2 - Maven",
+        "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+        "org.junit.platform junit-platform-engine 1.9.2 - Maven",
+        "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven",
+        "org.apiguardian apiguardian-api 1.1.2 - Maven",
+        "org.objenesis objenesis 3.2 - Maven",
+        "org.junit.vintage junit-vintage-engine 5.9.2 - Maven",
+        "net.bytebuddy byte-buddy-agent 1.12.16 - Maven",
+        "org.opentest4j opentest4j 1.2.0 - Maven",
+        "net.bytebuddy byte-buddy 1.12.16 - Maven",
+        "junit junit 4.13.1 - Maven"
+      ],
+      "dependencies": [
+        "com.vladsch.flexmark flexmark-ext-emoji 0.64.8 - Maven",
+        "org.jsoup jsoup 1.15.4 - Maven",
+        "com.vladsch.flexmark flexmark-ext-media-tags 0.64.8 - Maven",
+        "org.nibor.autolink autolink 0.6.0 - Maven",
+        "javax.el javax.el-api 3.0.1-b06 - Maven",
+        "com.vladsch.flexmark flexmark-util-dependency 0.64.8 - Maven",
+        "org.apache.commons commons-lang3 3.12.0 - Maven",
+        "software.amazon.awssdk metrics-spi 2.24.0 - Maven",
+        "ch.qos.logback logback-classic 1.2.11 - Maven",
+        "software.amazon.awssdk identity-spi 2.24.0 - Maven",
+        "org.jetbrains annotations 24.0.1 - Maven",
+        "com.vladsch.flexmark flexmark-util-collection 0.64.8 - Maven",
+        "software.amazon.awssdk endpoints-spi 2.24.0 - Maven",
+        "software.amazon.awssdk http-auth-spi 2.24.0 - Maven",
+        "com.fasterxml.jackson.core jackson-annotations 2.15.0 - Maven",
+        "com.vladsch.flexmark flexmark-util-html 0.64.8 - Maven",
+        "com.vladsch.flexmark flexmark-util-ast 0.64.8 - Maven",
+        "org.codehaus.woodstox stax2-api 4.2.1 - Maven",
+        "software.amazon.awssdk annotations 2.24.0 - Maven",
+        "org.slf4j jul-to-slf4j 1.7.36 - Maven",
+        "com.fasterxml.jackson.dataformat jackson-dataformat-cbor 2.15.0 - Maven",
+        "org.glassfish.web javax.el 2.2.6 - Maven",
+        "com.fasterxml classmate 1.5.1 - Maven",
+        "com.vladsch.flexmark flexmark-util-options 0.64.8 - Maven",
+        "com.vladsch.flexmark flexmark-ext-gfm-tasklist 0.64.8 - Maven",
+        "com.fasterxml.jackson.jaxrs jackson-jaxrs-json-provider 2.15.0 - Maven",
+        "com.vladsch.flexmark flexmark-ext-gfm-strikethrough 0.64.8 - Maven",
+        "ch.qos.logback logback-access 1.2.11 - Maven",
+        "software.amazon.awssdk http-client-spi 2.24.0 - Maven",
+        "software.amazon.awssdk json-utils 2.24.0 - Maven",
+        "software.amazon.awssdk http-auth 2.24.0 - Maven",
+        "commons-collections commons-collections 3.2.2 - Maven",
+        "com.fasterxml.jackson.core jackson-core 2.15.0 - Maven",
+        "org.reactivestreams reactive-streams 1.0.4 - Maven",
+        "com.fasterxml.jackson.jaxrs jackson-jaxrs-base 2.15.0 - Maven",
+        "jakarta.validation jakarta.validation-api 2.0.2 - Maven",
+        "com.typesafe config 1.4.2 - Maven",
+        "de.svenkubiak jBCrypt 0.4.3 - Maven",
+        "com.vladsch.flexmark flexmark-util-sequence 0.64.8 - Maven",
+        "com.fasterxml.jackson.dataformat jackson-dataformat-yaml 2.15.0 - Maven",
+        "com.vladsch.flexmark flexmark 0.64.8 - Maven",
+        "software.amazon.awssdk checksums-spi 2.24.0 - Maven",
+        "javax.validation validation-api 2.0.1.Final - Maven",
+        "commons-beanutils commons-beanutils 1.9.4 - Maven",
+        "commons-io commons-io 2.11.0 - Maven",
+        "software.amazon.awssdk http-auth-aws 2.24.0 - Maven",
+        "software.amazon.awssdk utils 2.24.0 - Maven",
+        "com.samskivert jmustache 1.15 - Maven",
+        "io.github.classgraph classgraph 4.8.158 - Maven",
+        "com.vladsch.flexmark flexmark-ext-autolink 0.64.8 - Maven",
+        "io.dropwizard.metrics metrics-core 4.2.19 - Maven",
+        "com.vladsch.flexmark flexmark-ext-tables 0.64.8 - Maven",
+        "com.fasterxml.jackson.module jackson-module-parameter-names 2.15.0 - Maven",
+        "org.slf4j slf4j-api 1.7.36 - Maven",
+        "com.vladsch.flexmark flexmark-util-builder 0.64.8 - Maven",
+        "com.fasterxml.jackson.datatype jackson-datatype-jdk8 2.15.0 - Maven",
+        "ch.qos.logback logback-core 1.2.11 - Maven",
+        "software.amazon.awssdk auth 2.24.0 - Maven",
+        "software.amazon.awssdk third-party-jackson-core 2.24.0 - Maven",
+        "software.amazon.awssdk sdk-core 2.24.0 - Maven",
+        "com.fasterxml.jackson.dataformat jackson-dataformat-smile 2.15.0 - Maven",
+        "software.amazon.awssdk profiles 2.24.0 - Maven",
+        "org.jboss.logging jboss-logging 3.4.1.Final - Maven",
+        "com.vladsch.flexmark flexmark-util 0.64.8 - Maven",
+        "com.vladsch.flexmark flexmark-util-misc 0.64.8 - Maven",
+        "software.amazon.eventstream eventstream 1.0.1 - Maven",
+        "io.github.hakky54 sslcontext-kickstart 7.4.11 - Maven",
+        "org.hibernate.validator hibernate-validator 6.2.5.Final - Maven",
+        "javax.ws.rs javax.ws.rs-api 2.1.1 - Maven",
+        "software.amazon.awssdk regions 2.24.0 - Maven",
+        "com.fasterxml.jackson.core jackson-databind 2.15.0 - Maven",
+        "com.vladsch.flexmark flexmark-util-data 0.64.8 - Maven",
+        "com.vladsch.flexmark flexmark-util-visitor 0.64.8 - Maven",
+        "jakarta.inject jakarta.inject-api 1.0.5 - Maven",
+        "org.yaml snakeyaml 2.0 - Maven",
+        "commons-codec commons-codec 1.16.0 - Maven",
+        "com.vladsch.flexmark flexmark-util-format 0.64.8 - Maven",
+        "com.fasterxml.jackson.datatype jackson-datatype-jsr310 2.15.0 - Maven",
+        "software.amazon.awssdk checksums 2.24.0 - Maven"
+      ]
+    }
+  },
+  "componentsFound": [
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.vladsch.flexmark",
+        "artifactId": "flexmark-ext-emoji",
+        "version": "0.64.8",
+        "type": "Maven",
+        "id": "com.vladsch.flexmark flexmark-ext-emoji 0.64.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.vladsch.flexmark",
+          "Name": "flexmark-ext-emoji",
+          "Version": "0.64.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.vladsch.flexmark",
+          "artifactId": "flexmark-ext-emoji",
+          "version": "0.64.8",
+          "type": "Maven",
+          "id": "com.vladsch.flexmark flexmark-ext-emoji 0.64.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.vladsch.flexmark",
+            "Name": "flexmark-ext-emoji",
+            "Version": "0.64.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.jsoup",
+        "artifactId": "jsoup",
+        "version": "1.15.4",
+        "type": "Maven",
+        "id": "org.jsoup jsoup 1.15.4 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.jsoup",
+          "Name": "jsoup",
+          "Version": "1.15.4",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.jsoup",
+          "artifactId": "jsoup",
+          "version": "1.15.4",
+          "type": "Maven",
+          "id": "org.jsoup jsoup 1.15.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.jsoup",
+            "Name": "jsoup",
+            "Version": "1.15.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.vladsch.flexmark",
+        "artifactId": "flexmark-ext-media-tags",
+        "version": "0.64.8",
+        "type": "Maven",
+        "id": "com.vladsch.flexmark flexmark-ext-media-tags 0.64.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.vladsch.flexmark",
+          "Name": "flexmark-ext-media-tags",
+          "Version": "0.64.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.vladsch.flexmark",
+          "artifactId": "flexmark-ext-media-tags",
+          "version": "0.64.8",
+          "type": "Maven",
+          "id": "com.vladsch.flexmark flexmark-ext-media-tags 0.64.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.vladsch.flexmark",
+            "Name": "flexmark-ext-media-tags",
+            "Version": "0.64.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.mockito",
+        "artifactId": "mockito-core",
+        "version": "4.8.1",
+        "type": "Maven",
+        "id": "org.mockito mockito-core 4.8.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.mockito",
+          "Name": "mockito-core",
+          "Version": "4.8.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.mockito",
+          "artifactId": "mockito-core",
+          "version": "4.8.1",
+          "type": "Maven",
+          "id": "org.mockito mockito-core 4.8.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.mockito",
+            "Name": "mockito-core",
+            "Version": "4.8.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.nibor.autolink",
+        "artifactId": "autolink",
+        "version": "0.6.0",
+        "type": "Maven",
+        "id": "org.nibor.autolink autolink 0.6.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.nibor.autolink",
+          "Name": "autolink",
+          "Version": "0.6.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.vladsch.flexmark",
+          "artifactId": "flexmark-ext-autolink",
+          "version": "0.64.8",
+          "type": "Maven",
+          "id": "com.vladsch.flexmark flexmark-ext-autolink 0.64.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.vladsch.flexmark",
+            "Name": "flexmark-ext-autolink",
+            "Version": "0.64.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.hamcrest",
+        "artifactId": "hamcrest-core",
+        "version": "1.3",
+        "type": "Maven",
+        "id": "org.hamcrest hamcrest-core 1.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.hamcrest",
+          "Name": "hamcrest-core",
+          "Version": "1.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "junit",
+          "artifactId": "junit",
+          "version": "4.13.1",
+          "type": "Maven",
+          "id": "junit junit 4.13.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "junit",
+            "Name": "junit",
+            "Version": "4.13.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "javax.el",
+        "artifactId": "javax.el-api",
+        "version": "3.0.1-b06",
+        "type": "Maven",
+        "id": "javax.el javax.el-api 3.0.1-b06 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "javax.el",
+          "Name": "javax.el-api",
+          "Version": "3.0.1-b06",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "javax.el",
+          "artifactId": "javax.el-api",
+          "version": "3.0.1-b06",
+          "type": "Maven",
+          "id": "javax.el javax.el-api 3.0.1-b06 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "javax.el",
+            "Name": "javax.el-api",
+            "Version": "3.0.1-b06",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.junit.platform",
+        "artifactId": "junit-platform-commons",
+        "version": "1.9.2",
+        "type": "Maven",
+        "id": "org.junit.platform junit-platform-commons 1.9.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.junit.platform",
+          "Name": "junit-platform-commons",
+          "Version": "1.9.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-api",
+          "version": "5.9.2",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-api",
+            "Version": "5.9.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.vladsch.flexmark",
+        "artifactId": "flexmark-util-dependency",
+        "version": "0.64.8",
+        "type": "Maven",
+        "id": "com.vladsch.flexmark flexmark-util-dependency 0.64.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.vladsch.flexmark",
+          "Name": "flexmark-util-dependency",
+          "Version": "0.64.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.vladsch.flexmark",
+          "artifactId": "flexmark",
+          "version": "0.64.8",
+          "type": "Maven",
+          "id": "com.vladsch.flexmark flexmark 0.64.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.vladsch.flexmark",
+            "Name": "flexmark",
+            "Version": "0.64.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.junit.jupiter",
+        "artifactId": "junit-jupiter-engine",
+        "version": "5.9.2",
+        "type": "Maven",
+        "id": "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.junit.jupiter",
+          "Name": "junit-jupiter-engine",
+          "Version": "5.9.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-engine",
+          "version": "5.9.2",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-engine",
+            "Version": "5.9.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apache.commons",
+        "artifactId": "commons-lang3",
+        "version": "3.12.0",
+        "type": "Maven",
+        "id": "org.apache.commons commons-lang3 3.12.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apache.commons",
+          "Name": "commons-lang3",
+          "Version": "3.12.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.apache.commons",
+          "artifactId": "commons-lang3",
+          "version": "3.12.0",
+          "type": "Maven",
+          "id": "org.apache.commons commons-lang3 3.12.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.apache.commons",
+            "Name": "commons-lang3",
+            "Version": "3.12.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "software.amazon.awssdk",
+        "artifactId": "metrics-spi",
+        "version": "2.24.0",
+        "type": "Maven",
+        "id": "software.amazon.awssdk metrics-spi 2.24.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "software.amazon.awssdk",
+          "Name": "metrics-spi",
+          "Version": "2.24.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "software.amazon.awssdk",
+          "artifactId": "auth",
+          "version": "2.24.0",
+          "type": "Maven",
+          "id": "software.amazon.awssdk auth 2.24.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "software.amazon.awssdk",
+            "Name": "auth",
+            "Version": "2.24.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "ch.qos.logback",
+        "artifactId": "logback-classic",
+        "version": "1.2.11",
+        "type": "Maven",
+        "id": "ch.qos.logback logback-classic 1.2.11 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "ch.qos.logback",
+          "Name": "logback-classic",
+          "Version": "1.2.11",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "ch.qos.logback",
+          "artifactId": "logback-classic",
+          "version": "1.2.11",
+          "type": "Maven",
+          "id": "ch.qos.logback logback-classic 1.2.11 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "ch.qos.logback",
+            "Name": "logback-classic",
+            "Version": "1.2.11",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "software.amazon.awssdk",
+        "artifactId": "identity-spi",
+        "version": "2.24.0",
+        "type": "Maven",
+        "id": "software.amazon.awssdk identity-spi 2.24.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "software.amazon.awssdk",
+          "Name": "identity-spi",
+          "Version": "2.24.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "software.amazon.awssdk",
+          "artifactId": "auth",
+          "version": "2.24.0",
+          "type": "Maven",
+          "id": "software.amazon.awssdk auth 2.24.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "software.amazon.awssdk",
+            "Name": "auth",
+            "Version": "2.24.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.jetbrains",
+        "artifactId": "annotations",
+        "version": "24.0.1",
+        "type": "Maven",
+        "id": "org.jetbrains annotations 24.0.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.jetbrains",
+          "Name": "annotations",
+          "Version": "24.0.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.vladsch.flexmark",
+          "artifactId": "flexmark",
+          "version": "0.64.8",
+          "type": "Maven",
+          "id": "com.vladsch.flexmark flexmark 0.64.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.vladsch.flexmark",
+            "Name": "flexmark",
+            "Version": "0.64.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.vladsch.flexmark",
+        "artifactId": "flexmark-util-collection",
+        "version": "0.64.8",
+        "type": "Maven",
+        "id": "com.vladsch.flexmark flexmark-util-collection 0.64.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.vladsch.flexmark",
+          "Name": "flexmark-util-collection",
+          "Version": "0.64.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.vladsch.flexmark",
+          "artifactId": "flexmark",
+          "version": "0.64.8",
+          "type": "Maven",
+          "id": "com.vladsch.flexmark flexmark 0.64.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.vladsch.flexmark",
+            "Name": "flexmark",
+            "Version": "0.64.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "software.amazon.awssdk",
+        "artifactId": "endpoints-spi",
+        "version": "2.24.0",
+        "type": "Maven",
+        "id": "software.amazon.awssdk endpoints-spi 2.24.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "software.amazon.awssdk",
+          "Name": "endpoints-spi",
+          "Version": "2.24.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "software.amazon.awssdk",
+          "artifactId": "auth",
+          "version": "2.24.0",
+          "type": "Maven",
+          "id": "software.amazon.awssdk auth 2.24.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "software.amazon.awssdk",
+            "Name": "auth",
+            "Version": "2.24.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "software.amazon.awssdk",
+        "artifactId": "http-auth-spi",
+        "version": "2.24.0",
+        "type": "Maven",
+        "id": "software.amazon.awssdk http-auth-spi 2.24.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "software.amazon.awssdk",
+          "Name": "http-auth-spi",
+          "Version": "2.24.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "software.amazon.awssdk",
+          "artifactId": "auth",
+          "version": "2.24.0",
+          "type": "Maven",
+          "id": "software.amazon.awssdk auth 2.24.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "software.amazon.awssdk",
+            "Name": "auth",
+            "Version": "2.24.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.fasterxml.jackson.core",
+        "artifactId": "jackson-annotations",
+        "version": "2.15.0",
+        "type": "Maven",
+        "id": "com.fasterxml.jackson.core jackson-annotations 2.15.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.fasterxml.jackson.core",
+          "Name": "jackson-annotations",
+          "Version": "2.15.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.fasterxml.jackson.core",
+          "artifactId": "jackson-annotations",
+          "version": "2.15.0",
+          "type": "Maven",
+          "id": "com.fasterxml.jackson.core jackson-annotations 2.15.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.fasterxml.jackson.core",
+            "Name": "jackson-annotations",
+            "Version": "2.15.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.vladsch.flexmark",
+        "artifactId": "flexmark-util-html",
+        "version": "0.64.8",
+        "type": "Maven",
+        "id": "com.vladsch.flexmark flexmark-util-html 0.64.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.vladsch.flexmark",
+          "Name": "flexmark-util-html",
+          "Version": "0.64.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.vladsch.flexmark",
+          "artifactId": "flexmark",
+          "version": "0.64.8",
+          "type": "Maven",
+          "id": "com.vladsch.flexmark flexmark 0.64.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.vladsch.flexmark",
+            "Name": "flexmark",
+            "Version": "0.64.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.vladsch.flexmark",
+        "artifactId": "flexmark-util-ast",
+        "version": "0.64.8",
+        "type": "Maven",
+        "id": "com.vladsch.flexmark flexmark-util-ast 0.64.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.vladsch.flexmark",
+          "Name": "flexmark-util-ast",
+          "Version": "0.64.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.vladsch.flexmark",
+          "artifactId": "flexmark",
+          "version": "0.64.8",
+          "type": "Maven",
+          "id": "com.vladsch.flexmark flexmark 0.64.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.vladsch.flexmark",
+            "Name": "flexmark",
+            "Version": "0.64.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.codehaus.woodstox",
+        "artifactId": "stax2-api",
+        "version": "4.2.1",
+        "type": "Maven",
+        "id": "org.codehaus.woodstox stax2-api 4.2.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.codehaus.woodstox",
+          "Name": "stax2-api",
+          "Version": "4.2.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.codehaus.woodstox",
+          "artifactId": "stax2-api",
+          "version": "4.2.1",
+          "type": "Maven",
+          "id": "org.codehaus.woodstox stax2-api 4.2.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.codehaus.woodstox",
+            "Name": "stax2-api",
+            "Version": "4.2.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.junit.platform",
+        "artifactId": "junit-platform-engine",
+        "version": "1.9.2",
+        "type": "Maven",
+        "id": "org.junit.platform junit-platform-engine 1.9.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.junit.platform",
+          "Name": "junit-platform-engine",
+          "Version": "1.9.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-engine",
+          "version": "5.9.2",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-engine 5.9.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-engine",
+            "Version": "5.9.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.junit.jupiter",
+        "artifactId": "junit-jupiter-api",
+        "version": "5.9.2",
+        "type": "Maven",
+        "id": "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.junit.jupiter",
+          "Name": "junit-jupiter-api",
+          "Version": "5.9.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-api",
+          "version": "5.9.2",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-api",
+            "Version": "5.9.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apiguardian",
+        "artifactId": "apiguardian-api",
+        "version": "1.1.2",
+        "type": "Maven",
+        "id": "org.apiguardian apiguardian-api 1.1.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apiguardian",
+          "Name": "apiguardian-api",
+          "Version": "1.1.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-api",
+          "version": "5.9.2",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-api",
+            "Version": "5.9.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "software.amazon.awssdk",
+        "artifactId": "annotations",
+        "version": "2.24.0",
+        "type": "Maven",
+        "id": "software.amazon.awssdk annotations 2.24.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "software.amazon.awssdk",
+          "Name": "annotations",
+          "Version": "2.24.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "software.amazon.awssdk",
+          "artifactId": "auth",
+          "version": "2.24.0",
+          "type": "Maven",
+          "id": "software.amazon.awssdk auth 2.24.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "software.amazon.awssdk",
+            "Name": "auth",
+            "Version": "2.24.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.objenesis",
+        "artifactId": "objenesis",
+        "version": "3.2",
+        "type": "Maven",
+        "id": "org.objenesis objenesis 3.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.objenesis",
+          "Name": "objenesis",
+          "Version": "3.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.mockito",
+          "artifactId": "mockito-core",
+          "version": "4.8.1",
+          "type": "Maven",
+          "id": "org.mockito mockito-core 4.8.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.mockito",
+            "Name": "mockito-core",
+            "Version": "4.8.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.slf4j",
+        "artifactId": "jul-to-slf4j",
+        "version": "1.7.36",
+        "type": "Maven",
+        "id": "org.slf4j jul-to-slf4j 1.7.36 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.slf4j",
+          "Name": "jul-to-slf4j",
+          "Version": "1.7.36",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.slf4j",
+          "artifactId": "jul-to-slf4j",
+          "version": "1.7.36",
+          "type": "Maven",
+          "id": "org.slf4j jul-to-slf4j 1.7.36 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.slf4j",
+            "Name": "jul-to-slf4j",
+            "Version": "1.7.36",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.fasterxml.jackson.dataformat",
+        "artifactId": "jackson-dataformat-cbor",
+        "version": "2.15.0",
+        "type": "Maven",
+        "id": "com.fasterxml.jackson.dataformat jackson-dataformat-cbor 2.15.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.fasterxml.jackson.dataformat",
+          "Name": "jackson-dataformat-cbor",
+          "Version": "2.15.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.fasterxml.jackson.dataformat",
+          "artifactId": "jackson-dataformat-cbor",
+          "version": "2.15.0",
+          "type": "Maven",
+          "id": "com.fasterxml.jackson.dataformat jackson-dataformat-cbor 2.15.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.fasterxml.jackson.dataformat",
+            "Name": "jackson-dataformat-cbor",
+            "Version": "2.15.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.glassfish.web",
+        "artifactId": "javax.el",
+        "version": "2.2.6",
+        "type": "Maven",
+        "id": "org.glassfish.web javax.el 2.2.6 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.glassfish.web",
+          "Name": "javax.el",
+          "Version": "2.2.6",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.glassfish.web",
+          "artifactId": "javax.el",
+          "version": "2.2.6",
+          "type": "Maven",
+          "id": "org.glassfish.web javax.el 2.2.6 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.glassfish.web",
+            "Name": "javax.el",
+            "Version": "2.2.6",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.fasterxml",
+        "artifactId": "classmate",
+        "version": "1.5.1",
+        "type": "Maven",
+        "id": "com.fasterxml classmate 1.5.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.fasterxml",
+          "Name": "classmate",
+          "Version": "1.5.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hibernate.validator",
+          "artifactId": "hibernate-validator",
+          "version": "6.2.5.Final",
+          "type": "Maven",
+          "id": "org.hibernate.validator hibernate-validator 6.2.5.Final - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hibernate.validator",
+            "Name": "hibernate-validator",
+            "Version": "6.2.5.Final",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.junit.vintage",
+        "artifactId": "junit-vintage-engine",
+        "version": "5.9.2",
+        "type": "Maven",
+        "id": "org.junit.vintage junit-vintage-engine 5.9.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.junit.vintage",
+          "Name": "junit-vintage-engine",
+          "Version": "5.9.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.vintage",
+          "artifactId": "junit-vintage-engine",
+          "version": "5.9.2",
+          "type": "Maven",
+          "id": "org.junit.vintage junit-vintage-engine 5.9.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.vintage",
+            "Name": "junit-vintage-engine",
+            "Version": "5.9.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.vladsch.flexmark",
+        "artifactId": "flexmark-util-options",
+        "version": "0.64.8",
+        "type": "Maven",
+        "id": "com.vladsch.flexmark flexmark-util-options 0.64.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.vladsch.flexmark",
+          "Name": "flexmark-util-options",
+          "Version": "0.64.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.vladsch.flexmark",
+          "artifactId": "flexmark-ext-emoji",
+          "version": "0.64.8",
+          "type": "Maven",
+          "id": "com.vladsch.flexmark flexmark-ext-emoji 0.64.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.vladsch.flexmark",
+            "Name": "flexmark-ext-emoji",
+            "Version": "0.64.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.vladsch.flexmark",
+        "artifactId": "flexmark-ext-gfm-tasklist",
+        "version": "0.64.8",
+        "type": "Maven",
+        "id": "com.vladsch.flexmark flexmark-ext-gfm-tasklist 0.64.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.vladsch.flexmark",
+          "Name": "flexmark-ext-gfm-tasklist",
+          "Version": "0.64.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.vladsch.flexmark",
+          "artifactId": "flexmark-ext-gfm-tasklist",
+          "version": "0.64.8",
+          "type": "Maven",
+          "id": "com.vladsch.flexmark flexmark-ext-gfm-tasklist 0.64.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.vladsch.flexmark",
+            "Name": "flexmark-ext-gfm-tasklist",
+            "Version": "0.64.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.fasterxml.jackson.jaxrs",
+        "artifactId": "jackson-jaxrs-json-provider",
+        "version": "2.15.0",
+        "type": "Maven",
+        "id": "com.fasterxml.jackson.jaxrs jackson-jaxrs-json-provider 2.15.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.fasterxml.jackson.jaxrs",
+          "Name": "jackson-jaxrs-json-provider",
+          "Version": "2.15.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.fasterxml.jackson.jaxrs",
+          "artifactId": "jackson-jaxrs-json-provider",
+          "version": "2.15.0",
+          "type": "Maven",
+          "id": "com.fasterxml.jackson.jaxrs jackson-jaxrs-json-provider 2.15.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.fasterxml.jackson.jaxrs",
+            "Name": "jackson-jaxrs-json-provider",
+            "Version": "2.15.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.vladsch.flexmark",
+        "artifactId": "flexmark-ext-gfm-strikethrough",
+        "version": "0.64.8",
+        "type": "Maven",
+        "id": "com.vladsch.flexmark flexmark-ext-gfm-strikethrough 0.64.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.vladsch.flexmark",
+          "Name": "flexmark-ext-gfm-strikethrough",
+          "Version": "0.64.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.vladsch.flexmark",
+          "artifactId": "flexmark-ext-gfm-strikethrough",
+          "version": "0.64.8",
+          "type": "Maven",
+          "id": "com.vladsch.flexmark flexmark-ext-gfm-strikethrough 0.64.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.vladsch.flexmark",
+            "Name": "flexmark-ext-gfm-strikethrough",
+            "Version": "0.64.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "ch.qos.logback",
+        "artifactId": "logback-access",
+        "version": "1.2.11",
+        "type": "Maven",
+        "id": "ch.qos.logback logback-access 1.2.11 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "ch.qos.logback",
+          "Name": "logback-access",
+          "Version": "1.2.11",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "ch.qos.logback",
+          "artifactId": "logback-access",
+          "version": "1.2.11",
+          "type": "Maven",
+          "id": "ch.qos.logback logback-access 1.2.11 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "ch.qos.logback",
+            "Name": "logback-access",
+            "Version": "1.2.11",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "software.amazon.awssdk",
+        "artifactId": "http-client-spi",
+        "version": "2.24.0",
+        "type": "Maven",
+        "id": "software.amazon.awssdk http-client-spi 2.24.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "software.amazon.awssdk",
+          "Name": "http-client-spi",
+          "Version": "2.24.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "software.amazon.awssdk",
+          "artifactId": "auth",
+          "version": "2.24.0",
+          "type": "Maven",
+          "id": "software.amazon.awssdk auth 2.24.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "software.amazon.awssdk",
+            "Name": "auth",
+            "Version": "2.24.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "software.amazon.awssdk",
+        "artifactId": "json-utils",
+        "version": "2.24.0",
+        "type": "Maven",
+        "id": "software.amazon.awssdk json-utils 2.24.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "software.amazon.awssdk",
+          "Name": "json-utils",
+          "Version": "2.24.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "software.amazon.awssdk",
+          "artifactId": "auth",
+          "version": "2.24.0",
+          "type": "Maven",
+          "id": "software.amazon.awssdk auth 2.24.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "software.amazon.awssdk",
+            "Name": "auth",
+            "Version": "2.24.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "software.amazon.awssdk",
+        "artifactId": "http-auth",
+        "version": "2.24.0",
+        "type": "Maven",
+        "id": "software.amazon.awssdk http-auth 2.24.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "software.amazon.awssdk",
+          "Name": "http-auth",
+          "Version": "2.24.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "software.amazon.awssdk",
+          "artifactId": "auth",
+          "version": "2.24.0",
+          "type": "Maven",
+          "id": "software.amazon.awssdk auth 2.24.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "software.amazon.awssdk",
+            "Name": "auth",
+            "Version": "2.24.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "commons-collections",
+        "artifactId": "commons-collections",
+        "version": "3.2.2",
+        "type": "Maven",
+        "id": "commons-collections commons-collections 3.2.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "commons-collections",
+          "Name": "commons-collections",
+          "Version": "3.2.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "commons-beanutils",
+          "artifactId": "commons-beanutils",
+          "version": "1.9.4",
+          "type": "Maven",
+          "id": "commons-beanutils commons-beanutils 1.9.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "commons-beanutils",
+            "Name": "commons-beanutils",
+            "Version": "1.9.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "net.bytebuddy",
+        "artifactId": "byte-buddy-agent",
+        "version": "1.12.16",
+        "type": "Maven",
+        "id": "net.bytebuddy byte-buddy-agent 1.12.16 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "net.bytebuddy",
+          "Name": "byte-buddy-agent",
+          "Version": "1.12.16",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.mockito",
+          "artifactId": "mockito-core",
+          "version": "4.8.1",
+          "type": "Maven",
+          "id": "org.mockito mockito-core 4.8.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.mockito",
+            "Name": "mockito-core",
+            "Version": "4.8.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.fasterxml.jackson.core",
+        "artifactId": "jackson-core",
+        "version": "2.15.0",
+        "type": "Maven",
+        "id": "com.fasterxml.jackson.core jackson-core 2.15.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.fasterxml.jackson.core",
+          "Name": "jackson-core",
+          "Version": "2.15.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.fasterxml.jackson.core",
+          "artifactId": "jackson-core",
+          "version": "2.15.0",
+          "type": "Maven",
+          "id": "com.fasterxml.jackson.core jackson-core 2.15.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.fasterxml.jackson.core",
+            "Name": "jackson-core",
+            "Version": "2.15.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.reactivestreams",
+        "artifactId": "reactive-streams",
+        "version": "1.0.4",
+        "type": "Maven",
+        "id": "org.reactivestreams reactive-streams 1.0.4 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.reactivestreams",
+          "Name": "reactive-streams",
+          "Version": "1.0.4",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "software.amazon.awssdk",
+          "artifactId": "auth",
+          "version": "2.24.0",
+          "type": "Maven",
+          "id": "software.amazon.awssdk auth 2.24.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "software.amazon.awssdk",
+            "Name": "auth",
+            "Version": "2.24.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.fasterxml.jackson.jaxrs",
+        "artifactId": "jackson-jaxrs-base",
+        "version": "2.15.0",
+        "type": "Maven",
+        "id": "com.fasterxml.jackson.jaxrs jackson-jaxrs-base 2.15.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.fasterxml.jackson.jaxrs",
+          "Name": "jackson-jaxrs-base",
+          "Version": "2.15.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.fasterxml.jackson.jaxrs",
+          "artifactId": "jackson-jaxrs-base",
+          "version": "2.15.0",
+          "type": "Maven",
+          "id": "com.fasterxml.jackson.jaxrs jackson-jaxrs-base 2.15.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.fasterxml.jackson.jaxrs",
+            "Name": "jackson-jaxrs-base",
+            "Version": "2.15.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "jakarta.validation",
+        "artifactId": "jakarta.validation-api",
+        "version": "2.0.2",
+        "type": "Maven",
+        "id": "jakarta.validation jakarta.validation-api 2.0.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "jakarta.validation",
+          "Name": "jakarta.validation-api",
+          "Version": "2.0.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hibernate.validator",
+          "artifactId": "hibernate-validator",
+          "version": "6.2.5.Final",
+          "type": "Maven",
+          "id": "org.hibernate.validator hibernate-validator 6.2.5.Final - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hibernate.validator",
+            "Name": "hibernate-validator",
+            "Version": "6.2.5.Final",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.typesafe",
+        "artifactId": "config",
+        "version": "1.4.2",
+        "type": "Maven",
+        "id": "com.typesafe config 1.4.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.typesafe",
+          "Name": "config",
+          "Version": "1.4.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.typesafe",
+          "artifactId": "config",
+          "version": "1.4.2",
+          "type": "Maven",
+          "id": "com.typesafe config 1.4.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.typesafe",
+            "Name": "config",
+            "Version": "1.4.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "de.svenkubiak",
+        "artifactId": "jBCrypt",
+        "version": "0.4.3",
+        "type": "Maven",
+        "id": "de.svenkubiak jBCrypt 0.4.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "de.svenkubiak",
+          "Name": "jbcrypt",
+          "Version": "0.4.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "de.svenkubiak",
+          "artifactId": "jBCrypt",
+          "version": "0.4.3",
+          "type": "Maven",
+          "id": "de.svenkubiak jBCrypt 0.4.3 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "de.svenkubiak",
+            "Name": "jbcrypt",
+            "Version": "0.4.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.vladsch.flexmark",
+        "artifactId": "flexmark-util-sequence",
+        "version": "0.64.8",
+        "type": "Maven",
+        "id": "com.vladsch.flexmark flexmark-util-sequence 0.64.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.vladsch.flexmark",
+          "Name": "flexmark-util-sequence",
+          "Version": "0.64.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.vladsch.flexmark",
+          "artifactId": "flexmark",
+          "version": "0.64.8",
+          "type": "Maven",
+          "id": "com.vladsch.flexmark flexmark 0.64.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.vladsch.flexmark",
+            "Name": "flexmark",
+            "Version": "0.64.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.fasterxml.jackson.dataformat",
+        "artifactId": "jackson-dataformat-yaml",
+        "version": "2.15.0",
+        "type": "Maven",
+        "id": "com.fasterxml.jackson.dataformat jackson-dataformat-yaml 2.15.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.fasterxml.jackson.dataformat",
+          "Name": "jackson-dataformat-yaml",
+          "Version": "2.15.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.fasterxml.jackson.dataformat",
+          "artifactId": "jackson-dataformat-yaml",
+          "version": "2.15.0",
+          "type": "Maven",
+          "id": "com.fasterxml.jackson.dataformat jackson-dataformat-yaml 2.15.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.fasterxml.jackson.dataformat",
+            "Name": "jackson-dataformat-yaml",
+            "Version": "2.15.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.vladsch.flexmark",
+        "artifactId": "flexmark",
+        "version": "0.64.8",
+        "type": "Maven",
+        "id": "com.vladsch.flexmark flexmark 0.64.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.vladsch.flexmark",
+          "Name": "flexmark",
+          "Version": "0.64.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.vladsch.flexmark",
+          "artifactId": "flexmark",
+          "version": "0.64.8",
+          "type": "Maven",
+          "id": "com.vladsch.flexmark flexmark 0.64.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.vladsch.flexmark",
+            "Name": "flexmark",
+            "Version": "0.64.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "software.amazon.awssdk",
+        "artifactId": "checksums-spi",
+        "version": "2.24.0",
+        "type": "Maven",
+        "id": "software.amazon.awssdk checksums-spi 2.24.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "software.amazon.awssdk",
+          "Name": "checksums-spi",
+          "Version": "2.24.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "software.amazon.awssdk",
+          "artifactId": "auth",
+          "version": "2.24.0",
+          "type": "Maven",
+          "id": "software.amazon.awssdk auth 2.24.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "software.amazon.awssdk",
+            "Name": "auth",
+            "Version": "2.24.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "javax.validation",
+        "artifactId": "validation-api",
+        "version": "2.0.1.Final",
+        "type": "Maven",
+        "id": "javax.validation validation-api 2.0.1.Final - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "javax.validation",
+          "Name": "validation-api",
+          "Version": "2.0.1.Final",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "javax.validation",
+          "artifactId": "validation-api",
+          "version": "2.0.1.Final",
+          "type": "Maven",
+          "id": "javax.validation validation-api 2.0.1.Final - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "javax.validation",
+            "Name": "validation-api",
+            "Version": "2.0.1.Final",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.opentest4j",
+        "artifactId": "opentest4j",
+        "version": "1.2.0",
+        "type": "Maven",
+        "id": "org.opentest4j opentest4j 1.2.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.opentest4j",
+          "Name": "opentest4j",
+          "Version": "1.2.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-api",
+          "version": "5.9.2",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-api 5.9.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-api",
+            "Version": "5.9.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "commons-beanutils",
+        "artifactId": "commons-beanutils",
+        "version": "1.9.4",
+        "type": "Maven",
+        "id": "commons-beanutils commons-beanutils 1.9.4 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "commons-beanutils",
+          "Name": "commons-beanutils",
+          "Version": "1.9.4",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "commons-beanutils",
+          "artifactId": "commons-beanutils",
+          "version": "1.9.4",
+          "type": "Maven",
+          "id": "commons-beanutils commons-beanutils 1.9.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "commons-beanutils",
+            "Name": "commons-beanutils",
+            "Version": "1.9.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "commons-io",
+        "artifactId": "commons-io",
+        "version": "2.11.0",
+        "type": "Maven",
+        "id": "commons-io commons-io 2.11.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "commons-io",
+          "Name": "commons-io",
+          "Version": "2.11.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "commons-io",
+          "artifactId": "commons-io",
+          "version": "2.11.0",
+          "type": "Maven",
+          "id": "commons-io commons-io 2.11.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "commons-io",
+            "Name": "commons-io",
+            "Version": "2.11.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "software.amazon.awssdk",
+        "artifactId": "http-auth-aws",
+        "version": "2.24.0",
+        "type": "Maven",
+        "id": "software.amazon.awssdk http-auth-aws 2.24.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "software.amazon.awssdk",
+          "Name": "http-auth-aws",
+          "Version": "2.24.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "software.amazon.awssdk",
+          "artifactId": "auth",
+          "version": "2.24.0",
+          "type": "Maven",
+          "id": "software.amazon.awssdk auth 2.24.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "software.amazon.awssdk",
+            "Name": "auth",
+            "Version": "2.24.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "software.amazon.awssdk",
+        "artifactId": "utils",
+        "version": "2.24.0",
+        "type": "Maven",
+        "id": "software.amazon.awssdk utils 2.24.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "software.amazon.awssdk",
+          "Name": "utils",
+          "Version": "2.24.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "software.amazon.awssdk",
+          "artifactId": "auth",
+          "version": "2.24.0",
+          "type": "Maven",
+          "id": "software.amazon.awssdk auth 2.24.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "software.amazon.awssdk",
+            "Name": "auth",
+            "Version": "2.24.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.samskivert",
+        "artifactId": "jmustache",
+        "version": "1.15",
+        "type": "Maven",
+        "id": "com.samskivert jmustache 1.15 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.samskivert",
+          "Name": "jmustache",
+          "Version": "1.15",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.samskivert",
+          "artifactId": "jmustache",
+          "version": "1.15",
+          "type": "Maven",
+          "id": "com.samskivert jmustache 1.15 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.samskivert",
+            "Name": "jmustache",
+            "Version": "1.15",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "io.github.classgraph",
+        "artifactId": "classgraph",
+        "version": "4.8.158",
+        "type": "Maven",
+        "id": "io.github.classgraph classgraph 4.8.158 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "io.github.classgraph",
+          "Name": "classgraph",
+          "Version": "4.8.158",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "io.github.classgraph",
+          "artifactId": "classgraph",
+          "version": "4.8.158",
+          "type": "Maven",
+          "id": "io.github.classgraph classgraph 4.8.158 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "io.github.classgraph",
+            "Name": "classgraph",
+            "Version": "4.8.158",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.vladsch.flexmark",
+        "artifactId": "flexmark-ext-autolink",
+        "version": "0.64.8",
+        "type": "Maven",
+        "id": "com.vladsch.flexmark flexmark-ext-autolink 0.64.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.vladsch.flexmark",
+          "Name": "flexmark-ext-autolink",
+          "Version": "0.64.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.vladsch.flexmark",
+          "artifactId": "flexmark-ext-autolink",
+          "version": "0.64.8",
+          "type": "Maven",
+          "id": "com.vladsch.flexmark flexmark-ext-autolink 0.64.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.vladsch.flexmark",
+            "Name": "flexmark-ext-autolink",
+            "Version": "0.64.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "io.dropwizard.metrics",
+        "artifactId": "metrics-core",
+        "version": "4.2.19",
+        "type": "Maven",
+        "id": "io.dropwizard.metrics metrics-core 4.2.19 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "io.dropwizard.metrics",
+          "Name": "metrics-core",
+          "Version": "4.2.19",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "io.dropwizard.metrics",
+          "artifactId": "metrics-core",
+          "version": "4.2.19",
+          "type": "Maven",
+          "id": "io.dropwizard.metrics metrics-core 4.2.19 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "io.dropwizard.metrics",
+            "Name": "metrics-core",
+            "Version": "4.2.19",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.vladsch.flexmark",
+        "artifactId": "flexmark-ext-tables",
+        "version": "0.64.8",
+        "type": "Maven",
+        "id": "com.vladsch.flexmark flexmark-ext-tables 0.64.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.vladsch.flexmark",
+          "Name": "flexmark-ext-tables",
+          "Version": "0.64.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.vladsch.flexmark",
+          "artifactId": "flexmark-ext-tables",
+          "version": "0.64.8",
+          "type": "Maven",
+          "id": "com.vladsch.flexmark flexmark-ext-tables 0.64.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.vladsch.flexmark",
+            "Name": "flexmark-ext-tables",
+            "Version": "0.64.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.fasterxml.jackson.module",
+        "artifactId": "jackson-module-parameter-names",
+        "version": "2.15.0",
+        "type": "Maven",
+        "id": "com.fasterxml.jackson.module jackson-module-parameter-names 2.15.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.fasterxml.jackson.module",
+          "Name": "jackson-module-parameter-names",
+          "Version": "2.15.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.fasterxml.jackson.module",
+          "artifactId": "jackson-module-parameter-names",
+          "version": "2.15.0",
+          "type": "Maven",
+          "id": "com.fasterxml.jackson.module jackson-module-parameter-names 2.15.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.fasterxml.jackson.module",
+            "Name": "jackson-module-parameter-names",
+            "Version": "2.15.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.slf4j",
+        "artifactId": "slf4j-api",
+        "version": "1.7.36",
+        "type": "Maven",
+        "id": "org.slf4j slf4j-api 1.7.36 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.slf4j",
+          "Name": "slf4j-api",
+          "Version": "1.7.36",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-api",
+          "version": "1.7.36",
+          "type": "Maven",
+          "id": "org.slf4j slf4j-api 1.7.36 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.slf4j",
+            "Name": "slf4j-api",
+            "Version": "1.7.36",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "net.bytebuddy",
+        "artifactId": "byte-buddy",
+        "version": "1.12.16",
+        "type": "Maven",
+        "id": "net.bytebuddy byte-buddy 1.12.16 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "net.bytebuddy",
+          "Name": "byte-buddy",
+          "Version": "1.12.16",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.mockito",
+          "artifactId": "mockito-core",
+          "version": "4.8.1",
+          "type": "Maven",
+          "id": "org.mockito mockito-core 4.8.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.mockito",
+            "Name": "mockito-core",
+            "Version": "4.8.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.vladsch.flexmark",
+        "artifactId": "flexmark-util-builder",
+        "version": "0.64.8",
+        "type": "Maven",
+        "id": "com.vladsch.flexmark flexmark-util-builder 0.64.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.vladsch.flexmark",
+          "Name": "flexmark-util-builder",
+          "Version": "0.64.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.vladsch.flexmark",
+          "artifactId": "flexmark",
+          "version": "0.64.8",
+          "type": "Maven",
+          "id": "com.vladsch.flexmark flexmark 0.64.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.vladsch.flexmark",
+            "Name": "flexmark",
+            "Version": "0.64.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.fasterxml.jackson.datatype",
+        "artifactId": "jackson-datatype-jdk8",
+        "version": "2.15.0",
+        "type": "Maven",
+        "id": "com.fasterxml.jackson.datatype jackson-datatype-jdk8 2.15.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.fasterxml.jackson.datatype",
+          "Name": "jackson-datatype-jdk8",
+          "Version": "2.15.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.fasterxml.jackson.datatype",
+          "artifactId": "jackson-datatype-jdk8",
+          "version": "2.15.0",
+          "type": "Maven",
+          "id": "com.fasterxml.jackson.datatype jackson-datatype-jdk8 2.15.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.fasterxml.jackson.datatype",
+            "Name": "jackson-datatype-jdk8",
+            "Version": "2.15.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "ch.qos.logback",
+        "artifactId": "logback-core",
+        "version": "1.2.11",
+        "type": "Maven",
+        "id": "ch.qos.logback logback-core 1.2.11 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "ch.qos.logback",
+          "Name": "logback-core",
+          "Version": "1.2.11",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "ch.qos.logback",
+          "artifactId": "logback-core",
+          "version": "1.2.11",
+          "type": "Maven",
+          "id": "ch.qos.logback logback-core 1.2.11 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "ch.qos.logback",
+            "Name": "logback-core",
+            "Version": "1.2.11",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "software.amazon.awssdk",
+        "artifactId": "auth",
+        "version": "2.24.0",
+        "type": "Maven",
+        "id": "software.amazon.awssdk auth 2.24.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "software.amazon.awssdk",
+          "Name": "auth",
+          "Version": "2.24.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "software.amazon.awssdk",
+          "artifactId": "auth",
+          "version": "2.24.0",
+          "type": "Maven",
+          "id": "software.amazon.awssdk auth 2.24.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "software.amazon.awssdk",
+            "Name": "auth",
+            "Version": "2.24.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "software.amazon.awssdk",
+        "artifactId": "third-party-jackson-core",
+        "version": "2.24.0",
+        "type": "Maven",
+        "id": "software.amazon.awssdk third-party-jackson-core 2.24.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "software.amazon.awssdk",
+          "Name": "third-party-jackson-core",
+          "Version": "2.24.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "software.amazon.awssdk",
+          "artifactId": "auth",
+          "version": "2.24.0",
+          "type": "Maven",
+          "id": "software.amazon.awssdk auth 2.24.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "software.amazon.awssdk",
+            "Name": "auth",
+            "Version": "2.24.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "software.amazon.awssdk",
+        "artifactId": "sdk-core",
+        "version": "2.24.0",
+        "type": "Maven",
+        "id": "software.amazon.awssdk sdk-core 2.24.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "software.amazon.awssdk",
+          "Name": "sdk-core",
+          "Version": "2.24.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "software.amazon.awssdk",
+          "artifactId": "auth",
+          "version": "2.24.0",
+          "type": "Maven",
+          "id": "software.amazon.awssdk auth 2.24.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "software.amazon.awssdk",
+            "Name": "auth",
+            "Version": "2.24.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.fasterxml.jackson.dataformat",
+        "artifactId": "jackson-dataformat-smile",
+        "version": "2.15.0",
+        "type": "Maven",
+        "id": "com.fasterxml.jackson.dataformat jackson-dataformat-smile 2.15.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.fasterxml.jackson.dataformat",
+          "Name": "jackson-dataformat-smile",
+          "Version": "2.15.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.fasterxml.jackson.dataformat",
+          "artifactId": "jackson-dataformat-smile",
+          "version": "2.15.0",
+          "type": "Maven",
+          "id": "com.fasterxml.jackson.dataformat jackson-dataformat-smile 2.15.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.fasterxml.jackson.dataformat",
+            "Name": "jackson-dataformat-smile",
+            "Version": "2.15.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "junit",
+        "artifactId": "junit",
+        "version": "4.13.1",
+        "type": "Maven",
+        "id": "junit junit 4.13.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "junit",
+          "Name": "junit",
+          "Version": "4.13.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "junit",
+          "artifactId": "junit",
+          "version": "4.13.1",
+          "type": "Maven",
+          "id": "junit junit 4.13.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "junit",
+            "Name": "junit",
+            "Version": "4.13.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "software.amazon.awssdk",
+        "artifactId": "profiles",
+        "version": "2.24.0",
+        "type": "Maven",
+        "id": "software.amazon.awssdk profiles 2.24.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "software.amazon.awssdk",
+          "Name": "profiles",
+          "Version": "2.24.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "software.amazon.awssdk",
+          "artifactId": "auth",
+          "version": "2.24.0",
+          "type": "Maven",
+          "id": "software.amazon.awssdk auth 2.24.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "software.amazon.awssdk",
+            "Name": "auth",
+            "Version": "2.24.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.jboss.logging",
+        "artifactId": "jboss-logging",
+        "version": "3.4.1.Final",
+        "type": "Maven",
+        "id": "org.jboss.logging jboss-logging 3.4.1.Final - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.jboss.logging",
+          "Name": "jboss-logging",
+          "Version": "3.4.1.Final",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hibernate.validator",
+          "artifactId": "hibernate-validator",
+          "version": "6.2.5.Final",
+          "type": "Maven",
+          "id": "org.hibernate.validator hibernate-validator 6.2.5.Final - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hibernate.validator",
+            "Name": "hibernate-validator",
+            "Version": "6.2.5.Final",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.vladsch.flexmark",
+        "artifactId": "flexmark-util",
+        "version": "0.64.8",
+        "type": "Maven",
+        "id": "com.vladsch.flexmark flexmark-util 0.64.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.vladsch.flexmark",
+          "Name": "flexmark-util",
+          "Version": "0.64.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.vladsch.flexmark",
+          "artifactId": "flexmark-ext-emoji",
+          "version": "0.64.8",
+          "type": "Maven",
+          "id": "com.vladsch.flexmark flexmark-ext-emoji 0.64.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.vladsch.flexmark",
+            "Name": "flexmark-ext-emoji",
+            "Version": "0.64.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.vladsch.flexmark",
+        "artifactId": "flexmark-util-misc",
+        "version": "0.64.8",
+        "type": "Maven",
+        "id": "com.vladsch.flexmark flexmark-util-misc 0.64.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.vladsch.flexmark",
+          "Name": "flexmark-util-misc",
+          "Version": "0.64.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.vladsch.flexmark",
+          "artifactId": "flexmark",
+          "version": "0.64.8",
+          "type": "Maven",
+          "id": "com.vladsch.flexmark flexmark 0.64.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.vladsch.flexmark",
+            "Name": "flexmark",
+            "Version": "0.64.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "software.amazon.eventstream",
+        "artifactId": "eventstream",
+        "version": "1.0.1",
+        "type": "Maven",
+        "id": "software.amazon.eventstream eventstream 1.0.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "software.amazon.eventstream",
+          "Name": "eventstream",
+          "Version": "1.0.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "software.amazon.awssdk",
+          "artifactId": "auth",
+          "version": "2.24.0",
+          "type": "Maven",
+          "id": "software.amazon.awssdk auth 2.24.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "software.amazon.awssdk",
+            "Name": "auth",
+            "Version": "2.24.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "io.github.hakky54",
+        "artifactId": "sslcontext-kickstart",
+        "version": "7.4.11",
+        "type": "Maven",
+        "id": "io.github.hakky54 sslcontext-kickstart 7.4.11 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "io.github.hakky54",
+          "Name": "sslcontext-kickstart",
+          "Version": "7.4.11",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "io.github.hakky54",
+          "artifactId": "sslcontext-kickstart",
+          "version": "7.4.11",
+          "type": "Maven",
+          "id": "io.github.hakky54 sslcontext-kickstart 7.4.11 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "io.github.hakky54",
+            "Name": "sslcontext-kickstart",
+            "Version": "7.4.11",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.hibernate.validator",
+        "artifactId": "hibernate-validator",
+        "version": "6.2.5.Final",
+        "type": "Maven",
+        "id": "org.hibernate.validator hibernate-validator 6.2.5.Final - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.hibernate.validator",
+          "Name": "hibernate-validator",
+          "Version": "6.2.5.Final",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.hibernate.validator",
+          "artifactId": "hibernate-validator",
+          "version": "6.2.5.Final",
+          "type": "Maven",
+          "id": "org.hibernate.validator hibernate-validator 6.2.5.Final - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.hibernate.validator",
+            "Name": "hibernate-validator",
+            "Version": "6.2.5.Final",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "javax.ws.rs",
+        "artifactId": "javax.ws.rs-api",
+        "version": "2.1.1",
+        "type": "Maven",
+        "id": "javax.ws.rs javax.ws.rs-api 2.1.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "javax.ws.rs",
+          "Name": "javax.ws.rs-api",
+          "Version": "2.1.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "javax.ws.rs",
+          "artifactId": "javax.ws.rs-api",
+          "version": "2.1.1",
+          "type": "Maven",
+          "id": "javax.ws.rs javax.ws.rs-api 2.1.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "javax.ws.rs",
+            "Name": "javax.ws.rs-api",
+            "Version": "2.1.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "software.amazon.awssdk",
+        "artifactId": "regions",
+        "version": "2.24.0",
+        "type": "Maven",
+        "id": "software.amazon.awssdk regions 2.24.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "software.amazon.awssdk",
+          "Name": "regions",
+          "Version": "2.24.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "software.amazon.awssdk",
+          "artifactId": "auth",
+          "version": "2.24.0",
+          "type": "Maven",
+          "id": "software.amazon.awssdk auth 2.24.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "software.amazon.awssdk",
+            "Name": "auth",
+            "Version": "2.24.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.fasterxml.jackson.core",
+        "artifactId": "jackson-databind",
+        "version": "2.15.0",
+        "type": "Maven",
+        "id": "com.fasterxml.jackson.core jackson-databind 2.15.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.fasterxml.jackson.core",
+          "Name": "jackson-databind",
+          "Version": "2.15.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.fasterxml.jackson.core",
+          "artifactId": "jackson-databind",
+          "version": "2.15.0",
+          "type": "Maven",
+          "id": "com.fasterxml.jackson.core jackson-databind 2.15.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.fasterxml.jackson.core",
+            "Name": "jackson-databind",
+            "Version": "2.15.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.vladsch.flexmark",
+        "artifactId": "flexmark-util-data",
+        "version": "0.64.8",
+        "type": "Maven",
+        "id": "com.vladsch.flexmark flexmark-util-data 0.64.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.vladsch.flexmark",
+          "Name": "flexmark-util-data",
+          "Version": "0.64.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.vladsch.flexmark",
+          "artifactId": "flexmark",
+          "version": "0.64.8",
+          "type": "Maven",
+          "id": "com.vladsch.flexmark flexmark 0.64.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.vladsch.flexmark",
+            "Name": "flexmark",
+            "Version": "0.64.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.vladsch.flexmark",
+        "artifactId": "flexmark-util-visitor",
+        "version": "0.64.8",
+        "type": "Maven",
+        "id": "com.vladsch.flexmark flexmark-util-visitor 0.64.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.vladsch.flexmark",
+          "Name": "flexmark-util-visitor",
+          "Version": "0.64.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.vladsch.flexmark",
+          "artifactId": "flexmark",
+          "version": "0.64.8",
+          "type": "Maven",
+          "id": "com.vladsch.flexmark flexmark 0.64.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.vladsch.flexmark",
+            "Name": "flexmark",
+            "Version": "0.64.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.erudika",
+        "artifactId": "para-core",
+        "version": "1.49.1-SNAPSHOT",
+        "type": "Maven",
+        "id": "com.erudika para-core 1.49.1-SNAPSHOT - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.erudika",
+          "Name": "para-core",
+          "Version": "1.49.1-SNAPSHOT",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": null,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "jakarta.inject",
+        "artifactId": "jakarta.inject-api",
+        "version": "1.0.5",
+        "type": "Maven",
+        "id": "jakarta.inject jakarta.inject-api 1.0.5 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "jakarta.inject",
+          "Name": "jakarta.inject-api",
+          "Version": "1.0.5",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "jakarta.inject",
+          "artifactId": "jakarta.inject-api",
+          "version": "1.0.5",
+          "type": "Maven",
+          "id": "jakarta.inject jakarta.inject-api 1.0.5 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "jakarta.inject",
+            "Name": "jakarta.inject-api",
+            "Version": "1.0.5",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.yaml",
+        "artifactId": "snakeyaml",
+        "version": "2.0",
+        "type": "Maven",
+        "id": "org.yaml snakeyaml 2.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.yaml",
+          "Name": "snakeyaml",
+          "Version": "2.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.fasterxml.jackson.dataformat",
+          "artifactId": "jackson-dataformat-yaml",
+          "version": "2.15.0",
+          "type": "Maven",
+          "id": "com.fasterxml.jackson.dataformat jackson-dataformat-yaml 2.15.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.fasterxml.jackson.dataformat",
+            "Name": "jackson-dataformat-yaml",
+            "Version": "2.15.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "commons-codec",
+        "artifactId": "commons-codec",
+        "version": "1.16.0",
+        "type": "Maven",
+        "id": "commons-codec commons-codec 1.16.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "commons-codec",
+          "Name": "commons-codec",
+          "Version": "1.16.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "commons-codec",
+          "artifactId": "commons-codec",
+          "version": "1.16.0",
+          "type": "Maven",
+          "id": "commons-codec commons-codec 1.16.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "commons-codec",
+            "Name": "commons-codec",
+            "Version": "1.16.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.vladsch.flexmark",
+        "artifactId": "flexmark-util-format",
+        "version": "0.64.8",
+        "type": "Maven",
+        "id": "com.vladsch.flexmark flexmark-util-format 0.64.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.vladsch.flexmark",
+          "Name": "flexmark-util-format",
+          "Version": "0.64.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.vladsch.flexmark",
+          "artifactId": "flexmark",
+          "version": "0.64.8",
+          "type": "Maven",
+          "id": "com.vladsch.flexmark flexmark 0.64.8 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.vladsch.flexmark",
+            "Name": "flexmark",
+            "Version": "0.64.8",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.fasterxml.jackson.datatype",
+        "artifactId": "jackson-datatype-jsr310",
+        "version": "2.15.0",
+        "type": "Maven",
+        "id": "com.fasterxml.jackson.datatype jackson-datatype-jsr310 2.15.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.fasterxml.jackson.datatype",
+          "Name": "jackson-datatype-jsr310",
+          "Version": "2.15.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.fasterxml.jackson.datatype",
+          "artifactId": "jackson-datatype-jsr310",
+          "version": "2.15.0",
+          "type": "Maven",
+          "id": "com.fasterxml.jackson.datatype jackson-datatype-jsr310 2.15.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.fasterxml.jackson.datatype",
+            "Name": "jackson-datatype-jsr310",
+            "Version": "2.15.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "software.amazon.awssdk",
+        "artifactId": "checksums",
+        "version": "2.24.0",
+        "type": "Maven",
+        "id": "software.amazon.awssdk checksums 2.24.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "software.amazon.awssdk",
+          "Name": "checksums",
+          "Version": "2.24.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "software.amazon.awssdk",
+          "artifactId": "auth",
+          "version": "2.24.0",
+          "type": "Maven",
+          "id": "software.amazon.awssdk auth 2.24.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "software.amazon.awssdk",
+            "Name": "auth",
+            "Version": "2.24.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    }
+  ],
+  "detectorsInScan": [
+    {
+      "detectorId": "Yarn",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Vcpkg",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Vcpkg"
+      ]
+    },
+    {
+      "detectorId": "RustCrateDetector",
+      "isExperimental": false,
+      "version": 8,
+      "supportedComponentTypes": [
+        "Cargo"
+      ]
+    },
+    {
+      "detectorId": "Ruby",
+      "isExperimental": false,
+      "version": 3,
+      "supportedComponentTypes": [
+        "RubyGems"
+      ]
+    },
+    {
+      "detectorId": "Poetry",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "Pnpm",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Pip",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "NuGet",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetPackagesConfig",
+      "isExperimental": true,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetProjectCentric",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "Npm",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "NpmWithRoots",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "MvnCli",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Linux",
+      "isExperimental": false,
+      "version": 4,
+      "supportedComponentTypes": [
+        "Linux"
+      ]
+    },
+    {
+      "detectorId": "Ivy",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Gradle",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Go",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Go"
+      ]
+    },
+    {
+      "detectorId": "CocoaPods",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pod",
+        "Git"
+      ]
+    },
+    {
+      "detectorId": "SPDX22SBOM",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "Spdx"
+      ]
+    }
+  ],
+  "containerDetailsMap": {},
+  "resultCode": "Success",
+  "sourceDirectory": "D:\\Work\\SBOM\\TestProjects\\para\\para-core"
+}

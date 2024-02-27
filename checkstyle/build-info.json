@@ -1,0 +1,1096 @@
+{
+  "name": "mvn-build",
+  "number": "1",
+  "agent": {},
+  "buildAgent": {
+    "name": "GENERIC"
+  },
+  "modules": [
+    {
+      "type": "maven",
+      "properties": {
+        "antlr4.version": "4.13.1",
+        "arguments": "",
+        "checkerframework.version": "3.27.0",
+        "doxia.version": "1.12.0",
+        "error-prone.version": "2.21.1",
+        "forbiddenapis.version": "3.4",
+        "java.version": "11",
+        "json-schema-validator.version": "1.2.0",
+        "junit.version": "5.9.2",
+        "maven.checkstyle.plugin.version": "3.2.0",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.plugin.version": "3.11.0",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "maven.jacoco.plugin.version": "0.8.8",
+        "maven.pmd.plugin.version": "3.21.0",
+        "maven.sevntu-checkstyle-check.checkstyle.version": "10.4",
+        "maven.sevntu.checkstyle.plugin.version": "1.44.1",
+        "maven.site.plugin.version": "3.12.1",
+        "maven.spotbugs.plugin.version": "4.7.3.5",
+        "maven.versions.plugin.version": "2.16.0",
+        "mockito.version": "5.2.0",
+        "pitest.accelerator.junit5.plugin.version": "1.0.6",
+        "pitest.junit5.plugin.version": "1.2.0",
+        "pitest.plugin.output.formats": "HTML,XML",
+        "pitest.plugin.threads": "4",
+        "pitest.plugin.timeout.constant": "50000",
+        "pitest.plugin.timeout.factor": "10",
+        "pitest.plugin.version": "1.14.4",
+        "pmd.version": "6.55.0",
+        "project.build.sourceEncoding": "UTF-8",
+        "project.reporting.outputEncoding": "UTF-8",
+        "projectVersion": "10.12.5-SNAPSHOT",
+        "saxon.version": "12.3",
+        "sonar.test.exclusions": "**/test/resources/**/*,**/it/resources/**/*",
+        "sonatypeOssDistMgmtSnapshotsUrl": "https://oss.sonatype.org/content/repositories/snapshots/",
+        "surefire.options": ""
+      },
+      "id": "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "checkstyle-10.12.5-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/puppycrawl/tools/checkstyle/10.12.5-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "org.apache.maven.doxia:doxia-module-xdoc:1.12.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "bbc6cf253fe80fa7b2765997d480e61153427ee6",
+          "md5": "a2dec0cc496e1daaf7a754c871df86b0",
+          "sha256": "e8731ba00a4edd34b20eff9e4a729c2045c62cb796c3e491692607de4476ab01"
+        },
+        {
+          "id": "org.apache.httpcomponents.core5:httpcore5:5.1.3",
+          "type": "jar",
+          "scopes": [
+            "runtime"
+          ],
+          "requestedBy": [
+            [
+              "org.xmlresolver:xmlresolver:5.2.0",
+              "net.sf.saxon:Saxon-HE:12.3",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.slf4j:slf4j-api:1.7.32",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.reflections:reflections:0.10.2",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "cdcff33940d9f2de763bc41ea05a0be5941176c3",
+          "md5": "fbcf58513bc25b80f075d812aad3e3cf",
+          "sha256": "3624f8474c1af46d75f98bc097d7864a323c81b3808aa43689a6e1c601c027be"
+        },
+        {
+          "id": "org.reflections:reflections:0.10.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b638d7ca0e0fe0146b60a0e7ba232ad852a73b31",
+          "md5": "1d0070839d825f57fe6f4d8e2a82989b",
+          "sha256": "938a2d08fe54050d7610b944d8ddc3a09355710d9e6be0aac838dbc04e9a2825"
+        },
+        {
+          "id": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.0.1-jre",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b421526c5f297295adef1c886e5246c39d4ac629",
+          "md5": "d094c22570d65e132c19cea5d352e381",
+          "sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+          "id": "org.apache.commons:commons-text:1.3",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.maven.doxia:doxia-core:1.12.0",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "9abf61708a66ab5e55f6169a200dbfc584b546d9",
+          "md5": "e12b93c4a7fa6326e8afe557243c8651",
+          "sha256": "8185b3a5311092d83ed1f184c2d093b3105d726bbd76867c32b3511542bb99a8"
+        },
+        {
+          "id": "org.junit.platform:junit-platform-launcher:1.9.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit-pioneer:junit-pioneer:2.0.1",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "commons-io:commons-io:2.14.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.truth:truth:1.1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.objenesis:objenesis:3.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "nl.jqno.equalsverifier:equalsverifier:3.15.2",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.collections:google-collections:1.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.codehaus.plexus:plexus-container-default:2.1.0",
+              "org.apache.maven.doxia:doxia-core:1.12.0",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "9ffe71ac6dcab6bc03ea13f5c2e7b2804e69b357",
+          "md5": "7c882c8d734e50112000e4a88e06c535",
+          "sha256": "81b8d638af0083c4b877099d56aa0fee714485cd2ace1b6a09cab867cadb375d"
+        },
+        {
+          "id": "org.junit.jupiter:junit-jupiter-engine:5.9.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.apache.httpcomponents:httpcore:4.4.14",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.maven.doxia:doxia-core:1.12.0",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "9dd1a631c082d92ecd4bd8fd4cf55026c720a8c1",
+          "md5": "2b3991eda121042765a5ee299556c200",
+          "sha256": "f956209e450cb1d0c51776dfbd23e53e9dd8db9a1298ed62b70bf0944ba63b28"
+        },
+        {
+          "id": "org.opentest4j:opentest4j:1.2.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter-api:5.9.2",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "net.sf.saxon:Saxon-HE:12.3",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "2094978cd420710b0874e1e4c09323dd181465e1",
+          "md5": "76f62733796b51b56f0b089906835ec2",
+          "sha256": "6c546dfdf3c0fcb879df7549b53c2286db5cc19fd0f67b30cfc801be589017c8"
+        },
+        {
+          "id": "org.eclipse.jgit:org.eclipse.jgit:6.7.0.202309050840-r",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.tngtech.archunit:archunit-junit5-api:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.tngtech.archunit:archunit-junit5:1.0.1",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.apache.ant:ant:1.10.14",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1edce9bbfa60dfd51f010879c78f4421dafae7a7",
+          "md5": "263e00d844d0e4efa54440ec5ed6362a",
+          "sha256": "4cbbd9243de4c1042d61d9a15db4c43c90ff93b16d78b39481da1c956c8e9671"
+        },
+        {
+          "id": "com.google.guava:failureaccess:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.0.1-jre",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9",
+          "md5": "091883993ef5bfa91da01dcc8fc52236",
+          "sha256": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+        },
+        {
+          "id": "junit:junit:4.13.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.truth:truth:1.1.3",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "info.picocli:picocli:4.7.5",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a6f99ec0a97aeb3be63a9f55703b28f2cf08788f",
+          "md5": "130eeeb3c9c1a58d7174d10a9d771644",
+          "sha256": "e83a906fb99b57091d1d68ac11f7c3d2518bd7a81a9c71b259e2c00d1564c8e8"
+        },
+        {
+          "id": "org.hamcrest:hamcrest-core:1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "junit:junit:4.13.2",
+              "com.google.truth:truth:1.1.3",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.itsallcode:junit5-system-extensions:1.2.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.junit.platform:junit-platform-commons:1.9.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter-api:5.9.2",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "commons-logging:commons-logging:1.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "commons-beanutils:commons-beanutils:1.9.4",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "4bfc12adfe4842bf07b657f0369c4cb522955686",
+          "md5": "040b4b4d8eac886f6b4a2a3bd2f31b00",
+          "sha256": "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636"
+        },
+        {
+          "id": "org.apache.xbean:xbean-reflect:3.7",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.codehaus.plexus:plexus-container-default:2.1.0",
+              "org.apache.maven.doxia:doxia-core:1.12.0",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6072a967ec936b3bb25b421d8eca07dd750219fd",
+          "md5": "b77f0c9914e56547409e65137acba9eb",
+          "sha256": "104e5e9bb5a669f86722f32281960700f7ec8e3209ef51b23eb9b6d23d1629cb"
+        },
+        {
+          "id": "nl.jqno.equalsverifier:equalsverifier:3.15.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.junit.jupiter:junit-jupiter-params:5.9.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit-pioneer:junit-pioneer:2.0.1",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.codehaus.plexus:plexus-container-default:2.1.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.maven.doxia:doxia-core:1.12.0",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c189df3d30aa7707c36aa2746fae55ebe11d711e",
+          "md5": "38bb4378dcf8868a6ef203b0f4a2ddae",
+          "sha256": "6dceb1246b188153bdcb6f962d543d51ddb672cca07cad94a78fbabc9edf0a39"
+        },
+        {
+          "id": "org.checkerframework:checker-qual:3.27.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "331f93a364f95a05888419b4e138d27cd774206a",
+          "md5": "16bba7762475ac7d67cfe0221071ea2f",
+          "sha256": "25fda6f3eb2ee2139ff5d7d3992667d526ebf1b0fb87df36fc75aa35679e6dab"
+        },
+        {
+          "id": "org.slf4j:slf4j-simple:2.0.9",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.code.findbugs:jsr305:3.0.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.0.1-jre",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+          "md5": "dd83accb899363c32b07d7a1b2e4ce40",
+          "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+          "id": "de.thetaphi:forbiddenapis:3.4",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.guava:guava:32.0.1-jre",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6e5d51a72d142f2d40a57dfb897188b36a95b489",
+          "md5": "6951895e804b36322214c95917e598d4",
+          "sha256": "bd7fa227591fb8509677d0d1122cf95158f3b8a9f45653f58281d879f6dc48c5"
+        },
+        {
+          "id": "org.apache.maven.doxia:doxia-core:1.12.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "41cdaff3ce98e66714bfca677babaa3746faa2b9",
+          "md5": "6fb71383ea91e6101a75f25b922ce2ad",
+          "sha256": "5e49cd827bebbcea5829d3b3883d17ad1ce15ebd6394aeb50ad50d7dfd939fcd"
+        },
+        {
+          "id": "org.antlr:antlr4-runtime:4.13.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "17125bae1d965624e265ef49552f6465a2bfa307",
+          "md5": "dd465ddb2a8dbf69eb6c94e69a0d5f0f",
+          "sha256": "54665d2838cc66458343468efc539e454fc95b46a8a04b13c6ac43fc9be63505"
+        },
+        {
+          "id": "net.bytebuddy:byte-buddy-agent:1.14.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mockito:mockito-core:5.2.0",
+              "org.mockito:mockito-inline:5.2.0",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.apache.httpcomponents:httpclient:4.5.13",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.maven.doxia:doxia-core:1.12.0",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada",
+          "md5": "40d6b9075fbd28fa10292a45a0db9457",
+          "sha256": "6fe9026a566c6a5001608cf3fc32196641f6c1e5e1986d1037ccdbd5f31ef743"
+        },
+        {
+          "id": "net.bytebuddy:byte-buddy:1.14.8",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "nl.jqno.equalsverifier:equalsverifier:3.15.2",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.mockito:mockito-core:5.2.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mockito:mockito-inline:5.2.0",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.junit-pioneer:junit-pioneer:2.0.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.tngtech.archunit:archunit-junit5:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.ow2.asm:asm:9.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.truth:truth:1.1.3",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.xmlresolver:xmlresolver:5.2.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "net.sf.saxon:Saxon-HE:12.3",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ],
+            [
+              "net.sf.saxon:Saxon-HE:12.3",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1a4838afd62324a16baa7624a24d659d0be64dab",
+          "md5": "5e1ccf5a37258c44e7fa23b7b5074820",
+          "sha256": "42f26c61fdfa6ad9a68c774f91dd7cefc0175e276c518ba52c3c5b87f54a17ac"
+        },
+        {
+          "id": "org.apache.httpcomponents.client5:httpclient5:5.1.3",
+          "type": "jar",
+          "scopes": [
+            "runtime"
+          ],
+          "requestedBy": [
+            [
+              "org.xmlresolver:xmlresolver:5.2.0",
+              "net.sf.saxon:Saxon-HE:12.3",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.apache.ant:ant-launcher:1.10.14",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.ant:ant:1.10.14",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "8d2268288496b0541a2640f2ee07fe3de1a02301",
+          "md5": "0e6c71b2f05383e1fb891e99f5267663",
+          "sha256": "f0909725a7a24e393888f3fbb558347abf506ce2f7ebc581ff26331b94d951a5"
+        },
+        {
+          "id": "commons-beanutils:commons-beanutils:1.9.4",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "d52b9abcd97f38c81342bb7e7ae1eee9b73cba51",
+          "md5": "07dc532ee316fe1f2f0323e9bd2f8df4",
+          "sha256": "7d938c81789028045c08c065e94be75fc280527620d5bd62b519d5838532368a"
+        },
+        {
+          "id": "com.google.j2objc:j2objc-annotations:2.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.0.1-jre",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c85270e307e7b822f1086b93689124b89768e273",
+          "md5": "c50af69b704dc91050efb98e0dff66d1",
+          "sha256": "f02a95fa1a5e95edb3ed859fd0fb7df709d121a35290eff8b74dce2ab7f4d6ed"
+        },
+        {
+          "id": "org.apache.commons:commons-lang3:3.8.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.maven.doxia:doxia-core:1.12.0",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6505a72a097d9270f7a9e7bf42c4238283247755",
+          "md5": "540b1256d887a6993ecbef23371a3302",
+          "sha256": "dac807f65b07698ff39b1b07bfef3d87ae3fd46d91bbf8a2bc02b2a831616f68"
+        },
+        {
+          "id": "com.github.caciocavallosilano:cacio-shared:1.11",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.github.caciocavallosilano:cacio-tta:1.11",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.github.caciocavallosilano:cacio-tta:1.11",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.apache.maven.doxia:doxia-logging-api:1.12.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.maven.doxia:doxia-core:1.12.0",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a31fac8c598c0090ccd2c53b4df7d49f81fb9dba",
+          "md5": "7f3c898809424e826aeab3368c66acd7",
+          "sha256": "985306162c0a9f4c309d46109447f30f02bf6fc9bc16a3e039d59e1dabd0192f"
+        },
+        {
+          "id": "org.codehaus.plexus:plexus-utils:3.3.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.maven.doxia:doxia-core:1.12.0",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "cf43b5391de623b36fe066a21127baef82c64022",
+          "md5": "3ae76ff0195ada460d495efe1fb50d17",
+          "sha256": "76d174792540e2775af94d03d10fb2d3c776e2cd0ac0ebf427d3e570072bb9ce"
+        },
+        {
+          "id": "com.google.auto.value:auto-value-annotations:1.8.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.truth:truth:1.1.3",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.tngtech.archunit:archunit-junit5-engine:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.tngtech.archunit:archunit-junit5:1.0.1",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.mockito:mockito-inline:5.2.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "commons-collections:commons-collections:3.2.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "commons-beanutils:commons-beanutils:1.9.4",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5",
+          "md5": "f54a8510f834a1a57166970bfc982e94",
+          "sha256": "eeeae917917144a68a741d4c0dff66aa5c5c5fd85593ff217bced3fc8ca783b8"
+        },
+        {
+          "id": "org.apiguardian:apiguardian-api:1.1.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter-api:5.9.2",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.junit.platform:junit-platform-engine:1.9.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter-engine:5.9.2",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.jacoco:org.jacoco.agent:0.8.8",
+          "type": "runtime",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotations:2.18.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.0.1-jre",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "89b684257096f548fa39a7df9fdaa409d4d4df91",
+          "md5": "64145d0e7fee5a69ed7b84cf402de998",
+          "sha256": "9e6814cb71816988a4fd1b07a993a8f21bb7058d522c162b1de849e19bea54ae"
+        },
+        {
+          "id": "org.xmlresolver:xmlresolver:5.2.0",
+          "type": "data-jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "net.sf.saxon:Saxon-HE:12.3",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ],
+            [
+              "net.sf.saxon:Saxon-HE:12.3",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c24d17008879ace5a64e819377863ca26c517367",
+          "md5": "67f604a5447eefcbdeecb6249c30a385",
+          "sha256": "78738c0964e323498a55a3aa116fbd2c4e16c0a015dc2605613aecef7fcb4197"
+        },
+        {
+          "id": "org.apache.maven.doxia:doxia-sink-api:1.12.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.maven.doxia:doxia-core:1.12.0",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "92a2fdeaeb59e921fff9c5ca9a2ea6118a494760",
+          "md5": "965677b99fde26ed0b5556dbab622075",
+          "sha256": "5dca6aaaa9e70d8a0766e143ddcf9db09de5fde0fbcc78cb635d74e764dfcca5"
+        },
+        {
+          "id": "org.apache.httpcomponents.core5:httpcore5-h2:5.1.3",
+          "type": "jar",
+          "scopes": [
+            "runtime"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.httpcomponents.client5:httpclient5:5.1.3",
+              "org.xmlresolver:xmlresolver:5.2.0",
+              "net.sf.saxon:Saxon-HE:12.3",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.googlecode.javaewah:JavaEWAH:1.2.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.eclipse.jgit:org.eclipse.jgit:6.7.0.202309050840-r",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.tngtech.archunit:archunit:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.tngtech.archunit:archunit-junit5-api:1.0.1",
+              "com.tngtech.archunit:archunit-junit5:1.0.1",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.codehaus.plexus:plexus-classworlds:2.6.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.codehaus.plexus:plexus-container-default:2.1.0",
+              "org.apache.maven.doxia:doxia-core:1.12.0",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "8587e80fcb38e70b70fae8d5914b6376bfad6259",
+          "md5": "67e722b27e3a33b33c1b263b99dd7c43",
+          "sha256": "52f77c5ec49f787c9c417ebed5d6efd9922f44a202f217376e4f94c0d74f3549"
+        },
+        {
+          "id": "org.junit.jupiter:junit-jupiter-api:5.9.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.tngtech.archunit:archunit-junit5-engine-api:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.tngtech.archunit:archunit-junit5-engine:1.0.1",
+              "com.tngtech.archunit:archunit-junit5:1.0.1",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.codehaus.plexus:plexus-component-annotations:2.1.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.maven.doxia:doxia-core:1.12.0",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "2f2147a6cc6a119a1b51a96f31d45c557f6244b9",
+          "md5": "141fd7a2ae613cb17d25ecd54b43eb3f",
+          "sha256": "bde3617ce9b5bcf9584126046080043af6a4b3baea40a3b153f02e7bbc32acac"
+        },
+        {
+          "id": "org.javassist:javassist:3.28.0-GA",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.reflections:reflections:0.10.2",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ],
+          "sha1": "9a958811a88381bb159cc2f5ed79c34a45c4af7a",
+          "md5": "1a2dd8c76321cef26cc2669fe70a2557",
+          "sha256": "57d0a9e9286f82f4eaa851125186997f811befce0e2060ff0a15a77f5a9dd9a7"
+        },
+        {
+          "id": "commons-codec:commons-codec:1.16.0",
+          "type": "jar",
+          "scopes": [
+            "runtime"
+          ],
+          "requestedBy": [
+            [
+              "org.eclipse.jgit:org.eclipse.jgit:6.7.0.202309050840-r",
+              "com.puppycrawl.tools:checkstyle:10.12.5-SNAPSHOT"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "started": "2024-02-05T20:31:37.685+0800"
+}

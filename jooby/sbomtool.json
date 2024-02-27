@@ -1,0 +1,2628 @@
+{
+  "dependencyGraphs": {
+    "D:\\Work\\SBOM\\TestProjects\\jooby\\jooby\\pom.xml": {
+      "graph": {
+        "org.jacoco org.jacoco.agent 0.8.10 - Maven": null,
+        "org.webjars.npm vue__compiler-ssr 3.3.4 - Maven": null,
+        "com.github.spotbugs spotbugs-annotations 4.7.3 - Maven": [
+          "com.google.code.findbugs jsr305 3.0.2 - Maven"
+        ],
+        "org.webjars.npm nanoid 3.3.7 - Maven": null,
+        "com.google.guava listenablefuture 9999.0-empty-to-avoid-conflict-with-guava - Maven": null,
+        "net.bytebuddy byte-buddy 1.14.8 - Maven": null,
+        "com.squareup.okio okio-jvm 3.2.0 - Maven": null,
+        "org.jetbrains.kotlin kotlin-stdlib-jdk7 1.6.20 - Maven": null,
+        "org.webjars.npm vue__reactivity-transform 3.3.4 - Maven": null,
+        "org.webjars.npm vue__reactivity 3.3.4 - Maven": null,
+        "com.github.vladimir-bukhtoyarov bucket4j-core 7.6.0 - Maven": null,
+        "org.jetbrains.kotlin kotlin-stdlib-common 1.9.10 - Maven": null,
+        "org.apiguardian apiguardian-api 1.1.2 - Maven": null,
+        "org.webjars.npm source-map-js 1.0.2 - Maven": null,
+        "org.webjars.npm vue__compiler-dom 3.3.4 - Maven": [
+          "org.webjars.npm vue__compiler-core 3.3.4 - Maven"
+        ],
+        "org.webjars.npm csstype 3.1.3 - Maven": null,
+        "org.webjars.npm picocolors 1.0.0 - Maven": null,
+        "org.junit.platform junit-platform-engine 1.10.0 - Maven": [
+          "org.opentest4j opentest4j 1.3.0 - Maven",
+          "org.junit.platform junit-platform-commons 1.10.0 - Maven"
+        ],
+        "jakarta.inject jakarta.inject-api 2.0.1 - Maven": null,
+        "org.junit.platform junit-platform-commons 1.10.0 - Maven": null,
+        "org.webjars.npm vue__shared 3.3.4 - Maven": null,
+        "org.mockito mockito-core 5.6.0 - Maven": [
+          "net.bytebuddy byte-buddy 1.14.8 - Maven",
+          "net.bytebuddy byte-buddy-agent 1.14.8 - Maven",
+          "org.objenesis objenesis 3.3 - Maven"
+        ],
+        "org.webjars.npm postcss 8.4.34 - Maven": [
+          "org.webjars.npm nanoid 3.3.7 - Maven",
+          "org.webjars.npm picocolors 1.0.0 - Maven"
+        ],
+        "org.webjars.npm jridgewell__sourcemap-codec 1.4.15 - Maven": null,
+        "org.webjars.npm vue 3.3.4 - Maven": [
+          "org.webjars.npm vue__runtime-dom 3.3.4 - Maven",
+          "org.webjars.npm vue__server-renderer 3.3.4 - Maven",
+          "org.webjars.npm vue__shared 3.3.4 - Maven",
+          "org.webjars.npm vue__compiler-dom 3.3.4 - Maven",
+          "org.webjars.npm vue__compiler-sfc 3.3.4 - Maven"
+        ],
+        "io.jooby jooby 3.0.6-SNAPSHOT - Maven": [
+          "com.github.spotbugs spotbugs-annotations 4.7.3 - Maven",
+          "org.slf4j slf4j-api 2.0.9 - Maven",
+          "jakarta.inject jakarta.inject-api 2.0.1 - Maven",
+          "com.typesafe config 1.4.2 - Maven",
+          "com.github.vladimir-bukhtoyarov bucket4j-core 7.6.0 - Maven",
+          "org.junit.jupiter junit-jupiter-engine 5.10.0 - Maven",
+          "org.jacoco org.jacoco.agent 0.8.10 - Maven",
+          "com.squareup.okhttp3 okhttp 4.11.0 - Maven",
+          "org.mockito mockito-core 5.6.0 - Maven",
+          "com.google.guava guava 32.1.2-jre - Maven",
+          "org.webjars.npm vue 3.3.4 - Maven"
+        ],
+        "org.webjars.npm vue__compiler-core 3.3.4 - Maven": null,
+        "org.junit.jupiter junit-jupiter-api 5.10.0 - Maven": null,
+        "com.google.guava failureaccess 1.0.1 - Maven": null,
+        "org.webjars.npm babel__parser 8.0.0-alpha.6 - Maven": null,
+        "org.objenesis objenesis 3.3 - Maven": null,
+        "org.jetbrains annotations 13.0 - Maven": null,
+        "com.google.j2objc j2objc-annotations 2.8 - Maven": null,
+        "org.webjars.npm estree-walker 2.0.2 - Maven": null,
+        "com.typesafe config 1.4.2 - Maven": null,
+        "org.webjars.npm vue__runtime-core 3.3.4 - Maven": [
+          "org.webjars.npm vue__reactivity 3.3.4 - Maven"
+        ],
+        "org.jetbrains.kotlin kotlin-stdlib-jdk8 1.6.20 - Maven": [
+          "org.jetbrains.kotlin kotlin-stdlib-jdk7 1.6.20 - Maven"
+        ],
+        "com.google.guava guava 32.1.2-jre - Maven": [
+          "com.google.guava failureaccess 1.0.1 - Maven",
+          "com.google.guava listenablefuture 9999.0-empty-to-avoid-conflict-with-guava - Maven",
+          "org.checkerframework checker-qual 3.33.0 - Maven",
+          "com.google.errorprone error_prone_annotations 2.18.0 - Maven",
+          "com.google.j2objc j2objc-annotations 2.8 - Maven"
+        ],
+        "com.squareup.okio okio 3.2.0 - Maven": [
+          "com.squareup.okio okio-jvm 3.2.0 - Maven"
+        ],
+        "org.slf4j slf4j-api 2.0.9 - Maven": null,
+        "org.checkerframework checker-qual 3.33.0 - Maven": null,
+        "org.junit.jupiter junit-jupiter-engine 5.10.0 - Maven": [
+          "org.junit.platform junit-platform-engine 1.10.0 - Maven",
+          "org.junit.jupiter junit-jupiter-api 5.10.0 - Maven",
+          "org.apiguardian apiguardian-api 1.1.2 - Maven"
+        ],
+        "org.webjars.npm magic-string 0.30.7 - Maven": [
+          "org.webjars.npm jridgewell__sourcemap-codec 1.4.15 - Maven"
+        ],
+        "org.opentest4j opentest4j 1.3.0 - Maven": null,
+        "com.google.errorprone error_prone_annotations 2.18.0 - Maven": null,
+        "net.bytebuddy byte-buddy-agent 1.14.8 - Maven": null,
+        "org.webjars.npm vue__compiler-sfc 3.3.4 - Maven": [
+          "org.webjars.npm magic-string 0.30.7 - Maven",
+          "org.webjars.npm postcss 8.4.34 - Maven",
+          "org.webjars.npm vue__reactivity-transform 3.3.4 - Maven",
+          "org.webjars.npm estree-walker 2.0.2 - Maven",
+          "org.webjars.npm source-map-js 1.0.2 - Maven",
+          "org.webjars.npm babel__parser 8.0.0-alpha.6 - Maven"
+        ],
+        "com.squareup.okhttp3 okhttp 4.11.0 - Maven": [
+          "com.squareup.okio okio 3.2.0 - Maven",
+          "org.jetbrains.kotlin kotlin-stdlib 1.9.10 - Maven",
+          "org.jetbrains.kotlin kotlin-stdlib-jdk8 1.6.20 - Maven"
+        ],
+        "org.webjars.npm vue__runtime-dom 3.3.4 - Maven": [
+          "org.webjars.npm vue__runtime-core 3.3.4 - Maven",
+          "org.webjars.npm csstype 3.1.3 - Maven"
+        ],
+        "org.jetbrains.kotlin kotlin-stdlib 1.9.10 - Maven": [
+          "org.jetbrains.kotlin kotlin-stdlib-common 1.9.10 - Maven",
+          "org.jetbrains annotations 13.0 - Maven"
+        ],
+        "com.google.code.findbugs jsr305 3.0.2 - Maven": null,
+        "org.webjars.npm vue__server-renderer 3.3.4 - Maven": [
+          "org.webjars.npm vue__compiler-ssr 3.3.4 - Maven"
+        ]
+      },
+      "explicitlyReferencedComponentIds": [
+        "org.jacoco org.jacoco.agent 0.8.10 - Maven",
+        "com.github.spotbugs spotbugs-annotations 4.7.3 - Maven",
+        "com.github.vladimir-bukhtoyarov bucket4j-core 7.6.0 - Maven",
+        "jakarta.inject jakarta.inject-api 2.0.1 - Maven",
+        "org.mockito mockito-core 5.6.0 - Maven",
+        "org.webjars.npm vue 3.3.4 - Maven",
+        "com.typesafe config 1.4.2 - Maven",
+        "com.google.guava guava 32.1.2-jre - Maven",
+        "org.slf4j slf4j-api 2.0.9 - Maven",
+        "org.junit.jupiter junit-jupiter-engine 5.10.0 - Maven",
+        "com.squareup.okhttp3 okhttp 4.11.0 - Maven"
+      ],
+      "developmentDependencies": [
+        "org.jacoco org.jacoco.agent 0.8.10 - Maven",
+        "org.webjars.npm vue__compiler-ssr 3.3.4 - Maven",
+        "org.webjars.npm nanoid 3.3.7 - Maven",
+        "com.google.guava listenablefuture 9999.0-empty-to-avoid-conflict-with-guava - Maven",
+        "net.bytebuddy byte-buddy 1.14.8 - Maven",
+        "com.squareup.okio okio-jvm 3.2.0 - Maven",
+        "org.jetbrains.kotlin kotlin-stdlib-jdk7 1.6.20 - Maven",
+        "org.webjars.npm vue__reactivity-transform 3.3.4 - Maven",
+        "org.webjars.npm vue__reactivity 3.3.4 - Maven",
+        "org.jetbrains.kotlin kotlin-stdlib-common 1.9.10 - Maven",
+        "org.apiguardian apiguardian-api 1.1.2 - Maven",
+        "org.webjars.npm source-map-js 1.0.2 - Maven",
+        "org.webjars.npm vue__compiler-dom 3.3.4 - Maven",
+        "org.webjars.npm csstype 3.1.3 - Maven",
+        "org.webjars.npm picocolors 1.0.0 - Maven",
+        "org.junit.platform junit-platform-engine 1.10.0 - Maven",
+        "org.junit.platform junit-platform-commons 1.10.0 - Maven",
+        "org.webjars.npm vue__shared 3.3.4 - Maven",
+        "org.mockito mockito-core 5.6.0 - Maven",
+        "org.webjars.npm postcss 8.4.34 - Maven",
+        "org.webjars.npm jridgewell__sourcemap-codec 1.4.15 - Maven",
+        "org.webjars.npm vue 3.3.4 - Maven",
+        "org.webjars.npm vue__compiler-core 3.3.4 - Maven",
+        "org.junit.jupiter junit-jupiter-api 5.10.0 - Maven",
+        "com.google.guava failureaccess 1.0.1 - Maven",
+        "org.webjars.npm babel__parser 8.0.0-alpha.6 - Maven",
+        "org.objenesis objenesis 3.3 - Maven",
+        "org.jetbrains annotations 13.0 - Maven",
+        "com.google.j2objc j2objc-annotations 2.8 - Maven",
+        "org.webjars.npm estree-walker 2.0.2 - Maven",
+        "org.webjars.npm vue__runtime-core 3.3.4 - Maven",
+        "org.jetbrains.kotlin kotlin-stdlib-jdk8 1.6.20 - Maven",
+        "com.google.guava guava 32.1.2-jre - Maven",
+        "com.squareup.okio okio 3.2.0 - Maven",
+        "org.checkerframework checker-qual 3.33.0 - Maven",
+        "org.junit.jupiter junit-jupiter-engine 5.10.0 - Maven",
+        "org.webjars.npm magic-string 0.30.7 - Maven",
+        "org.opentest4j opentest4j 1.3.0 - Maven",
+        "com.google.errorprone error_prone_annotations 2.18.0 - Maven",
+        "net.bytebuddy byte-buddy-agent 1.14.8 - Maven",
+        "org.webjars.npm vue__compiler-sfc 3.3.4 - Maven",
+        "com.squareup.okhttp3 okhttp 4.11.0 - Maven",
+        "org.webjars.npm vue__runtime-dom 3.3.4 - Maven",
+        "org.jetbrains.kotlin kotlin-stdlib 1.9.10 - Maven",
+        "org.webjars.npm vue__server-renderer 3.3.4 - Maven"
+      ],
+      "dependencies": [
+        "com.github.spotbugs spotbugs-annotations 4.7.3 - Maven",
+        "com.github.vladimir-bukhtoyarov bucket4j-core 7.6.0 - Maven",
+        "jakarta.inject jakarta.inject-api 2.0.1 - Maven",
+        "com.typesafe config 1.4.2 - Maven",
+        "org.slf4j slf4j-api 2.0.9 - Maven",
+        "com.google.code.findbugs jsr305 3.0.2 - Maven"
+      ]
+    }
+  },
+  "componentsFound": [
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.jacoco",
+        "artifactId": "org.jacoco.agent",
+        "version": "0.8.10",
+        "type": "Maven",
+        "id": "org.jacoco org.jacoco.agent 0.8.10 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.jacoco",
+          "Name": "org.jacoco.agent",
+          "Version": "0.8.10",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.jacoco",
+          "artifactId": "org.jacoco.agent",
+          "version": "0.8.10",
+          "type": "Maven",
+          "id": "org.jacoco org.jacoco.agent 0.8.10 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.jacoco",
+            "Name": "org.jacoco.agent",
+            "Version": "0.8.10",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.webjars.npm",
+        "artifactId": "vue__compiler-ssr",
+        "version": "3.3.4",
+        "type": "Maven",
+        "id": "org.webjars.npm vue__compiler-ssr 3.3.4 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.webjars.npm",
+          "Name": "vue__compiler-ssr",
+          "Version": "3.3.4",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.webjars.npm",
+          "artifactId": "vue",
+          "version": "3.3.4",
+          "type": "Maven",
+          "id": "org.webjars.npm vue 3.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.webjars.npm",
+            "Name": "vue",
+            "Version": "3.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.github.spotbugs",
+        "artifactId": "spotbugs-annotations",
+        "version": "4.7.3",
+        "type": "Maven",
+        "id": "com.github.spotbugs spotbugs-annotations 4.7.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.github.spotbugs",
+          "Name": "spotbugs-annotations",
+          "Version": "4.7.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.github.spotbugs",
+          "artifactId": "spotbugs-annotations",
+          "version": "4.7.3",
+          "type": "Maven",
+          "id": "com.github.spotbugs spotbugs-annotations 4.7.3 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.github.spotbugs",
+            "Name": "spotbugs-annotations",
+            "Version": "4.7.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.webjars.npm",
+        "artifactId": "nanoid",
+        "version": "3.3.7",
+        "type": "Maven",
+        "id": "org.webjars.npm nanoid 3.3.7 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.webjars.npm",
+          "Name": "nanoid",
+          "Version": "3.3.7",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.webjars.npm",
+          "artifactId": "vue",
+          "version": "3.3.4",
+          "type": "Maven",
+          "id": "org.webjars.npm vue 3.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.webjars.npm",
+            "Name": "vue",
+            "Version": "3.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.guava",
+        "artifactId": "listenablefuture",
+        "version": "9999.0-empty-to-avoid-conflict-with-guava",
+        "type": "Maven",
+        "id": "com.google.guava listenablefuture 9999.0-empty-to-avoid-conflict-with-guava - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.guava",
+          "Name": "listenablefuture",
+          "Version": "9999.0-empty-to-avoid-conflict-with-guava",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "32.1.2-jre",
+          "type": "Maven",
+          "id": "com.google.guava guava 32.1.2-jre - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "guava",
+            "Version": "32.1.2-jre",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "net.bytebuddy",
+        "artifactId": "byte-buddy",
+        "version": "1.14.8",
+        "type": "Maven",
+        "id": "net.bytebuddy byte-buddy 1.14.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "net.bytebuddy",
+          "Name": "byte-buddy",
+          "Version": "1.14.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.mockito",
+          "artifactId": "mockito-core",
+          "version": "5.6.0",
+          "type": "Maven",
+          "id": "org.mockito mockito-core 5.6.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.mockito",
+            "Name": "mockito-core",
+            "Version": "5.6.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.squareup.okio",
+        "artifactId": "okio-jvm",
+        "version": "3.2.0",
+        "type": "Maven",
+        "id": "com.squareup.okio okio-jvm 3.2.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.squareup.okio",
+          "Name": "okio-jvm",
+          "Version": "3.2.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.squareup.okhttp3",
+          "artifactId": "okhttp",
+          "version": "4.11.0",
+          "type": "Maven",
+          "id": "com.squareup.okhttp3 okhttp 4.11.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.squareup.okhttp3",
+            "Name": "okhttp",
+            "Version": "4.11.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.jetbrains.kotlin",
+        "artifactId": "kotlin-stdlib-jdk7",
+        "version": "1.6.20",
+        "type": "Maven",
+        "id": "org.jetbrains.kotlin kotlin-stdlib-jdk7 1.6.20 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.jetbrains.kotlin",
+          "Name": "kotlin-stdlib-jdk7",
+          "Version": "1.6.20",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.squareup.okhttp3",
+          "artifactId": "okhttp",
+          "version": "4.11.0",
+          "type": "Maven",
+          "id": "com.squareup.okhttp3 okhttp 4.11.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.squareup.okhttp3",
+            "Name": "okhttp",
+            "Version": "4.11.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.webjars.npm",
+        "artifactId": "vue__reactivity-transform",
+        "version": "3.3.4",
+        "type": "Maven",
+        "id": "org.webjars.npm vue__reactivity-transform 3.3.4 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.webjars.npm",
+          "Name": "vue__reactivity-transform",
+          "Version": "3.3.4",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.webjars.npm",
+          "artifactId": "vue",
+          "version": "3.3.4",
+          "type": "Maven",
+          "id": "org.webjars.npm vue 3.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.webjars.npm",
+            "Name": "vue",
+            "Version": "3.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.webjars.npm",
+        "artifactId": "vue__reactivity",
+        "version": "3.3.4",
+        "type": "Maven",
+        "id": "org.webjars.npm vue__reactivity 3.3.4 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.webjars.npm",
+          "Name": "vue__reactivity",
+          "Version": "3.3.4",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.webjars.npm",
+          "artifactId": "vue",
+          "version": "3.3.4",
+          "type": "Maven",
+          "id": "org.webjars.npm vue 3.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.webjars.npm",
+            "Name": "vue",
+            "Version": "3.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.github.vladimir-bukhtoyarov",
+        "artifactId": "bucket4j-core",
+        "version": "7.6.0",
+        "type": "Maven",
+        "id": "com.github.vladimir-bukhtoyarov bucket4j-core 7.6.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.github.vladimir-bukhtoyarov",
+          "Name": "bucket4j-core",
+          "Version": "7.6.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.github.vladimir-bukhtoyarov",
+          "artifactId": "bucket4j-core",
+          "version": "7.6.0",
+          "type": "Maven",
+          "id": "com.github.vladimir-bukhtoyarov bucket4j-core 7.6.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.github.vladimir-bukhtoyarov",
+            "Name": "bucket4j-core",
+            "Version": "7.6.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.jetbrains.kotlin",
+        "artifactId": "kotlin-stdlib-common",
+        "version": "1.9.10",
+        "type": "Maven",
+        "id": "org.jetbrains.kotlin kotlin-stdlib-common 1.9.10 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.jetbrains.kotlin",
+          "Name": "kotlin-stdlib-common",
+          "Version": "1.9.10",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.squareup.okhttp3",
+          "artifactId": "okhttp",
+          "version": "4.11.0",
+          "type": "Maven",
+          "id": "com.squareup.okhttp3 okhttp 4.11.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.squareup.okhttp3",
+            "Name": "okhttp",
+            "Version": "4.11.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.apiguardian",
+        "artifactId": "apiguardian-api",
+        "version": "1.1.2",
+        "type": "Maven",
+        "id": "org.apiguardian apiguardian-api 1.1.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.apiguardian",
+          "Name": "apiguardian-api",
+          "Version": "1.1.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-engine",
+          "version": "5.10.0",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-engine 5.10.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-engine",
+            "Version": "5.10.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.webjars.npm",
+        "artifactId": "source-map-js",
+        "version": "1.0.2",
+        "type": "Maven",
+        "id": "org.webjars.npm source-map-js 1.0.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.webjars.npm",
+          "Name": "source-map-js",
+          "Version": "1.0.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.webjars.npm",
+          "artifactId": "vue",
+          "version": "3.3.4",
+          "type": "Maven",
+          "id": "org.webjars.npm vue 3.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.webjars.npm",
+            "Name": "vue",
+            "Version": "3.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.webjars.npm",
+        "artifactId": "vue__compiler-dom",
+        "version": "3.3.4",
+        "type": "Maven",
+        "id": "org.webjars.npm vue__compiler-dom 3.3.4 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.webjars.npm",
+          "Name": "vue__compiler-dom",
+          "Version": "3.3.4",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.webjars.npm",
+          "artifactId": "vue",
+          "version": "3.3.4",
+          "type": "Maven",
+          "id": "org.webjars.npm vue 3.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.webjars.npm",
+            "Name": "vue",
+            "Version": "3.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.webjars.npm",
+        "artifactId": "csstype",
+        "version": "3.1.3",
+        "type": "Maven",
+        "id": "org.webjars.npm csstype 3.1.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.webjars.npm",
+          "Name": "csstype",
+          "Version": "3.1.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.webjars.npm",
+          "artifactId": "vue",
+          "version": "3.3.4",
+          "type": "Maven",
+          "id": "org.webjars.npm vue 3.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.webjars.npm",
+            "Name": "vue",
+            "Version": "3.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.webjars.npm",
+        "artifactId": "picocolors",
+        "version": "1.0.0",
+        "type": "Maven",
+        "id": "org.webjars.npm picocolors 1.0.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.webjars.npm",
+          "Name": "picocolors",
+          "Version": "1.0.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.webjars.npm",
+          "artifactId": "vue",
+          "version": "3.3.4",
+          "type": "Maven",
+          "id": "org.webjars.npm vue 3.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.webjars.npm",
+            "Name": "vue",
+            "Version": "3.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.junit.platform",
+        "artifactId": "junit-platform-engine",
+        "version": "1.10.0",
+        "type": "Maven",
+        "id": "org.junit.platform junit-platform-engine 1.10.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.junit.platform",
+          "Name": "junit-platform-engine",
+          "Version": "1.10.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-engine",
+          "version": "5.10.0",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-engine 5.10.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-engine",
+            "Version": "5.10.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "jakarta.inject",
+        "artifactId": "jakarta.inject-api",
+        "version": "2.0.1",
+        "type": "Maven",
+        "id": "jakarta.inject jakarta.inject-api 2.0.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "jakarta.inject",
+          "Name": "jakarta.inject-api",
+          "Version": "2.0.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "jakarta.inject",
+          "artifactId": "jakarta.inject-api",
+          "version": "2.0.1",
+          "type": "Maven",
+          "id": "jakarta.inject jakarta.inject-api 2.0.1 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "jakarta.inject",
+            "Name": "jakarta.inject-api",
+            "Version": "2.0.1",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.junit.platform",
+        "artifactId": "junit-platform-commons",
+        "version": "1.10.0",
+        "type": "Maven",
+        "id": "org.junit.platform junit-platform-commons 1.10.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.junit.platform",
+          "Name": "junit-platform-commons",
+          "Version": "1.10.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-engine",
+          "version": "5.10.0",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-engine 5.10.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-engine",
+            "Version": "5.10.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.webjars.npm",
+        "artifactId": "vue__shared",
+        "version": "3.3.4",
+        "type": "Maven",
+        "id": "org.webjars.npm vue__shared 3.3.4 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.webjars.npm",
+          "Name": "vue__shared",
+          "Version": "3.3.4",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.webjars.npm",
+          "artifactId": "vue",
+          "version": "3.3.4",
+          "type": "Maven",
+          "id": "org.webjars.npm vue 3.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.webjars.npm",
+            "Name": "vue",
+            "Version": "3.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.mockito",
+        "artifactId": "mockito-core",
+        "version": "5.6.0",
+        "type": "Maven",
+        "id": "org.mockito mockito-core 5.6.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.mockito",
+          "Name": "mockito-core",
+          "Version": "5.6.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.mockito",
+          "artifactId": "mockito-core",
+          "version": "5.6.0",
+          "type": "Maven",
+          "id": "org.mockito mockito-core 5.6.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.mockito",
+            "Name": "mockito-core",
+            "Version": "5.6.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.webjars.npm",
+        "artifactId": "postcss",
+        "version": "8.4.34",
+        "type": "Maven",
+        "id": "org.webjars.npm postcss 8.4.34 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.webjars.npm",
+          "Name": "postcss",
+          "Version": "8.4.34",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.webjars.npm",
+          "artifactId": "vue",
+          "version": "3.3.4",
+          "type": "Maven",
+          "id": "org.webjars.npm vue 3.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.webjars.npm",
+            "Name": "vue",
+            "Version": "3.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.webjars.npm",
+        "artifactId": "jridgewell__sourcemap-codec",
+        "version": "1.4.15",
+        "type": "Maven",
+        "id": "org.webjars.npm jridgewell__sourcemap-codec 1.4.15 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.webjars.npm",
+          "Name": "jridgewell__sourcemap-codec",
+          "Version": "1.4.15",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.webjars.npm",
+          "artifactId": "vue",
+          "version": "3.3.4",
+          "type": "Maven",
+          "id": "org.webjars.npm vue 3.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.webjars.npm",
+            "Name": "vue",
+            "Version": "3.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.webjars.npm",
+        "artifactId": "vue",
+        "version": "3.3.4",
+        "type": "Maven",
+        "id": "org.webjars.npm vue 3.3.4 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.webjars.npm",
+          "Name": "vue",
+          "Version": "3.3.4",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.webjars.npm",
+          "artifactId": "vue",
+          "version": "3.3.4",
+          "type": "Maven",
+          "id": "org.webjars.npm vue 3.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.webjars.npm",
+            "Name": "vue",
+            "Version": "3.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "io.jooby",
+        "artifactId": "jooby",
+        "version": "3.0.6-SNAPSHOT",
+        "type": "Maven",
+        "id": "io.jooby jooby 3.0.6-SNAPSHOT - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "io.jooby",
+          "Name": "jooby",
+          "Version": "3.0.6-SNAPSHOT",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": null,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.webjars.npm",
+        "artifactId": "vue__compiler-core",
+        "version": "3.3.4",
+        "type": "Maven",
+        "id": "org.webjars.npm vue__compiler-core 3.3.4 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.webjars.npm",
+          "Name": "vue__compiler-core",
+          "Version": "3.3.4",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.webjars.npm",
+          "artifactId": "vue",
+          "version": "3.3.4",
+          "type": "Maven",
+          "id": "org.webjars.npm vue 3.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.webjars.npm",
+            "Name": "vue",
+            "Version": "3.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.junit.jupiter",
+        "artifactId": "junit-jupiter-api",
+        "version": "5.10.0",
+        "type": "Maven",
+        "id": "org.junit.jupiter junit-jupiter-api 5.10.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.junit.jupiter",
+          "Name": "junit-jupiter-api",
+          "Version": "5.10.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-engine",
+          "version": "5.10.0",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-engine 5.10.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-engine",
+            "Version": "5.10.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.guava",
+        "artifactId": "failureaccess",
+        "version": "1.0.1",
+        "type": "Maven",
+        "id": "com.google.guava failureaccess 1.0.1 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.guava",
+          "Name": "failureaccess",
+          "Version": "1.0.1",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "32.1.2-jre",
+          "type": "Maven",
+          "id": "com.google.guava guava 32.1.2-jre - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "guava",
+            "Version": "32.1.2-jre",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.webjars.npm",
+        "artifactId": "babel__parser",
+        "version": "8.0.0-alpha.6",
+        "type": "Maven",
+        "id": "org.webjars.npm babel__parser 8.0.0-alpha.6 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.webjars.npm",
+          "Name": "babel__parser",
+          "Version": "8.0.0-alpha.6",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.webjars.npm",
+          "artifactId": "vue",
+          "version": "3.3.4",
+          "type": "Maven",
+          "id": "org.webjars.npm vue 3.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.webjars.npm",
+            "Name": "vue",
+            "Version": "3.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.objenesis",
+        "artifactId": "objenesis",
+        "version": "3.3",
+        "type": "Maven",
+        "id": "org.objenesis objenesis 3.3 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.objenesis",
+          "Name": "objenesis",
+          "Version": "3.3",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.mockito",
+          "artifactId": "mockito-core",
+          "version": "5.6.0",
+          "type": "Maven",
+          "id": "org.mockito mockito-core 5.6.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.mockito",
+            "Name": "mockito-core",
+            "Version": "5.6.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.jetbrains",
+        "artifactId": "annotations",
+        "version": "13.0",
+        "type": "Maven",
+        "id": "org.jetbrains annotations 13.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.jetbrains",
+          "Name": "annotations",
+          "Version": "13.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.squareup.okhttp3",
+          "artifactId": "okhttp",
+          "version": "4.11.0",
+          "type": "Maven",
+          "id": "com.squareup.okhttp3 okhttp 4.11.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.squareup.okhttp3",
+            "Name": "okhttp",
+            "Version": "4.11.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.j2objc",
+        "artifactId": "j2objc-annotations",
+        "version": "2.8",
+        "type": "Maven",
+        "id": "com.google.j2objc j2objc-annotations 2.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.j2objc",
+          "Name": "j2objc-annotations",
+          "Version": "2.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "32.1.2-jre",
+          "type": "Maven",
+          "id": "com.google.guava guava 32.1.2-jre - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "guava",
+            "Version": "32.1.2-jre",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.webjars.npm",
+        "artifactId": "estree-walker",
+        "version": "2.0.2",
+        "type": "Maven",
+        "id": "org.webjars.npm estree-walker 2.0.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.webjars.npm",
+          "Name": "estree-walker",
+          "Version": "2.0.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.webjars.npm",
+          "artifactId": "vue",
+          "version": "3.3.4",
+          "type": "Maven",
+          "id": "org.webjars.npm vue 3.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.webjars.npm",
+            "Name": "vue",
+            "Version": "3.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.typesafe",
+        "artifactId": "config",
+        "version": "1.4.2",
+        "type": "Maven",
+        "id": "com.typesafe config 1.4.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.typesafe",
+          "Name": "config",
+          "Version": "1.4.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.typesafe",
+          "artifactId": "config",
+          "version": "1.4.2",
+          "type": "Maven",
+          "id": "com.typesafe config 1.4.2 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.typesafe",
+            "Name": "config",
+            "Version": "1.4.2",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.webjars.npm",
+        "artifactId": "vue__runtime-core",
+        "version": "3.3.4",
+        "type": "Maven",
+        "id": "org.webjars.npm vue__runtime-core 3.3.4 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.webjars.npm",
+          "Name": "vue__runtime-core",
+          "Version": "3.3.4",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.webjars.npm",
+          "artifactId": "vue",
+          "version": "3.3.4",
+          "type": "Maven",
+          "id": "org.webjars.npm vue 3.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.webjars.npm",
+            "Name": "vue",
+            "Version": "3.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.jetbrains.kotlin",
+        "artifactId": "kotlin-stdlib-jdk8",
+        "version": "1.6.20",
+        "type": "Maven",
+        "id": "org.jetbrains.kotlin kotlin-stdlib-jdk8 1.6.20 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.jetbrains.kotlin",
+          "Name": "kotlin-stdlib-jdk8",
+          "Version": "1.6.20",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.squareup.okhttp3",
+          "artifactId": "okhttp",
+          "version": "4.11.0",
+          "type": "Maven",
+          "id": "com.squareup.okhttp3 okhttp 4.11.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.squareup.okhttp3",
+            "Name": "okhttp",
+            "Version": "4.11.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.guava",
+        "artifactId": "guava",
+        "version": "32.1.2-jre",
+        "type": "Maven",
+        "id": "com.google.guava guava 32.1.2-jre - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.guava",
+          "Name": "guava",
+          "Version": "32.1.2-jre",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "32.1.2-jre",
+          "type": "Maven",
+          "id": "com.google.guava guava 32.1.2-jre - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "guava",
+            "Version": "32.1.2-jre",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.squareup.okio",
+        "artifactId": "okio",
+        "version": "3.2.0",
+        "type": "Maven",
+        "id": "com.squareup.okio okio 3.2.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.squareup.okio",
+          "Name": "okio",
+          "Version": "3.2.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.squareup.okhttp3",
+          "artifactId": "okhttp",
+          "version": "4.11.0",
+          "type": "Maven",
+          "id": "com.squareup.okhttp3 okhttp 4.11.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.squareup.okhttp3",
+            "Name": "okhttp",
+            "Version": "4.11.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.slf4j",
+        "artifactId": "slf4j-api",
+        "version": "2.0.9",
+        "type": "Maven",
+        "id": "org.slf4j slf4j-api 2.0.9 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.slf4j",
+          "Name": "slf4j-api",
+          "Version": "2.0.9",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-api",
+          "version": "2.0.9",
+          "type": "Maven",
+          "id": "org.slf4j slf4j-api 2.0.9 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.slf4j",
+            "Name": "slf4j-api",
+            "Version": "2.0.9",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.checkerframework",
+        "artifactId": "checker-qual",
+        "version": "3.33.0",
+        "type": "Maven",
+        "id": "org.checkerframework checker-qual 3.33.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.checkerframework",
+          "Name": "checker-qual",
+          "Version": "3.33.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "32.1.2-jre",
+          "type": "Maven",
+          "id": "com.google.guava guava 32.1.2-jre - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "guava",
+            "Version": "32.1.2-jre",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.junit.jupiter",
+        "artifactId": "junit-jupiter-engine",
+        "version": "5.10.0",
+        "type": "Maven",
+        "id": "org.junit.jupiter junit-jupiter-engine 5.10.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.junit.jupiter",
+          "Name": "junit-jupiter-engine",
+          "Version": "5.10.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-engine",
+          "version": "5.10.0",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-engine 5.10.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-engine",
+            "Version": "5.10.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.webjars.npm",
+        "artifactId": "magic-string",
+        "version": "0.30.7",
+        "type": "Maven",
+        "id": "org.webjars.npm magic-string 0.30.7 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.webjars.npm",
+          "Name": "magic-string",
+          "Version": "0.30.7",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.webjars.npm",
+          "artifactId": "vue",
+          "version": "3.3.4",
+          "type": "Maven",
+          "id": "org.webjars.npm vue 3.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.webjars.npm",
+            "Name": "vue",
+            "Version": "3.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.opentest4j",
+        "artifactId": "opentest4j",
+        "version": "1.3.0",
+        "type": "Maven",
+        "id": "org.opentest4j opentest4j 1.3.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.opentest4j",
+          "Name": "opentest4j",
+          "Version": "1.3.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-engine",
+          "version": "5.10.0",
+          "type": "Maven",
+          "id": "org.junit.jupiter junit-jupiter-engine 5.10.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.junit.jupiter",
+            "Name": "junit-jupiter-engine",
+            "Version": "5.10.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.errorprone",
+        "artifactId": "error_prone_annotations",
+        "version": "2.18.0",
+        "type": "Maven",
+        "id": "com.google.errorprone error_prone_annotations 2.18.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.errorprone",
+          "Name": "error_prone_annotations",
+          "Version": "2.18.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "32.1.2-jre",
+          "type": "Maven",
+          "id": "com.google.guava guava 32.1.2-jre - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.google.guava",
+            "Name": "guava",
+            "Version": "32.1.2-jre",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "net.bytebuddy",
+        "artifactId": "byte-buddy-agent",
+        "version": "1.14.8",
+        "type": "Maven",
+        "id": "net.bytebuddy byte-buddy-agent 1.14.8 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "net.bytebuddy",
+          "Name": "byte-buddy-agent",
+          "Version": "1.14.8",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.mockito",
+          "artifactId": "mockito-core",
+          "version": "5.6.0",
+          "type": "Maven",
+          "id": "org.mockito mockito-core 5.6.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.mockito",
+            "Name": "mockito-core",
+            "Version": "5.6.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.webjars.npm",
+        "artifactId": "vue__compiler-sfc",
+        "version": "3.3.4",
+        "type": "Maven",
+        "id": "org.webjars.npm vue__compiler-sfc 3.3.4 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.webjars.npm",
+          "Name": "vue__compiler-sfc",
+          "Version": "3.3.4",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.webjars.npm",
+          "artifactId": "vue",
+          "version": "3.3.4",
+          "type": "Maven",
+          "id": "org.webjars.npm vue 3.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.webjars.npm",
+            "Name": "vue",
+            "Version": "3.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.squareup.okhttp3",
+        "artifactId": "okhttp",
+        "version": "4.11.0",
+        "type": "Maven",
+        "id": "com.squareup.okhttp3 okhttp 4.11.0 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.squareup.okhttp3",
+          "Name": "okhttp",
+          "Version": "4.11.0",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.squareup.okhttp3",
+          "artifactId": "okhttp",
+          "version": "4.11.0",
+          "type": "Maven",
+          "id": "com.squareup.okhttp3 okhttp 4.11.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.squareup.okhttp3",
+            "Name": "okhttp",
+            "Version": "4.11.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.webjars.npm",
+        "artifactId": "vue__runtime-dom",
+        "version": "3.3.4",
+        "type": "Maven",
+        "id": "org.webjars.npm vue__runtime-dom 3.3.4 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.webjars.npm",
+          "Name": "vue__runtime-dom",
+          "Version": "3.3.4",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.webjars.npm",
+          "artifactId": "vue",
+          "version": "3.3.4",
+          "type": "Maven",
+          "id": "org.webjars.npm vue 3.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.webjars.npm",
+            "Name": "vue",
+            "Version": "3.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.jetbrains.kotlin",
+        "artifactId": "kotlin-stdlib",
+        "version": "1.9.10",
+        "type": "Maven",
+        "id": "org.jetbrains.kotlin kotlin-stdlib 1.9.10 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.jetbrains.kotlin",
+          "Name": "kotlin-stdlib",
+          "Version": "1.9.10",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.squareup.okhttp3",
+          "artifactId": "okhttp",
+          "version": "4.11.0",
+          "type": "Maven",
+          "id": "com.squareup.okhttp3 okhttp 4.11.0 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.squareup.okhttp3",
+            "Name": "okhttp",
+            "Version": "4.11.0",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "com.google.code.findbugs",
+        "artifactId": "jsr305",
+        "version": "3.0.2",
+        "type": "Maven",
+        "id": "com.google.code.findbugs jsr305 3.0.2 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "com.google.code.findbugs",
+          "Name": "jsr305",
+          "Version": "3.0.2",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": false,
+      "dependencyScope": "MavenCompile",
+      "topLevelReferrers": [
+        {
+          "groupId": "com.github.spotbugs",
+          "artifactId": "spotbugs-annotations",
+          "version": "4.7.3",
+          "type": "Maven",
+          "id": "com.github.spotbugs spotbugs-annotations 4.7.3 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "com.github.spotbugs",
+            "Name": "spotbugs-annotations",
+            "Version": "4.7.3",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    },
+    {
+      "locationsFoundAt": [
+        "/pom.xml"
+      ],
+      "component": {
+        "groupId": "org.webjars.npm",
+        "artifactId": "vue__server-renderer",
+        "version": "3.3.4",
+        "type": "Maven",
+        "id": "org.webjars.npm vue__server-renderer 3.3.4 - Maven",
+        "packageUrl": {
+          "Scheme": "pkg",
+          "Type": "maven",
+          "Namespace": "org.webjars.npm",
+          "Name": "vue__server-renderer",
+          "Version": "3.3.4",
+          "Qualifiers": null,
+          "Subpath": null
+        }
+      },
+      "detectorId": "MvnCli",
+      "isDevelopmentDependency": true,
+      "dependencyScope": "MavenTest",
+      "topLevelReferrers": [
+        {
+          "groupId": "org.webjars.npm",
+          "artifactId": "vue",
+          "version": "3.3.4",
+          "type": "Maven",
+          "id": "org.webjars.npm vue 3.3.4 - Maven",
+          "packageUrl": {
+            "Scheme": "pkg",
+            "Type": "maven",
+            "Namespace": "org.webjars.npm",
+            "Name": "vue",
+            "Version": "3.3.4",
+            "Qualifiers": null,
+            "Subpath": null
+          }
+        }
+      ],
+      "containerDetailIds": [],
+      "containerLayerIds": {}
+    }
+  ],
+  "detectorsInScan": [
+    {
+      "detectorId": "Yarn",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Vcpkg",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Vcpkg"
+      ]
+    },
+    {
+      "detectorId": "RustCrateDetector",
+      "isExperimental": false,
+      "version": 8,
+      "supportedComponentTypes": [
+        "Cargo"
+      ]
+    },
+    {
+      "detectorId": "Ruby",
+      "isExperimental": false,
+      "version": 3,
+      "supportedComponentTypes": [
+        "RubyGems"
+      ]
+    },
+    {
+      "detectorId": "Poetry",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "Pnpm",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "Pip",
+      "isExperimental": false,
+      "version": 5,
+      "supportedComponentTypes": [
+        "Pip"
+      ]
+    },
+    {
+      "detectorId": "NuGet",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetPackagesConfig",
+      "isExperimental": true,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "NuGetProjectCentric",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "NuGet"
+      ]
+    },
+    {
+      "detectorId": "Npm",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "NpmWithRoots",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Npm"
+      ]
+    },
+    {
+      "detectorId": "MvnCli",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Linux",
+      "isExperimental": false,
+      "version": 4,
+      "supportedComponentTypes": [
+        "Linux"
+      ]
+    },
+    {
+      "detectorId": "Ivy",
+      "isExperimental": true,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Gradle",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Maven"
+      ]
+    },
+    {
+      "detectorId": "Go",
+      "isExperimental": false,
+      "version": 6,
+      "supportedComponentTypes": [
+        "Go"
+      ]
+    },
+    {
+      "detectorId": "CocoaPods",
+      "isExperimental": false,
+      "version": 2,
+      "supportedComponentTypes": [
+        "Pod",
+        "Git"
+      ]
+    },
+    {
+      "detectorId": "SPDX22SBOM",
+      "isExperimental": false,
+      "version": 1,
+      "supportedComponentTypes": [
+        "Spdx"
+      ]
+    }
+  ],
+  "containerDetailsMap": {},
+  "resultCode": "Success",
+  "sourceDirectory": "D:\\Work\\SBOM\\TestProjects\\jooby\\jooby"
+}

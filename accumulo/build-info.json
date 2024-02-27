@@ -1,0 +1,1107 @@
+{
+  "name": "mvn-build",
+  "number": "1",
+  "agent": {},
+  "buildAgent": {
+    "name": "GENERIC"
+  },
+  "modules": [
+    {
+      "type": "maven",
+      "properties": {
+        "accumulo.module.name": "org.apache.accumulo.core",
+        "accumulo.release.version": "3.1.0-SNAPSHOT",
+        "assembly.tarLongFileMode": "posix",
+        "distMgmtReleasesName": "Apache Release Distribution Repository",
+        "distMgmtReleasesUrl": "https://repository.apache.org/service/local/staging/deploy/maven2",
+        "distMgmtSnapshotsName": "Apache Development Snapshot Repository",
+        "distMgmtSnapshotsUrl": "https://repository.apache.org/content/repositories/snapshots",
+        "exec.cleanupDaemonThreads": "false",
+        "extraTestArgs": "--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.management/java.lang.management=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/java.time=ALL-UNNAMED",
+        "failsafe.excludedGroups": "",
+        "failsafe.failIfNoSpecifiedTests": "false",
+        "failsafe.forkCount": "1",
+        "failsafe.groups": "",
+        "failsafe.reuseForks": "false",
+        "gpg.useagent": "true",
+        "mavanagaiata.commit.abbrev": "e68fa4a-dirty",
+        "mavanagaiata.commit.author.date": "10/14/2023 10:59 上午 -0400",
+        "mavanagaiata.commit.author.email": "christopher.l.shannon@gmail.com",
+        "mavanagaiata.commit.author.name": "Christopher L. Shannon",
+        "mavanagaiata.commit.committer.date": "10/14/2023 10:59 上午 -0400",
+        "mavanagaiata.commit.committer.email": "noreply@github.com",
+        "mavanagaiata.commit.committer.name": "GitHub",
+        "mavanagaiata.commit.dirty": "true",
+        "mavanagaiata.commit.id": "e68fa4ac2243094c64451e06c554653706a37b64-dirty",
+        "mavanagaiata.commit.sha": "e68fa4ac2243094c64451e06c554653706a37b64-dirty",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.failOnWarning": "true",
+        "maven.compiler.release": "11",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "maven.javadoc.failOnWarnings": "true",
+        "maven.plugin.tools.version": "3.9.0",
+        "maven.site.deploy.skip": "true",
+        "maven.site.skip": "true",
+        "maven.test.redirectTestOutputToFile": "true",
+        "maven.version.ignore": ".+-SNAPSHOT,(?i).*(alpha|beta)[0-9.-]*,(?i).*[.-](m|rc)[0-9]+",
+        "minimalJavaBuildVersion": "11",
+        "minimalMavenBuildVersion": "3.6.0",
+        "mvngit.commit.abbrev": "e68fa4a-dirty",
+        "mvngit.commit.author.date": "10/14/2023 10:59 上午 -0400",
+        "mvngit.commit.author.email": "christopher.l.shannon@gmail.com",
+        "mvngit.commit.author.name": "Christopher L. Shannon",
+        "mvngit.commit.committer.date": "10/14/2023 10:59 上午 -0400",
+        "mvngit.commit.committer.email": "noreply@github.com",
+        "mvngit.commit.committer.name": "GitHub",
+        "mvngit.commit.dirty": "true",
+        "mvngit.commit.id": "e68fa4ac2243094c64451e06c554653706a37b64-dirty",
+        "mvngit.commit.sha": "e68fa4ac2243094c64451e06c554653706a37b64-dirty",
+        "organization.logo": "https://www.apache.org/images/asf_logo_wide_2016.png",
+        "project.build.outputTimestamp": "2023-08-14T08:11:10Z",
+        "project.build.sourceEncoding": "UTF-8",
+        "project.reporting.outputEncoding": "UTF-8",
+        "rat.consoleOutput": "true",
+        "rootlocation": "D:\\Work\\SBOM\\TestProjects\\accumulo",
+        "sourceReleaseAssemblyDescriptor": "source-release-tar",
+        "spotbugs.excludeFilterFile": "src/main/spotbugs/exclude-filter.xml",
+        "surefire.excludedGroups": "",
+        "surefire.failIfNoSpecifiedTests": "false",
+        "surefire.forkCount": "1C",
+        "surefire.groups": "",
+        "surefire.reuseForks": "true",
+        "surefire.version": "3.1.2",
+        "unitTestMemSize": "-Xmx1G",
+        "version.apache-rat-plugin": "0.15",
+        "version.apache-resource-bundles": "1.5",
+        "version.auto-service": "1.1.1",
+        "version.bouncycastle": "1.76",
+        "version.checksum-maven-plugin": "1.11",
+        "version.curator": "5.5.0",
+        "version.errorprone": "2.20.0",
+        "version.hadoop": "3.3.6",
+        "version.maven-antrun-plugin": "3.1.0",
+        "version.maven-assembly-plugin": "3.6.0",
+        "version.maven-clean-plugin": "3.2.0",
+        "version.maven-compiler-plugin": "3.11.0",
+        "version.maven-dependency-plugin": "3.6.0",
+        "version.maven-deploy-plugin": "3.1.1",
+        "version.maven-ear-plugin": "3.3.0",
+        "version.maven-enforcer-plugin": "3.3.0",
+        "version.maven-fluido-skin": "1.11.2",
+        "version.maven-gpg-plugin": "3.1.0",
+        "version.maven-help-plugin": "3.4.0",
+        "version.maven-install-plugin": "3.1.1",
+        "version.maven-invoker-plugin": "3.5.1",
+        "version.maven-jar-plugin": "3.3.0",
+        "version.maven-javadoc-plugin": "3.6.0",
+        "version.maven-plugin-tools": "3.9.0",
+        "version.maven-project-info-reports-plugin": "3.4.5",
+        "version.maven-release-plugin": "3.0.1",
+        "version.maven-remote-resources-plugin": "3.1.0",
+        "version.maven-resources-plugin": "3.3.1",
+        "version.maven-scm-plugin": "2.0.1",
+        "version.maven-scm-publish-plugin": "3.2.1",
+        "version.maven-shade-plugin": "3.4.1",
+        "version.maven-site-plugin": "3.12.1",
+        "version.maven-source-plugin": "3.3.0",
+        "version.maven-surefire": "3.1.2",
+        "version.maven-war-plugin": "3.3.2",
+        "version.opentelemetry": "1.27.0",
+        "version.slf4j": "2.0.7",
+        "version.thrift": "0.17.0",
+        "version.zookeeper": "3.8.2"
+      },
+      "id": "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "accumulo-core-3.1.0-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "org/apache/accumulo/accumulo-core/3.1.0-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "org.apache.commons:commons-configuration2:2.9.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "adc3ee6b84fc62a6e75e901d080adacb72aac61e",
+          "md5": "c252c63e9bf6582930e405602604a8ee",
+          "sha256": "a38ced8312fa893a1f7159958511cdfed13d0b8cb294a4133662c901da0cda53"
+        },
+        {
+          "id": "org.apache.logging.log4j:log4j-slf4j2-impl:2.20.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "155c8b9bbdac91d8461d9a403a646e6bd0d365d8",
+          "md5": "52355bf9fbb12407e08be175c12dfc7c",
+          "sha256": "b8dd3e4ea9cffa18db5f301cd8c539158662e691efd4701aa87b4d09961bd8b0"
+        },
+        {
+          "id": "io.netty:netty-transport-native-epoll:4.1.94.Final",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.zookeeper:zookeeper:3.8.2",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1f77c54f1877d9ed51f207eb64a5634bdcc7efa1",
+          "md5": "8c650d8831d7343efe8b2afbd610eb83",
+          "sha256": "4cbb1a6449a37d5f712c3a329c1303ae6e862aaeead5dfd16f0834db0a7b0756"
+        },
+        {
+          "id": "com.google.auto.service:auto-service:1.1.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "bfeb4c40087b49e23700f074807d3f2a6d36d2d1",
+          "md5": "6a633e4a76a86ad8ff16b9567bb1e195",
+          "sha256": "1f48f451503e623daba7d9ed368cca0f81e1e3815653a4560113e12c0129ebd5"
+        },
+        {
+          "id": "io.netty:netty-transport:4.1.94.Final",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "io.netty:netty-handler:4.1.94.Final",
+              "org.apache.zookeeper:zookeeper:3.8.2",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ec783a737f96991a87b1d5794e2f9eb2024d708a",
+          "md5": "f900b6a0a8b1ee7636c0939bdc0b14f3",
+          "sha256": "a75afa84ca35a50225991b39e6b6278186e612f7a2a0c0e981de523aaac516a4"
+        },
+        {
+          "id": "com.google.auto.service:auto-service-annotations:1.1.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.auto.service:auto-service:1.1.1",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "da12a15cd058ba90a0ff55357fb521161af4736d",
+          "md5": "418feb19f713c38641702c09b9033436",
+          "sha256": "16a76dd00a2650568447f5d6e3a9e2c809d9a42367d56b45215cfb89731f4d24"
+        },
+        {
+          "id": "org.objenesis:objenesis:3.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.easymock:easymock:5.1.0",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1049c09f1de4331e8193e579448d0916d75b7631",
+          "md5": "ab0e0b2ab81affdd7f38bcc60fd85571",
+          "sha256": "02dfd0b0439a5591e35b708ed2f5474eb0948f53abf74637e959b8e4ef69bfeb"
+        },
+        {
+          "id": "io.opentelemetry:opentelemetry-context:1.27.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c19566567c1f484de69dbcc81c4b7e14d4b7000e",
+          "md5": "389fb1935e1de9309f9be95a4a643e13",
+          "sha256": "a19cf91ea93000291f17ed3f75f0ea59ed549d3afd3fdc0396cba2ba4fb3becd"
+        },
+        {
+          "id": "org.apache.accumulo:accumulo-start:3.1.0-20240203.102858-73",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "fb5d95ef75ecca0d55cea4b513752adee750503b",
+          "md5": "cea9d6a69678677bdfdd9dfce1da1a3b",
+          "sha256": "14abf0c5d25ecb4e53335215ff66430e86072ad8252534d2aed2f8d087222b36"
+        },
+        {
+          "id": "org.apache.datasketches:datasketches-java:4.1.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6a202e869fff980a2917c89b55ab230a996954a8",
+          "md5": "2fb00870d526cc1733d4b9ed7059e0c7",
+          "sha256": "6ea3587c834a11ee3f52ebedff01fae51977080e2b5314ba95a9c0d0ab6c9861"
+        },
+        {
+          "id": "org.opentest4j:opentest4j:1.2.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter-api:5.9.3",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "28c11eb91f9b6d8e200631d46e20a7f407f2a046",
+          "md5": "45c9a837c21f68e8c93e85b121e2fb90",
+          "sha256": "58812de60898d976fb81ef3b62da05c6604c18fd4a249f5044282479fc286af2"
+        },
+        {
+          "id": "org.apache.commons:commons-lang3:3.12.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e",
+          "md5": "19fe50567358922bdad277959ea69545",
+          "sha256": "d919d904486c037f8d193412da0c92e22a9fa24230b9d67a57855c5c31c7e94e"
+        },
+        {
+          "id": "io.netty:netty-codec:4.1.94.Final",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "io.netty:netty-handler:4.1.94.Final",
+              "org.apache.zookeeper:zookeeper:3.8.2",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c70ef20ca338558147887df60f46341bc47f6900",
+          "md5": "af82f1a2a359af02df205f3e4d69ae37",
+          "sha256": "91243776ad68b4d8e39eafb9ec115e1b8fa9aecd147b12ef15bb691639498328"
+        },
+        {
+          "id": "org.apache.datasketches:datasketches-memory:2.2.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.datasketches:datasketches-java:4.1.0",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "f0f717ed3495ed2e58d96e0084f73db0c7b3ba3d",
+          "md5": "08d9aadd5a45b6db645013235f1347c3",
+          "sha256": "0935461726f972866f9df68dc7344daff558e745d9db2207a3af89715c27961d"
+        },
+        {
+          "id": "org.apache.hadoop:hadoop-client-runtime:3.3.6",
+          "type": "jar",
+          "scopes": [
+            "runtime"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "81065531e63fccbe85fb04a3274709593fb00d3c",
+          "md5": "a070c511f3d6d8288e89c5b6a23feb5a",
+          "sha256": "15f01bc804294df06d2effc87de363a83cf589f50558bdbf48f72541ad8de854"
+        },
+        {
+          "id": "com.beust:jcommander:1.82",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "0a7c5fef184d238065de38f81bbc6ee50cca2e21",
+          "md5": "c350dc0db8aa038e6bbaf0050720d69c",
+          "sha256": "deeac157c8de6822878d85d0c7bc8467a19cc8484d37788f7804f039dde280b1"
+        },
+        {
+          "id": "org.apache.commons:commons-math3:3.6.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "e4ba98f1d4b3c80ec46392f25e094a6a2e58fcbf",
+          "md5": "5b730d97e4e6368069de1983937c508e",
+          "sha256": "1e56d7b058d28b65abd256b8458e3885b674c1d588fa43cd7d1cbb9c7ef2b308"
+        },
+        {
+          "id": "com.google.guava:failureaccess:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.0.1-jre",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9",
+          "md5": "091883993ef5bfa91da01dcc8fc52236",
+          "sha256": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+        },
+        {
+          "id": "org.junit.jupiter:junit-jupiter-api:5.9.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "815818ad6ffcc8d320d8fbdf3d748c753cf83201",
+          "md5": "13eb9bfb15588e85c1fb76587f8f5d1e",
+          "sha256": "d895e3eedf4fa1b10de31a91be55a301bb307bf18ef325b3fa5db3f80ee92d1c"
+        },
+        {
+          "id": "junit:junit:4.13.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.hadoop:hadoop-client-minicluster:3.3.6",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12",
+          "md5": "d98a9a02a99a9acd22d7653cbcc1f31f",
+          "sha256": "8e495b634469d64fb8acfa3495a065cbacc8a0fff55ce1e31007be4c16dc57d3"
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotations:2.20.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.github.ben-manes.caffeine:caffeine:3.1.6",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "bd4d8f4a02886a26b60c76048547a453691fcec3",
+          "md5": "a46ce2ce5b87751728ae23322e0fbd73",
+          "sha256": "a136d3dce67168d88751115fa223bec80eae6cc062aa2f8173e8344a98235ec4"
+        },
+        {
+          "id": "org.hamcrest:hamcrest-core:1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "junit:junit:4.13.2",
+              "org.apache.hadoop:hadoop-client-minicluster:3.3.6",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "42a25dc3219429f0e5d060061f71acb49bf010a0",
+          "md5": "6393363b47ddcbba82321110c3e07519",
+          "sha256": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9"
+        },
+        {
+          "id": "org.apache.yetus:audience-annotations:0.12.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.zookeeper:zookeeper:3.8.2",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "e0efa60318229590103e31c69ebdaae56d903644",
+          "md5": "76ba71bbe18c4724d96bec68bbe12ff1",
+          "sha256": "ffb101fc066360ff3c77457c927fd7967fb096a6ee9e046ab7071447d8208efc"
+        },
+        {
+          "id": "org.easymock:easymock:5.1.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "0b699beae4f519f06c587674b62dcfe5fb437f1c",
+          "md5": "078bef7486f82a157a5c1024a657de07",
+          "sha256": "3f2583bd3e275be3e2fb26b1110296e850a3fd4534d98427cbf0fad19068dc9a"
+        },
+        {
+          "id": "org.apache.logging.log4j:log4j-core:2.20.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.logging.log4j:log4j-slf4j2-impl:2.20.0",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "eb2a9a47b1396e00b5eee1264296729a70565cc0",
+          "md5": "20bd40d026d35a93fe710acb141e93da",
+          "sha256": "6137df848cdaed9f4d5076f75513c6c85da80b953f4e7acca38098b770763f55"
+        },
+        {
+          "id": "commons-logging:commons-logging:1.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "4bfc12adfe4842bf07b657f0369c4cb522955686",
+          "md5": "040b4b4d8eac886f6b4a2a3bd2f31b00",
+          "sha256": "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636"
+        },
+        {
+          "id": "io.netty:netty-handler:4.1.94.Final",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.zookeeper:zookeeper:3.8.2",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "cd9121ce24d6d3f2898946d04b0ef3ec548b00b4",
+          "md5": "a14971bf68e4a755bc3abd954973c7ad",
+          "sha256": "8e50719a9ab89e33ef85c5f36d780e0d7056b3f768b07d261d87baed7094eb3c"
+        },
+        {
+          "id": "io.opentelemetry:opentelemetry-api:1.27.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "aeea3480e6e36a07b6aa09396d797935d0201cf3",
+          "md5": "1c8156f3047d4718eb0541cffbe198d5",
+          "sha256": "35443c190832dffaa407f53020ce54e11c864900f0b774ea5167773cc4941801"
+        },
+        {
+          "id": "org.apache.accumulo:accumulo-start:3.1.0-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "sha1": "fb5d95ef75ecca0d55cea4b513752adee750503b",
+          "md5": "cea9d6a69678677bdfdd9dfce1da1a3b",
+          "sha256": "14abf0c5d25ecb4e53335215ff66430e86072ad8252534d2aed2f8d087222b36"
+        },
+        {
+          "id": "io.micrometer:micrometer-observation:1.11.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "io.micrometer:micrometer-core:1.11.1",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "9027a35892c7e08ea8affce87b3662b6ceca122c",
+          "md5": "fa218434d6ea1538c5fd1e46eb71f3f2",
+          "sha256": "7c7624febf402f983f61e7da0c26fb303c0ab507fdfa25db06ae6c2776ed9ffa"
+        },
+        {
+          "id": "org.checkerframework:checker-qual:3.35.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3baabaf8eecea6e9e22b8e39cd25953ff4813e0e",
+          "md5": "78b196d52e38c3ad001a9de3fa07236f",
+          "sha256": "21060faa086dfdec830a40f9460677a75ebbdcffe7cdc012ad1069e9cc30a959"
+        },
+        {
+          "id": "io.micrometer:micrometer-commons:1.11.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "io.micrometer:micrometer-core:1.11.1",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "45bc0f2aa4d6180f1a783f1930f307a4efbb12e8",
+          "md5": "94707d2f86885b6da26d5143b0da80b1",
+          "sha256": "d2ed55c8abac6fce3b000c67316d2e654992cf7f73c74385169a9d3964497416"
+        },
+        {
+          "id": "org.apache.commons:commons-text:1.10.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.commons:commons-configuration2:2.9.0",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3363381aef8cef2dbc1023b3e3a9433b08b64e01",
+          "md5": "4afc9bfa2d31dbf7330c98fcc954b892",
+          "sha256": "770cd903fa7b604d1f7ef7ba17f84108667294b2b478be8ed1af3bffb4ae0018"
+        },
+        {
+          "id": "org.yaml:snakeyaml:2.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3aab2116756442bf0d4cd1c089b24d34c3baa253",
+          "md5": "caf24b81b9d57e6d4f68b1ccd36e00a3",
+          "sha256": "880c9d896e4b74a06c549c15ca496450165d6909fa15d7e662bee8f6a66d7afa"
+        },
+        {
+          "id": "com.google.code.findbugs:jsr305:3.0.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.0.1-jre",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+          "md5": "dd83accb899363c32b07d7a1b2e4ce40",
+          "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+          "id": "io.netty:netty-buffer:4.1.94.Final",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "io.netty:netty-handler:4.1.94.Final",
+              "org.apache.zookeeper:zookeeper:3.8.2",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "eec248b26f16e888688e5bb37b7eeda76b78d2f7",
+          "md5": "6cec7855a7c9138bf69c3be6c1da7bc1",
+          "sha256": "8066ee7c49f9f29da96ee62f7cb13bee022cb4b68e51437b33da3b6d01398f13"
+        },
+        {
+          "id": "com.google.guava:guava:32.0.1-jre",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6e5d51a72d142f2d40a57dfb897188b36a95b489",
+          "md5": "6951895e804b36322214c95917e598d4",
+          "sha256": "bd7fa227591fb8509677d0d1122cf95158f3b8a9f45653f58281d879f6dc48c5"
+        },
+        {
+          "id": "org.slf4j:slf4j-api:2.0.7",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "41eb7184ea9d556f23e18b5cb99cad1f8581fc00",
+          "md5": "403dffa46cdd2e3c82da19df4f394a4c",
+          "sha256": "5d6298b93a1905c32cda6478808ac14c2d4a47e91535e53c41f7feeb85d946f4"
+        },
+        {
+          "id": "io.netty:netty-common:4.1.94.Final",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "io.netty:netty-handler:4.1.94.Final",
+              "org.apache.zookeeper:zookeeper:3.8.2",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ad4ecf779ebc794cd351f57792f56ea01387b868",
+          "md5": "d526d21e0aff6c31fbc49bc08b0a9648",
+          "sha256": "cb8d84a3e63aea90d0d7a333a02e50ac751d2b05db55745d981b5eff893f647b"
+        },
+        {
+          "id": "org.xerial.snappy:snappy-java:1.1.10.4",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.hadoop:hadoop-client-api:3.3.6",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "50d0390056017158bdc75c063efd5c2a898d5f0c",
+          "md5": "d1d3b91e925c46a1a0f68b87298bafe8",
+          "sha256": "55b30c94e5c4cc2d4b6976916098d0678a8a6cc7427fa8c875621bd94e731ac8"
+        },
+        {
+          "id": "org.apache.logging.log4j:log4j-1.2-api:2.20.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "689151374756cb809cb029f2501015bdc7733179",
+          "md5": "986cff74b065cdd1d6b860ac1e9a20fa",
+          "sha256": "89d761af83de7e08e3c1916bc757242cedbbc1f38fb76fd13f89ef36b2671a45"
+        },
+        {
+          "id": "org.apache.thrift:libthrift:0.17.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "36aec83a463d233ab537407df7612c383727b03f",
+          "md5": "b4e4d44f7c3b3bb7f1b77b7131a534b9",
+          "sha256": "91135681b23af6132865725509f1ba8e7f8a0d89076b6105ce4d9b9fec4024cc"
+        },
+        {
+          "id": "org.apache.hadoop:hadoop-client-minicluster:3.3.6",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1d7be37c806e6703ea672d0e5e47fd43ea721acc",
+          "md5": "5925ed3c61229bd98396a89ca0a32335",
+          "sha256": "d646aee592187c5c360bc66f5710d242f16b04e9ad6dadbebd85283677c7687e"
+        },
+        {
+          "id": "org.junit.platform:junit-platform-commons:1.9.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter-api:5.9.3",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "36b2e26a90c41603be7f0094bee80e3f8a2cd4d4",
+          "md5": "b604474c7be847bca1589ba61a8434e0",
+          "sha256": "8519157df813c210e85fc1414b74109e3d85f43d7092563ed704c43c48f0d5e6"
+        },
+        {
+          "id": "com.google.auto:auto-common:1.2.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.auto.service:auto-service:1.1.1",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "f6da26895f759010f5f170c8044e84c1b17ef83e",
+          "md5": "064eec84b7b36ed1bbf1b43a9fcf513c",
+          "sha256": "f43f29fe2a6ebaf04b2598cdeec32a4e346d49a9404e990f5fc19c19f3a28d0e"
+        },
+        {
+          "id": "org.apache.zookeeper:zookeeper:3.8.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "963e953f8e362fc3f253832876be2ae2dcde58d7",
+          "md5": "027ace6ad89aaed168bedf24700d4d34",
+          "sha256": "df1de031b96489919b9b4d38ed050e434618babefb39dcdcfefd2a33a034d63c"
+        },
+        {
+          "id": "com.github.spotbugs:spotbugs-annotations:4.7.3",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "46fb4f0ae2e69eafa963711cc5c3369ac81aa31f",
+          "md5": "a70cfa500f3d66e6bd7ecb7cfe671ce2",
+          "sha256": "c0fd1ac2e22acdd46913a2ff74551b71f124457199688698204af4bf3d43165d"
+        },
+        {
+          "id": "io.netty:netty-transport-classes-epoll:4.1.94.Final",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "io.netty:netty-transport-native-epoll:4.1.94.Final",
+              "org.apache.zookeeper:zookeeper:3.8.2",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "240e36cd5c2ffaf655913f8857f2d58b26394679",
+          "md5": "2dc4fe8c18b086815255d05e613b316f",
+          "sha256": "9d5d51eb42081d6fc13f4dca6855cd30d098a5b1d0b06d5644a1342bd1e50a44"
+        },
+        {
+          "id": "org.apache.zookeeper:zookeeper-jute:3.8.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "f644829e30004ff4a079c357c4bb34bf5aa5fb94",
+          "md5": "9622706bd68e6eabea9a11b0c86743fd",
+          "sha256": "6a9b8e17bb861c28d3a037aa8bf46ebdd21ed47fa28208bac038599ed4a492c5"
+        },
+        {
+          "id": "com.google.code.gson:gson:2.10.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b3add478d4382b78ea20b1671390a858002feb6c",
+          "md5": "df6097815738cb31fc56391553210843",
+          "sha256": "4241c14a7727c34feea6507ec801318a3d4a90f070e4525681079fb94ee4c593"
+        },
+        {
+          "id": "com.google.j2objc:j2objc-annotations:2.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.0.1-jre",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c85270e307e7b822f1086b93689124b89768e273",
+          "md5": "c50af69b704dc91050efb98e0dff66d1",
+          "sha256": "f02a95fa1a5e95edb3ed859fd0fb7df709d121a35290eff8b74dce2ab7f4d6ed"
+        },
+        {
+          "id": "org.apache.commons:commons-collections4:4.4",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "62ebe7544cb7164d87e0637a2a6a2bdc981395e8",
+          "md5": "4a37023740719b391f10030362c86be6",
+          "sha256": "1df8b9430b5c8ed143d7815e403e33ef5371b2400aadbe9bda0883762e0846d1"
+        },
+        {
+          "id": "io.micrometer:micrometer-core:1.11.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "931e247d08dd2749e8b999e104a1cee6b9ab4026",
+          "md5": "cc686e85cf0135e61e56920ff25f78a0",
+          "sha256": "a4a9903415d847e5c0b5f025f32dbdc871c3a7afa4be3049418c3e9dcba4b615"
+        },
+        {
+          "id": "com.github.ben-manes.caffeine:caffeine:3.1.6",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3646a0d1b1abe6a31f72f2237d9004d10a5be91d",
+          "md5": "7661b25999918646ec802846cc4c16bc",
+          "sha256": "0311f9d5d9750aa2a1c11cbdba5a5cb7fec91c8870d6f179f324b3f5295b87dd"
+        },
+        {
+          "id": "org.apiguardian:apiguardian-api:1.1.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter-api:5.9.3",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a231e0d844d2721b0fa1b238006d15c6ded6842a",
+          "md5": "8c7de3f82037fa4a2e8be2a2f13092af",
+          "sha256": "b509448ac506d607319f182537f0b35d71007582ec741832a1f111e5b5b70b38"
+        },
+        {
+          "id": "commons-io:commons-io:2.13.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "8bb2bc9b4df17e2411533a0708a69f983bf5e83b",
+          "md5": "8d000fa8939b71b8894637f0ef6ea28c",
+          "sha256": "671eaa39688dac2ffaa4645b3c9980ae2d0ea2471e4ae6a5da199cd15ae23666"
+        },
+        {
+          "id": "org.latencyutils:LatencyUtils:2.0.3",
+          "type": "jar",
+          "scopes": [
+            "runtime"
+          ],
+          "requestedBy": [
+            [
+              "io.micrometer:micrometer-core:1.11.1",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "769c0b82cb2421c8256300e907298a9410a2a3d3",
+          "md5": "2ad12e1ef7614cecfb0483fa9ac6da73",
+          "sha256": "a32a9ffa06b2f4e01c5360f8f9df7bc5d9454a5d373cd8f361347fa5a57165ec"
+        },
+        {
+          "id": "io.netty:netty-resolver:4.1.94.Final",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "io.netty:netty-handler:4.1.94.Final",
+              "org.apache.zookeeper:zookeeper:3.8.2",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "e96f649e8e9dcb29a1f8e95328b99c9eb6cf76c2",
+          "md5": "54c962d5f603415a4db185525699b52b",
+          "sha256": "bd26e9bc5e94e2d3974a93fdf921658eff4f033bfd4c5208607760ab54298617"
+        },
+        {
+          "id": "org.hdrhistogram:HdrHistogram:2.1.12",
+          "type": "jar",
+          "scopes": [
+            "runtime"
+          ],
+          "requestedBy": [
+            [
+              "io.micrometer:micrometer-core:1.11.1",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6eb7552156e0d517ae80cc2247be1427c8d90452",
+          "md5": "4b1acf3448b750cb485da7e37384fcd8",
+          "sha256": "9b47fbae444feaac4b7e04f0ea294569e4bc282bc69d8c2ce2ac3f23577281e2"
+        },
+        {
+          "id": "io.netty:netty-transport-native-unix-common:4.1.94.Final",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "io.netty:netty-handler:4.1.94.Final",
+              "org.apache.zookeeper:zookeeper:3.8.2",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3fa5f9d04b6b782d869d6e0657d896eeadca5866",
+          "md5": "eff21db54e8454137f29330063ca4b49",
+          "sha256": "27d0dff1cd743190279becacfb372fe4d45b266edafad9f1c6c01b04d00280eb"
+        },
+        {
+          "id": "org.apache.logging.log4j:log4j-api:2.20.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.logging.log4j:log4j-1.2-api:2.20.0",
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1fe6082e660daf07c689a89c94dc0f49c26b44bb",
+          "md5": "f9446464667f0139b839b5e9da37f5b9",
+          "sha256": "2f43eea679ea66f14ca0f13fec2a8600ac124f5a5231dcb4df8393eddcb97550"
+        },
+        {
+          "id": "io.opentelemetry:opentelemetry-semconv:1.27.0-alpha",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "91d2c0e0b0d367f64c928e4fb2bad45ed0503c5a",
+          "md5": "1508726d93151fb063ad005e1c251f9d",
+          "sha256": "06930f87e008f606a543e43cefaf9ebfacbddd85a54492a9cc266a059b935a39"
+        },
+        {
+          "id": "org.apache.hadoop:hadoop-client-api:3.3.6",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.accumulo:accumulo-core:3.1.0-SNAPSHOT"
+            ]
+          ],
+          "sha1": "12ac6f103a0ff29fce17a078c7c64d25320b6165",
+          "md5": "cf99245887eb5152e1771e1867a516fe",
+          "sha256": "f3d2347a6e1c6885d5bcfd4f60c3ac3810ec11068fc161e04329baabf412d963"
+        }
+      ]
+    }
+  ],
+  "started": "2024-02-05T19:19:32.228+0800"
+}

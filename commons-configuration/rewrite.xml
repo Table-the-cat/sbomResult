@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:ee5d2428-8f3e-41c2-8e14-83fa9e364500" version="1">
+    <metadata>
+        <timestamp>2024-02-22T09:57:20.861975800Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>OpenRewrite</vendor>
+                <name>OpenRewrite CycloneDX</name>
+                <version>7.18.0</version>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/org.apache.commons/commons-configuration2@2.9.1-SNAPSHOT?type=jar" type="library">
+            <group>org.apache.commons</group>
+            <name>commons-configuration2</name>
+            <version>2.9.1-SNAPSHOT</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.commons/commons-configuration2@2.9.1-SNAPSHOT?type=jar</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="pkg:maven/org.apache.commons/commons-lang3@3.13.0?type=jar" type="library">
+            <group>org.apache.commons</group>
+            <name>commons-lang3</name>
+            <version>3.13.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.commons/commons-lang3@3.13.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar" type="library">
+            <group>org.apache.commons</group>
+            <name>commons-text</name>
+            <version>1.10.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/commons-logging/commons-logging@1.2?type=jar" type="library">
+            <group>commons-logging</group>
+            <name>commons-logging</name>
+            <version>1.2</version>
+            <scope>required</scope>
+            <purl>pkg:maven/commons-logging/commons-logging@1.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar" type="library">
+            <group>commons-beanutils</group>
+            <name>commons-beanutils</name>
+            <version>1.9.4</version>
+            <scope>required</scope>
+            <purl>pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/commons-codec/commons-codec@1.16.0?type=jar" type="library">
+            <group>commons-codec</group>
+            <name>commons-codec</name>
+            <version>1.16.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/commons-codec/commons-codec@1.16.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.commons/commons-jexl@2.1.1?type=jar" type="library">
+            <group>org.apache.commons</group>
+            <name>commons-jexl</name>
+            <version>2.1.1</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.commons/commons-jexl@2.1.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.commons/commons-vfs2@2.9.0?type=jar" type="library">
+            <group>org.apache.commons</group>
+            <name>commons-vfs2</name>
+            <version>2.9.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.commons/commons-vfs2@2.9.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/commons-jxpath/commons-jxpath@1.3?type=jar" type="library">
+            <group>commons-jxpath</group>
+            <name>commons-jxpath</name>
+            <version>1.3</version>
+            <scope>required</scope>
+            <purl>pkg:maven/commons-jxpath/commons-jxpath@1.3?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/xml-resolver/xml-resolver@1.2?type=jar" type="library">
+            <group>xml-resolver</group>
+            <name>xml-resolver</name>
+            <version>1.2</version>
+            <scope>required</scope>
+            <purl>pkg:maven/xml-resolver/xml-resolver@1.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.springframework/spring-core@5.3.30?type=jar" type="library">
+            <group>org.springframework</group>
+            <name>spring-core</name>
+            <version>5.3.30</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.springframework/spring-core@5.3.30?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.springframework/spring-beans@5.3.30?type=jar" type="library">
+            <group>org.springframework</group>
+            <name>spring-beans</name>
+            <version>5.3.30</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.springframework/spring-beans@5.3.30?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.yaml/snakeyaml@2.2?type=jar" type="library">
+            <group>org.yaml</group>
+            <name>snakeyaml</name>
+            <version>2.2</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.yaml/snakeyaml@2.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.2?type=jar" type="library">
+            <group>com.fasterxml.jackson.core</group>
+            <name>jackson-databind</name>
+            <version>2.15.2</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.logging.log4j/log4j-1.2-api@2.20.0?type=jar" type="library">
+            <group>org.apache.logging.log4j</group>
+            <name>log4j-1.2-api</name>
+            <version>2.20.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.logging.log4j/log4j-1.2-api@2.20.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.logging.log4j/log4j-core@2.20.0?type=jar" type="library">
+            <group>org.apache.logging.log4j</group>
+            <name>log4j-core</name>
+            <version>2.20.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.logging.log4j/log4j-core@2.20.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/commons-collections/commons-collections@3.2.2?type=jar" type="library">
+            <group>commons-collections</group>
+            <name>commons-collections</name>
+            <version>3.2.2</version>
+            <scope>required</scope>
+            <purl>pkg:maven/commons-collections/commons-collections@3.2.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.3.1?type=jar" type="library">
+            <group>org.apache.hadoop</group>
+            <name>hadoop-hdfs-client</name>
+            <version>3.3.1</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.3.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.2?type=jar" type="library">
+            <group>com.fasterxml.jackson.core</group>
+            <name>jackson-annotations</name>
+            <version>2.15.2</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.2?type=jar" type="library">
+            <group>com.fasterxml.jackson.core</group>
+            <name>jackson-core</name>
+            <version>2.15.2</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.logging.log4j/log4j-api@2.20.0?type=jar" type="library">
+            <group>org.apache.logging.log4j</group>
+            <name>log4j-api</name>
+            <version>2.20.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.logging.log4j/log4j-api@2.20.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.squareup.okhttp/okhttp@2.7.5?type=jar" type="library">
+            <group>com.squareup.okhttp</group>
+            <name>okhttp</name>
+            <version>2.7.5</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.squareup.okhttp/okhttp@2.7.5?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.squareup.okio/okio@1.6.0?type=jar" type="library">
+            <group>com.squareup.okio</group>
+            <name>okio</name>
+            <version>1.6.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.squareup.okio/okio@1.6.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/javax.servlet/servlet-api@2.5?type=jar" type="library">
+            <group>javax.servlet</group>
+            <name>servlet-api</name>
+            <version>2.5</version>
+            <scope>optional</scope>
+            <purl>pkg:maven/javax.servlet/servlet-api@2.5?type=jar</purl>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.13.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/commons-logging/commons-logging@1.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar">
+            <dependency ref="pkg:maven/commons-collections/commons-collections@3.2.2?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/commons-codec/commons-codec@1.16.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.commons/commons-jexl@2.1.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.commons/commons-vfs2@2.9.0?type=jar">
+            <dependency ref="pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.3.1?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/commons-jxpath/commons-jxpath@1.3?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/xml-resolver/xml-resolver@1.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.springframework/spring-core@5.3.30?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.springframework/spring-beans@5.3.30?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.yaml/snakeyaml@2.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.2?type=jar">
+            <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.2?type=jar"/>
+            <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.2?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.logging.log4j/log4j-1.2-api@2.20.0?type=jar">
+            <dependency ref="pkg:maven/org.apache.logging.log4j/log4j-api@2.20.0?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.logging.log4j/log4j-core@2.20.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/commons-collections/commons-collections@3.2.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.3.1?type=jar">
+            <dependency ref="pkg:maven/com.squareup.okhttp/okhttp@2.7.5?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.logging.log4j/log4j-api@2.20.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.squareup.okhttp/okhttp@2.7.5?type=jar">
+            <dependency ref="pkg:maven/com.squareup.okio/okio@1.6.0?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/com.squareup.okio/okio@1.6.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/javax.servlet/servlet-api@2.5?type=jar">
+        </dependency>
+    </dependencies>
+</bom>

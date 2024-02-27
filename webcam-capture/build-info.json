@@ -1,0 +1,220 @@
+{
+  "name": "mvn-build",
+  "number": "1",
+  "agent": {},
+  "buildAgent": {
+    "name": "GENERIC"
+  },
+  "modules": [
+    {
+      "type": "maven",
+      "properties": {
+        "arguments": "",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "project.assembly.descriptor": "../distribution.xml",
+        "project.build.sourceEncoding": "UTF-8",
+        "project.repoid": "webcam-capture",
+        "sonatypeOssDistMgmtSnapshotsUrl": "https://oss.sonatype.org/content/repositories/snapshots/",
+        "version.target.java": "1.8"
+      },
+      "id": "com.github.sarxos:webcam-capture:0.3.13-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "webcam-capture-0.3.13-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/github/sarxos/webcam-capture/0.3.13-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "com.nativelibs4java:bridj:0.7.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.github.sarxos:webcam-capture:0.3.13-SNAPSHOT"
+            ]
+          ],
+          "sha1": "461c40ed578c92106579e370838ed4e224d0289e",
+          "md5": "f60dbb042f60c9f545d08b0d144e120e",
+          "sha256": "101bcd9b6637e6bc16e56deb3daefba62b1f5e8e9e37e1b3e56e3b5860d659cf"
+        },
+        {
+          "id": "org.assertj:assertj-core:1.6.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.github.sarxos:webcam-capture:0.3.13-SNAPSHOT"
+            ]
+          ],
+          "sha1": "5db13d0ae30dca5157f0dea60f78640cf039cafe",
+          "md5": "94676f51cd2bad86bda8e5067f67553e",
+          "sha256": "969914dcc6771f0f5ebc5607c2245d88cabc9699e82bba10723ad196d04410b3"
+        },
+        {
+          "id": "ch.qos.logback:logback-core:1.0.9",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "ch.qos.logback:logback-classic:1.0.9",
+              "com.github.sarxos:webcam-capture:0.3.13-SNAPSHOT"
+            ]
+          ],
+          "sha1": "41916886a1df068ad1dfea9bcc649a7b8ea4553e",
+          "md5": "849536a25c3793b98c33691a7a3b1573",
+          "sha256": "010642c88ba124be04b0dd2a8516ca38cccc7c88715d385a39df99a7897b239a"
+        },
+        {
+          "id": "cglib:cglib-nodep:3.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.jayway.awaitility:awaitility:1.6.2",
+              "com.github.sarxos:webcam-capture:0.3.13-SNAPSHOT"
+            ]
+          ],
+          "sha1": "aa83efbd1aedc4f26bdf00e7ea78191483f2c9b3",
+          "md5": "92498b62ac5d9cbdf18b147f52cf6ecb",
+          "sha256": "3a9ab1f5de15b49dedc7e96d35363c4c43a2b2cd42275f5d4731846042f3fcf2"
+        },
+        {
+          "id": "org.easymock:easymock:3.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.github.sarxos:webcam-capture:0.3.13-SNAPSHOT"
+            ]
+          ],
+          "sha1": "00c82f7fa3ef377d8954b1db25123944b5af2ba4",
+          "md5": "0da4291328e18798621c36fdf8bc4c3a",
+          "sha256": "b3dd1cf5019f942d8cc2afad0aa6aef4b21532446fe90a6b68d567e3389763dd"
+        },
+        {
+          "id": "ch.qos.logback:logback-classic:1.0.9",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "com.github.sarxos:webcam-capture:0.3.13-SNAPSHOT"
+            ]
+          ],
+          "sha1": "258c3d8f956e7c8723f13fdea6b81e3d74201f68",
+          "md5": "502897046f7fdd5c32526bd5eaa24288",
+          "sha256": "ffacdd9f4ca9a2be928d753b394429b49b3de32a8238d584e4eb46af458f26ce"
+        },
+        {
+          "id": "org.hamcrest:hamcrest-core:1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.jayway.awaitility:awaitility:1.6.2",
+              "com.github.sarxos:webcam-capture:0.3.13-SNAPSHOT"
+            ]
+          ],
+          "sha1": "42a25dc3219429f0e5d060061f71acb49bf010a0",
+          "md5": "6393363b47ddcbba82321110c3e07519",
+          "sha256": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9"
+        },
+        {
+          "id": "org.slf4j:slf4j-api:1.7.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.github.sarxos:webcam-capture:0.3.13-SNAPSHOT"
+            ]
+          ],
+          "sha1": "0081d61b7f33ebeab314e07de0cc596f8e858d97",
+          "md5": "21216c2ee1bf4f097a51e49418527100",
+          "sha256": "3bae789b401333b2a1d1603b7fa573e19908628191707203f6eb708cdee2c052"
+        },
+        {
+          "id": "org.hamcrest:hamcrest-library:1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.jayway.awaitility:awaitility:1.6.2",
+              "com.github.sarxos:webcam-capture:0.3.13-SNAPSHOT"
+            ]
+          ],
+          "sha1": "4785a3c21320980282f9f33d0d1264a69040538f",
+          "md5": "110ad2ea84f7031a1798648b6b318e79",
+          "sha256": "711d64522f9ec410983bd310934296da134be4254a125080a0416ec178dfad1c"
+        },
+        {
+          "id": "junit:junit:4.13.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.github.sarxos:webcam-capture:0.3.13-SNAPSHOT"
+            ]
+          ],
+          "sha1": "cdd00374f1fee76b11e2a9d127405aa3f6be5b6a",
+          "md5": "83d91f209ddcb104776fa41c448c7ee2",
+          "sha256": "c30719db974d6452793fe191b3638a5777005485bae145924044530ffa5f6122"
+        },
+        {
+          "id": "com.jayway.awaitility:awaitility:1.6.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.github.sarxos:webcam-capture:0.3.13-SNAPSHOT"
+            ]
+          ],
+          "sha1": "175a16f730f6b840622b5c1169a6a88b3823b5f8",
+          "md5": "3a0bc68ee618aae24501e12209f3a42e",
+          "sha256": "456dac7ddfe2736f031d04761db29308641dcbda02814efb97391b2a1dbc1469"
+        },
+        {
+          "id": "org.objenesis:objenesis:2.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.jayway.awaitility:awaitility:1.6.2",
+              "com.github.sarxos:webcam-capture:0.3.13-SNAPSHOT"
+            ]
+          ],
+          "sha1": "87c0ea803b69252868d09308b4618f766f135a96",
+          "md5": "32ccb1d20a42b5aaaceb90c9082a2efa",
+          "sha256": "c74330cc6b806c804fd37e74487b4fe5d7c2750c5e15fbc6efa13bdee1bdef80"
+        }
+      ]
+    }
+  ],
+  "started": "2024-02-11T17:01:06.111+0800"
+}

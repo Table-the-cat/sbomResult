@@ -1,0 +1,3615 @@
+{
+  "name": "mvn-build",
+  "number": "1",
+  "agent": {},
+  "buildAgent": {
+    "name": "GENERIC"
+  },
+  "modules": [
+    {
+      "type": "maven",
+      "properties": {
+        "autoservice.version": "1.0.1",
+        "autovalue.version": "1.9",
+        "caffeine.version": "3.0.5",
+        "compile.testing.version": "0.19",
+        "dataflow.version": "3.34.0-eisop1",
+        "flogger.version": "0.7.4",
+        "grpc.version": "1.43.3",
+        "guava.version": "32.1.1-jre",
+        "guice.version": "5.1.0",
+        "gwt.version": "2.10.0",
+        "jspecify.version": "0.3.0",
+        "junit.version": "4.13.2",
+        "maven-javadoc-plugin.version": "3.3.1",
+        "maven-source-plugin.version": "3.2.1",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "mockito.version": "4.9.0",
+        "nexus-staging-maven-plugin.version": "1.6.13",
+        "os.detected.arch": "x86_64",
+        "os.detected.bitness": "64",
+        "os.detected.classifier": "windows-x86_64",
+        "os.detected.name": "windows",
+        "project.build.sourceEncoding": "UTF-8",
+        "protobuf.version": "3.19.6",
+        "truth.version": "1.1.3"
+      },
+      "id": "com.google.errorprone:error_prone_docgen_processor:HEAD-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "error_prone_docgen_processor-HEAD-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/google/errorprone/error_prone_docgen_processor/HEAD-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "com.google.code.findbugs:jsr305:3.0.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_docgen_processor:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+          "md5": "dd83accb899363c32b07d7a1b2e4ce40",
+          "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotations:2.18.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_docgen_processor:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "89b684257096f548fa39a7df9fdaa409d4d4df91",
+          "md5": "64145d0e7fee5a69ed7b84cf402de998",
+          "sha256": "9e6814cb71816988a4fd1b07a993a8f21bb7058d522c162b1de849e19bea54ae"
+        },
+        {
+          "id": "com.google.j2objc:j2objc-annotations:2.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_docgen_processor:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c85270e307e7b822f1086b93689124b89768e273",
+          "md5": "c50af69b704dc91050efb98e0dff66d1",
+          "sha256": "f02a95fa1a5e95edb3ed859fd0fb7df709d121a35290eff8b74dce2ab7f4d6ed"
+        },
+        {
+          "id": "com.google.guava:failureaccess:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_docgen_processor:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9",
+          "md5": "091883993ef5bfa91da01dcc8fc52236",
+          "sha256": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+        },
+        {
+          "id": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_docgen_processor:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b421526c5f297295adef1c886e5246c39d4ac629",
+          "md5": "d094c22570d65e132c19cea5d352e381",
+          "sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_docgen_processor:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.auto.service:auto-service-annotations:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_docgen_processor:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ac86dacc0eb9285ea9d42eee6aad8629ca3a7432",
+          "md5": "61f0b581d16c470cd9e7d595be8568ff",
+          "sha256": "c7bec54b7b5588b5967e870341091c5691181d954cf2039f1bf0a6eeb837473b"
+        },
+        {
+          "id": "com.google.guava:guava:32.1.1-jre",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_docgen_processor:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ad575652d84153075dd41ec6177ccb15251262b2",
+          "md5": "55870c9a31bf9ba2815f252a93ab0850",
+          "sha256": "91fbba37f1c8b251cf9ea9e7d3a369eb79eb1e6a5df1d4bbf483dd0380740281"
+        },
+        {
+          "id": "com.google.code.gson:gson:2.8.9",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_docgen_processor:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "8a432c1d6825781e21a02db2e2c33c5fde2833b9",
+          "md5": "e67627f67e03301092dc7de0a2d7cef8",
+          "sha256": "d3999291855de495c94c743761b8ab5176cfeabe281a5ab0d8e8d45326fd703e"
+        },
+        {
+          "id": "org.checkerframework:checker-qual:3.33.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_docgen_processor:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "de2b60b62da487644fc11f734e73c8b0b431238f",
+          "md5": "fc9418b779d9d57dcd52197006cbdb9b",
+          "sha256": "e316255bbfcd9fe50d165314b85abb2b33cb2a66a93c491db648e498a82c2de1"
+        }
+      ]
+    },
+    {
+      "type": "maven",
+      "properties": {
+        "autoservice.version": "1.0.1",
+        "autovalue.version": "1.9",
+        "caffeine.version": "3.0.5",
+        "compile.testing.version": "0.19",
+        "dataflow.version": "3.34.0-eisop1",
+        "flogger.version": "0.7.4",
+        "grpc.version": "1.43.3",
+        "guava.version": "32.1.1-jre",
+        "guice.version": "5.1.0",
+        "gwt.version": "2.10.0",
+        "jspecify.version": "0.3.0",
+        "junit.version": "4.13.2",
+        "maven-javadoc-plugin.version": "3.3.1",
+        "maven-source-plugin.version": "3.2.1",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "mockito.version": "4.9.0",
+        "nexus-staging-maven-plugin.version": "1.6.13",
+        "os.detected.arch": "x86_64",
+        "os.detected.bitness": "64",
+        "os.detected.classifier": "windows-x86_64",
+        "os.detected.name": "windows",
+        "project.build.sourceEncoding": "UTF-8",
+        "protobuf.version": "3.19.6",
+        "truth.version": "1.1.3"
+      },
+      "id": "com.google.errorprone:error_prone_type_annotations:HEAD-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "error_prone_type_annotations-HEAD-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/google/errorprone/error_prone_type_annotations/HEAD-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "com.google.errorprone:error_prone_annotations:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_type_annotations:HEAD-SNAPSHOT"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "maven",
+      "properties": {
+        "autoservice.version": "1.0.1",
+        "autovalue.version": "1.9",
+        "caffeine.version": "3.0.5",
+        "compile.testing.version": "0.19",
+        "dataflow.version": "3.34.0-eisop1",
+        "flogger.version": "0.7.4",
+        "grpc.version": "1.43.3",
+        "guava.version": "32.1.1-jre",
+        "guice.version": "5.1.0",
+        "gwt.version": "2.10.0",
+        "jspecify.version": "0.3.0",
+        "junit.version": "4.13.2",
+        "maven-javadoc-plugin.version": "3.3.1",
+        "maven-source-plugin.version": "3.2.1",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "mockito.version": "4.9.0",
+        "nexus-staging-maven-plugin.version": "1.6.13",
+        "os.detected.arch": "x86_64",
+        "os.detected.bitness": "64",
+        "os.detected.classifier": "windows-x86_64",
+        "os.detected.name": "windows",
+        "project.build.sourceEncoding": "UTF-8",
+        "protobuf.version": "3.19.6",
+        "truth.version": "1.1.3"
+      },
+      "id": "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "error_prone_core-HEAD-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/google/errorprone/error_prone_core/HEAD-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "org.jmock:jmock-testjar:2.12.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.jmock:jmock:2.12.0",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "net.jcip:jcip-annotations:1.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.code.findbugs:annotations:3.0.1",
+              "org.jmock:jmock-testjar:2.12.0",
+              "org.jmock:jmock:2.12.0",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.jmock:jmock-imposters:2.12.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.jmock:jmock-junit4:2.12.0",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.w3c.css:sac:1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.gwtproject:gwt-user:2.10.0",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.dagger:dagger:2.40.5",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b421526c5f297295adef1c886e5246c39d4ac629",
+          "md5": "d094c22570d65e132c19cea5d352e381",
+          "sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+          "id": "aopalliance:aopalliance:1.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.inject:guice:5.1.0",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "cglib:cglib:3.2.8",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.jmock:jmock-legacy:2.12.0",
+              "org.jmock:jmock-junit4:2.12.0",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "io.github.eisop:dataflow-errorprone:3.34.0-eisop1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3e9901aac15bca8023ba5930ee5a0428302b6197",
+          "md5": "398ca4eedfc6624631d301b011dd769f",
+          "sha256": "89b4f5d2bd5059f067c5982a0e5988b87dfc8a8234795d68c6f3178846de3319"
+        },
+        {
+          "id": "org.easymock:easymock:4.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.auto.value:auto-value-annotations:1.9",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "25a0fcef915f663679fcdb447541c5d86a9be4ba",
+          "md5": "86f1f5d71eceea4eb4e3ad0505e8b22c",
+          "sha256": "fa5469f4c44ee598a2d8f033ab0a9dcbc6498a0c5e0c998dfa0c2adf51358044"
+        },
+        {
+          "id": "org.hamcrest:hamcrest-library:1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.testparameterinjector:test-parameter-injector:1.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.truth:truth:1.1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.objenesis:objenesis:3.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mockito:mockito-core:4.9.0",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.gwt.inject:gin:2.1.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.checkerframework:checker-compat-qual:2.5.5",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.dagger:dagger-producers:2.40.5",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.truth.extensions:truth-proto-extension:1.1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.auto.value:auto-value:1.9",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.mockito:mockito-core:4.9.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.jspecify:jspecify:0.3.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.jmock:jmock-junit4:2.12.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotations:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.guava:failureaccess:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9",
+          "md5": "091883993ef5bfa91da01dcc8fc52236",
+          "sha256": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+        },
+        {
+          "id": "javax.annotation:jsr250-api:1.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.common.html.types:types:1.0.8",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "junit:junit:4.13.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.hamcrest:hamcrest-core:1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.common.html.types:types:1.0.8",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.inject.extensions:guice-throwingproviders:5.1.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.inject.extensions:guice-testlib:5.1.0",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.assertj:assertj-core:3.22.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.gwtproject:gwt-user:2.10.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "javax.validation:validation-api:1.0.0.GA",
+          "type": "sources",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.gwtproject:gwt-user:2.10.0",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ],
+            [
+              "org.gwtproject:gwt-user:2.10.0",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.inject.extensions:guice-assistedinject:5.1.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.apache-extras.beanshell:bsh:2.0b6",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.jmock:jmock:2.12.0",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.pcollections:pcollections:3.1.4",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "e2a87923739024b4befa4701e6fe640af1e7d63e",
+          "md5": "61263fe004611fb17e311ab132973c5f",
+          "sha256": "34f579ba075c8da2c8a0fedd0f04e21eac2fb6c660d90d0fabb573e8b4dc6918"
+        },
+        {
+          "id": "com.google.code.findbugs:jsr305:3.0.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+          "md5": "dd83accb899363c32b07d7a1b2e4ce40",
+          "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+          "id": "com.google.inject.extensions:guice-testlib:5.1.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.guava:guava-testlib:32.1.1-jre",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.testing.compile:compile-testing:0.19",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.truth.extensions:truth-java8-extension:1.1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "net.bytebuddy:byte-buddy:1.12.16",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mockito:mockito-core:4.9.0",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.hamcrest:hamcrest:2.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.jmock:jmock:2.12.0",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.jmock:jmock:2.12.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.googlejavaformat:google-java-format:1.13.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.jsinterop:jsinterop-annotations:2.0.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.gwtproject:gwt-user:2.10.0",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.github.kevinstern:software-and-algorithms:1.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "5e77666b72c6c5dd583c36148d17fc47f944dfb5",
+          "md5": "fbc6311fa6912f46ffe4bdb23b39604c",
+          "sha256": "61ab82439cef37343b14f53154c461619375373a56b9338e895709fb54e0864c"
+        },
+        {
+          "id": "com.google.jimfs:jimfs:1.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.code.gson:gson:2.8.6",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.protobuf:protobuf-java-util:3.19.6",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.errorprone:error_prone_type_annotations:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.auto:auto-common:1.2.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "f6da26895f759010f5f170c8044e84c1b17ef83e",
+          "md5": "064eec84b7b36ed1bbf1b43a9fcf513c",
+          "sha256": "f43f29fe2a6ebaf04b2598cdeec32a4e346d49a9404e990f5fc19c19f3a28d0e"
+        },
+        {
+          "id": "org.ow2.asm:asm:9.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.truth:truth:1.1.3",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.github.ben-manes.caffeine:caffeine:3.0.5",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3de85488bf535299d5f36d98626605331a10de87",
+          "md5": "8248c5402434adc38901c979404f4334",
+          "sha256": "8a9b54d3506a3b92ee46b217bcee79196b21ca6d52dc2967c686a205fb2f9c15"
+        },
+        {
+          "id": "io.github.java-diff-utils:java-diff-utils:4.12",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1a712a91324d566eef39817fc5c9980eb10c21db",
+          "md5": "2bab3395dcfe2ea5b092ad646ca899d3",
+          "sha256": "9990a2039778f6b4cc94790141c2868864eacee0620c6c459451121a901cd5b5"
+        },
+        {
+          "id": "com.google.inject:guice:5.1.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "net.bytebuddy:byte-buddy-agent:1.12.16",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mockito:mockito-core:4.9.0",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.j2objc:j2objc-annotations:2.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c85270e307e7b822f1086b93689124b89768e273",
+          "md5": "c50af69b704dc91050efb98e0dff66d1",
+          "sha256": "f02a95fa1a5e95edb3ed859fd0fb7df709d121a35290eff8b74dce2ab7f4d6ed"
+        },
+        {
+          "id": "org.yaml:snakeyaml:1.27",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.testparameterinjector:test-parameter-injector:1.1",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "javax.inject:javax.inject:1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6975da39a7040257bd51d21a231b76c915872d38",
+          "md5": "289075e48b909e9e74e6c915b3631d2e",
+          "sha256": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff"
+        },
+        {
+          "id": "com.google.common.html.types:proto:1.0.8",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "javax.servlet:javax.servlet-api:3.1.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.gwtproject:gwt-user:2.10.0",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.dagger:dagger-producers:2.40.5",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.auto.service:auto-service-annotations:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ac86dacc0eb9285ea9d42eee6aad8629ca3a7432",
+          "md5": "61f0b581d16c470cd9e7d595be8568ff",
+          "sha256": "c7bec54b7b5588b5967e870341091c5691181d954cf2039f1bf0a6eeb837473b"
+        },
+        {
+          "id": "javax.validation:validation-api:1.0.0.GA",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.gwtproject:gwt-user:2.10.0",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ],
+            [
+              "org.gwtproject:gwt-user:2.10.0",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.auto.factory:auto-factory:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "io.netty:netty-all:5.0.0.Alpha2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.code.findbugs:annotations:3.0.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.jmock:jmock-testjar:2.12.0",
+              "org.jmock:jmock:2.12.0",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.protobuf:protobuf-java-util:3.19.6",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.checkerframework:checker-qual:3.33.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "de2b60b62da487644fc11f734e73c8b0b431238f",
+          "md5": "fc9418b779d9d57dcd52197006cbdb9b",
+          "sha256": "e316255bbfcd9fe50d165314b85abb2b33cb2a66a93c491db648e498a82c2de1"
+        },
+        {
+          "id": "pl.pragmatists:JUnitParams:1.1.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.protobuf:protobuf-java:3.19.6",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "578a2070b8106d3ea350fc737e777262bdc796b1",
+          "md5": "da6ac3361efd3e3dabb08a3da7892648",
+          "sha256": "6a9a2dff91dcf71f85be71ae971f6164b5a631dcd34bff08f0618535ca44ad02"
+        },
+        {
+          "id": "com.google.inject.extensions:guice-servlet:5.1.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "joda-time:joda-time:2.10.13",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.threeten:threeten-extra:1.7.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.ibm.icu:icu4j:70.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.flogger:flogger:0.7.4",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.guava:guava:32.1.1-jre",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ad575652d84153075dd41ec6177ccb15251262b2",
+          "md5": "55870c9a31bf9ba2815f252a93ab0850",
+          "sha256": "91fbba37f1c8b251cf9ea9e7d3a369eb79eb1e6a5df1d4bbf483dd0380740281"
+        },
+        {
+          "id": "com.google.truth.extensions:truth-liteproto-extension:1.1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.truth.extensions:truth-proto-extension:1.1.3",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.jmock:jmock-legacy:2.12.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.jmock:jmock-junit4:2.12.0",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.squareup:javapoet:1.13.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.auto.factory:auto-factory:1.0.1",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "maven",
+      "properties": {
+        "autoservice.version": "1.0.1",
+        "autovalue.version": "1.9",
+        "caffeine.version": "3.0.5",
+        "compile.testing.version": "0.19",
+        "dataflow.version": "3.34.0-eisop1",
+        "flogger.version": "0.7.4",
+        "grpc.version": "1.43.3",
+        "guava.version": "32.1.1-jre",
+        "guice.version": "5.1.0",
+        "gwt.version": "2.10.0",
+        "jspecify.version": "0.3.0",
+        "junit.version": "4.13.2",
+        "maven-javadoc-plugin.version": "3.3.1",
+        "maven-source-plugin.version": "3.2.1",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "mockito.version": "4.9.0",
+        "nexus-staging-maven-plugin.version": "1.6.13",
+        "os.detected.arch": "x86_64",
+        "os.detected.bitness": "64",
+        "os.detected.classifier": "windows-x86_64",
+        "os.detected.name": "windows",
+        "project.build.sourceEncoding": "UTF-8",
+        "protobuf.version": "3.19.6",
+        "truth.version": "1.1.3"
+      },
+      "id": "com.google.errorprone:error_prone_parent:HEAD-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "error_prone_parent-HEAD-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/google/errorprone/error_prone_parent/HEAD-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "type": "maven",
+      "properties": {
+        "autoservice.version": "1.0.1",
+        "autovalue.version": "1.9",
+        "caffeine.version": "3.0.5",
+        "compile.testing.version": "0.19",
+        "dataflow.version": "3.34.0-eisop1",
+        "flogger.version": "0.7.4",
+        "grpc.version": "1.43.3",
+        "guava.version": "32.1.1-jre",
+        "guice.version": "5.1.0",
+        "gwt.version": "2.10.0",
+        "jspecify.version": "0.3.0",
+        "junit.version": "4.13.2",
+        "maven-javadoc-plugin.version": "3.3.1",
+        "maven-source-plugin.version": "3.2.1",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "mockito.version": "4.9.0",
+        "nexus-staging-maven-plugin.version": "1.6.13",
+        "os.detected.arch": "x86_64",
+        "os.detected.bitness": "64",
+        "os.detected.classifier": "windows-x86_64",
+        "os.detected.name": "windows",
+        "project.build.sourceEncoding": "UTF-8",
+        "protobuf.version": "3.19.6",
+        "truth.version": "1.1.3"
+      },
+      "id": "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "error_prone_annotation-HEAD-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/google/errorprone/error_prone_annotation/HEAD-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "com.google.code.findbugs:jsr305:3.0.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+          "md5": "dd83accb899363c32b07d7a1b2e4ce40",
+          "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotations:2.18.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "89b684257096f548fa39a7df9fdaa409d4d4df91",
+          "md5": "64145d0e7fee5a69ed7b84cf402de998",
+          "sha256": "9e6814cb71816988a4fd1b07a993a8f21bb7058d522c162b1de849e19bea54ae"
+        },
+        {
+          "id": "org.ow2.asm:asm:9.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.truth:truth:1.1.3",
+              "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.j2objc:j2objc-annotations:2.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c85270e307e7b822f1086b93689124b89768e273",
+          "md5": "c50af69b704dc91050efb98e0dff66d1",
+          "sha256": "f02a95fa1a5e95edb3ed859fd0fb7df709d121a35290eff8b74dce2ab7f4d6ed"
+        },
+        {
+          "id": "com.google.guava:failureaccess:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9",
+          "md5": "091883993ef5bfa91da01dcc8fc52236",
+          "sha256": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+        },
+        {
+          "id": "junit:junit:4.13.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b421526c5f297295adef1c886e5246c39d4ac629",
+          "md5": "d094c22570d65e132c19cea5d352e381",
+          "sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+          "id": "org.hamcrest:hamcrest-core:1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "junit:junit:4.13.2",
+              "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.auto.value:auto-value-annotations:1.8.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.truth:truth:1.1.3",
+              "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.guava:guava:32.1.1-jre",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ad575652d84153075dd41ec6177ccb15251262b2",
+          "md5": "55870c9a31bf9ba2815f252a93ab0850",
+          "sha256": "91fbba37f1c8b251cf9ea9e7d3a369eb79eb1e6a5df1d4bbf483dd0380740281"
+        },
+        {
+          "id": "com.google.truth:truth:1.1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.checkerframework:checker-qual:3.33.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "de2b60b62da487644fc11f734e73c8b0b431238f",
+          "md5": "fc9418b779d9d57dcd52197006cbdb9b",
+          "sha256": "e316255bbfcd9fe50d165314b85abb2b33cb2a66a93c491db648e498a82c2de1"
+        }
+      ]
+    },
+    {
+      "type": "maven",
+      "properties": {
+        "autoservice.version": "1.0.1",
+        "autovalue.version": "1.9",
+        "caffeine.version": "3.0.5",
+        "compile.testing.version": "0.19",
+        "dataflow.version": "3.34.0-eisop1",
+        "flogger.version": "0.7.4",
+        "grpc.version": "1.43.3",
+        "guava.version": "32.1.1-jre",
+        "guice.version": "5.1.0",
+        "gwt.version": "2.10.0",
+        "jspecify.version": "0.3.0",
+        "junit.version": "4.13.2",
+        "maven-javadoc-plugin.version": "3.3.1",
+        "maven-source-plugin.version": "3.2.1",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "mockito.version": "4.9.0",
+        "nexus-staging-maven-plugin.version": "1.6.13",
+        "os.detected.arch": "x86_64",
+        "os.detected.bitness": "64",
+        "os.detected.classifier": "windows-x86_64",
+        "os.detected.name": "windows",
+        "project.build.sourceEncoding": "UTF-8",
+        "protobuf.version": "3.19.6",
+        "truth.version": "1.1.3"
+      },
+      "id": "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "error_prone_check_api-HEAD-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/google/errorprone/error_prone_check_api/HEAD-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "com.google.code.findbugs:jsr305:3.0.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+          "md5": "dd83accb899363c32b07d7a1b2e4ce40",
+          "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+          "id": "com.google.guava:guava-testlib:32.1.1-jre",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.truth.extensions:truth-java8-extension:1.1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b421526c5f297295adef1c886e5246c39d4ac629",
+          "md5": "d094c22570d65e132c19cea5d352e381",
+          "sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+          "id": "aopalliance:aopalliance:1.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.inject:guice:5.1.0",
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "0235ba8b489512805ac13a8f9ea77a1ca5ebe3e8",
+          "md5": "04177054e180d09e3998808efa0401c7",
+          "sha256": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08"
+        },
+        {
+          "id": "io.github.eisop:dataflow-errorprone:3.34.0-eisop1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3e9901aac15bca8023ba5930ee5a0428302b6197",
+          "md5": "398ca4eedfc6624631d301b011dd769f",
+          "sha256": "89b4f5d2bd5059f067c5982a0e5988b87dfc8a8234795d68c6f3178846de3319"
+        },
+        {
+          "id": "net.bytebuddy:byte-buddy:1.12.16",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mockito:mockito-core:4.9.0",
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.auto.value:auto-value-annotations:1.9",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "25a0fcef915f663679fcdb447541c5d86a9be4ba",
+          "md5": "86f1f5d71eceea4eb4e3ad0505e8b22c",
+          "sha256": "fa5469f4c44ee598a2d8f033ab0a9dcbc6498a0c5e0c998dfa0c2adf51358044"
+        },
+        {
+          "id": "com.google.truth:truth:1.1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.github.kevinstern:software-and-algorithms:1.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "5e77666b72c6c5dd583c36148d17fc47f944dfb5",
+          "md5": "fbc6311fa6912f46ffe4bdb23b39604c",
+          "sha256": "61ab82439cef37343b14f53154c461619375373a56b9338e895709fb54e0864c"
+        },
+        {
+          "id": "org.objenesis:objenesis:3.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mockito:mockito-core:4.9.0",
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.jimfs:jimfs:1.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.ow2.asm:asm:9.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.truth:truth:1.1.3",
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.github.ben-manes.caffeine:caffeine:3.0.5",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3de85488bf535299d5f36d98626605331a10de87",
+          "md5": "8248c5402434adc38901c979404f4334",
+          "sha256": "8a9b54d3506a3b92ee46b217bcee79196b21ca6d52dc2967c686a205fb2f9c15"
+        },
+        {
+          "id": "org.checkerframework:checker-qual:3.13.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.truth:truth:1.1.3",
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "e29afc6adb63a39286d38dc0e00d164117c02f0d",
+          "md5": "aa28b5033a3433060c5b85974626f5cb",
+          "sha256": "3ea0dcd73b4d6cb2fb34bd7ed4dad6db327a01ebad7db05eb7894076b3d64491"
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "io.github.java-diff-utils:java-diff-utils:4.12",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1a712a91324d566eef39817fc5c9980eb10c21db",
+          "md5": "2bab3395dcfe2ea5b092ad646ca899d3",
+          "sha256": "9990a2039778f6b4cc94790141c2868864eacee0620c6c459451121a901cd5b5"
+        },
+        {
+          "id": "org.mockito:mockito-core:4.9.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.inject:guice:5.1.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "da25056c694c54ba16e78e4fc35f17fc60f0d1b4",
+          "md5": "2560169296aa94492af34af2115e9511",
+          "sha256": "4130e50bfac48099c860f0d903b91860c81a249c90f38245f8fed58fc817bc26"
+        },
+        {
+          "id": "net.bytebuddy:byte-buddy-agent:1.12.16",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mockito:mockito-core:4.9.0",
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotations:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.j2objc:j2objc-annotations:2.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava-testlib:32.1.1-jre",
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c85270e307e7b822f1086b93689124b89768e273",
+          "md5": "c50af69b704dc91050efb98e0dff66d1",
+          "sha256": "f02a95fa1a5e95edb3ed859fd0fb7df709d121a35290eff8b74dce2ab7f4d6ed"
+        },
+        {
+          "id": "javax.inject:javax.inject:1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.inject:guice:5.1.0",
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6975da39a7040257bd51d21a231b76c915872d38",
+          "md5": "289075e48b909e9e74e6c915b3631d2e",
+          "sha256": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff"
+        },
+        {
+          "id": "org.hamcrest:hamcrest:2.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.hamcrest:hamcrest-core:2.2",
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.guava:failureaccess:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9",
+          "md5": "091883993ef5bfa91da01dcc8fc52236",
+          "sha256": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+        },
+        {
+          "id": "junit:junit:4.13.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.hamcrest:hamcrest-core:2.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.guava:guava:32.1.1-jre",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ad575652d84153075dd41ec6177ccb15251262b2",
+          "md5": "55870c9a31bf9ba2815f252a93ab0850",
+          "sha256": "91fbba37f1c8b251cf9ea9e7d3a369eb79eb1e6a5df1d4bbf483dd0380740281"
+        }
+      ]
+    },
+    {
+      "type": "maven",
+      "properties": {
+        "autoservice.version": "1.0.1",
+        "autovalue.version": "1.9",
+        "caffeine.version": "3.0.5",
+        "compile.testing.version": "0.19",
+        "dataflow.version": "3.34.0-eisop1",
+        "flogger.version": "0.7.4",
+        "grpc.version": "1.43.3",
+        "guava.version": "32.1.1-jre",
+        "guice.version": "5.1.0",
+        "gwt.version": "2.10.0",
+        "jspecify.version": "0.3.0",
+        "junit.version": "4.13.2",
+        "maven-javadoc-plugin.version": "3.3.1",
+        "maven-source-plugin.version": "3.2.1",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "mockito.version": "4.9.0",
+        "nexus-staging-maven-plugin.version": "1.6.13",
+        "os.detected.arch": "x86_64",
+        "os.detected.bitness": "64",
+        "os.detected.classifier": "windows-x86_64",
+        "os.detected.name": "windows",
+        "project.build.sourceEncoding": "UTF-8",
+        "protobuf.version": "3.19.6",
+        "truth.version": "1.1.3"
+      },
+      "id": "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "error_prone_docgen-HEAD-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/google/errorprone/error_prone_docgen/HEAD-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "com.google.errorprone:error_prone_docgen_processor:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.github.spullara.mustache.java:compiler:0.9.10",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6111ae24e3be9ecbd75f5fe908583fc14b4f0174",
+          "md5": "5638fc78a17d5063cc4b0d00f6e87491",
+          "sha256": "2b5a9217811cb99846a473fa8e0d233eb33629347b7f44941f6c0fbd4cdf1038"
+        },
+        {
+          "id": "com.google.code.findbugs:jsr305:3.0.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+          "md5": "dd83accb899363c32b07d7a1b2e4ce40",
+          "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+          "id": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b421526c5f297295adef1c886e5246c39d4ac629",
+          "md5": "d094c22570d65e132c19cea5d352e381",
+          "sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+          "id": "aopalliance:aopalliance:1.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.inject:guice:5.1.0",
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "0235ba8b489512805ac13a8f9ea77a1ca5ebe3e8",
+          "md5": "04177054e180d09e3998808efa0401c7",
+          "sha256": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08"
+        },
+        {
+          "id": "io.github.eisop:dataflow-errorprone:3.34.0-eisop1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3e9901aac15bca8023ba5930ee5a0428302b6197",
+          "md5": "398ca4eedfc6624631d301b011dd769f",
+          "sha256": "89b4f5d2bd5059f067c5982a0e5988b87dfc8a8234795d68c6f3178846de3319"
+        },
+        {
+          "id": "com.google.auto.value:auto-value-annotations:1.9",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "25a0fcef915f663679fcdb447541c5d86a9be4ba",
+          "md5": "86f1f5d71eceea4eb4e3ad0505e8b22c",
+          "sha256": "fa5469f4c44ee598a2d8f033ab0a9dcbc6498a0c5e0c998dfa0c2adf51358044"
+        },
+        {
+          "id": "com.google.truth:truth:1.1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.github.kevinstern:software-and-algorithms:1.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "5e77666b72c6c5dd583c36148d17fc47f944dfb5",
+          "md5": "fbc6311fa6912f46ffe4bdb23b39604c",
+          "sha256": "61ab82439cef37343b14f53154c461619375373a56b9338e895709fb54e0864c"
+        },
+        {
+          "id": "com.google.errorprone:error_prone_type_annotations:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.auto:auto-common:1.2.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "f6da26895f759010f5f170c8044e84c1b17ef83e",
+          "md5": "064eec84b7b36ed1bbf1b43a9fcf513c",
+          "sha256": "f43f29fe2a6ebaf04b2598cdeec32a4e346d49a9404e990f5fc19c19f3a28d0e"
+        },
+        {
+          "id": "org.ow2.asm:asm:9.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.truth:truth:1.1.3",
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.github.ben-manes.caffeine:caffeine:3.0.5",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3de85488bf535299d5f36d98626605331a10de87",
+          "md5": "8248c5402434adc38901c979404f4334",
+          "sha256": "8a9b54d3506a3b92ee46b217bcee79196b21ca6d52dc2967c686a205fb2f9c15"
+        },
+        {
+          "id": "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "io.github.java-diff-utils:java-diff-utils:4.12",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1a712a91324d566eef39817fc5c9980eb10c21db",
+          "md5": "2bab3395dcfe2ea5b092ad646ca899d3",
+          "sha256": "9990a2039778f6b4cc94790141c2868864eacee0620c6c459451121a901cd5b5"
+        },
+        {
+          "id": "com.google.code.gson:gson:2.8.9",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "8a432c1d6825781e21a02db2e2c33c5fde2833b9",
+          "md5": "e67627f67e03301092dc7de0a2d7cef8",
+          "sha256": "d3999291855de495c94c743761b8ab5176cfeabe281a5ab0d8e8d45326fd703e"
+        },
+        {
+          "id": "com.beust:jcommander:1.82",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "0a7c5fef184d238065de38f81bbc6ee50cca2e21",
+          "md5": "c350dc0db8aa038e6bbaf0050720d69c",
+          "sha256": "deeac157c8de6822878d85d0c7bc8467a19cc8484d37788f7804f039dde280b1"
+        },
+        {
+          "id": "com.google.inject:guice:5.1.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "da25056c694c54ba16e78e4fc35f17fc60f0d1b4",
+          "md5": "2560169296aa94492af34af2115e9511",
+          "sha256": "4130e50bfac48099c860f0d903b91860c81a249c90f38245f8fed58fc817bc26"
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotations:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.j2objc:j2objc-annotations:2.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c85270e307e7b822f1086b93689124b89768e273",
+          "md5": "c50af69b704dc91050efb98e0dff66d1",
+          "sha256": "f02a95fa1a5e95edb3ed859fd0fb7df709d121a35290eff8b74dce2ab7f4d6ed"
+        },
+        {
+          "id": "javax.inject:javax.inject:1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6975da39a7040257bd51d21a231b76c915872d38",
+          "md5": "289075e48b909e9e74e6c915b3631d2e",
+          "sha256": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff"
+        },
+        {
+          "id": "com.google.guava:failureaccess:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9",
+          "md5": "091883993ef5bfa91da01dcc8fc52236",
+          "sha256": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+        },
+        {
+          "id": "junit:junit:4.13.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.hamcrest:hamcrest-core:1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "junit:junit:4.13.2",
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.auto.service:auto-service-annotations:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ac86dacc0eb9285ea9d42eee6aad8629ca3a7432",
+          "md5": "61f0b581d16c470cd9e7d595be8568ff",
+          "sha256": "c7bec54b7b5588b5967e870341091c5691181d954cf2039f1bf0a6eeb837473b"
+        },
+        {
+          "id": "org.checkerframework:checker-qual:3.33.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "de2b60b62da487644fc11f734e73c8b0b431238f",
+          "md5": "fc9418b779d9d57dcd52197006cbdb9b",
+          "sha256": "e316255bbfcd9fe50d165314b85abb2b33cb2a66a93c491db648e498a82c2de1"
+        },
+        {
+          "id": "com.google.protobuf:protobuf-java:3.19.6",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "578a2070b8106d3ea350fc737e777262bdc796b1",
+          "md5": "da6ac3361efd3e3dabb08a3da7892648",
+          "sha256": "6a9a2dff91dcf71f85be71ae971f6164b5a631dcd34bff08f0618535ca44ad02"
+        },
+        {
+          "id": "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.guava:guava:32.1.1-jre",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ad575652d84153075dd41ec6177ccb15251262b2",
+          "md5": "55870c9a31bf9ba2815f252a93ab0850",
+          "sha256": "91fbba37f1c8b251cf9ea9e7d3a369eb79eb1e6a5df1d4bbf483dd0380740281"
+        },
+        {
+          "id": "org.pcollections:pcollections:3.1.4",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "e2a87923739024b4befa4701e6fe640af1e7d63e",
+          "md5": "61263fe004611fb17e311ab132973c5f",
+          "sha256": "34f579ba075c8da2c8a0fedd0f04e21eac2fb6c660d90d0fabb573e8b4dc6918"
+        },
+        {
+          "id": "org.yaml:snakeyaml:2.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_docgen:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3aab2116756442bf0d4cd1c089b24d34c3baa253",
+          "md5": "caf24b81b9d57e6d4f68b1ccd36e00a3",
+          "sha256": "880c9d896e4b74a06c549c15ca496450165d6909fa15d7e662bee8f6a66d7afa"
+        }
+      ]
+    },
+    {
+      "type": "maven",
+      "properties": {
+        "autoservice.version": "1.0.1",
+        "autovalue.version": "1.9",
+        "caffeine.version": "3.0.5",
+        "compile.testing.version": "0.19",
+        "dataflow.version": "3.34.0-eisop1",
+        "flogger.version": "0.7.4",
+        "grpc.version": "1.43.3",
+        "guava.version": "32.1.1-jre",
+        "guice.version": "5.1.0",
+        "gwt.version": "2.10.0",
+        "jspecify.version": "0.3.0",
+        "junit.version": "4.13.2",
+        "maven-javadoc-plugin.version": "3.3.1",
+        "maven-source-plugin.version": "3.2.1",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "mockito.version": "4.9.0",
+        "nexus-staging-maven-plugin.version": "1.6.13",
+        "os.detected.arch": "x86_64",
+        "os.detected.bitness": "64",
+        "os.detected.classifier": "windows-x86_64",
+        "os.detected.name": "windows",
+        "project.build.sourceEncoding": "UTF-8",
+        "protobuf.version": "3.19.6",
+        "truth.version": "1.1.3"
+      },
+      "id": "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "error_prone_refaster-HEAD-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/google/errorprone/error_prone_refaster/HEAD-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "com.google.inject:guice:5.1.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "da25056c694c54ba16e78e4fc35f17fc60f0d1b4",
+          "md5": "2560169296aa94492af34af2115e9511",
+          "sha256": "4130e50bfac48099c860f0d903b91860c81a249c90f38245f8fed58fc817bc26"
+        },
+        {
+          "id": "com.google.code.findbugs:jsr305:3.0.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+          "md5": "dd83accb899363c32b07d7a1b2e4ce40",
+          "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+          "id": "com.google.j2objc:j2objc-annotations:2.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c85270e307e7b822f1086b93689124b89768e273",
+          "md5": "c50af69b704dc91050efb98e0dff66d1",
+          "sha256": "f02a95fa1a5e95edb3ed859fd0fb7df709d121a35290eff8b74dce2ab7f4d6ed"
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotations:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "javax.inject:javax.inject:1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6975da39a7040257bd51d21a231b76c915872d38",
+          "md5": "289075e48b909e9e74e6c915b3631d2e",
+          "sha256": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff"
+        },
+        {
+          "id": "com.google.guava:failureaccess:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9",
+          "md5": "091883993ef5bfa91da01dcc8fc52236",
+          "sha256": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+        },
+        {
+          "id": "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+          "type": "with-dependencies",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b421526c5f297295adef1c886e5246c39d4ac629",
+          "md5": "d094c22570d65e132c19cea5d352e381",
+          "sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+          "id": "aopalliance:aopalliance:1.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.inject:guice:5.1.0",
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "0235ba8b489512805ac13a8f9ea77a1ca5ebe3e8",
+          "md5": "04177054e180d09e3998808efa0401c7",
+          "sha256": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08"
+        },
+        {
+          "id": "io.github.eisop:dataflow-errorprone:3.34.0-eisop1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3e9901aac15bca8023ba5930ee5a0428302b6197",
+          "md5": "398ca4eedfc6624631d301b011dd769f",
+          "sha256": "89b4f5d2bd5059f067c5982a0e5988b87dfc8a8234795d68c6f3178846de3319"
+        },
+        {
+          "id": "com.google.auto.service:auto-service-annotations:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ac86dacc0eb9285ea9d42eee6aad8629ca3a7432",
+          "md5": "61f0b581d16c470cd9e7d595be8568ff",
+          "sha256": "c7bec54b7b5588b5967e870341091c5691181d954cf2039f1bf0a6eeb837473b"
+        },
+        {
+          "id": "com.google.auto.value:auto-value-annotations:1.9",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "25a0fcef915f663679fcdb447541c5d86a9be4ba",
+          "md5": "86f1f5d71eceea4eb4e3ad0505e8b22c",
+          "sha256": "fa5469f4c44ee598a2d8f033ab0a9dcbc6498a0c5e0c998dfa0c2adf51358044"
+        },
+        {
+          "id": "com.github.kevinstern:software-and-algorithms:1.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "5e77666b72c6c5dd583c36148d17fc47f944dfb5",
+          "md5": "fbc6311fa6912f46ffe4bdb23b39604c",
+          "sha256": "61ab82439cef37343b14f53154c461619375373a56b9338e895709fb54e0864c"
+        },
+        {
+          "id": "org.checkerframework:checker-qual:3.33.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "de2b60b62da487644fc11f734e73c8b0b431238f",
+          "md5": "fc9418b779d9d57dcd52197006cbdb9b",
+          "sha256": "e316255bbfcd9fe50d165314b85abb2b33cb2a66a93c491db648e498a82c2de1"
+        },
+        {
+          "id": "com.google.protobuf:protobuf-java:3.19.6",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "578a2070b8106d3ea350fc737e777262bdc796b1",
+          "md5": "da6ac3361efd3e3dabb08a3da7892648",
+          "sha256": "6a9a2dff91dcf71f85be71ae971f6164b5a631dcd34bff08f0618535ca44ad02"
+        },
+        {
+          "id": "com.google.errorprone:error_prone_type_annotations:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.auto:auto-common:1.2.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "f6da26895f759010f5f170c8044e84c1b17ef83e",
+          "md5": "064eec84b7b36ed1bbf1b43a9fcf513c",
+          "sha256": "f43f29fe2a6ebaf04b2598cdeec32a4e346d49a9404e990f5fc19c19f3a28d0e"
+        },
+        {
+          "id": "com.github.ben-manes.caffeine:caffeine:3.0.5",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3de85488bf535299d5f36d98626605331a10de87",
+          "md5": "8248c5402434adc38901c979404f4334",
+          "sha256": "8a9b54d3506a3b92ee46b217bcee79196b21ca6d52dc2967c686a205fb2f9c15"
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "io.github.java-diff-utils:java-diff-utils:4.12",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1a712a91324d566eef39817fc5c9980eb10c21db",
+          "md5": "2bab3395dcfe2ea5b092ad646ca899d3",
+          "sha256": "9990a2039778f6b4cc94790141c2868864eacee0620c6c459451121a901cd5b5"
+        },
+        {
+          "id": "com.google.guava:guava:32.1.1-jre",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ad575652d84153075dd41ec6177ccb15251262b2",
+          "md5": "55870c9a31bf9ba2815f252a93ab0850",
+          "sha256": "91fbba37f1c8b251cf9ea9e7d3a369eb79eb1e6a5df1d4bbf483dd0380740281"
+        },
+        {
+          "id": "org.pcollections:pcollections:3.1.4",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_core:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_refaster:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "e2a87923739024b4befa4701e6fe640af1e7d63e",
+          "md5": "61263fe004611fb17e311ab132973c5f",
+          "sha256": "34f579ba075c8da2c8a0fedd0f04e21eac2fb6c660d90d0fabb573e8b4dc6918"
+        }
+      ]
+    },
+    {
+      "type": "maven",
+      "properties": {
+        "autoservice.version": "1.0.1",
+        "autovalue.version": "1.9",
+        "caffeine.version": "3.0.5",
+        "compile.testing.version": "0.19",
+        "dataflow.version": "3.34.0-eisop1",
+        "flogger.version": "0.7.4",
+        "grpc.version": "1.43.3",
+        "guava.version": "32.1.1-jre",
+        "guice.version": "5.1.0",
+        "gwt.version": "2.10.0",
+        "jspecify.version": "0.3.0",
+        "junit.version": "4.13.2",
+        "maven-javadoc-plugin.version": "3.3.1",
+        "maven-source-plugin.version": "3.2.1",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "mockito.version": "4.9.0",
+        "nexus-staging-maven-plugin.version": "1.6.13",
+        "os.detected.arch": "x86_64",
+        "os.detected.bitness": "64",
+        "os.detected.classifier": "windows-x86_64",
+        "os.detected.name": "windows",
+        "project.build.sourceEncoding": "UTF-8",
+        "protobuf.version": "3.19.6",
+        "truth.version": "1.1.3"
+      },
+      "id": "com.google.errorprone:error_prone_annotations:HEAD-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "error_prone_annotations-HEAD-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/google/errorprone/error_prone_annotations/HEAD-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "junit:junit:4.13.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_annotations:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.hamcrest:hamcrest-core:1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "junit:junit:4.13.2",
+              "com.google.errorprone:error_prone_annotations:HEAD-SNAPSHOT"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "maven",
+      "properties": {
+        "autoservice.version": "1.0.1",
+        "autovalue.version": "1.9",
+        "caffeine.version": "3.0.5",
+        "compile.testing.version": "0.19",
+        "dataflow.version": "3.34.0-eisop1",
+        "flogger.version": "0.7.4",
+        "grpc.version": "1.43.3",
+        "guava.version": "32.1.1-jre",
+        "guice.version": "5.1.0",
+        "gwt.version": "2.10.0",
+        "jspecify.version": "0.3.0",
+        "junit.version": "4.13.2",
+        "maven-javadoc-plugin.version": "3.3.1",
+        "maven-source-plugin.version": "3.2.1",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "mockito.version": "4.9.0",
+        "nexus-staging-maven-plugin.version": "1.6.13",
+        "os.detected.arch": "x86_64",
+        "os.detected.bitness": "64",
+        "os.detected.classifier": "windows-x86_64",
+        "os.detected.name": "windows",
+        "project.build.sourceEncoding": "UTF-8",
+        "protobuf.version": "3.19.6",
+        "truth.version": "1.1.3"
+      },
+      "id": "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "error_prone_test_helpers-HEAD-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/google/errorprone/error_prone_test_helpers/HEAD-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "com.google.code.findbugs:jsr305:3.0.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+          "md5": "dd83accb899363c32b07d7a1b2e4ce40",
+          "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+          "id": "com.google.testing.compile:compile-testing:0.19",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ba6096d08f3960e171364cf52b4d1b4df4cbc92d",
+          "md5": "36027de856a3a600ab0ee82167345e59",
+          "sha256": "ffe9e7ac95165ff350fc12b100c51334cd78d205b86c7147340a117296e2a9cd"
+        },
+        {
+          "id": "com.google.guava:guava-testlib:32.1.1-jre",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b421526c5f297295adef1c886e5246c39d4ac629",
+          "md5": "d094c22570d65e132c19cea5d352e381",
+          "sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+          "id": "aopalliance:aopalliance:1.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.inject:guice:5.1.0",
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "0235ba8b489512805ac13a8f9ea77a1ca5ebe3e8",
+          "md5": "04177054e180d09e3998808efa0401c7",
+          "sha256": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08"
+        },
+        {
+          "id": "io.github.eisop:dataflow-errorprone:3.34.0-eisop1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3e9901aac15bca8023ba5930ee5a0428302b6197",
+          "md5": "398ca4eedfc6624631d301b011dd769f",
+          "sha256": "89b4f5d2bd5059f067c5982a0e5988b87dfc8a8234795d68c6f3178846de3319"
+        },
+        {
+          "id": "net.bytebuddy:byte-buddy:1.12.16",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mockito:mockito-core:4.9.0",
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.auto.value:auto-value-annotations:1.9",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "25a0fcef915f663679fcdb447541c5d86a9be4ba",
+          "md5": "86f1f5d71eceea4eb4e3ad0505e8b22c",
+          "sha256": "fa5469f4c44ee598a2d8f033ab0a9dcbc6498a0c5e0c998dfa0c2adf51358044"
+        },
+        {
+          "id": "org.hamcrest:hamcrest-library:2.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "cf530c8a0bc993487c64e940ae639bb4a6104dc6",
+          "md5": "e55927fb7e4a3c7a4ecd325677ea8cb3",
+          "sha256": "3851523a201a0d4825c25a61a6edc50712825a39bd3d03391b98c48ca3cb396c"
+        },
+        {
+          "id": "com.google.googlejavaformat:google-java-format:1.13.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "4759a4d143173f47b520933f8fc19f7f65e8e5c3",
+          "md5": "32148ccfc2abe902cdbc6b8afa57711c",
+          "sha256": "770ae53bd2f0b750bdbbda6e2c685d54378a71d276a64418333ccdde00d021ee"
+        },
+        {
+          "id": "com.google.truth:truth:1.1.3",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "5e2491cc44dce7380165963a24e91a0af4556a17",
+          "md5": "d1ac69df1c6f8862cc68477cbe6542a1",
+          "sha256": "fc0b67782289a2aabfddfdf99eff1dcd5edc890d49143fcd489214b107b8f4f3"
+        },
+        {
+          "id": "com.github.kevinstern:software-and-algorithms:1.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "5e77666b72c6c5dd583c36148d17fc47f944dfb5",
+          "md5": "fbc6311fa6912f46ffe4bdb23b39604c",
+          "sha256": "61ab82439cef37343b14f53154c461619375373a56b9338e895709fb54e0864c"
+        },
+        {
+          "id": "com.google.jimfs:jimfs:1.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "48462eb319817c90c27d377341684b6b81372e08",
+          "md5": "c47cfe0223863f400132e6d8f38a8da0",
+          "sha256": "de16d5c8489729a8512f1a02fbd81f58f89249b72066987da4cc5c87ecb9f72d"
+        },
+        {
+          "id": "org.objenesis:objenesis:3.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mockito:mockito-core:4.9.0",
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.ow2.asm:asm:9.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.truth:truth:1.1.3",
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "a99500cf6eea30535eeac6be73899d048f8d12a8",
+          "md5": "54b9f5d15e4877a4ea4cf9ec48e07afa",
+          "sha256": "cda4de455fab48ff0bcb7c48b4639447d4de859a7afc30a094a986f0936beba2"
+        },
+        {
+          "id": "com.github.ben-manes.caffeine:caffeine:3.0.5",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3de85488bf535299d5f36d98626605331a10de87",
+          "md5": "8248c5402434adc38901c979404f4334",
+          "sha256": "8a9b54d3506a3b92ee46b217bcee79196b21ca6d52dc2967c686a205fb2f9c15"
+        },
+        {
+          "id": "com.google.auto.value:auto-value:1.9",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "fd4ec236e20ae0895c30e83260f611bcbc185086",
+          "md5": "f83df84686dd14b954561cc8ff15bbce",
+          "sha256": "fd39087fa111da2b12b14675fee740043f0e78e4bfc7055cf3443bfffa3f572b"
+        },
+        {
+          "id": "com.google.auto:auto-common:1.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.auto.service:auto-service:1.0.1",
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ca270191fd7d2a7297da7c8f29184206df10c67d",
+          "md5": "74582e027c5f288915918ebfa7a66484",
+          "sha256": "326d674b411ea67505273f9ade5311c15bca50644b5211a6c309c9aee590a20a"
+        },
+        {
+          "id": "org.checkerframework:checker-qual:3.13.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.truth:truth:1.1.3",
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "e29afc6adb63a39286d38dc0e00d164117c02f0d",
+          "md5": "aa28b5033a3433060c5b85974626f5cb",
+          "sha256": "3ea0dcd73b4d6cb2fb34bd7ed4dad6db327a01ebad7db05eb7894076b3d64491"
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "io.github.java-diff-utils:java-diff-utils:4.12",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1a712a91324d566eef39817fc5c9980eb10c21db",
+          "md5": "2bab3395dcfe2ea5b092ad646ca899d3",
+          "sha256": "9990a2039778f6b4cc94790141c2868864eacee0620c6c459451121a901cd5b5"
+        },
+        {
+          "id": "org.mockito:mockito-core:4.9.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.inject:guice:5.1.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "da25056c694c54ba16e78e4fc35f17fc60f0d1b4",
+          "md5": "2560169296aa94492af34af2115e9511",
+          "sha256": "4130e50bfac48099c860f0d903b91860c81a249c90f38245f8fed58fc817bc26"
+        },
+        {
+          "id": "net.bytebuddy:byte-buddy-agent:1.12.16",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mockito:mockito-core:4.9.0",
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotations:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.j2objc:j2objc-annotations:2.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava-testlib:32.1.1-jre",
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c85270e307e7b822f1086b93689124b89768e273",
+          "md5": "c50af69b704dc91050efb98e0dff66d1",
+          "sha256": "f02a95fa1a5e95edb3ed859fd0fb7df709d121a35290eff8b74dce2ab7f4d6ed"
+        },
+        {
+          "id": "javax.inject:javax.inject:1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.inject:guice:5.1.0",
+              "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6975da39a7040257bd51d21a231b76c915872d38",
+          "md5": "289075e48b909e9e74e6c915b3631d2e",
+          "sha256": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff"
+        },
+        {
+          "id": "org.hamcrest:hamcrest:2.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.hamcrest:hamcrest-core:2.2",
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1820c0968dba3a11a1b30669bb1f01978a91dedc",
+          "md5": "10b47e837f271d0662f28780e60388e8",
+          "sha256": "5e62846a89f05cd78cd9c1a553f340d002458380c320455dd1f8fc5497a8a1c1"
+        },
+        {
+          "id": "com.google.guava:failureaccess:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.1-jre",
+              "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9",
+          "md5": "091883993ef5bfa91da01dcc8fc52236",
+          "sha256": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+        },
+        {
+          "id": "junit:junit:4.13.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12",
+          "md5": "d98a9a02a99a9acd22d7653cbcc1f31f",
+          "sha256": "8e495b634469d64fb8acfa3495a065cbacc8a0fff55ce1e31007be4c16dc57d3"
+        },
+        {
+          "id": "org.hamcrest:hamcrest-core:2.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "3f2bd07716a31c395e2837254f37f21f0f0ab24b",
+          "md5": "be43e37f4c7b4f6fadba382933006b15",
+          "sha256": "094f5d92b4b7d9c8a2bf53cc69d356243ae89c3499457bcb4b92f7ed3bf95879"
+        },
+        {
+          "id": "com.google.auto.service:auto-service-annotations:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "com.google.auto.service:auto-service:1.0.1",
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ac86dacc0eb9285ea9d42eee6aad8629ca3a7432",
+          "md5": "61f0b581d16c470cd9e7d595be8568ff",
+          "sha256": "c7bec54b7b5588b5967e870341091c5691181d954cf2039f1bf0a6eeb837473b"
+        },
+        {
+          "id": "com.google.auto.service:auto-service:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c9779f7372192a96c957a3df1faeeabd07881085",
+          "md5": "cc3dff3b12311d8c8aae5afb0a00204f",
+          "sha256": "88d469a5392dc2a292dfa20432591a584c29fae417cfd88b72620f35ec795acf"
+        },
+        {
+          "id": "com.google.errorprone:error_prone_check_api:HEAD-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.guava:guava:32.1.1-jre",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.errorprone:error_prone_annotation:HEAD-SNAPSHOT",
+              "com.google.errorprone:error_prone_test_helpers:HEAD-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ad575652d84153075dd41ec6177ccb15251262b2",
+          "md5": "55870c9a31bf9ba2815f252a93ab0850",
+          "sha256": "91fbba37f1c8b251cf9ea9e7d3a369eb79eb1e6a5df1d4bbf483dd0380740281"
+        }
+      ]
+    }
+  ],
+  "started": "2024-02-22T18:09:39.116+0800"
+}

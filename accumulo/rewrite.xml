@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:6fa74db8-8fbc-474d-b064-a85a4d0ed465" version="1">
+    <metadata>
+        <timestamp>2023-10-27T13:38:49.336205500Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>OpenRewrite</vendor>
+                <name>OpenRewrite CycloneDX</name>
+                <version>7.18.0</version>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/org.apache.accumulo/accumulo-project@3.1.0-SNAPSHOT?type=pom" type="library">
+            <group>org.apache.accumulo</group>
+            <name>accumulo-project</name>
+            <version>3.1.0-SNAPSHOT</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache-2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.apache.accumulo/accumulo-project@3.1.0-SNAPSHOT?type=pom</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="pkg:maven/com.github.spotbugs/spotbugs-annotations@4.7.3?type=jar" type="library">
+            <group>com.github.spotbugs</group>
+            <name>spotbugs-annotations</name>
+            <version>4.7.3</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>GNU LESSER GENERAL PUBLIC LICENSE, Version 2.1</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.github.spotbugs/spotbugs-annotations@4.7.3?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar" type="library">
+            <group>com.google.code.findbugs</group>
+            <name>jsr305</name>
+            <version>3.0.2</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar</purl>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/com.github.spotbugs/spotbugs-annotations@4.7.3?type=jar">
+            <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar">
+        </dependency>
+    </dependencies>
+</bom>

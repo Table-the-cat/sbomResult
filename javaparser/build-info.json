@@ -1,0 +1,537 @@
+{
+  "name": "mvn-build",
+  "number": "1",
+  "agent": {},
+  "buildAgent": {
+    "name": "GENERIC"
+  },
+  "modules": [
+    {
+      "type": "maven",
+      "properties": {
+        "argLine": "-javaagent:D:\\\\Work\\\\Maven\\\\repository\\\\org\\\\jacoco\\\\org.jacoco.agent\\\\0.8.10\\\\org.jacoco.agent-0.8.10-runtime.jar=destfile=D:\\\\Work\\\\SBOM\\\\TestProjects\\\\javaparser\\\\javaparser-core-testing-bdd\\\\target\\\\jacoco.exec",
+        "java.version": "1.8",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "project.build.sourceEncoding": "UTF-8"
+      },
+      "id": "com.github.javaparser:javaparser-core-testing-bdd:3.25.6-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "javaparser-core-testing-bdd-3.25.6-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/github/javaparser/javaparser-core-testing-bdd/3.25.6-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "type": "maven",
+      "properties": {
+        "java.version": "1.8",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "project.build.sourceEncoding": "UTF-8"
+      },
+      "id": "com.github.javaparser:javaparser-core-generators:3.25.6-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "javaparser-core-generators-3.25.6-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/github/javaparser/javaparser-core-generators/3.25.6-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "com.github.javaparser:javaparser-core:3.25.6-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.github.javaparser:javaparser-core-generators:3.25.6-SNAPSHOT"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "maven",
+      "properties": {
+        "build.timestamp": "2024-02-05T13:57:14Z",
+        "java.version": "1.8",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "project.build.sourceEncoding": "UTF-8"
+      },
+      "id": "com.github.javaparser:javaparser-core-serialization:3.25.6-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "javaparser-core-serialization-3.25.6-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/github/javaparser/javaparser-core-serialization/3.25.6-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "javax.json:javax.json-api:1.1.4",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.github.javaparser:javaparser-core-serialization:3.25.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c8efa3cfaeee2b05c2dfd54cba21548a081b1746",
+          "md5": "6128da383f9a4a45593650fc263a0998",
+          "sha256": "0bdb79a0a5e0cce2d8d2d339ad53453cdf90045fe34c5e4b19b064bb1aee5876"
+        },
+        {
+          "id": "com.github.javaparser:javaparser-core:3.25.6-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.github.javaparser:javaparser-core-serialization:3.25.6-SNAPSHOT"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "maven",
+      "properties": {
+        "java.version": "1.8",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "project.build.sourceEncoding": "UTF-8"
+      },
+      "id": "com.github.javaparser:javaparser-parent:3.25.6-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "javaparser-parent-3.25.6-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/github/javaparser/javaparser-parent/3.25.6-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "type": "maven",
+      "properties": {
+        "argLine": "-javaagent:D:\\\\Work\\\\Maven\\\\repository\\\\org\\\\jacoco\\\\org.jacoco.agent\\\\0.8.10\\\\org.jacoco.agent-0.8.10-runtime.jar=destfile=D:\\\\Work\\\\SBOM\\\\TestProjects\\\\javaparser\\\\javaparser-core-testing\\\\target\\\\jacoco.exec",
+        "java.version": "1.8",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "project.build.sourceEncoding": "UTF-8"
+      },
+      "id": "com.github.javaparser:javaparser-core-testing:3.25.6-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "javaparser-core-testing-3.25.6-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/github/javaparser/javaparser-core-testing/3.25.6-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "type": "maven",
+      "properties": {
+        "java.version": "1.8",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "project.build.sourceEncoding": "UTF-8"
+      },
+      "id": "com.github.javaparser:javaparser-core-metamodel-generator:3.25.6-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "javaparser-core-metamodel-generator-3.25.6-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/github/javaparser/javaparser-core-metamodel-generator/3.25.6-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "com.github.javaparser:javaparser-core:3.25.6-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.github.javaparser:javaparser-core-metamodel-generator:3.25.6-SNAPSHOT"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "maven",
+      "properties": {
+        "argLine": "-javaagent:D:\\\\Work\\\\Maven\\\\repository\\\\org\\\\jacoco\\\\org.jacoco.agent\\\\0.8.10\\\\org.jacoco.agent-0.8.10-runtime.jar=destfile=D:\\\\Work\\\\SBOM\\\\TestProjects\\\\javaparser\\\\javaparser-symbol-solver-testing\\\\target\\\\jacoco.exec",
+        "java.version": "1.8",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "project.build.sourceEncoding": "UTF-8"
+      },
+      "id": "com.github.javaparser:javaparser-symbol-solver-testing:3.25.6-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "javaparser-symbol-solver-testing-3.25.6-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/github/javaparser/javaparser-symbol-solver-testing/3.25.6-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "com.google.code.findbugs:jsr305:3.0.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.3-jre",
+              "com.github.javaparser:javaparser-symbol-solver-core:3.25.6-SNAPSHOT",
+              "com.github.javaparser:javaparser-symbol-solver-testing:3.25.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+          "md5": "dd83accb899363c32b07d7a1b2e4ce40",
+          "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+          "id": "org.checkerframework:checker-qual:3.37.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.3-jre",
+              "com.github.javaparser:javaparser-symbol-solver-core:3.25.6-SNAPSHOT",
+              "com.github.javaparser:javaparser-symbol-solver-testing:3.25.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ba74746d38026581c12166e164bb3c15e90cc4ea",
+          "md5": "1ff1eed173ff9d6f208d0a5be8f5623d",
+          "sha256": "e4ce1376cc2735e1dde220b62ad0913f51297704daad155a33f386bc5db0d9f7"
+        },
+        {
+          "id": "org.javassist:javassist:3.29.2-GA",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.github.javaparser:javaparser-symbol-solver-core:3.25.6-SNAPSHOT",
+              "com.github.javaparser:javaparser-symbol-solver-testing:3.25.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6c32028609e5dd4a1b78e10fbcd122b09b3928b1",
+          "md5": "9783c90ffa4d36eddda9526fde06f3ea",
+          "sha256": "a90ddb25135df9e57ea9bd4e224e219554929758f9bae9965f29f81d60a3293f"
+        },
+        {
+          "id": "com.google.guava:guava:32.1.3-jre",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.github.javaparser:javaparser-symbol-solver-core:3.25.6-SNAPSHOT",
+              "com.github.javaparser:javaparser-symbol-solver-testing:3.25.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "0f306708742ce2bf0fb0901216183bc14073feae",
+          "md5": "adc3cf557a48d15cb71be90948558923",
+          "sha256": "6d4e2b5a118aab62e6e5e29d185a0224eed82c85c40ac3d33cf04a270c3b3744"
+        },
+        {
+          "id": "com.google.j2objc:j2objc-annotations:2.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.3-jre",
+              "com.github.javaparser:javaparser-symbol-solver-core:3.25.6-SNAPSHOT",
+              "com.github.javaparser:javaparser-symbol-solver-testing:3.25.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c85270e307e7b822f1086b93689124b89768e273",
+          "md5": "c50af69b704dc91050efb98e0dff66d1",
+          "sha256": "f02a95fa1a5e95edb3ed859fd0fb7df709d121a35290eff8b74dce2ab7f4d6ed"
+        },
+        {
+          "id": "com.google.guava:failureaccess:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.3-jre",
+              "com.github.javaparser:javaparser-symbol-solver-core:3.25.6-SNAPSHOT",
+              "com.github.javaparser:javaparser-symbol-solver-testing:3.25.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9",
+          "md5": "091883993ef5bfa91da01dcc8fc52236",
+          "sha256": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotations:2.21.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.3-jre",
+              "com.github.javaparser:javaparser-symbol-solver-core:3.25.6-SNAPSHOT",
+              "com.github.javaparser:javaparser-symbol-solver-testing:3.25.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6d9b10773b5237df178a7b3c1b4208df7d0e7f94",
+          "md5": "75fe4fe33d308dd6cee3b601de902d27",
+          "sha256": "d1f3c66aa91ac52549e00ae3b208ba4b9af7d72d68f230643553beb38e6118ac"
+        },
+        {
+          "id": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.3-jre",
+              "com.github.javaparser:javaparser-symbol-solver-core:3.25.6-SNAPSHOT",
+              "com.github.javaparser:javaparser-symbol-solver-testing:3.25.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b421526c5f297295adef1c886e5246c39d4ac629",
+          "md5": "d094c22570d65e132c19cea5d352e381",
+          "sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+          "id": "com.github.javaparser:javaparser-core:3.25.6-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.github.javaparser:javaparser-symbol-solver-core:3.25.6-SNAPSHOT",
+              "com.github.javaparser:javaparser-symbol-solver-testing:3.25.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.github.javaparser:javaparser-symbol-solver-core:3.25.6-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.github.javaparser:javaparser-symbol-solver-testing:3.25.6-SNAPSHOT"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "maven",
+      "properties": {
+        "build.timestamp": "2024-02-05T13:57:14Z",
+        "java.version": "1.8",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "project.build.sourceEncoding": "UTF-8"
+      },
+      "id": "com.github.javaparser:javaparser-core:3.25.6-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "javaparser-core-3.25.6-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/github/javaparser/javaparser-core/3.25.6-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "type": "maven",
+      "properties": {
+        "build.timestamp": "2024-02-05T13:57:14Z",
+        "java.version": "1.8",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "project.build.sourceEncoding": "UTF-8"
+      },
+      "id": "com.github.javaparser:javaparser-symbol-solver-core:3.25.6-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "javaparser-symbol-solver-core-3.25.6-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "com/github/javaparser/javaparser-symbol-solver-core/3.25.6-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "com.google.code.findbugs:jsr305:3.0.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.3-jre",
+              "com.github.javaparser:javaparser-symbol-solver-core:3.25.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+          "md5": "dd83accb899363c32b07d7a1b2e4ce40",
+          "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+          "id": "org.checkerframework:checker-qual:3.37.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.3-jre",
+              "com.github.javaparser:javaparser-symbol-solver-core:3.25.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "ba74746d38026581c12166e164bb3c15e90cc4ea",
+          "md5": "1ff1eed173ff9d6f208d0a5be8f5623d",
+          "sha256": "e4ce1376cc2735e1dde220b62ad0913f51297704daad155a33f386bc5db0d9f7"
+        },
+        {
+          "id": "org.javassist:javassist:3.29.2-GA",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.github.javaparser:javaparser-symbol-solver-core:3.25.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6c32028609e5dd4a1b78e10fbcd122b09b3928b1",
+          "md5": "9783c90ffa4d36eddda9526fde06f3ea",
+          "sha256": "a90ddb25135df9e57ea9bd4e224e219554929758f9bae9965f29f81d60a3293f"
+        },
+        {
+          "id": "com.google.guava:guava:32.1.3-jre",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.github.javaparser:javaparser-symbol-solver-core:3.25.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "0f306708742ce2bf0fb0901216183bc14073feae",
+          "md5": "adc3cf557a48d15cb71be90948558923",
+          "sha256": "6d4e2b5a118aab62e6e5e29d185a0224eed82c85c40ac3d33cf04a270c3b3744"
+        },
+        {
+          "id": "com.google.j2objc:j2objc-annotations:2.8",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.3-jre",
+              "com.github.javaparser:javaparser-symbol-solver-core:3.25.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "c85270e307e7b822f1086b93689124b89768e273",
+          "md5": "c50af69b704dc91050efb98e0dff66d1",
+          "sha256": "f02a95fa1a5e95edb3ed859fd0fb7df709d121a35290eff8b74dce2ab7f4d6ed"
+        },
+        {
+          "id": "com.google.guava:failureaccess:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.3-jre",
+              "com.github.javaparser:javaparser-symbol-solver-core:3.25.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9",
+          "md5": "091883993ef5bfa91da01dcc8fc52236",
+          "sha256": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotations:2.21.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.3-jre",
+              "com.github.javaparser:javaparser-symbol-solver-core:3.25.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "6d9b10773b5237df178a7b3c1b4208df7d0e7f94",
+          "md5": "75fe4fe33d308dd6cee3b601de902d27",
+          "sha256": "d1f3c66aa91ac52549e00ae3b208ba4b9af7d72d68f230643553beb38e6118ac"
+        },
+        {
+          "id": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.3-jre",
+              "com.github.javaparser:javaparser-symbol-solver-core:3.25.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "b421526c5f297295adef1c886e5246c39d4ac629",
+          "md5": "d094c22570d65e132c19cea5d352e381",
+          "sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+          "id": "com.github.javaparser:javaparser-core:3.25.6-SNAPSHOT",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.github.javaparser:javaparser-symbol-solver-core:3.25.6-SNAPSHOT"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "started": "2024-02-05T21:57:13.376+0800"
+}

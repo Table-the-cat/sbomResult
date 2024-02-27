@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:46450272-5286-47ca-8b4c-69dfc60be5d1" version="1">
+    <metadata>
+        <timestamp>2023-11-17T12:57:26.704281500Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>OpenRewrite</vendor>
+                <name>OpenRewrite CycloneDX</name>
+                <version>7.18.0</version>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/org.jacop/jacop@4.10.0-SNAPSHOT?type=jar" type="library">
+            <group>org.jacop</group>
+            <name>jacop</name>
+            <version>4.10.0-SNAPSHOT</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>GNU Affero General Public License, Version 3</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.jacop/jacop@4.10.0-SNAPSHOT?type=jar</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="pkg:maven/org.mockito/mockito-all@1.10.19?type=jar" type="library">
+            <group>org.mockito</group>
+            <name>mockito-all</name>
+            <version>1.10.19</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>The MIT License</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.mockito/mockito-all@1.10.19?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.scala-lang/scala-library@2.13.10?type=jar" type="library">
+            <group>org.scala-lang</group>
+            <name>scala-library</name>
+            <version>2.13.10</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache-2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.scala-lang/scala-library@2.13.10?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.scala-lang/scala-compiler@2.13.10?type=jar" type="library">
+            <group>org.scala-lang</group>
+            <name>scala-compiler</name>
+            <version>2.13.10</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache-2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.scala-lang/scala-compiler@2.13.10?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.slf4j/slf4j-api@1.7.24?type=jar" type="library">
+            <group>org.slf4j</group>
+            <name>slf4j-api</name>
+            <version>1.7.24</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.slf4j/slf4j-api@1.7.24?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.slf4j/slf4j-log4j12@1.7.24?type=jar" type="library">
+            <group>org.slf4j</group>
+            <name>slf4j-log4j12</name>
+            <version>1.7.24</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.slf4j/slf4j-log4j12@1.7.24?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.scala-lang/scala-reflect@2.13.10?type=jar" type="library">
+            <group>org.scala-lang</group>
+            <name>scala-reflect</name>
+            <version>2.13.10</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache-2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.scala-lang/scala-reflect@2.13.10?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/io.github.java-diff-utils/java-diff-utils@4.12?type=jar" type="library">
+            <group>io.github.java-diff-utils</group>
+            <name>java-diff-utils</name>
+            <version>4.12</version>
+            <scope>required</scope>
+            <purl>pkg:maven/io.github.java-diff-utils/java-diff-utils@4.12?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.jline/jline@3.21.0?type=jar" type="library">
+            <group>org.jline</group>
+            <name>jline</name>
+            <version>3.21.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.jline/jline@3.21.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/net.java.dev.jna/jna@5.9.0?type=jar" type="library">
+            <group>net.java.dev.jna</group>
+            <name>jna</name>
+            <version>5.9.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>LGPL-2.1-or-later</name>
+                </license>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache-2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/net.java.dev.jna/jna@5.9.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/log4j/log4j@1.2.17?type=jar" type="library">
+            <group>log4j</group>
+            <name>log4j</name>
+            <version>1.2.17</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/log4j/log4j@1.2.17?type=jar</purl>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/org.mockito/mockito-all@1.10.19?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.scala-lang/scala-library@2.13.10?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.scala-lang/scala-compiler@2.13.10?type=jar">
+            <dependency ref="pkg:maven/org.scala-lang/scala-reflect@2.13.10?type=jar"/>
+            <dependency ref="pkg:maven/io.github.java-diff-utils/java-diff-utils@4.12?type=jar"/>
+            <dependency ref="pkg:maven/org.jline/jline@3.21.0?type=jar"/>
+            <dependency ref="pkg:maven/net.java.dev.jna/jna@5.9.0?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.24?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.slf4j/slf4j-log4j12@1.7.24?type=jar">
+            <dependency ref="pkg:maven/log4j/log4j@1.2.17?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.scala-lang/scala-reflect@2.13.10?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/io.github.java-diff-utils/java-diff-utils@4.12?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.jline/jline@3.21.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/net.java.dev.jna/jna@5.9.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/log4j/log4j@1.2.17?type=jar">
+        </dependency>
+    </dependencies>
+</bom>

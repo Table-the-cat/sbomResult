@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:0f8071c3-565f-4550-93c3-488455efe032" version="1">
+    <metadata>
+        <timestamp>2023-11-16T09:25:23.807832Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>OpenRewrite</vendor>
+                <name>OpenRewrite CycloneDX</name>
+                <version>7.18.0</version>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/com.google.guava/guava@HEAD-jre-SNAPSHOT?type=bundle" type="library">
+            <group>com.google.guava</group>
+            <name>guava</name>
+            <version>HEAD-jre-SNAPSHOT</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.google.guava/guava@HEAD-jre-SNAPSHOT?type=bundle</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar" type="library">
+            <group>com.google.guava</group>
+            <name>failureaccess</name>
+            <version>1.0.1</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar" type="library">
+            <group>com.google.guava</group>
+            <name>listenablefuture</name>
+            <version>9999.0-empty-to-avoid-conflict-with-guava</version>
+            <scope>required</scope>
+            <purl>pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar" type="library">
+            <group>com.google.code.findbugs</group>
+            <name>jsr305</name>
+            <version>3.0.2</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.checkerframework/checker-qual@3.29.0?type=jar" type="library">
+            <group>org.checkerframework</group>
+            <name>checker-qual</name>
+            <version>3.29.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>The MIT License</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.checkerframework/checker-qual@3.29.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.18.0?type=jar" type="library">
+            <group>com.google.errorprone</group>
+            <name>error_prone_annotations</name>
+            <version>2.18.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.google.errorprone/error_prone_annotations@2.18.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.google.j2objc/j2objc-annotations@2.8?type=jar" type="library">
+            <group>com.google.j2objc</group>
+            <name>j2objc-annotations</name>
+            <version>2.8</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.google.j2objc/j2objc-annotations@2.8?type=jar</purl>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.checkerframework/checker-qual@3.29.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.18.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.google.j2objc/j2objc-annotations@2.8?type=jar">
+        </dependency>
+    </dependencies>
+</bom>

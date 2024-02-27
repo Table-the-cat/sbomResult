@@ -1,0 +1,1927 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:85fa2ce6-2e0b-4ac4-a7b8-9e2410534feb",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-24T08:56:45.558Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.8.8",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.8.8",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.8.8"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "Prabhu Subramanian",
+        "email": "prabhu@appthreat.com"
+      }
+    ],
+    "component": {
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.tika",
+      "name": "tika-core",
+      "version": "3.0.0-SNAPSHOT",
+      "description": "This is the core Apache Tika™ toolkit library from which all other modules inherit functionality. It also includes the core facades for the Tika API.",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.tika/tika-core@3.0.0-SNAPSHOT?type=bundle",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://tika.apache.org/"
+        },
+        {
+          "type": "build-system",
+          "url": "https://builds.apache.org/job/Tika-trunk/"
+        },
+        {
+          "type": "distribution",
+          "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://issues.apache.org/jira/browse/TIKA"
+        },
+        {
+          "type": "mailing-list",
+          "url": "https://lists.apache.org/list.html?dev@tika.apache.org"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/apache/tika/tika-core"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.tika/tika-core@3.0.0-SNAPSHOT?type=bundle"
+    }
+  },
+  "components": [
+    {
+      "publisher": "QOS.ch",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "2.0.9",
+      "description": "The slf4j API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "45630e54b0f0ac2b3c80462515ad8fda"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7cf2726fdcfbc8610f9a71fb3ed639871f315340"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0818930dc8d7debb403204611691da58e49d42c50b6ffcfdce02dadb7c3c2b6c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "069e6ddce79617e37d61758120c7e68348ee62f255781948937f7bec3058e46244026d7f6a11e90fbc15cd4288c4bb1acee4f242af521c721a9e68a05e64d526"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "fd6f7ad85d02ac63cd1a586c8bb158c1fc000495f512f097731ea9f749b5da2637615b821294962805ba312c738f40aa"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "17cd61f59a162250b52a89c7c56eb60da253b776210500313c7b82744483ff84717946f969251fb4d76f9bb12a2458fe"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "9dcb04582c64c79e788f9191195834ec75bb3457133d22a176a0ccb069b97103"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "990faffa454598a3fa82affe30f1323db769d2e1fff20d9c7163ef6fd95ac7a0874c06a634207a2eaed9e5afbdee68b225138fc75018717ba97efe3ffe92c88a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "commons-io",
+      "name": "commons-io",
+      "version": "2.14.0",
+      "description": "The Apache Commons IO library contains utility classes, stream implementations, file filters, file comparators, endian transformation classes, and much more.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4259c0bc6078e53a09883b521c1d53af"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a4c6e1f6c196339473cd2e1b037f0eb97c62755b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e35d1df7232568ed4b81d9a9ed94a0159b3ff6cf1915cc21eef5cb55d7b157a2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b98a5739f029d535207d50854a63c581334864e6021ec81ef960c23971d0b4fffaebbaee4830025a307d65b586017fe0ebc5901a2e5271f54fba401bde7f5e8b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f2890279f22566dbbea487ac8c3d84e54cd9dc56ab5ea1c7d37038099e478c7fe6fe67c7cedec80994ca685487418ad2"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "128ca5b7cbf8c73675d118af94a06ea5efc7a6d0e31c1dd338d7d589580168aae131368aa095ba65cf112a2456cefd6e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "00164b8e61543375503df44933df917a21973b21834ce706d905d71ea0631a0a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "40909b82dc29956221a73050fbe226d9a4b565bf517e3762b9584da13d6609d53b5f5a8acd9906fe93e64db6a4019e17811e8139ee84fc74ad8d8e61822441b0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/commons-io/commons-io@2.14.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-io/commons-io@2.14.0?type=jar"
+    },
+    {
+      "publisher": "OSGi Alliance",
+      "group": "org.osgi",
+      "name": "org.osgi.core",
+      "version": "6.0.0",
+      "description": "OSGi Core Release 6, Interfaces and Classes for use in compiling bundles.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "cae291c61fe8b7a4476d713550c7ff49"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0c49acdc9ac62cf69ee49cb6f1905b4fdb79ea5c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1c1bb435eb34cbf1f743653da38f604d45d53fbc95979053768cd3fc293cb931"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a6d5388804982ab2cb0ba82b4291e73f006577c54e5dcb0675a2c4922594ddb0265810a4e7c748c88eba76ee350340376b7a9bd25d2de3afb954cf89117cd470"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8daff91fc229b2874c1ff7a214fdee65b1824fbac76eb7feec609c5b70ab2fd24fc5cf017b339788a5c7aec041ec1a1c"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b921d8bea5dab6e7d827ce49a43e6edb4a15c1402e1d70498faf867bd7e9ea61f47b9cbdbf008ed517b71499c02b9e4c"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "5836efac64dd3757498bc6648cf02e46f136c6b0b39d5f1641218459d6b68ca0"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9056edfc04943cdc81041db1851cade670415457221617babeb3d3c5136c3dcc303862e55b545f40584477e0654d11d84db6ede072015b08744241202d79ee63"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.osgi/org.osgi.core@6.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.osgi/org.osgi.core@6.0.0?type=jar"
+    },
+    {
+      "publisher": "OSGi Alliance",
+      "group": "org.osgi",
+      "name": "org.osgi.compendium",
+      "version": "5.0.0",
+      "description": "OSGi Compendium Release 5, Interfaces and Classes for use in compiling bundles.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9536e0ce63ca8c06eacec820c88fccf7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9d7a9c35591f6fa1c98ac85af32775c12361aee4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f1ef32cc1530f4e66aac606c24363b627ace4780a7737b045bfb3b908d801bcd"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d0c75b8850ec7d1afd12296d93dfb52455539b9eb1f9dc7238b7bdfc96efb008f57e5c145739dc3171f187129997ec8eb109c0cefeb12e4f09e3b0f9f260ee2e"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "b9cf7b13c3190ee441cf9d07ee91f80b4a59e0ddd2bc240c640ca4a445464c6b0a95077cf7c99dd3e6087791fdfa2c82"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "220b2b7f7702bf7e5e8c63eafe5624f98235675e5a085118839aad148d30ee9256a55f2fe17c6ecfabd327baff4fc27f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1eb5241cea4a7ea551ef4a8d2b372b05a692577ce684ef98d17de91f28fbb7a7"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "cbd07c72716e8d2705ebf1e7be5ec5c56b032b3efedafcc5865dad16f6b00a5463c25c9edb33d078b59003d89530dc27628dcecdd9d2c66279e6f556e887227a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.osgi/org.osgi.compendium@5.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.osgi/org.osgi.compendium@5.0.0?type=jar"
+    },
+    {
+      "publisher": "Bndtools",
+      "group": "biz.aQute.bnd",
+      "name": "biz.aQute.bndlib",
+      "version": "6.4.1",
+      "description": "bndlib: A Swiss Army Knife for OSGi",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "15a20fa57d31064dcd1272d010dd6727"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "87d2de30b5d30dd9bdc6d47f522a4697d6ebfbd8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5b5be3f48fbec33bdc19593e9b76c1b17e16385c0025bf5d97c35bcc86f8cb1d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d2f78daa02b5baa56a43ebb540257da2726443772075c1fdb84e945f4a5bed56edd51ac55f76740bd92e1c0465c7b3750991d51d7265719c36cc23362d73c78c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "77a155518be143197ef03f6e833b79040747951ffc48fa57226bd6dc980ddbfed0d3cbdcebf0b552698752c42a3ba580"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "de922ac3f8d496e205625da88147ce23aa39008e076fa204eb4983e4b9f41e0b4c566189da1f69661ee73a08e3f8d644"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "73eaf5fb80a4672de0af25b620de068a863bb8510bd1916ea64ab3396ca56784"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "fd550b753d1f546474fc9c132637b5dadcf04078b9e61b8b37decae17d7242ed63b66e5febe323a59e9a0d4de14627fe05f3d9a9deabfaadc32c5ec52b217fbd"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "(Apache-2.0 OR EPL-2.0)",
+            "url": "https://opensource.org/licenses/Apache-2.0,https://opensource.org/licenses/EPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/biz.aQute.bnd/biz.aQute.bndlib@6.4.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/biz.aQute.bnd/biz.aQute.bndlib@6.4.1?type=jar"
+    },
+    {
+      "publisher": "OSGi Alliance",
+      "group": "org.osgi",
+      "name": "org.osgi.dto",
+      "version": "1.0.0",
+      "description": "OSGi Companion Code for org.osgi.dto Version 1.0.0.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c2bce9030f4b5a2d3c489dfc11fee529"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1d01eb8c487477f929127d4a88fbfe97af0379a4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cb75f3c7e48e5a31a31df22e26873346f5bf659e2dcab2369e031e4850d2ff43"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6c2e82be9a502b05817ce276a807ec0f72e4847ad1712b9c36afd2bac6989e88873c271ae87fd2d867f56016686b9e3b1a6b39c5e5bed76d6e52fb8e2569b615"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "c5d6ac5cb81861171836ecb0fcf582b156ee4548fa7861ce4353acde5d9a6968f9e000ffeb12eecf4d8a638804502deb"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "98523827d366449a9c975453a0e6aab562f3b5f46dfd7debda783be492172eedb34aa33a12a50ecdc27d669dea3b5ab1"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "e1f8b9b077a7d875fa05459af52e293911640cbb271f9755b09eb2a28bdf28d5"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "94a7dbd39295e8f23b51108d5494352c26e5a00f855540150b09a1913c71dfbfe6a581ec6734cf5aa4b0c0f207079097b87f7f3ebd1df04c1e0c0cf97f76a8c0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.osgi/org.osgi.dto@1.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.osgi/org.osgi.dto@1.0.0?type=jar"
+    },
+    {
+      "publisher": "OSGi Alliance",
+      "group": "org.osgi",
+      "name": "org.osgi.resource",
+      "version": "1.0.0",
+      "description": "OSGi Companion Code for org.osgi.resource Version 1.0.0.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7d857a4203e2996fab0cf070133e43df"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "343c88949132984b3f2d4175a72c40b77dc65619"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "81fc50f1f1d38a4af28e131907d4afe213249aab05060484edca0e60c4af9b4a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4e798790856f83f50832db80bfab64dfceeff1c509d7dde43e74a9f9192ea7a7d5ea77b9b1e81291fa6ba3dcef5ab8fa791ca8093a72a08d7ca6f6499e13e506"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "73038c395166552b64b6b5469bd8056584f48d19b5762df2e8bd2770405ed8f6071e397a87d9a7ed39f8c2e0e8ab85b2"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e06c8a460b3bf06d6cb22237aeffa6afd2eadd9461096c67b768a14603ad8aaa88f891d03cf0a273a99d86906c1c8eb3"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1097cfd20e80ce368fd828a23ad7c32a202cebd92106f6ebb88ba55ca74349ee"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d7b710e1e0484badb875f326c602c90df6705df48b0f057320919a5255d3ecbddd7053eabc68787480a70aebd7e553e9f51728112e1fa0846c849366b7e8d69b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.osgi/org.osgi.resource@1.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.osgi/org.osgi.resource@1.0.0?type=jar"
+    },
+    {
+      "publisher": "OSGi Alliance",
+      "group": "org.osgi",
+      "name": "org.osgi.framework",
+      "version": "1.8.0",
+      "description": "OSGi Companion Code for org.osgi.framework Version 1.8.0.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1a40fb57099ef5530d25bc9600d509b1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b54d03f9621136b7d9d93b5017b0a4fa490e78b0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ec194b7871af27681716ff05259319a5c3c9b9727e8000e9e832499b93484b4e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9be46a4a81698ac5641809f6b7061453f0960a585fb69a47331029362f605fa50edb51ceb22ae4c5ea2d3617fc1919e3d86a86acde435f73dc73f00e84f444aa"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ada694e4cb7fe21ea616132b9228472835515a29d68e6253c6c73e7d37a93ecfa504db0ec5bdb391c9126e89df892541"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1e56c00266021816d80258b7f32a642a436ad786901347f3ddd72eb9a50f4b865f8970710363992da5d50dbca6d7c360"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1ee406718f48a4a6cd3ecff2e39c3497c8241dbcdaa66c6cb2e1c0a9ff64e626"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "304002edf444166735e8323c8673aaec2bc97d01e4442fb49371bb9f83d5ba1292e5d30bc1127740e160efa5c67e44e414aa3e2af9096925dcbc89b23c3feda4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.osgi/org.osgi.framework@1.8.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.osgi/org.osgi.framework@1.8.0?type=jar"
+    },
+    {
+      "publisher": "Eclipse Foundation",
+      "group": "org.osgi",
+      "name": "org.osgi.util.tracker",
+      "version": "1.5.4",
+      "description": "OSGi Companion Code for org.osgi.util.tracker Version 1.5.4",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5f1d698bfb3b71fe215d1ca173ee4f82"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "eec58ba28538cb05b7d78aff8c915d6d35b66db8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7d78c2cc9bcb6421c24f17aa097866ce8d9115c219a4f8d6cc753bc4dfb97efa"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "eb8f66efc53d63c876f1ab6d67c91a286a3d1b346d043ee7ef5ba376c86c71bf412f7c82f855e78054761a1844b83116c50e775cfe18a11e10e812adbe4f45ce"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "6de5a62b5666b7150469dfdf21ccf53f677ed4228957609cd9e8ddb429a28fc4c8eae9836a90b6bfb8c782968c8fef6c"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b51e7bd4cfeaa595721d7d2198e3e7112b5f0f1b53e8d3587b0d2faa89ccc0cc045b92627fbc9312e5daa0be0b62308f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "03482d78d50b3124ed6e2df035b9e8812db36cd3d0e465190bf2d7f0d1d0a0b4"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9b2f45711ab42709ddfc135c5563a9ccbb1f6c6ef89b391930a2f33ee223f9b47a22c4e3605805ed5bbe4626448a86078e129a1ec8c852e1fcae005f49d56886"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.osgi/org.osgi.util.tracker@1.5.4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.osgi/org.osgi.util.tracker@1.5.4?type=jar"
+    },
+    {
+      "publisher": "Eclipse Foundation",
+      "group": "org.osgi",
+      "name": "osgi.annotation",
+      "version": "8.0.1",
+      "description": "OSGi Annotation Release 8, Annotations for use in compiling bundles",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4f15008cd76e0c6ba527d89148c56d08"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "593d823753aa6e128129da357d7891758e66aa1d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a0e8a4c362bd3600812f37b0ea45fba966c7bc049d01fed56a09ecc74082759e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9e0dc035fd381d2f4b5c783227acd88656c7f4c8faaaa0e51178b3cd7b051871e0d7a6db906e32149d027df8dd738b27eaf80b74775dc5f6470e030c08a6b47b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3393fc41135ac929638a6a2f4fc14150a705c6576e1a739509bd7850394435c5d6c0794e44f40efdbd9a3a9f79732132"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "6ec4762de433eb53ac4a4620577a83d85d06a620a96cf160c21b90ec98e48f025913932d87b9b87b2bcbcea221244d79"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ef77483de9664ad8ae772060ab8d4e84062dbfc321ed780045d0b4f47a61d04d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "bc2fb8c061b3c7a1596946f3beaaa3df852cb43b353c809cfc3d91bcbbf03d19b1c0d32328864a38966b88996a50b0ddec47c4f71d7a6b84d4f4762e39717c03"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.osgi/osgi.annotation@8.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.osgi/osgi.annotation@8.0.1?type=jar"
+    },
+    {
+      "publisher": "OSGi Alliance",
+      "group": "org.osgi",
+      "name": "org.osgi.service.log",
+      "version": "1.3.0",
+      "description": "OSGi Companion Code for org.osgi.service.log Version 1.3.0.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "29739566dfaa2776f52dd4daaca8334c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ca330e0489eac540d7fc1917556081695ebc3428"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ff6710c4856d32684cf3ebdc45248f41036ff734f2b03bbc08c4609a61fecfa0"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fc6a0c6db6157866ee122741d2b52f55cfa827046d389e39c65d51a14a6846be7d0c8b549edae2f4ef902229f81d06eef1db2a9c850ef7539820ee3022cdec8a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e8d7c477e8cbf6a42f415b5bf1a97177e3c7e61d272d867e425c731956194105d39f78be1d7180739bfecf8a57f29b9e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "538944aab0992424451c1f36a70696d078988775b43cca0378a9c002b56e72b2fb33c3c39ef52a0932744dd82367d0c0"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b491d6d747ee6bdfc4d0ec982b38de533bdc5e3da5fd7222a9661126db15cfca"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "e46cc071d3ed08f05990943b7b2577933b21c7c9c9cbe3fe28ddcee5436d86c44911e388457186a52a689fbd4f934b621b559fbb0f594ee920872c3cf2e7725d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.osgi/org.osgi.service.log@1.3.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.osgi/org.osgi.service.log@1.3.0?type=jar"
+    },
+    {
+      "publisher": "OSGi Alliance",
+      "group": "org.osgi",
+      "name": "org.osgi.service.repository",
+      "version": "1.1.0",
+      "description": "OSGi Companion Code for org.osgi.service.repository Version 1.1.0.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2e293b7d69dee0e4ca04594ba8c3ec76"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "64ef667172ece1a39b0bd9471b8336c5f002370d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c5553e95b459529192433486d4c4cc22ff45a2eae4968484f9f717319264a532"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "79e2beb14b0fcb28109a4095d1be685cf5bd375136a685c19175ed64faf885ca4768c28b484b57baed929e2b3cc52ec2731678b73f4586f8642d771c7d4988c6"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ab5cfc26701bc90c3ed47e3c1c0c365a7bba033fe2b185edbe2a4b4161ea6f4eadb3b52fbffee05c8aeb6b483ebe1d35"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f6be4abe9e6885ba03001cb154185c9af6742a5fb84f40eb6d704d40c1cfc0a35439e134145212fba4d1acb0fd5e4b69"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "dd96e5511d055cc9ccadfaf2fad348175ea9ffab1b501bba67d1d4d3bd673a5b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "64fc01fb1b68a6c7f6fa4dbe4eb3835b5d22a5f53e86e2b9a99e6ce70be3ba9409af1ee093b024c80180caf35110acdcac55c961c3fe977c8af276e250020d9d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.osgi/org.osgi.service.repository@1.1.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.osgi/org.osgi.service.repository@1.1.0?type=jar"
+    },
+    {
+      "publisher": "Eclipse Foundation",
+      "group": "org.osgi",
+      "name": "org.osgi.util.function",
+      "version": "1.2.0",
+      "description": "OSGi Companion Code for org.osgi.util.function Version 1.2.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "60da2a7f440a142095e729639edf2025"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9fe65a02596b68e06aad340f41e33d53e3f7b8a7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "208819c7c71690c15a6bb8b187474e7f9d0147946b680182a62b9f222ae014ec"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3b60eeca88cfcb5b48bcae38c2e9c387648f014932b175c1343ad975ecac0bc0afe0aa7bcfffc1b520faccb36c75bd85b2f8cbac136b22e15460388becfa870e"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4f71ac743138690f3d44b23c7afaa46cac291c3b4881e222352e009b30079bf50d45af9e85d4574db677d7b58d440668"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "6c0adf88f8ddcbf71e90e5d54c0f3fd446fd61eda9400ac79f1469a39f86ccf8ba7e0edb59972f6e83632b4cad0f96c5"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ed6b7dc2c72482b87c7030aa9e6af6c9661594df28625b76a8c5dbe07e8cdb68"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "bf4af07429e2c091ee96fc3ba02c2efc3ef3c1c813a24684cb6a318d0f0615ec887fe94f01b0bdba708da51e9f3e03c5955e3b722578a412c284e3ea17c216c2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.osgi/org.osgi.util.function@1.2.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.osgi/org.osgi.util.function@1.2.0?type=jar"
+    },
+    {
+      "publisher": "Eclipse Foundation",
+      "group": "org.osgi",
+      "name": "org.osgi.util.promise",
+      "version": "1.2.0",
+      "description": "OSGi Companion Code for org.osgi.util.promise Version 1.2.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2b347548c17bcc89597695b7232da658"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "26c17e1bbfc885ae9eae878de9a0afb73240f031"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fef86e64f584d012a16a0306160764f6179663b90988a226c4641b920f3a4b36"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "64923f94550c80058f4d9a6dfa35d4be68897d0ff42e390f36e2f0d6880e35e578628198087968ffd70abc7e0e332e166708efdffa0a975dd67f91ba021e57a2"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "eb97e207e51dcd673ec87b9ffc3dd5fdd5a51866519b397998261c31e1df736c8b1f77f0afc7dd26fc26cf9f10cb3d7c"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "49558cfa0fb30e9f21cebf9b199ab299c60482d81ed593b8965211f96795b0a28aa8fd5c048e3e4c089be9575ad2bcc1"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "fc3823d961191f4578bfdd5b8550a1473e4106f30486a5251845ab48f0f02bec"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "b61530dfbadc70bd6548ecbadae22f7458f052953275b75fbfe50731f86260ec0f047269ebfca41e788f7954885f83462060948ce46093288fbed10ab1e821c6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.osgi/org.osgi.util.promise@1.2.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.osgi/org.osgi.util.promise@1.2.0?type=jar"
+    },
+    {
+      "publisher": "Bndtools",
+      "group": "biz.aQute.bnd",
+      "name": "biz.aQute.bnd.util",
+      "version": "6.4.1",
+      "description": "Util classes",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6818ed6b63ed46f69fbbafe124a84242"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a3e9f1d05025dad2ec29f2ee0840ca6c0f976a5f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "810e144c4ca70a16da0917b7571b90331e16ac60434c21f3770573542f31dc6d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e7f79bcd59a5ceeda4f3182aca78247483b901a9590e6c2993522bc3e8c38c2ed6d4d3738e788337da7664d8d217e9d538a34728cee5e62a12edf051966e92a0"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "5159b87b85a81318b272f8d3ed9cc308d284a87174c64323e4f9c6e042647513680b0989a9d53c0b18e9dd94c28064ab"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a45de240c2b2a89e2ce21f2157be847ab386440b812eb7cd74f641538295e1ba13ff018d72c9e383930e555e7c9e701e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "e0e15f1c1570078d9d7f2d601ec03a25536e8ec94e83a84d20167858f414d8ad"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "40fffbe25cea1276ba62fe057335f4ecc4ad611e6dae6463a8fea0161184bef58b83a1b5fb5ea312ed74d5a074adac3bacb2f7d63d2a0416b7fab737675c95ac"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "(Apache-2.0 OR EPL-2.0)",
+            "url": "https://opensource.org/licenses/Apache-2.0,https://opensource.org/licenses/EPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/biz.aQute.bnd/biz.aQute.bnd.util@6.4.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/biz.aQute.bnd/biz.aQute.bnd.util@6.4.1?type=jar"
+    },
+    {
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "32.1.2-jre",
+      "description": "Guava is a suite of core and expanded libraries that include utility classes, Google's collections, I/O classes, and much more.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5fe031b3b35ed56182478811a931d617"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bc65dea7cfd9e4dacf8419d8af0e741655857d27885bb35d943d7187fc3a8fce"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d683751034688863dc82315a75620abbeeca525cc592d5227b136c29902a0d035f306c6bfaf87d00d95bd1bd967953b00a932286ce09cfba1a0fb35efd852cd4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "cdf41f5f70c467f1f0d8ec42d43eebd8e9da7e5fc60bd24d17db852ce0669a7316abb0a217f19c5cca41b20ade17a1f0"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "2084f7a28971f428e1b07a659d9a2cc221654b0e31d457c1219b5526e102124207ab4b2d163d4d5ec731551da396003b"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "0ccf9f22abd1ae422fd040e387adb12c31e4dd749c3e40181077e6fb9acdb51b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "e354820ed3f5da18411e6f4ba69294b2d171b2debbd51053e617178fa7a7cb64b3a6978c841a3060fd77474cf99e6aa2451aea39a5755cfe1f7eaef0d20d0e63"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar"
+    },
+    {
+      "group": "com.google.guava",
+      "name": "failureaccess",
+      "version": "1.0.1",
+      "description": "Contains com.google.common.util.concurrent.internal.InternalFutureFailureAccess and InternalFutures. Most users will never need to use this artifact. Its classes is conceptually a part of Guava, but they're in this separate artifact so that Android libraries can use them without pulling in all of Guava (just as they can use ListenableFuture by depending on the listenablefuture artifact).",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "091883993ef5bfa91da01dcc8fc52236"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f8d59b808d6ba617252305b66d5590937da9b2b843d492d06b8d0b1b1f397e39f360d5817707797b979a5bf20bf21987b35333e7a15c44ed7401fea2d2119cae"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "67659dbd9647ec303d7f15128dc9dba19b98fd8d74758ee3b602451e32c855e236ccaafe08edf4bbfa245f981268440f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1460875f0331c5fa3791772a6a322a7db180261bc2adacf7271df1fbf3b088a587a755a604c039982cb593c5cfc1f101"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ea86406e75fcd93eafe3cde1b3135ba485f1bb9b75fed98894a0bf1f0aee04f0"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "52ac0f487ab5dd27c9f2e54fd1d84c7a620cae9d49be4072aa2b11501787bf4391ddaa13d02eccdf19e8eea46aecbea5f6064b26777c1b836108a280652e04ac"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar"
+    },
+    {
+      "group": "com.google.guava",
+      "name": "listenablefuture",
+      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+      "description": "An empty artifact that Guava depends on to signal that it is providing ListenableFuture -- but is also available in a second \"version\" that contains com.google.common.util.concurrent.ListenableFuture class, without any other Guava classes. The idea is: - If users want only ListenableFuture, they depend on listenablefuture-1.0. - If users want all of Guava, they depend on guava, which, as of Guava 27.0, depends on listenablefuture-9999.0-empty-to-avoid-conflict-with-guava. The 9999.0-... version number is enough for some build systems (notably, Gradle) to select that empty artifact over the \"real\" listenablefuture-1.0 -- avoiding a conflict with the copy of ListenableFuture in guava itself. If users are using an older version of Guava or a build system other than Gradle, they may see class conflicts. If so, they can solve them by manually excluding the listenablefuture artifact or manually forcing their build systems to use 9999.0-....",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d094c22570d65e132c19cea5d352e381"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b421526c5f297295adef1c886e5246c39d4ac629"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c5987a979174cbacae2e78b319f080420cc71bcdbcf7893745731eeb93c23ed13bff8d4599441f373f3a246023d33df03e882de3015ee932a74a774afdd0782f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "caff9b74079f95832ca7f6029346b34b606051cc8c5a4389fac263511d277ada0c55f28b0d43011055b268c6eb7184d5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e939f08df0545847ea0d3e4b04a114b08499ad069ba8ec9461d1779f87a56e0c37273630a0f4c14e78c348d3ac7eb97f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1f0a8b1177773b3a8ace839df5eed63cbf56b24a38714898a6e4ed065c42559f"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "6b495ecc2a18b17365cb08d124a0da47f04bcdde81927b5245edf3edd8e498c3c3fb92ce6a4127f660bac851bb1d3e4510e5c20d03be47ce99dc296d360db285"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar"
+    },
+    {
+      "group": "com.google.code.findbugs",
+      "name": "jsr305",
+      "version": "3.0.2",
+      "description": "JSR305 Annotations for Findbugs",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "dd83accb899363c32b07d7a1b2e4ce40"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bb09db62919a50fa5b55906013be6ca4fc7acb2e87455fac5eaf9ede2e41ce8bbafc0e5a385a561264ea4cd71bbbd3ef5a45e02d63277a201d06a0ae1636f804"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ca0b169d3eb2d0922dc031133a021f861a043bb3e405a88728215fd6ff00fa52fdc7347842dcc2031472e3726164bdc4"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "9903fd7505218999f8262efedb3d935d64bcef84aae781064ab5e1b24755466b269517cada562fa140cd1d417ede57a1"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "223fda9a89a461afaae73b177a2dc20ed4a90f2f8757f5c65f3241b0510f00ff"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "3996b5af57a5d5c6a0cd62b11773360fb051dd86a2ba968476806a2a5d32049b82d69a24a3c694e8fe4d735be6a28e41000cc500cc2a9fb577e058045855d2d6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar"
+    },
+    {
+      "group": "org.checkerframework",
+      "name": "checker-qual",
+      "version": "3.33.0",
+      "description": "checker-qual contains annotations (type qualifiers) that a programmer writes to specify Java code for type-checking by the Checker Framework.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "fc9418b779d9d57dcd52197006cbdb9b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "de2b60b62da487644fc11f734e73c8b0b431238f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e316255bbfcd9fe50d165314b85abb2b33cb2a66a93c491db648e498a82c2de1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "049c446677b7b386f3fb501bf65e032bdf2b1b29a3f545848035fff2b683cd275380cf302e30eea641af7f0801f779bcda3d82a71d928e4176f564f796640a64"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ddf7a0f70421d1ed75e93c0a30434a4862c3905e433223e19861323cf0994e843392b746003040f10a7db6fc960b8aa6"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "edf079834fdd23317851318504b2fcc10b055cdb5cc4ada9c773d1b6c815ed6dd193c433d2b83103f070fd521021ff33"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "56244f45b03fc2a472b35489324e392e6001fac088d19f33629a87adb74a0575"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "e0516c11fe613f258bf9ad39358a8d9fb7c8df57ff9aaca5d6d16055c196fac4ed3b4185f2501a3bdf7aeb1fe142693b1d788bdaa73366be1af15762bb3591a4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.checkerframework/checker-qual@3.33.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.checkerframework/checker-qual@3.33.0?type=jar"
+    },
+    {
+      "publisher": "Google LLC",
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.18.0",
+      "description": "Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "64145d0e7fee5a69ed7b84cf402de998"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "89b684257096f548fa39a7df9fdaa409d4d4df91"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9e6814cb71816988a4fd1b07a993a8f21bb7058d522c162b1de849e19bea54ae"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3cea86be94bb8ae40d21ad4bf7d7f6b2233e89593b7b741ad84c78840cd3837bb5136f52e62fe9ae0953d7b190c46ad3edc102dfa97b4c7ea472a80206bf5db7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "7622eb33f83f03ab32b710b36c2fe836e24c5318f65fb8c0631a99507ca3ae65c2df8e33b63a5ce853b9cab6d9cb32e5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1ea52a5ce2a9ee1a960dc2a1bbe4b009d4d6a4448498e4cd76401605fa877662911e8c93b2b8bfda57bedc56c83f10a0"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ed53f4295da75753267f241315352c4a39e60796f04e1c0c12d29c3a38be48ed"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "8266b313bd4e1170daf60642e838841370d99bc24b2a1f91825ca22037a6a30ff15cc76069f8e8770f1dc12772c277ee1320de67e815041697d93d6d7ba884fb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.18.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.18.0?type=jar"
+    },
+    {
+      "group": "com.google.j2objc",
+      "name": "j2objc-annotations",
+      "version": "2.8",
+      "description": "A set of annotations that provide additional information to the J2ObjC translator to modify the result of translation.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c50af69b704dc91050efb98e0dff66d1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c85270e307e7b822f1086b93689124b89768e273"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f02a95fa1a5e95edb3ed859fd0fb7df709d121a35290eff8b74dce2ab7f4d6ed"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f8263868a792b41707c9e7fe6fa5650a14cd93fbeafad20efe3772a3058fc933eb59782ec59e6eb9b9c569aa96da80134ae9fdf7547b69c44a97087efddceeff"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e6087ec31fec8289158496ad2ed6ce8472d5d513808a312e0782cedac3b86c37a62a63c0b5ea3839491d109fe9e148a1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "10add34bfeb8612283eef89ac96747a3c9b755acd80ad526e1addaeb7efd6323c52b9bfa1a3d34adb40e1ccb963ee65d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b3336f8abd6b1f73b9f06d306974557000a000073bfbae6b54fda26d17dbb072"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d376c184a6df071c4e93b913d175b5c2e63deac37105dc20342c19bdda62e4e9598ca1e8bfb4f4fd5cdee6dd5ac3b8af49e2c5193e324d59a59ce1f7adeab627"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.j2objc/j2objc-annotations@2.8?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.j2objc/j2objc-annotations@2.8?type=jar"
+    },
+    {
+      "group": "com.martensigwart",
+      "name": "fakeload",
+      "version": "0.7.0",
+      "description": "A library which provides a simple and flexible way of producing “fake\" system loads in applications or tests.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b2e82116455918530b820addd3a843db"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1da651110ad7f05b3c232872670c5663c0c5c219"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "853ac08fd89537206a0fdcfdb0653783f5344d7042576f91e88ce740889f26c1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "784b853bcd469e79c47a72bddc0d4e4d61a6717cc8cd31a876ecd99698237b1197b4ee39f13cad5fe49738bffb3844e44ef9a03198e1481993a28ad827f84cc0"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "7c640677c1ecb9f08954a909b03e0d77e487ed4cf8ce77b5894b9d695098c1022c5df29b34eb6fbe325ad82e9021d010"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "63588c6b5c7c01e7f26f9e957bf5931c277660acc01f1a1bb54c8e44aa75412a3df2bbeeae18c397dbf21b53dfbaea88"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1d25a5e3a099cb0c9bd067e389937cd14e8e208fc3ab7e724a976fce0bfd26fa"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9afb1ead73dedbf7eb9af1a222518866a085fb00c9dfb80e029892b3a9c1373fd9fdd18c2af42bf62ff2540daa13ba04fbdf05c7a91426a3a951e5ec601df31c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.martensigwart/fakeload@0.7.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.martensigwart/fakeload@0.7.0?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-core",
+      "version": "2.20.0",
+      "description": "The Apache Log4j Implementation",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "20bd40d026d35a93fe710acb141e93da"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "eb2a9a47b1396e00b5eee1264296729a70565cc0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6137df848cdaed9f4d5076f75513c6c85da80b953f4e7acca38098b770763f55"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a7fe8fa2304c1b013513c1838013804cf601a7148dfef95642ea763c9550a6d844d9a1e528c9c21efc7ea830d13fbbb55e2db2c2eeb5542c4d9f00c127f211e4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1d8b0349286118f102014706f02b7851f10ca0b1554bd7a2e1efdda76ccab6e0abd967490d06fca030f2a26289686275"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1448a9c78c339abc0768deaa54e4d680091a6e6539ba2589e09ae6f5988176fcef0ee16b0b574a37374eeac0b8c91616"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "11a9f2311fbfcc334ff2ab26d04fd4e265b94c12f206c676ff1913e90ae4c916"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "ed2bc1a05c856f7ad3ad71cbcb9d2bc9104d3a9badeadda0886616c1c99eb8442577e16bd8d85ca2437176e379a4307d43c3e34157165210460dfc7bf3ca3f9d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.20.0?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.20.0?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-api",
+      "version": "2.20.0",
+      "description": "The Apache Log4j API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f9446464667f0139b839b5e9da37f5b9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1fe6082e660daf07c689a89c94dc0f49c26b44bb"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2f43eea679ea66f14ca0f13fec2a8600ac124f5a5231dcb4df8393eddcb97550"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "851016b38421d21864bb3073089c44000f941bfbaa9dc518db7bf7fb3c7f942bfb2c0c7b832e375e82b2f285379bd0935e42aa1833817daacb4fca2a6a9500bc"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "12b05c61f49caab0b845e93967228a3bd3ab096c4ea1516cb7263f49963137a688a178ddebe790ccc3c0c73f2d4440fc"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "87151e10c182a828d06fb5299361f01091f5ff066c3d8ba1fac0358d40c370a06ea46d9d93613499ebf94a855aef2f41"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2047730cb45c594da67d019cbd9f379e1d409a574deadfc9bc907461047f1fde"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "5fde3529958bd5e9567f0dc6015c58621521641cfe0517eb1237413c750558415fdeb45cc1b4332c3d1f09938fc8fe327de86cc876ed52594c216d2c04c9d2d5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.20.0?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-api@2.20.0?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-slf4j2-impl",
+      "version": "2.20.0",
+      "description": "The Apache Log4j SLF4J 2.0 API binding to Log4j 2 Core",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "52355bf9fbb12407e08be175c12dfc7c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "155c8b9bbdac91d8461d9a403a646e6bd0d365d8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b8dd3e4ea9cffa18db5f301cd8c539158662e691efd4701aa87b4d09961bd8b0"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3954329496870ec7acb0494e7c2e4d1d2585ff3695da3dd01cca4bdd4dbd5a8b5d9cbabc2a90cc2b5f257e57a96a458156382bfdb7c93512ca5579d646c98bb2"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "2a456e835fb8f2d7f7d7bac38331e16fb66c888d48eb79b630504e719b2d703a7b131b47f96931425d37f22febc541df"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f257cdad4cbcd14bf2731fc3003f06711f0e41dadcab67aa5bb03fa4279e4dd1e3a1f07c8348a402226980996b7d6cce"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2cc71344fdf49112f5dbd1bc3f122ccf2243b786fcd83470acc452e99efb0f9d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9e164d875e937c01f1a68d582faeb7eb3788be003d9ce69ac88288087ae9efe288950c24da3fdc69bb9187be33d7210a11b336ae8da9392e29c654ad1e55edc1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-slf4j2-impl@2.20.0?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-slf4j2-impl@2.20.0?type=jar"
+    },
+    {
+      "group": "org.junit.jupiter",
+      "name": "junit-jupiter-api",
+      "version": "5.10.0",
+      "description": "Module \"junit-jupiter-api\" of JUnit 5.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d976b1d3b22eded7c2e496ea881ed77f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2fe4ba3d31d5067878e468c96aa039005a9134d3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "108088fd7ea46a8e65a0ce7f5d75ae3ff7865606770a078715f5a6e5709e17d8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "440d7376673ed8e8ea84ce9f10e089f417c93a4f7044d23443588fbfa96cf74492ab26597fd9955537ce0e3190448062cfeadd428cb0de8522f81ccf3faa6353"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4821081abdd5853511d766f243a505e32fbd5d631949279774d2293284b124fcb5befd72b84c77b533c1788b689fc71f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "7e57f5349ef292f82bd126badc3375cae46e4b78eb81aa811f38996406fde7dad4158b971a62b2aec265283e96d82bef"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "7b5496d43d3777a8d9df1d00a4dbac1510b511898faf4bfd72b1510f8ba66c8e"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "ddaf1aacf2b14b78c9e00a12db9a54a94ceb1096dfde3c0f17cf6414d2f48b6ea211ec680c70b9f7d91835595121f3f34287a9e59dd9bb6436569fd67a111bb4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.0?type=jar"
+    },
+    {
+      "group": "org.opentest4j",
+      "name": "opentest4j",
+      "version": "1.3.0",
+      "description": "Open Test Alliance for the JVM",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "03c404f727531f3fd3b4c73997899327"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "152ea56b3a72f655d4fd677fc0ef2596c3dd5e6e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "48e2df636cab6563ced64dcdff8abb2355627cb236ef0bf37598682ddf742f1b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "78fc698a7871bb50305e3657893c10500595f043348d875f57bc39ca4a6a51eda3967b7c8c8a7ec3e8f85f2171bca4aa98823e912e416e87e81c6ba5b70a37c3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "10398b6998c9202a0731e2e19ae1c3f9d8a83582c2663fe7bdda15794ee6fa816727dbd8f7c7164bd5395ee1cfe7c97e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "3abe706fd78509c25a402c7bbf6f9ddf71ffb5b35054864ba0fdf7902207115f888a0ba728fd71d2e87a9360d2498121"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "d961907a1bfa1dcda329dca494ffbc251b31fabcaca5ab7095661a8ce3c1d654"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "0ad661617bcac51bcd26f7ad4611c69b1fd9811b50dbf734e041a3243ab1f845e7796620e8a7c40c4a2df3946864598b1251396c7d9bd813203d82710788cce0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.opentest4j/opentest4j@1.3.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.opentest4j/opentest4j@1.3.0?type=jar"
+    },
+    {
+      "group": "org.junit.platform",
+      "name": "junit-platform-commons",
+      "version": "1.10.0",
+      "description": "Module \"junit-platform-commons\" of JUnit 5.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0cef49daddba2084397f34eca55502f9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d533ff2c286eaf963566f92baf5f8a06628d2609"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6083db08ca11fca1e16099d0dcfede0193d80b3762b276349d80d3da536791b2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "51496111e3d0d1f27c3cee09bbfed9a9eb7d94b7bd12cbb39fddb5e64e6ba77e26cf89a8bd96d85bfe9fd39bd3db1c108aecad8c609e24ea6da3f4945353ca10"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "0f38ea0fa3f0edcc1b6863cb31c8a6f7170b77f7a9184a2a8b1c82a9db71d6a36e225826d5c0eed72219e4154b7ac9d3"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "66bb121d6917c783c6c479f6c3c72d9aefded42e487d29c7ed53e50391c0ec65b15915f131afd7450c3d0d5655cc34ec"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "17e1d961aa7474be5b63d7709539651ea8059b0d43e1ff86c6e57bac35fd25d2"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "799355554d789d71eceb1134e568aaadde5ff7d552c39248ead4d1d4ace4b4bbda11036ec9259f41ffc543e9a91bbad76572c74cf17049b9fc9f3374d2e835e4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.junit.platform/junit-platform-commons@1.10.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.platform/junit-platform-commons@1.10.0?type=jar"
+    },
+    {
+      "group": "org.apiguardian",
+      "name": "apiguardian-api",
+      "version": "1.1.2",
+      "description": "@API Guardian",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8c7de3f82037fa4a2e8be2a2f13092af"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a231e0d844d2721b0fa1b238006d15c6ded6842a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b509448ac506d607319f182537f0b35d71007582ec741832a1f111e5b5b70b38"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d7ccd0e7019f1a997de39d66dc0ad4efe150428fdd7f4c743c93884f1602a3e90135ad34baea96d5b6d925ad6c0c8487c8e78304f0a089a12383d4a62e2c9a61"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "5ae11cfedcee7da43a506a67946ddc8a7a2622284a924ba78f74541e9a22db6868a15f5d84edb91a541e38afded734ea"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "c146116b3dfd969200b2ce52d96b92dd02d6f5a45a86e7e85edf35600ddbc2f3c6e8a1ad7e2db4dcd2c398c09fad0927"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b4b436d7f615fc0b820204e69f83c517d1c1ccc5f6b99e459209ede4482268de"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "7b95b7ac68a6891b8901b5507acd2c24a0c1e20effa63cd513764f513eab4eb55f8de5178edbe0a400c11f3a18d3f56243569d6d663100f06dd98288504c09c5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"
+    },
+    {
+      "group": "org.junit.jupiter",
+      "name": "junit-jupiter-engine",
+      "version": "5.10.0",
+      "description": "Module \"junit-jupiter-engine\" of JUnit 5.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9b559627f23413bf20f450211f6edcba"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "90587932d718fc51a48112d33045a18476c542ad"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "57ea48e6f795200791065bbc86b70b84cd05367c5c9f2ac8f9268e27154c88a8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "35c6c38b155b568a1315b6f88e28d1940c69df807f9227fec0b54ad98688ccbd4c6020092d3d7fa889f74a708df82fce3733788bdcbad62eaac0f557e567d708"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e8db2934ed9897d3ada8dfa6468932ef8ca8fad5afbc4ada860dc4e7c535f29486e90a68e19da0915ecd85e6a96f6984"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "7365bb2e9c662f095bf95dd417a0eacb517d98c87e6ed9f04f98f735687c9d4575bc7f683b47e1f1c307d096c63358c2"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "0acd5b2ad5e5e135139ce8ae0a5b0c87a8b8ad6e84270b6b0d77002f7b0f5e51"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "41f661d021d400e919f0d27fcd8607eadd3cc83ed43f1334e41a049b4e9204fdf61adebb26e74ba562b185421f4de615414122b07d1244420577e6721e95f29d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.10.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.10.0?type=jar"
+    },
+    {
+      "group": "org.junit.platform",
+      "name": "junit-platform-engine",
+      "version": "1.10.0",
+      "description": "Module \"junit-platform-engine\" of JUnit 5.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a383ac183081fe771888842534e77e62"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "276c4edcf64fabb5a139fa7b4f99330d7a93b804"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cd338efd02ee73966ea754e0c0c71e1a11f4af5db9c2003e4b6137e119155abe"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "499e25e1920d73fea8f4e21a45ca0f3fc44561aa2589882bc29bb9bf212566b84ea704ea32ae5266da344c25b07dc23c3201587caf72508da2383b6f0848573b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "24c0589ec60ce52fde3ef2e200bf58bce21603a2a2e8bc2f54356cdf77c43587682b03dccdbef4d13450e02e38854b65"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "09b681d1f2c841fe73948f46ddab05bfc619426bd044ed402c2d9dff25a220bb28a3ce2f4c199bf25372ab7c9960d107"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "de10deb955b234f16ba12d812554575eee9b4ea95d06b525d390b8eb3e891bab"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "571cf7198a576be8895f2516304bdf01f46d268f4121ff1aee87dd0b43340875c0710d5eb341385299a89a35ea2e0af66cf9342b19075b6a6f589d650d086d90"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.junit.platform/junit-platform-engine@1.10.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.platform/junit-platform-engine@1.10.0?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/org.apache.tika/tika-core@3.0.0-SNAPSHOT?type=bundle",
+      "dependsOn": [
+        "pkg:maven/biz.aQute.bnd/biz.aQute.bndlib@6.4.1?type=jar",
+        "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+        "pkg:maven/com.martensigwart/fakeload@0.7.0?type=jar",
+        "pkg:maven/commons-io/commons-io@2.14.0?type=jar",
+        "pkg:maven/org.apache.logging.log4j/log4j-core@2.20.0?type=jar",
+        "pkg:maven/org.apache.logging.log4j/log4j-slf4j2-impl@2.20.0?type=jar",
+        "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.0?type=jar",
+        "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.10.0?type=jar",
+        "pkg:maven/org.osgi/org.osgi.compendium@5.0.0?type=jar",
+        "pkg:maven/org.osgi/org.osgi.core@6.0.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/commons-io/commons-io@2.14.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.osgi/org.osgi.core@6.0.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.osgi/org.osgi.compendium@5.0.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/biz.aQute.bnd/biz.aQute.bndlib@6.4.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/biz.aQute.bnd/biz.aQute.bnd.util@6.4.1?type=jar",
+        "pkg:maven/org.osgi/org.osgi.dto@1.0.0?type=jar",
+        "pkg:maven/org.osgi/org.osgi.framework@1.8.0?type=jar",
+        "pkg:maven/org.osgi/org.osgi.resource@1.0.0?type=jar",
+        "pkg:maven/org.osgi/org.osgi.service.log@1.3.0?type=jar",
+        "pkg:maven/org.osgi/org.osgi.service.repository@1.1.0?type=jar",
+        "pkg:maven/org.osgi/org.osgi.util.function@1.2.0?type=jar",
+        "pkg:maven/org.osgi/org.osgi.util.promise@1.2.0?type=jar",
+        "pkg:maven/org.osgi/org.osgi.util.tracker@1.5.4?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.osgi/org.osgi.dto@1.0.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.osgi/org.osgi.resource@1.0.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.osgi/org.osgi.framework@1.8.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.osgi/org.osgi.util.tracker@1.5.4?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.osgi/osgi.annotation@8.0.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.osgi/osgi.annotation@8.0.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.osgi/org.osgi.service.log@1.3.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.osgi/org.osgi.service.repository@1.1.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.osgi/org.osgi.util.function@1.2.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.osgi/osgi.annotation@8.0.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.osgi/org.osgi.util.promise@1.2.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.osgi/org.osgi.util.function@1.2.0?type=jar",
+        "pkg:maven/org.osgi/osgi.annotation@8.0.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/biz.aQute.bnd/biz.aQute.bnd.util@6.4.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
+        "pkg:maven/com.google.errorprone/error_prone_annotations@2.18.0?type=jar",
+        "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
+        "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+        "pkg:maven/com.google.j2objc/j2objc-annotations@2.8?type=jar",
+        "pkg:maven/org.checkerframework/checker-qual@3.33.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.checkerframework/checker-qual@3.33.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.18.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.j2objc/j2objc-annotations@2.8?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.martensigwart/fakeload@0.7.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.20.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.logging.log4j/log4j-api@2.20.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.logging.log4j/log4j-api@2.20.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.logging.log4j/log4j-slf4j2-impl@2.20.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.logging.log4j/log4j-api@2.20.0?type=jar",
+        "pkg:maven/org.apache.logging.log4j/log4j-core@2.20.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar",
+        "pkg:maven/org.junit.platform/junit-platform-commons@1.10.0?type=jar",
+        "pkg:maven/org.opentest4j/opentest4j@1.3.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.opentest4j/opentest4j@1.3.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.junit.platform/junit-platform-commons@1.10.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.10.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar",
+        "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.0?type=jar",
+        "pkg:maven/org.junit.platform/junit-platform-engine@1.10.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.junit.platform/junit-platform-engine@1.10.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar",
+        "pkg:maven/org.junit.platform/junit-platform-commons@1.10.0?type=jar",
+        "pkg:maven/org.opentest4j/opentest4j@1.3.0?type=jar"
+      ]
+    }
+  ]
+}

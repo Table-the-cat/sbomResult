@@ -1,0 +1,840 @@
+{
+  "name": "mvn-build",
+  "number": "1",
+  "agent": {},
+  "buildAgent": {
+    "name": "GENERIC"
+  },
+  "modules": [
+    {
+      "type": "maven",
+      "properties": {
+        "HikariCP.version": "5.0.1",
+        "archetype-packaging.version": "3.2.1",
+        "asm.version": "9.6",
+        "auto-service.version": "1.1.1",
+        "avaje-jsonb.version": "1.8",
+        "aws-java-sdk.version": "1.12.565",
+        "bucket4j-core.version": "7.6.0",
+        "caffeine.version": "3.1.8",
+        "camel.version": "3.21.1",
+        "commons-email.version": "1.5",
+        "commons-io.version": "2.14.0",
+        "commons-pool2.version": "2.12.0",
+        "compile-testing.version": "0.21.0",
+        "config.version": "1.4.2",
+        "conscrypt.version": "2.5.2",
+        "cron-utils.version": "9.2.1",
+        "ebean.version": "13.22.0-jakarta",
+        "exec-maven-plugin.version": "3.1.0",
+        "flyway.version": "9.22.2",
+        "freemarker.version": "2.3.32",
+        "frontend-maven-plugin.version": "1.14.0",
+        "frontend-plugin-core.version": "1.14.0",
+        "gradle-core.version": "2.6",
+        "gradle-plugins.version": "0.9-rc-1",
+        "gradle-tooling-api.version": "2.6",
+        "graphql-java.version": "21.1",
+        "gson.version": "2.10.1",
+        "guava.version": "32.1.2-jre",
+        "guice.version": "7.0.0",
+        "handlebars.version": "4.3.1",
+        "hibernate.version": "6.3.1.Final",
+        "jackson-databind.version": "2.15.2",
+        "jackson-dataformat-yaml.version": "2.15.2",
+        "jackson.version": "2.15.2",
+        "jacoco-maven-plugin.version": "0.8.10",
+        "jacoco.version": "0.8.10",
+        "jakarta.inject.version": "2.0.1",
+        "jakarta.json.bind-api.version": "3.0.0",
+        "jakarta.ws.rs-api.version": "3.1.0",
+        "jasypt.version": "1.9.3",
+        "javadoc.excludes": "io.jooby.internal.*",
+        "jboss-modules.version": "2.1.2.Final",
+        "jdbi.version": "3.41.3",
+        "jetty.version": "11.0.15",
+        "jfiglet.version": "0.0.9",
+        "jooby-maven-plugin.version": "3.0.6-SNAPSHOT",
+        "jooby.version": "3.0.6-SNAPSHOT",
+        "jsonwebtoken.version": "0.11.5",
+        "jstachio.version": "1.3.2",
+        "junit.version": "5.10.0",
+        "kafka.version": "3.6.0",
+        "kotlin.compiler.incremental": "true",
+        "kotlin.version": "1.9.10",
+        "kotlinx-coroutines-core.version": "1.7.3",
+        "lettuce.version": "6.2.6.RELEASE",
+        "log4j.version": "2.20.0",
+        "log4jdbc.version": "1.2",
+        "logback-classic.version": "1.4.11",
+        "maven-antrun-plugin.version": "3.1.0",
+        "maven-archetype-plugin.version": "3.2.0",
+        "maven-assembly-plugin.version": "3.6.0",
+        "maven-compiler-plugin.version": "3.11.0",
+        "maven-core.version": "3.9.5",
+        "maven-dependency-plugin.version": "3.1.2",
+        "maven-deploy-plugin.version": "3.1.1",
+        "maven-enforcer-plugin.version": "3.4.1",
+        "maven-gpg-plugin.version": "3.1.0",
+        "maven-jar-plugin.version": "3.3.0",
+        "maven-javadoc-plugin.version": "3.6.0",
+        "maven-plugin-annotations.version": "3.9.0",
+        "maven-plugin-api.version": "3.9.4",
+        "maven-plugin-plugin.version": "3.9.0",
+        "maven-project.version": "2.2.1",
+        "maven-resources-plugin.version": "3.3.1",
+        "maven-shade-plugin.version": "3.5.1",
+        "maven-site-plugin.version": "3.8.2",
+        "maven-source-plugin.version": "3.3.0",
+        "maven-surefire-plugin.version": "3.1.2",
+        "maven-tiles-plugin.version": "2.36",
+        "maven.build.timestamp.format": "yyyy-MM-dd HH:mm:ssa",
+        "maven.compiler.compilerVersion": "1.8",
+        "maven.compiler.release": "17",
+        "maven.compiler.source": "1.8",
+        "maven.compiler.target": "1.8",
+        "maven.javadoc.failOnError": "false",
+        "metrics.version": "4.2.20",
+        "mockito.version": "5.6.0",
+        "moditec.version": "1.0.0.RC3",
+        "mojo-executor.version": "2.3.1",
+        "mysql-connector-j.version": "8.1.0",
+        "netty.version": "4.1.99.Final",
+        "nexus-staging-maven-plugin.version": "1.6.13",
+        "node.version": "v18.13.0",
+        "okhttp.version": "4.11.0",
+        "pac4j.version": "5.7.0",
+        "pebble.version": "3.2.1",
+        "plexus-utils.version": "4.0.0",
+        "pre-commit-hook": "etc\\source\\formatter.sh",
+        "project.build.outputTimestamp": "2023-08-28T16:24:48Z",
+        "project.build.sourceEncoding": "UTF-8",
+        "quartz.version": "2.3.2",
+        "redoc.version": "2.0.0-rc.20",
+        "rest-assured.version": "5.3.2",
+        "rocker.version": "1.3.0",
+        "shaded.package": "io.jooby.internal.\\$shaded",
+        "slf4j.version": "2.0.9",
+        "sonar.host.url": "https://sonarcloud.io",
+        "sonar.moduleKey": "io.jooby:jooby",
+        "sonar.organization": "jooby-project",
+        "sonar.projectKey": "jooby-project_jooby",
+        "spotbugs-annotations.version": "4.7.3",
+        "stork-maven-plugin.version": "3.1.3",
+        "swagger-parser.version": "2.1.16",
+        "swagger.version": "2.2.16",
+        "thymeleaf.version": "3.1.2.RELEASE",
+        "timestamp": "2024-02-11 08:10:39上午",
+        "truth.version": "1.1.5",
+        "undertow.version": "2.3.8.Final",
+        "versions-maven-plugin.version": "2.16.1",
+        "yasson.version": "3.0.3"
+      },
+      "id": "io.jooby:jooby:3.0.6-SNAPSHOT",
+      "artifacts": [
+        {
+          "name": "jooby-3.0.6-SNAPSHOT.pom",
+          "type": "pom",
+          "path": "io/jooby/jooby/3.0.6-SNAPSHOT"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "org.junit.jupiter:junit-jupiter-engine:5.10.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.squareup.okhttp3:okhttp:4.11.0",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.squareup.okio:okio-jvm:3.2.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.squareup.okio:okio:3.2.0",
+              "com.squareup.okhttp3:okhttp:4.11.0",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.guava:guava:32.1.2-jre",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.2-jre",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.webjars.npm:vue__compiler-core:3.3.4",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.webjars.npm:vue__compiler-dom:3.3.4",
+              "org.webjars.npm:vue:3.3.4",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.jetbrains.kotlin:kotlin-stdlib:1.9.10",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.squareup.okhttp3:okhttp:4.11.0",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.slf4j:slf4j-api:2.0.9",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "7cf2726fdcfbc8610f9a71fb3ed639871f315340",
+          "md5": "45630e54b0f0ac2b3c80462515ad8fda",
+          "sha256": "0818930dc8d7debb403204611691da58e49d42c50b6ffcfdce02dadb7c3c2b6c"
+        },
+        {
+          "id": "org.junit.jupiter:junit-jupiter-api:5.10.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter-engine:5.10.0",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.objenesis:objenesis:3.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mockito:mockito-core:5.6.0",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.squareup.okhttp3:okhttp:4.11.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.webjars.npm:vue__reactivity:3.3.4",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.webjars.npm:vue__runtime-core:3.3.4",
+              "org.webjars.npm:vue__runtime-dom:3.3.4",
+              "org.webjars.npm:vue:3.3.4",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.webjars.npm:postcss:8.4.34",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.webjars.npm:vue__compiler-sfc:3.3.4",
+              "org.webjars.npm:vue:3.3.4",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.guava:failureaccess:1.0.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.2-jre",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.webjars.npm:magic-string:0.30.7",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.webjars.npm:vue__compiler-sfc:3.3.4",
+              "org.webjars.npm:vue:3.3.4",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.webjars.npm:csstype:3.1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.webjars.npm:vue__runtime-dom:3.3.4",
+              "org.webjars.npm:vue:3.3.4",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.opentest4j:opentest4j:1.3.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.platform:junit-platform-engine:1.10.0",
+              "org.junit.jupiter:junit-jupiter-engine:5.10.0",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.webjars.npm:vue__shared:3.3.4",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.webjars.npm:vue:3.3.4",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.webjars.npm:nanoid:3.3.7",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.webjars.npm:postcss:8.4.34",
+              "org.webjars.npm:vue__compiler-sfc:3.3.4",
+              "org.webjars.npm:vue:3.3.4",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.code.findbugs:jsr305:3.0.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "com.github.spotbugs:spotbugs-annotations:4.7.3",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+          "md5": "dd83accb899363c32b07d7a1b2e4ce40",
+          "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+          "id": "org.webjars.npm:vue__compiler-dom:3.3.4",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.webjars.npm:vue:3.3.4",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.webjars.npm:vue__runtime-dom:3.3.4",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.webjars.npm:vue:3.3.4",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.webjars.npm:vue__server-renderer:3.3.4",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.webjars.npm:vue:3.3.4",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "net.bytebuddy:byte-buddy:1.14.8",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mockito:mockito-core:5.6.0",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "net.bytebuddy:byte-buddy-agent:1.14.8",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mockito:mockito-core:5.6.0",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.junit.platform:junit-platform-engine:1.10.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter-engine:5.10.0",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.typesafe:config:1.4.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "4c40a633e7994cfb0354244efb6d03fcb11c3ecf",
+          "md5": "bac1bde09507bbd53e4e8a6a270488b7",
+          "sha256": "0076c249b4387d8369146528fd5dacb3efba098dc02ecf9ac81debdfc2e12fd5"
+        },
+        {
+          "id": "jakarta.inject:jakarta.inject-api:2.0.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "4c28afe1991a941d7702fe1362c365f0a8641d1e",
+          "md5": "72003bf6efcc8455d414bbd7da86c11c",
+          "sha256": "f7dc98062fccf14126abb751b64fab12c312566e8cbdc8483598bffcea93af7c"
+        },
+        {
+          "id": "org.webjars.npm:vue__compiler-sfc:3.3.4",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.webjars.npm:vue:3.3.4",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.webjars.npm:estree-walker:2.0.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.webjars.npm:vue__compiler-sfc:3.3.4",
+              "org.webjars.npm:vue:3.3.4",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.github.spotbugs:spotbugs-annotations:4.7.3",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "46fb4f0ae2e69eafa963711cc5c3369ac81aa31f",
+          "md5": "a70cfa500f3d66e6bd7ecb7cfe671ce2",
+          "sha256": "c0fd1ac2e22acdd46913a2ff74551b71f124457199688698204af4bf3d43165d"
+        },
+        {
+          "id": "org.mockito:mockito-core:5.6.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.github.vladimir-bukhtoyarov:bucket4j-core:7.6.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ],
+          "sha1": "603d37b2a108e2b437bb9b3b2ffb5962b4aa198c",
+          "md5": "7b701e1573982ebfc4332451cfee8638",
+          "sha256": "d17310e2066e59c0404f61ae5da1a40ff9442afa31363a82bddc1a4e6253fd88"
+        },
+        {
+          "id": "org.webjars.npm:jridgewell__sourcemap-codec:1.4.15",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.webjars.npm:magic-string:0.30.7",
+              "org.webjars.npm:vue__compiler-sfc:3.3.4",
+              "org.webjars.npm:vue:3.3.4",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.squareup.okio:okio:3.2.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.squareup.okhttp3:okhttp:4.11.0",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.webjars.npm:vue__reactivity-transform:3.3.4",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.webjars.npm:vue__compiler-sfc:3.3.4",
+              "org.webjars.npm:vue:3.3.4",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.webjars.npm:picocolors:1.0.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.webjars.npm:postcss:8.4.34",
+              "org.webjars.npm:vue__compiler-sfc:3.3.4",
+              "org.webjars.npm:vue:3.3.4",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20",
+              "com.squareup.okhttp3:okhttp:4.11.0",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.j2objc:j2objc-annotations:2.8",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.2-jre",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.jetbrains.kotlin:kotlin-stdlib:1.9.10",
+              "com.squareup.okhttp3:okhttp:4.11.0",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.jacoco:org.jacoco.agent:0.8.10",
+          "type": "runtime",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.webjars.npm:vue__compiler-ssr:3.3.4",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.webjars.npm:vue__server-renderer:3.3.4",
+              "org.webjars.npm:vue:3.3.4",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.apiguardian:apiguardian-api:1.1.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter-engine:5.10.0",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.checkerframework:checker-qual:3.33.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.2-jre",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.webjars.npm:vue:3.3.4",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.webjars.npm:vue__runtime-core:3.3.4",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.webjars.npm:vue__runtime-dom:3.3.4",
+              "org.webjars.npm:vue:3.3.4",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotations:2.18.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.google.guava:guava:32.1.2-jre",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.junit.platform:junit-platform-commons:1.10.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.platform:junit-platform-engine:1.10.0",
+              "org.junit.jupiter:junit-jupiter-engine:5.10.0",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.webjars.npm:source-map-js:1.0.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.webjars.npm:vue__compiler-sfc:3.3.4",
+              "org.webjars.npm:vue:3.3.4",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.webjars.npm:babel__parser:8.0.0-alpha.6",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.webjars.npm:vue__compiler-sfc:3.3.4",
+              "org.webjars.npm:vue:3.3.4",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        },
+        {
+          "id": "org.jetbrains:annotations:13.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.jetbrains.kotlin:kotlin-stdlib:1.9.10",
+              "com.squareup.okhttp3:okhttp:4.11.0",
+              "io.jooby:jooby:3.0.6-SNAPSHOT"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "started": "2024-02-11T16:10:37.856+0800"
+}

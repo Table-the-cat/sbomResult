@@ -1,0 +1,864 @@
+"components": [
+  {
+    "author": "TheKevJames",
+    "group": "",
+    "name": "coveralls",
+    "version": "3.3.1",
+    "description": "Show coverage stats online via coveralls.io",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "f42015f31d386b351d4226389b387ae173207058832fbf5c8ec4b40e27b16026"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/coveralls@3.3.1",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "http://github.com/TheKevJames/coveralls-python"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/coveralls@3.3.1",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: coveralls"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "author": "The ICRAR DIA Team <rtobar@icrar.org>",
+    "group": "",
+    "name": "crc32c",
+    "version": "2.3.post0",
+    "description": "A python package implementing the crc32c algorithm in hardware and software",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "e311f52e24b633e8d588ab9a0e7992bfcfe8284a1655202bdac5aee80254a3fd"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "name": "LGPLv2.1+"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/crc32c@2.3.post0",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/ICRAR/crc32c"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/crc32c@2.3.post0",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: crc32c"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "author": "Jonathan Underwood <jonathan.underwood@gmail.com>",
+    "group": "",
+    "name": "lz4",
+    "version": "4.3.3",
+    "description": "LZ4 Bindings for Python",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "b891880c187e96339474af2a3b2bfb11a8e4732ff5034be919aa9029484cd201"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:pypi/lz4@4.3.3",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/python-lz4/python-lz4"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/lz4@4.3.3",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: lz4"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "author": "Testing Cabal <testing-in-python@lists.idyll.org>",
+    "group": "",
+    "name": "mock",
+    "version": "5.1.0",
+    "description": "Rolling backport of unittest.mock for all Pythons",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "18c694e5ae8a208cdb3d2c20a993ca1a7b0efa258c247a1e565150f477f83744"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:pypi/mock@5.1.0",
+    "externalReferences": [
+      {
+        "type": "website",
+        "url": "http://mock.readthedocs.org/en/latest/"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/mock@5.1.0",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: mock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "author": "holger krekel, Ronny Pfannschmidt, Benjamin Peterson and others <pytest-dev@python.org>",
+    "group": "",
+    "name": "py",
+    "version": "1.11.0",
+    "description": "library with cross-python path, ini-parsing, io, code, log facilities",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "607c53218732647dff4acdfcd50cb62615cedf612e72d1724fb1a0cc6405b378"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/py@1.11.0",
+    "externalReferences": [
+      {
+        "type": "website",
+        "url": "https://py.readthedocs.io/"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/py@1.11.0",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: py"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "author": "Python Code Quality Authority <code-quality@python.org>",
+    "group": "",
+    "name": "pylint",
+    "version": "3.1.0",
+    "description": "python code static checker",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "507a5b60953874766d8a366e8e8c7af63e058b26345cfcb5f91f89d987fd6b74"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "GPL-2.0-or-later",
+          "url": "https://opensource.org/licenses/GPL-2.0-or-later"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/pylint@3.1.0",
+    "type": "library",
+    "bom-ref": "pkg:pypi/pylint@3.1.0",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: pylint"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "author": "Holger Krekel, Bruno Oliveira, Ronny Pfannschmidt, Floris Bruynooghe, Brianna Laugher, Florian Bruhin and others",
+    "group": "",
+    "name": "pytest",
+    "version": "8.0.2",
+    "description": "pytest: simple powerful testing with Python",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "edfaaef32ce5172d5466b5127b42e0d6d35ebbe4453f0e3505d96afd93f6b096"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/pytest@8.0.2",
+    "externalReferences": [
+      {
+        "type": "website",
+        "url": "https://docs.pytest.org/en/latest/"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/pytest@8.0.2",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: pytest"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "author": "Marc Schlaich <marc.schlaich@gmail.com>",
+    "group": "",
+    "name": "pytest-cov",
+    "version": "4.1.0",
+    "description": "Pytest plugin for measuring coverage.",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "6ba70b9e97e69fcc3fb45bfeab2d0a138fb65c4d0d6a41ef33983ad114be8c3a"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/pytest-cov@4.1.0",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/pytest-dev/pytest-cov"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/pytest-cov@4.1.0",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: pytest-cov"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "author": "Bruno Oliveira <nicoddemus@gmail.com>",
+    "group": "",
+    "name": "pytest-mock",
+    "version": "3.12.0",
+    "description": "Thin-wrapper around the mock package for easier use with pytest",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "0972719a7263072da3a21c7f4773069bcc7486027d7e8e1f81d98a47e701bc4f"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/pytest-mock@3.12.0",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/pytest-dev/pytest-mock/"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/pytest-mock@3.12.0",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: pytest-mock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "author": "Carson Gee <x@carsongee.com>",
+    "group": "",
+    "name": "pytest-pylint",
+    "version": "0.21.0",
+    "description": "pytest plugin to check source code with pylint",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "f10d9eaa72b9fbe624ee4b55da0481f56482eee0a467afc1ee3ae8b1fefbd0b4"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/pytest-pylint@0.21.0",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/carsongee/pytest-pylint"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/pytest-pylint@0.21.0",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: pytest-pylint"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "author": "Georg Brandl <georg@python.org>",
+    "group": "",
+    "name": "Sphinx",
+    "version": "7.2.6",
+    "description": "Python documentation generator",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "1e09160a40b956dc623c910118fa636da93bd3ca0b9876a7b3df90f07d691560"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:pypi/sphinx@7.2.6",
+    "type": "library",
+    "bom-ref": "pkg:pypi/sphinx@7.2.6",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: Sphinx"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "author": "Dave Snider, Read the Docs, Inc. & contributors <dev@readthedocs.org>",
+    "group": "",
+    "name": "sphinx-rtd-theme",
+    "version": "2.0.0",
+    "description": "Read the Docs theme for Sphinx",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "ec93d0856dc280cf3aee9a4c9807c60e027c7f7b461b77aeffed682e68f0e586"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/sphinx-rtd-theme@2.0.0",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/readthedocs/sphinx_rtd_theme"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/sphinx-rtd-theme@2.0.0",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: sphinx-rtd-theme"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "author": "Bernát Gábor <gaborjbernat@gmail.com>",
+    "group": "",
+    "name": "tox",
+    "version": "4.13.0",
+    "description": "tox is a generic virtualenv management and test command line tool",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "1143c7e2489c68026a55d3d4ae84c02c449f073b28e62f80e3e440a3b72a4afa"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:pypi/tox@4.13.0",
+    "type": "library",
+    "bom-ref": "pkg:pypi/tox@4.13.0",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: tox"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "author": "Yue Du <ifduyue@gmail.com>",
+    "group": "",
+    "name": "xxhash",
+    "version": "3.4.1",
+    "description": "Python binding for xxHash",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "91dbfa55346ad3e18e738742236554531a621042e419b70ad8f3c1d9c7a16e7f"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "0BSD",
+          "url": "https://opensource.org/licenses/0BSD"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/xxhash@3.4.1",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/ifduyue/python-xxhash"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/xxhash@3.4.1",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: xxhash"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "group": "",
+    "name": "copy-reg",
+    "version": "latest",
+    "scope": "required",
+    "licenses": [],
+    "purl": "pkg:pypi/copy-reg@latest",
+    "type": "library",
+    "bom-ref": "pkg:pypi/copy-reg@latest",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0,
+            "value": "Module copy-reg"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "author": "The Python GSSAPI Team <jborean93@gmail.com>",
+    "group": "",
+    "name": "gssapi",
+    "version": "1.8.3",
+    "description": "Python GSSAPI Wrapper",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "4e4a83e9b275fe69b5d40be6d5479889866b80333a12c51a9243f2712d4f0554"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "name": "LICENSE.txt"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/gssapi@1.8.3",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/pythongssapi/python-gssapi"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/gssapi@1.8.3",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: gssapi"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "group": "",
+    "name": "lz4f",
+    "version": "latest",
+    "scope": "required",
+    "licenses": [],
+    "purl": "pkg:pypi/lz4f@latest",
+    "type": "library",
+    "bom-ref": "pkg:pypi/lz4f@latest",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0,
+            "value": "Module lz4f"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "group": "",
+    "name": "lz4framed",
+    "version": "latest",
+    "scope": "required",
+    "licenses": [],
+    "purl": "pkg:pypi/lz4framed@latest",
+    "type": "library",
+    "bom-ref": "pkg:pypi/lz4framed@latest",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0,
+            "value": "Module lz4framed"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "author": "Gregory Szorc <gregory.szorc@gmail.com>",
+    "group": "",
+    "name": "zstandard",
+    "version": "0.22.0",
+    "description": "Zstandard bindings for Python",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "275df437ab03f8c033b8a2c181e51716c32d831082d93ce48002a5227ec93019"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "0BSD",
+          "url": "https://opensource.org/licenses/0BSD"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/zstandard@0.22.0",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/indygreg/python-zstandard"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/zstandard@0.22.0",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: zstandard"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "group": "",
+    "name": "kafka-python",
+    "version": "latest",
+    "scope": "optional",
+    "licenses": [],
+    "purl": "pkg:pypi/kafka-python@latest",
+    "type": "library",
+    "bom-ref": "pkg:pypi/kafka-python@latest",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "instrumentation",
+            "confidence": 1,
+            "value": "C:\\Users\\29798\\AppData\\Local\\Temp\\cdxgen-venv-c44cvF"
+          }
+        ]
+      }
+    }
+  }
+]
