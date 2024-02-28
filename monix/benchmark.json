@@ -1,0 +1,947 @@
+"components": [
+  {
+    "group": "org.scala-lang",
+    "name": "scala-library",
+    "version": "2.13.8",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "5a865f03a794b27e6491740c4c419a19e4511a3d"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.scala-lang/scala-library@2.13.8",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.scala-lang/scala-library@2.13.8",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.scala-lang.modules",
+    "name": "scala-collection-compat_2.13",
+    "version": "2.7.0",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "ece9759b33008cc019be5a45d6a57b2f970ed885"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.scala-lang.modules/scala-collection-compat_2.13@2.7.0",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.scala-lang.modules/scala-collection-compat_2.13@2.7.0",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.portable-scala",
+    "name": "portable-scala-reflect_2.13",
+    "version": "1.1.1",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "fdf0cc2c26412fa307cf67514125cae18467b1cb"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.portable-scala/portable-scala-reflect_2.13@1.1.1",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.portable-scala/portable-scala-reflect_2.13@1.1.1",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.reactivestreams",
+    "name": "reactive-streams",
+    "version": "1.0.3",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "d9fb7a7926ffa635b3dcaa5049fb2bfa25b3e7d0"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.scala-lang",
+    "name": "scala-reflect",
+    "version": "2.13.8",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "994b004d041b18724ec298a135c37e7817d369ec"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.scala-lang/scala-reflect@2.13.8",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.scala-lang/scala-reflect@2.13.8",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.scalacheck",
+    "name": "scalacheck_2.13",
+    "version": "1.15.4",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "bc551258023295a7c283170305a921362c634b7e"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.scalacheck/scalacheck_2.13@1.15.4",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.scalacheck/scalacheck_2.13@1.15.4",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.typelevel",
+    "name": "cats-core_2.13",
+    "version": "2.7.0",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "4f7b02ee1977c4c21147bed8d07c7c20e59b4afc"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.typelevel/cats-core_2.13@2.7.0",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.typelevel/cats-core_2.13@2.7.0",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.typelevel",
+    "name": "cats-effect-laws_2.13",
+    "version": "2.5.5",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "ab93ae83b5417b193d9b0b3279ea77ff8761ca22"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.typelevel/cats-effect-laws_2.13@2.5.5",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.typelevel/cats-effect-laws_2.13@2.5.5",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.typelevel",
+    "name": "cats-effect_2.13",
+    "version": "2.5.5",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "c02188114e17a23227cbde246e9f872fd781a041"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.typelevel/cats-effect_2.13@2.5.5",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.typelevel/cats-effect_2.13@2.5.5",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.typelevel",
+    "name": "cats-kernel-laws_2.13",
+    "version": "2.7.0",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "4ab49812d6efca16236ca106389e36b13a651a36"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.typelevel/cats-kernel-laws_2.13@2.7.0",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.typelevel/cats-kernel-laws_2.13@2.7.0",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.typelevel",
+    "name": "cats-kernel_2.13",
+    "version": "2.7.0",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "4919f580b1a3cda3a623dbb58ce5f12eb4a13eda"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.typelevel/cats-kernel_2.13@2.7.0",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.typelevel/cats-kernel_2.13@2.7.0",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.typelevel",
+    "name": "cats-laws_2.13",
+    "version": "2.7.0",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "01d2efaea3d507371590971c47c818115275ec5f"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.typelevel/cats-laws_2.13@2.7.0",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.typelevel/cats-laws_2.13@2.7.0",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.typelevel",
+    "name": "discipline-core_2.13",
+    "version": "1.2.0",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "eb1fedfa909b72813c06c3310870fcba137a83a1"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.typelevel/discipline-core_2.13@1.2.0",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.typelevel/discipline-core_2.13@1.2.0",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\jvm\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.portable-scala",
+    "name": "portable-scala-reflect_sjs1_2.13",
+    "version": "1.1.1",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "fa523170f3f4d2939cbf1f5de5170a344960089f"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.portable-scala/portable-scala-reflect_sjs1_2.13@1.1.1",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.portable-scala/portable-scala-reflect_sjs1_2.13@1.1.1",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.scala-js",
+    "name": "scala-js-macrotask-executor_sjs1_2.13",
+    "version": "1.0.0",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "69c0abe129df80b41d1ea2f56fdf6c61554f81c1"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.scala-js/scala-js-macrotask-executor_sjs1_2.13@1.0.0",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.scala-js/scala-js-macrotask-executor_sjs1_2.13@1.0.0",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.scala-js",
+    "name": "scalajs-javalib",
+    "version": "1.14.0",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "3069ceb53331d3de8be658b2235734dec4867df9"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.scala-js/scalajs-javalib@1.14.0",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.scala-js/scalajs-javalib@1.14.0",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.scala-js",
+    "name": "scalajs-library_2.13",
+    "version": "1.14.0",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "bf3af8854a66c6d8fa47f336f76023ed6f962595"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.scala-js/scalajs-library_2.13@1.14.0",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.scala-js/scalajs-library_2.13@1.14.0",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.scala-lang.modules",
+    "name": "scala-collection-compat_sjs1_2.13",
+    "version": "2.7.0",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "c6da7c8c56256538dea035fcace56b12de3c4d72"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.scala-lang.modules/scala-collection-compat_sjs1_2.13@2.7.0",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.scala-lang.modules/scala-collection-compat_sjs1_2.13@2.7.0",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.scalacheck",
+    "name": "scalacheck_sjs1_2.13",
+    "version": "1.15.4",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "ef0d1884e448a3654c0b3ec876820a22784f243e"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.scalacheck/scalacheck_sjs1_2.13@1.15.4",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.scalacheck/scalacheck_sjs1_2.13@1.15.4",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.typelevel",
+    "name": "cats-core_sjs1_2.13",
+    "version": "2.7.0",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "7e0b6edd9d1ecad8c467fddbec420b6a4cd4a0eb"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.typelevel/cats-core_sjs1_2.13@2.7.0",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.typelevel/cats-core_sjs1_2.13@2.7.0",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.typelevel",
+    "name": "cats-effect-laws_sjs1_2.13",
+    "version": "2.5.5",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "0b2157ba16a3d7dc59ad25ddfe7f8347e38ef79e"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.typelevel/cats-effect-laws_sjs1_2.13@2.5.5",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.typelevel/cats-effect-laws_sjs1_2.13@2.5.5",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.typelevel",
+    "name": "cats-effect_sjs1_2.13",
+    "version": "2.5.5",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "4b81438a138b07de12c98994e07623ba58fc85c8"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.typelevel/cats-effect_sjs1_2.13@2.5.5",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.typelevel/cats-effect_sjs1_2.13@2.5.5",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.typelevel",
+    "name": "cats-kernel-laws_sjs1_2.13",
+    "version": "2.7.0",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "0d85d9d5ef7e725d32794adaed0ca04047db1d66"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.typelevel/cats-kernel-laws_sjs1_2.13@2.7.0",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.typelevel/cats-kernel-laws_sjs1_2.13@2.7.0",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.typelevel",
+    "name": "cats-kernel_sjs1_2.13",
+    "version": "2.7.0",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "4823c822c80dc6c95baac84ae638d8854e45d88c"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.typelevel/cats-kernel_sjs1_2.13@2.7.0",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.typelevel/cats-kernel_sjs1_2.13@2.7.0",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.typelevel",
+    "name": "cats-laws_sjs1_2.13",
+    "version": "2.7.0",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "8425018462a006273a97eac1424d8cd5e85214c0"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.typelevel/cats-laws_sjs1_2.13@2.7.0",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.typelevel/cats-laws_sjs1_2.13@2.7.0",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.typelevel",
+    "name": "discipline-core_sjs1_2.13",
+    "version": "1.2.0",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "5f2e959a2a7e6db19e9947b0031ffab1f31a39aa"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.typelevel/discipline-core_sjs1_2.13@1.2.0",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.typelevel/discipline-core_sjs1_2.13@1.2.0",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-tail\\js\\build.sbt.lock"
+      }
+    ]
+  },
+  {
+    "group": "org.scala-lang",
+    "name": "scala-compiler",
+    "version": "2.13.8",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-1",
+        "content": "dc45b9539f8f3b850baf3debc1fc7d1b4a0e62af"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:maven/org.scala-lang/scala-compiler@2.13.8",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.scala-lang/scala-compiler@2.13.8",
+    "evidence": {
+      "identity": {
+        "field": "purl",
+        "confidence": 1,
+        "methods": [
+          {
+            "technique": "manifest-analysis",
+            "confidence": 1,
+            "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-execution\\atomic\\jvm\\build.sbt.lock"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "SrcFile",
+        "value": "D:\\Work\\SBOM\\TestProjects\\monix\\monix-execution\\atomic\\jvm\\build.sbt.lock"
+      }
+    ]
+  }
+]

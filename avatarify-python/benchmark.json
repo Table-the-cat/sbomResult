@@ -1,0 +1,757 @@
+"components": [
+  {
+    "author": "Travis E. Oliphant et al.",
+    "group": "",
+    "name": "numpy",
+    "version": "1.15.0",
+    "description": "Fundamental package for array computing in Python",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "a17a8fd5df4fec5b56b4d11c9ba8b9ebfb883c90ec361628d07be00aaa4f009a"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0",
+          "url": "https://opensource.org/licenses/Apache-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/numpy@1.15.0",
+    "externalReferences": [
+      {
+        "type": "website",
+        "url": "https://numpy.org"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/numpy@1.15.0",
+    "properties": [
+      {
+        "name": "cdx:pypi:latest_version",
+        "value": "1.26.4"
+      }
+    ]
+  },
+  {
+    "author": "Kenneth Reitz <me@kennethreitz.org>",
+    "group": "",
+    "name": "requests",
+    "version": "2.31.0",
+    "description": "Python HTTP for Humans.",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0",
+          "url": "https://opensource.org/licenses/Apache-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/requests@2.31.0",
+    "externalReferences": [
+      {
+        "type": "website",
+        "url": "https://requests.readthedocs.io"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/requests@2.31.0"
+  },
+  {
+    "author": "Lev E. Givon <lev@columbia.edu>",
+    "group": "",
+    "name": "msgpack-numpy",
+    "version": "0.4.5",
+    "description": "Numpy data serialization using msgpack",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "d3875ea0015b42e1e2ebe8b111d9fdbc8f11efe0f55644a255cc95a01d78d23d"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "0BSD",
+          "url": "https://opensource.org/licenses/0BSD"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/msgpack-numpy@0.4.5",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/lebedov/msgpack-numpy"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/msgpack-numpy@0.4.5",
+    "properties": [
+      {
+        "name": "cdx:pypi:latest_version",
+        "value": "0.4.8"
+      }
+    ]
+  },
+  {
+    "author": "Brian E. Granger, Min Ragan-Kelley <zeromq-dev@lists.zeromq.org>",
+    "group": "",
+    "name": "pyzmq",
+    "version": "19.0.0",
+    "description": "Python bindings for 0MQ",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "3f12ce1e9cc9c31497bd82b207e8e86ccda9eebd8c9f95053aae46d15ccd2196"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "name": "LGPL+BSD"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/pyzmq@19.0.0",
+    "externalReferences": [
+      {
+        "type": "website",
+        "url": "https://pyzmq.readthedocs.org"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/pyzmq@19.0.0",
+    "properties": [
+      {
+        "name": "cdx:pypi:latest_version",
+        "value": "25.1.2"
+      }
+    ]
+  },
+  {
+    "group": "",
+    "name": "opencv-python",
+    "version": "4.2.0.34",
+    "description": "Wrapper package for OpenCV python bindings.",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "e3c57d6579e5bf85f564d6d48d8ee89868b92879a9232b9975d072c346625e92"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0",
+          "url": "https://opensource.org/licenses/Apache-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/opencv-python@4.2.0.34",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/opencv/opencv-python"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/opencv-python@4.2.0.34",
+    "properties": [
+      {
+        "name": "cdx:pypi:latest_version",
+        "value": "4.9.0.80"
+      }
+    ]
+  },
+  {
+    "author": "Adrian Bulat <adrian@adrianbulat.com>",
+    "group": "",
+    "name": "face-alignment",
+    "version": "1.3.3",
+    "description": "Detector 2D or 3D face landmarks from Python",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "cc35c1805fad5f7ea75df265a0d3b7d8252f017a105757366e2c65bd2e12b4e4"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "0BSD",
+          "url": "https://opensource.org/licenses/0BSD"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/face-alignment@1.3.3",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/1adrianb/face-alignment"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/face-alignment@1.3.3",
+    "properties": [
+      {
+        "name": "cdx:pypi:latest_version",
+        "value": "1.4.1"
+      }
+    ]
+  },
+  {
+    "author": "Brian E. Granger, Min Ragan-Kelley <zeromq-dev@lists.zeromq.org>",
+    "group": "",
+    "name": "pyzmq",
+    "version": "20.0.0",
+    "description": "Python bindings for 0MQ",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "523d542823cabb94065178090e05347bd204365f6e7cb260f0071c995d392fc2"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "name": "LGPL+BSD"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/pyzmq@20.0.0",
+    "externalReferences": [
+      {
+        "type": "website",
+        "url": "https://pyzmq.readthedocs.org"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/pyzmq@20.0.0",
+    "properties": [
+      {
+        "name": "cdx:pypi:latest_version",
+        "value": "25.1.2"
+      }
+    ]
+  },
+  {
+    "author": "Lev E. Givon <lev@columbia.edu>",
+    "group": "",
+    "name": "msgpack-numpy",
+    "version": "0.4.7.1",
+    "description": "Numpy data serialization using msgpack",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "50d9e456d034ead6de53d9596a64bac4c9b0e15a682c4dce0efc556dc9d786fe"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "0BSD",
+          "url": "https://opensource.org/licenses/0BSD"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/msgpack-numpy@0.4.7.1",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/lebedov/msgpack-numpy"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/msgpack-numpy@0.4.7.1",
+    "properties": [
+      {
+        "name": "cdx:pypi:latest_version",
+        "value": "0.4.8"
+      }
+    ]
+  },
+  {
+    "author": "Kirill Simonov <xi@resolvent.net>",
+    "group": "",
+    "name": "pyyaml",
+    "version": "5.4",
+    "description": "YAML parser and emitter for Python",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "f7a21e3d99aa3095ef0553e7ceba36fb693998fbb1226f1392ce33681047465f"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/pyyaml@5.4",
+    "externalReferences": [
+      {
+        "type": "website",
+        "url": "https://pyyaml.org/"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/pyyaml@5.4",
+    "properties": [
+      {
+        "name": "cdx:pypi:latest_version",
+        "value": "6.0.1"
+      }
+    ]
+  },
+  {
+    "author": "John Emmons <mail@johnemmons.com>",
+    "group": "",
+    "name": "pyfakewebcam",
+    "version": "0.1.0",
+    "scope": "optional",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "2ad8ceada6605d8ba6ba76e087edf20bfce22d544fc410013067d7ce347d5694"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "name": "GPLv3"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/pyfakewebcam@0.1.0",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/jremmons/pyfakewebcam"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/pyfakewebcam@0.1.0"
+  },
+  {
+    "author": "Erik de Jonge <erik@a8.nl>",
+    "group": "",
+    "name": "arguments",
+    "version": "76",
+    "description": "Argument parser based on docopt",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "5de390ba2212c227f0b4f43db175b623db1d1a25d4fb001f4e20013827ba829c"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "name": "GPL"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/arguments@76",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/erikdejonge/arguments"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/arguments@76",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: arguments"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "author": "rakesh <rakeshnitcalicut@gmail.com>",
+    "group": "",
+    "name": "modules",
+    "version": "1.0.0",
+    "description": "Simple test on modules",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "5146b31b76e9899f95c19e3654c6aee2799694b912ca00faec6798725486934b"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "name": "UNKNOWN"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/modules@1.0.0",
+    "externalReferences": [
+      {
+        "type": "website",
+        "url": "www.facebook.com/rakeshbubli"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/modules@1.0.0",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: modules"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "author": "INADA Naoki <songofacandy@gmail.com>",
+    "group": "",
+    "name": "msgpack-python",
+    "version": "0.5.6",
+    "description": "MessagePack (de)serializer.",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "378cc8a6d3545b532dfd149da715abae4fda2a3adb6d74e525d0d5e51f46909b"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0",
+          "url": "https://opensource.org/licenses/Apache-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/msgpack-python@0.5.6",
+    "externalReferences": [
+      {
+        "type": "website",
+        "url": "http://msgpack.org/"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/msgpack-python@0.5.6",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: msgpack-python"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "author": "Martijn Reening <m.reening@eth2.nl>",
+    "group": "",
+    "name": "networking",
+    "version": "0.0.1",
+    "description": "Low-level networking library",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "4e5548c2959310d6d39ac698d1ce934005fa33641727d103b88f727f9bb3c2d6"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "name": "BSD 3-clause \"New\" or \"Revised License\""
+        }
+      }
+    ],
+    "purl": "pkg:pypi/networking@0.0.1",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/eth2-networks/networking"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/networking@0.0.1",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: networking"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "group": "",
+    "name": "predictor-local",
+    "version": "latest",
+    "scope": "required",
+    "licenses": [],
+    "purl": "pkg:pypi/predictor-local@latest",
+    "type": "library",
+    "bom-ref": "pkg:pypi/predictor-local@latest",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0,
+            "value": "Module predictor-local"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "group": "",
+    "name": "scipy",
+    "version": "1.12.0",
+    "description": "Fundamental algorithms for scientific computing in Python",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "78e4402e140879387187f7f25d91cc592b3501a2e51dfb320f48dfb73565f10b"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "0BSD",
+          "url": "https://opensource.org/licenses/0BSD"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/scipy@1.12.0",
+    "externalReferences": [
+      {
+        "type": "website",
+        "url": "https://scipy.org/"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/scipy@1.12.0",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: scipy"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "group": "",
+    "name": "sync-batchnorm",
+    "version": "0.0.1",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "8706faefab428f26d27c52886804803c21ddc0ea50cfa03c0c24c45818ed2377"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:pypi/sync-batchnorm@0.0.1",
+    "type": "library",
+    "bom-ref": "pkg:pypi/sync-batchnorm@0.0.1",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: sync-batchnorm"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "author": "PyTorch Team <packages@pytorch.org>",
+    "group": "",
+    "name": "torch",
+    "version": "2.2.1",
+    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "8d3bad336dd2c93c6bcb3268e8e9876185bda50ebde325ef211fb565c7d15273"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "name": "BSD-3"
+        }
+      }
+    ],
+    "purl": "pkg:pypi/torch@2.2.1",
+    "externalReferences": [
+      {
+        "type": "website",
+        "url": "https://pytorch.org/"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/torch@2.2.1",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: torch"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "author": "Haak Saxberg <haak.erling@gmail.com>",
+    "group": "",
+    "name": "utils",
+    "version": "1.0.2",
+    "description": "A grab-bag of utility functions and objects",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "SHA-256",
+        "content": "f4d5157e27e9d434006b5b52a1ec951a34e53e7ecaa145d43a153ec452eb5d9e"
+      }
+    ],
+    "licenses": [],
+    "purl": "pkg:pypi/utils@1.0.2",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "http://github.com/haaksmash/pyutils"
+      }
+    ],
+    "type": "library",
+    "bom-ref": "pkg:pypi/utils@1.0.2",
+    "evidence": {
+      "identity": {
+        "field": "version",
+        "confidence": 0.5,
+        "methods": [
+          {
+            "technique": "source-code-analysis",
+            "confidence": 0.5,
+            "value": "PyPI package: utils"
+          }
+        ]
+      }
+    },
+    "properties": [
+      {
+        "name": "cdx:pypi:versionSpecifiers",
+        "value": ""
+      }
+    ]
+  }
+]

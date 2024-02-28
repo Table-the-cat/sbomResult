@@ -1,0 +1,263 @@
+"components": [
+  {
+    "publisher": "ANTLR",
+    "group": "org.antlr",
+    "name": "antlr4-runtime",
+    "version": "4.13.1-SNAPSHOT",
+    "description": "The ANTLR 4 Runtime",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "bba74413355ba112a0edbb4958ec2c79"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "7651780358c2fb69242c3c4e9160d16ae9b98a17"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "1ab0977340bd962a70bfdc6e02eb04ed93edfa15def7f00eb847a5795edefb6b"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "f1b2828711821a6340c2d3a9dd73c05f7ddc84a7f22bd3fca5f906169bc5cc231e00c8f803fc7aa1348c16375a74b9f80f7d7560d1c11ba5a47cd05e169bdd27"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "f12f18a049fe3287ec7d10e9e588f7c30fa2b9b112d51d19bc03cc28a76b02f1e759a3500c8e84775b17383cfecf100f"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "c3bdbce1bc467bc6d9c50e6c07548b9386c26f9c0b9b42b094212cc42447b18456f494deb0366eea25f0b7ce31745571"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "34dca5d495333d82b10d5ac5ff52b0c0c56711857b0f73fb076312b0c0dcefa5"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "fcf43dfe61e97407fda93a06ce06b0c769b5a95276c58c7c897382dbb3c5375b94ea6f7053eb0dde24364c4e75ec663d613da108ca398393f8345bf4adb9090a"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "BSD-3-Clause",
+          "url": "https://opensource.org/licenses/BSD-3-Clause"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.antlr/antlr4-runtime@4.13.1-SNAPSHOT?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.antlr/antlr4-runtime@4.13.1-SNAPSHOT?type=jar"
+  },
+  {
+    "publisher": "ANTLR",
+    "group": "org.antlr",
+    "name": "antlr-runtime",
+    "version": "3.5.3",
+    "description": "A framework for constructing recognizers, compilers, and translators from grammatical descriptions containing Java, C#, C++, or Python actions.",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "0b5c0ce1bb9c8190e2e60401fc439daa"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "9011fb189c5ed6d99e5f3322514848d1ec1e1416"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "68bf9f5a33dfcb34033495c587e6236bef4e37aa6612919f5b1e843b90669fb9"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "7714970915d7187d7abb32610b3764305e67798d8289f8a59461ebb3bf7f26a09b933279de1cf95c14bbb60f213bf3f1af6aa8f20e75b26768223883a6883aaa"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "e2c7c6211b673413739f34a28420af990809a4ed3ef4832d12ce3910c409be42adfbf0a90b949b17f88aaf8980dd124e"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "08924b6c5772c6d588b4bf3a026c79d4cd69b19f460758e94169a72a210efe9da2d8684ea0c029008d028a8a5414cc9f"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "86a8aa88ee5c27c2f90600c9cbedece6a3ac6b8e7762543299e6af7f64729121"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "ef4d5408027ccf3db7ac34065d610d978b59ef759964301103c720a7d6d97d832aa46554ef4e8e70b469d132e870627bd050e7bd165b2385ddc98bd621b3059c"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "name": "BSD licence",
+          "url": "http://antlr.org/license.html"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.antlr/antlr-runtime@3.5.3?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.antlr/antlr-runtime@3.5.3?type=jar"
+  },
+  {
+    "group": "org.antlr",
+    "name": "ST4",
+    "version": "4.3.4",
+    "description": "StringTemplate is a java template engine for generating source code, web pages, emails, or any other formatted text output. StringTemplate is particularly good at multi-targeted code generators, multiple site skins, and internationalization/localization. It evolved over years of effort developing jGuru.com. StringTemplate also powers the ANTLR 3 and 4 code generator. Its distinguishing characteristic is that unlike other engines, it strictly enforces model-view separation. Strict separation makes websites and code generators more flexible and maintainable; it also provides an excellent defense against malicious template authors.",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "a6de791d02497d94d2f53047c8db6e1c"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "bf68d049dd4e6e104055a79ac3bf9e6307d29258"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "f927ac384c46d749f8b5ec68972a53aed21e00313509299616edb73bfa15ff33"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "ec40080db7c7612ed04f3ff5faa6f2a38304f252d2e246c026fc76b47e03f83427f71aef9dc7cb131b3451e31b68bcd7e597f7b929504186428f517274401199"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "0ba5c388705713c8b87d616416e20175916dffc332f645f4f23bc24b50d21e1111813de7c029421d916fa6057d8b28ac"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "8de5be57b8a149afeb2db13c7ac1c5d4223471cb85e7210fdbf06ea754c7d3321b97a32ab4c0e8465ddbce6dfcb6d75b"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "9b1a9b33d836b7ff89d5eeae381bda73efa342d1fd5a3e107ca2d4d4af6c5165"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "4a0c087514432b884f7f3b00602fa6436bfe5702f9ce7372f5c8a601ef6d22b67df5ba8258272b532e70895ec5fb78ab3190616133ad68ebf5b8d6157010c4b2"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "BSD-4-Clause"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.antlr/ST4@4.3.4?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.antlr/ST4@4.3.4?type=jar"
+  },
+  {
+    "publisher": "abego Software GmbH, Germany",
+    "group": "org.abego.treelayout",
+    "name": "org.abego.treelayout.core",
+    "version": "1.0.3",
+    "description": "Efficient and customizable TreeLayout Algorithm in Java.",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "9c8cefab6360a672565370d5311f0f3c"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "457216e8e6578099ae63667bb1e4439235892028"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "fa5e31395c39c2e7d46aca0f81f72060931607b2fa41bd36038eb2cb6fb93326"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "d12d44cd9dde470035ce72785f1a8af741ca0055b0da174064931d830bd0efdc887f1b3fa6abe452498fbb48ea820b0a842ba55ab6a52a4a1cc914330e655b1d"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "61d95ce97f49cde32172490a6c51b0bab6dd4890abab1a9c1d0341f71d3f8147b981ec895157cec97c4cb451d9955307"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "38036095d0f9fc1fcd56bce45e5e8e30782eaea2cdfb506a8316e784dcae36a54d97cdbd45e2d639077546e6bb567f7a"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "8fca581c7bdeeb7816685daaa09168de7580f692f003f85ae81228e1fe7acb63"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "c1eca4091ee2570c399275cbe3ee16fc242288f6b7305aa2b355ca2fde68bbfd6ede199073a78851317c309514c287491ecb96171e0ad15dd88b57bc0b6ca339"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "BSD-3-Clause"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.abego.treelayout/org.abego.treelayout.core@1.0.3?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.abego.treelayout/org.abego.treelayout.core@1.0.3?type=jar"
+  },
+  {
+    "group": "com.ibm.icu",
+    "name": "icu4j",
+    "version": "72.1",
+    "description": "International Component for Unicode for Java (ICU4J) is a mature, widely used Java library providing Unicode and Globalization support",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "b98735702f497dd482638bedc16a1c09"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "bc9057df4b5efddf7f6d1880bf7f3399f4ce5633"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "3df572b240a68d13b5cd778ad2393e885d26411434cd8f098ac5987ea2e64ce3"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "48130eb346a5bb5bdaff867e5231808a3cd03d1876d8e6b7c501336df6992e912f7c53456dc72b673ad3272f3b54b414343eea8a1118d01d0e517403cab3e324"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "3a1b4ccf6ead8f953365fed0f706082fd4fa75ac6c3deb4fa5a0aa4f015cefd497ff1cea0264113ca5c0385e7fb3cfc1"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "d8054a169610f17f775b28cc651a1643e00c560f71bdbe05d97a0b6baaa270a203657b7304ed127215ea6e5299994519"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "4ebd5e6090063aa4294538244aa46f87a8da6749ad5963d03d7b4a743444649f"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "203afcb6b28d3f3c0e0920acfce5a1a625d4df9902c67461d3309f02c15229916d12187f3b104058b0a10805336c99eda7c65076cd682ece8acc62edda49dd3b"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "name": "Unicode/ICU License",
+          "url": "https://raw.githubusercontent.com/unicode-org/icu/main/icu4c/LICENSE"
+        }
+      }
+    ],
+    "purl": "pkg:maven/com.ibm.icu/icu4j@72.1?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/com.ibm.icu/icu4j@72.1?type=jar"
+  }
+]
