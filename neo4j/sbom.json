@@ -4021,6 +4021,59 @@
     "bom-ref": "pkg:maven/org.scala-lang/scala-library@2.13.11?type=jar"
   },
   {
+    "publisher": "org.scala-lang.modules",
+    "group": "org.scala-lang.modules",
+    "name": "scala-collection-compat_2.13",
+    "version": "2.2.0",
+    "description": "scala-collection-compat",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "990e9c83b5aa6861c9db8092facc4f40"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "e603c9efdd7bee5b7407d0e1143c7b1974f26673"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "7f601d3a6d699433ddaf549ffa1441dcbe00bc95f4035add9776772053e9f93f"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "049791e84e46513a2ca12ef83f8935d3765dbd3520c0efbaffa587c6c2be1cee8a68a939649171102c54bbd9ff03d1da4c0221836257234eee1ac0a68c5c7c83"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "35a94f444d70463cb116413bec8980f4febaefe043f2a43cef431a44bc697a44954692de48c0b985e12645b8151aa402"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "afdb3dd8c24ce2fbb9de86a8514fa1766df624d577cc68cdd08aa5de55f77aea5c40e7aebd778bcb4e79d0509e64ba2c"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "9e9d5b81fbbde90dcda587632997cb5942008ab1937c5f5b75db4b50972a1b57"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "739d53d4dd01fe0cd42aa8388c2536a2f4e98b11f58837c3415a4627f7a0c6ddc9cd80eb60ac857282b7b5fe2c69c67d47650aa34e112eb42fa8f1eccac43eed"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.scala-lang.modules/scala-collection-compat_2.13@2.2.0?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.scala-lang.modules/scala-collection-compat_2.13@2.2.0?type=jar"
+  },
+  {
     "group": "io.cucumber",
     "name": "cucumber-core",
     "version": "5.7.0",
@@ -6653,6 +6706,218 @@
     "purl": "pkg:maven/org.neo4j/neo4j-cypher-planner@5.10.0-SNAPSHOT?classifier=tests&type=test-jar",
     "type": "library",
     "bom-ref": "pkg:maven/org.neo4j/neo4j-cypher-planner@5.10.0-SNAPSHOT?classifier=tests&type=test-jar"
+  },
+  {
+    "publisher": "org.json4s",
+    "group": "org.json4s",
+    "name": "json4s-native_2.13",
+    "version": "3.6.11",
+    "description": "json4s-native",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "5190ce813c70b7f88cb93cbe594d6759"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "f038d22e249bc2e2d326455818960548a69af5ad"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "950af3540575b5cbd3aaf9cffacfbd505e30389e05d77f1996f82b7da08fc609"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "f175f7e079c0892a8085e306014e9b63e5cf56548411043843ba5fe44ba1cf820d55177fddd707fe346c13a47e028bd6976e43a496755f6be3ccbfa08a761485"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "1f2e00fc7cfd8cb9ff3041bdbce9b33cd184df072c503964996f4f0c5bd667a80386091650b4e0bca872ad79325ecd58"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "26e28c2c972101f1e29365c94af1f25a79585f1da04043ecb11a46c2130d882f8806baa9e07147d15253d469f0719952"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "38b76c23b5eb33e517a7c99ed3b88d01f497014179d880a87a3f5e277c6bb777"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "6dd1d530b363d6bcd5f052635f541b5e87a848d66cb63c7d1824f2542d8476dfd0f39a4e823814146ca2d933f6482cb48f1d1d297281b5642a1a5774f1e7860e"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.json4s/json4s-native_2.13@3.6.11?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.json4s/json4s-native_2.13@3.6.11?type=jar"
+  },
+  {
+    "publisher": "org.json4s",
+    "group": "org.json4s",
+    "name": "json4s-core_2.13",
+    "version": "3.6.11",
+    "description": "json4s-core",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "c22186a83c9bcb58b0f320433544d38d"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "ed7223025d47aa8b3914ddca86e8d84b745667a6"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "cf44f6aad121c90d493fb955c0667e8ca98b023fc3249b2558641037e795fb82"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "ded67899e92fd143e5cd2ba8535930ab16737158923ac0e28704c3c019d046420111d7267209247d0259da0dfa40b16266c5a0f2c841ca499049a9f204adad2e"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "a8bddacea28de0a9df0cc5ad721d1b0e39d22ed9ffbf9928562903837101f294003ce94e5b2a86164c205e13a4727617"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "be3064bd3d4d49d033676ee4ea599c719edd9d5450f28d4a789b0a602b49470ed0287e2e2aeab09176878082a47aa2e3"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "03c00c63fd1703466fea8f457a270b67b8d2a6bcc09c3c179391d75ce1d4400f"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "e8aa98222aff13843bdccb00b3dd721cfba76eca325e9b7ec56e527056d5059f721bd7eec6e3bbc662c1d99352627a8ceac070d43ee5d6c3da215b850a3ce265"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.json4s/json4s-core_2.13@3.6.11?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.json4s/json4s-core_2.13@3.6.11?type=jar"
+  },
+  {
+    "publisher": "org.json4s",
+    "group": "org.json4s",
+    "name": "json4s-ast_2.13",
+    "version": "3.6.11",
+    "description": "json4s-ast",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "30f8cd49294cff7492866a20b32fcde2"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "dce9bc17c5367ba028e6ca45ed7b4ccef296fa4a"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "af1b7adb10216a73705da3496c9a7e7c0ada53f89ee068bd7937cb010efdfd60"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "97be511622b1274efb4ab90552e4bc90508c444cbef5dd2e1d86659b74e7dc317a74c17bfb303691456b67ef9187fc6d23e22c3bee68e1ce75ac23e2192b4e17"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "21aa22b7a3454ce434266bc8fe3ed2209907e04646d450b3006294094e884e704c31b26255ebe9511e5474dcdd4632cf"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "afdd2632e172ded2dad7d99c5489561b57cbc0f17e5757258edbb4944bc1cc509b75c4d34cfaca17f452c2c0171bf6a6"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "02580adc626c93ea752ebf7ff9199065ebadc1ebe75ad1aff6f5c2aa7a7d37c8"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "132acfbcf0da2dd6281974f3d39d4f0d2856e30184ebb73cae1eb5062da3b18a769b2008f0ccd1c70407eab8759b466169db9e2a7c411166f8baee8c110918cd"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.json4s/json4s-ast_2.13@3.6.11?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.json4s/json4s-ast_2.13@3.6.11?type=jar"
+  },
+  {
+    "publisher": "org.json4s",
+    "group": "org.json4s",
+    "name": "json4s-scalap_2.13",
+    "version": "3.6.11",
+    "description": "json4s-scalap",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "bbfb537e51428c94e0b3a8d7346a5703"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "88b6da6785bf9a5b1567920228abd151e51552bf"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "21bde53e4f5b31783d08d635e09e2d774bd806765435fc796930aa2146c0a123"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "8ea6040054339a4c21aecd7635b1b4ffce1ac78b194efc86341db8999dba1da95e5a9e35466d8c29dd515f204a0e5ce245093062493fcdb9815b5ebf44643342"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "8d7df0b9eb1ad79693875ac5f96f902ae221248d8a17d4b703c776ff31fbbc97273e9ccb3baff9ebfb9e7c25533ec547"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "d9358a648bb904fb4f8232a9a8d27a7eb326f691973a893bd09d9b237eec71f1f7abc31ee177ced04c26d20cce831233"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "abd44d9859cb9216740b60ccb2d8fb1d106a63e597942d0aec424f3423037ffd"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "3dc26d1107f46fdd17e8b906e07867d38a2caadf01cb5bbaa9df8481b92bd12482714d83af87d69d2247814c7b0743b90ba5efb768fad2a2b09875f38164c0ca"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.json4s/json4s-scalap_2.13@3.6.11?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.json4s/json4s-scalap_2.13@3.6.11?type=jar"
   },
   {
     "publisher": "Webtide",

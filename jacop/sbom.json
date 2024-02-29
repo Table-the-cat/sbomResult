@@ -157,6 +157,59 @@
   {
     "publisher": "LAMP/EPFL",
     "group": "org.scala-lang",
+    "name": "scala-library",
+    "version": "2.13.10",
+    "description": "Standard library for the Scala Programming Language",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "f8ca7cf82f6d54ffdb6f8a2cdfe2474f"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "67c1afabaea9ba51321159e70a78515647e1b73d"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "e6ca607c3fce03e8fa38af3374ce1f8bb098e316e8bf6f6d27331360feddb1c1"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "f6945a0d4e535cd8bed34f6d30b4edf2ca076d531cfd021dac4654158ff08717a10c6c204fab132d03fc11a409d58a89fc78dd6c5b3ffc410c3f33f38ca2d592"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "fa80276dcebe950b3830a64af57aa0bc295a7e80714416160c45280e45f8a51e1b38c3d67b345a76cf75075779d539ee"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "8e0b125975c09c44f2bb7a7604267c263a442180bd2c95cfcc004820702b6a158bd123b31deb7d36606b8818cbf2f825"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "94c760f92e9766dc84ab15b40173601b022abd2f4e934efc6395e04f91a60744"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "e7d09d42e734a6c7741ea2766fdd391b4337a5778d8cf2dd159a5c8f1c068dc824055ce6bb8c853728d396b4fbb95fcbb3931013e6276460ed523639e496c336"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.scala-lang/scala-library@2.13.10?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.scala-lang/scala-library@2.13.10?type=jar"
+  },
+  {
+    "publisher": "LAMP/EPFL",
+    "group": "org.scala-lang",
     "name": "scala-compiler",
     "version": "2.13.10",
     "description": "Compiler for the Scala Programming Language",
@@ -206,6 +259,59 @@
     "purl": "pkg:maven/org.scala-lang/scala-compiler@2.13.10?type=jar",
     "type": "library",
     "bom-ref": "pkg:maven/org.scala-lang/scala-compiler@2.13.10?type=jar"
+  },
+  {
+    "publisher": "LAMP/EPFL",
+    "group": "org.scala-lang",
+    "name": "scala-reflect",
+    "version": "2.13.10",
+    "description": "Reflection Library for the Scala Programming Language",
+    "scope": "required",
+    "hashes": [
+      {
+        "alg": "MD5",
+        "content": "5983f5b393ac6739336b0df8f293093c"
+      },
+      {
+        "alg": "SHA-1",
+        "content": "f19c2a5fc93a63398a5cfc56a14f0abf1d28d27c"
+      },
+      {
+        "alg": "SHA-256",
+        "content": "62bd7a7198193c5373a992c122990279e413af3307162472a5d3cbb8ecadb35e"
+      },
+      {
+        "alg": "SHA-512",
+        "content": "404e51c1e622b3ae2e0ed1716ab47d8386e705efa4b8ea1605117c8ef155ef55204240e5a8c5afc26a17d835219e157a5a429351cdf8035580be3a52965cd3b7"
+      },
+      {
+        "alg": "SHA-384",
+        "content": "a338f1fffe73911b471ed4950ddc593bb4a85ddb0e9f221253c82cb5336be957bd203e3dc32a31ac7dd710c4d8c9026c"
+      },
+      {
+        "alg": "SHA3-384",
+        "content": "4f7e15ffc3754a532462c446142165871c7ea438616cf3b7ed1a6d78da21665f41dffe8aaf5da73fbe2ee27656052834"
+      },
+      {
+        "alg": "SHA3-256",
+        "content": "de933b603703ef6f10ec4dbb839ae07f53f89451c74c8728c6b05517720a8db4"
+      },
+      {
+        "alg": "SHA3-512",
+        "content": "df870e0b1acfccdfb1ece8a6524479c4144c38446de56bc8053a227f82bfcac6b6eebcdf28f8ccb3ae805b626545afb0ee22acdbd33c4fe308437978814a9f5c"
+      }
+    ],
+    "licenses": [
+      {
+        "license": {
+          "id": "Apache-2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0"
+        }
+      }
+    ],
+    "purl": "pkg:maven/org.scala-lang/scala-reflect@2.13.10?type=jar",
+    "type": "library",
+    "bom-ref": "pkg:maven/org.scala-lang/scala-reflect@2.13.10?type=jar"
   },
   {
     "publisher": "java-diff-utils",
