@@ -1,7 +1,7 @@
 # Basic Information For Projects
 |         project        | kLOC | Released Version | Main Language |
 |:----------------------:|:----:|:----------------:|:-------------:|
-|          neo4j         |  686 |      5.10.0      |      Java     |
+|          neo4j         |  686 |      5.10.0      |  Java, Scala  |
 |        accumulo        |  399 |       3.1.0      |      Java     |
 |       checkstyle       |  304 |      10.12.5     |      Java     |
 |         alluxio        |  295 |       3.05       |      Java     |
@@ -12,7 +12,7 @@
 |        undertow        |  150 |      2.3.10      |      Java     |
 |         steady         |  99  |       3.2.6      |      Java     |
 |          guava         |  95  |      32.1.3      |      Java     |
-|          jacop         |  89  |      4.10.0      |      Java     |
+|          jacop         |  89  |      4.10.0      |  Java, Scala  |
 |        mybatis-3       |  62  |      3.5.12      |      Java     |
 |  commons-configuration |  51  |       2.9.1      |      Java     |
 |       orika-core       |  44  |       1.6.0      |      Java     |
